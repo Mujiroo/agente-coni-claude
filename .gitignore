@@ -1,0 +1,6 @@
+.env
+.env.*
+.claude/
+incoming/
+*.log
+.DS_Store
