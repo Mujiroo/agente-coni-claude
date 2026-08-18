@@ -13,6 +13,7 @@ Sin eso, cada corrida reenviaria lo mismo otra vez.
 Uso:
   python3 bin/reenvio_sudtec.py            # SIMULACION: muestra que haria, no envia
   python3 bin/reenvio_sudtec.py --enviar   # envia de verdad
+  python3 bin/reenvio_sudtec.py --resumen  # cuantos se enviaron DE VERDAD
 """
 import base64, json, os, subprocess, sys, time
 from email import message_from_bytes
@@ -86,7 +87,24 @@ def armar_reenvio(crudo, remitente):
     return nuevo, asunto, fecha
 
 
+def resumen():
+    """Cuantos se reenviaron DE VERDAD, sin mezclar con el anti-duplicado."""
+    est = cargar_estado()
+    env = est.get("enviados", [])
+    print("Reenviados de verdad a %s: %d" % (DESTINO, len(env)))
+    for e in env:
+        cuando = time.strftime("%d-%b %H:%M", time.localtime(e["enviado_en"]))
+        print("   · %s  |  %s" % (cuando, e["asunto"]))
+    marc = est.get("marcados_sin_enviar")
+    print("\nAnti-duplicado: %d ids en total" % len(est.get("reenviados", [])))
+    if marc:
+        print("   de esos, %d son historial marcado como visto en la primera corrida" % marc)
+        print("   (NO se enviaron: estaban antes de que el sistema arrancara)")
+
+
 def main():
+    if "--resumen" in sys.argv:
+        resumen(); return
     enviar = "--enviar" in sys.argv
     est = cargar_estado()
 
@@ -116,6 +134,8 @@ def main():
     if est.get("arranque") is None:
         est["arranque"] = int(time.time())
         est["reenviados"] = [m["id"] for m in msgs]
+        est["marcados_sin_enviar"] = len(msgs)   # historial: nunca se mandaron
+        est.setdefault("enviados", [])
         est["ultima_corrida"] = int(time.time())
         guardar_estado(est)
         print("Primera corrida: marco %d correos existentes como ya vistos. "
@@ -149,6 +169,13 @@ def main():
             continue
         hechos.append((m["id"], asunto, fecha))
         est["reenviados"].append(m["id"])
+        # Bitacora de lo REALMENTE enviado. Ojo: "reenviados" NO sirve para contar
+        # envios — incluye los que la primera corrida marco como vistos sin mandar.
+        # Confundir las dos listas ya me hizo reportarle a Connie 7 envios cuando
+        # habian sido 2 (18-ago-2026).
+        est.setdefault("enviados", []).append(
+            {"id": m["id"], "asunto": asunto, "fecha_original": fecha,
+             "enviado_en": int(time.time())})
         guardar_estado(est)     # se guarda de a uno: si me corto, no duplico
         print("Reenviado  id=%s  ->  %s  |  %s" % (m["id"], DESTINO, asunto))
 

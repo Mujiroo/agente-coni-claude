@@ -11,5 +11,22 @@
  "arranque": 1787014179,
  "no_antes_de": null,
  "ultima_corrida": 1787079619,
- "nota": "Seguro de hora levantado el 17-ago 23:35: Connie pidio enviar la primera de prueba antes de las 06:00. El sistema queda vivo desde aqui."
+ "nota": "Seguro de hora levantado el 17-ago 23:35: Connie pidio enviar la primera de prueba antes de las 06:00. El sistema queda vivo desde aqui.",
+ "marcados_sin_enviar": 5,
+ "enviados": [
+  {
+   "id": "1a012c026cce7d46",
+   "asunto": "[Solicitud de presupuesto]",
+   "fecha_original": "17-ago-2026",
+   "enviado_en": 1787024130,
+   "nota": "reconstruido el 18-ago desde la bandeja de enviados"
+  },
+  {
+   "id": "1a01580d4111665a",
+   "asunto": "[Solicitud de presupuesto]",
+   "fecha_original": "18-ago-2026",
+   "enviado_en": 1787079619,
+   "nota": "reconstruido el 18-ago desde la bandeja de enviados"
+  }
+ ]
 }
