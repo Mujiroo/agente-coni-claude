@@ -238,3 +238,71 @@ prefiere sacarlo, es una línea.
    FPS50») es el producto **corporal**, dentro de una sección que F65 titula como
    de protectores **faciales**. Ahora que F66 es el facial de piel sensible, los
    dos títulos se parecen mucho. Decisión de Connie.
+
+---
+
+# Ronda 4 — cierre del artículo (msg 79)
+
+*Respaldo: `backup-guatemala-ronda4-18ago.json`. **9 celdas F + 4 H/I**,
+verificadas leyendo de vuelta. Controles: **B3 = 24 · B4 = 54 · B5 = 154**.*
+
+| Celda | Qué se hizo |
+|---|---|
+| **F66 · F67** | reescritas con el texto que dio el QA (reemplaza mi redacción de la ronda 3) |
+| **H68 · I68** | **vaciadas** — el QA pidió sacar el link pendiente |
+| **F70** | título → `Protección solar corporal para piel sensible: NIVEA SUN Piel Sensible FPS 50+` |
+| **F71** | nombre del producto y claim cambiados al claim local; CTA corregido |
+| **H73** | ancla → `NIVEA SUN Piel Sensible FPS 50+` |
+| **H74** | ancla → `Protectores solares NIVEA` |
+| **F77** | resumen reescrito: `SPF`→`FPS`, fuera «piel sensible o seca», y ya no presenta **todas** las alergias solares como una respuesta inmunitaria |
+| **F78** | `Preguntas Frecuentes` → `Preguntas frecuentes` |
+| **F80 · F86** | `crema solar` → `protector solar`; y F86 ya no dice «permanecer en casa» |
+| **F88** | **referencias rehechas** (ver abajo) |
+
+## Esta vez los claims del QA SÍ estaban respaldados
+
+A diferencia de la ronda 3, se comprobó la PDP del corporal
+(`…protector-solar-corporal-para-piel-sensible-nivea-sun-protect-and-sensitive-fps50…`,
+**200 OK**) y el claim que propuso el QA está **casi textual** en la ficha:
+
+> «NIVEA SUN Piel Sensible FPS 50+ con su fórmula enriquecida con Vitamina E,
+> ayuda a minimizar el riesgo de alergias causadas por el sol en pieles
+> sensibles. […] protección inmediata […] Resistente al agua. Textura ligera.»
+
+También el nombre: la ficha se titula **«NIVEA SUN Piel Sensible FPS 50+»**, así
+que el cambio de nombre era correcto. Los claims de F67 (sin fragancia, no
+grasosa ni pegajosa, uso diario) también están en la PDP facial.
+
+## Referencias (F88): de 20 homepages a 10 enlaces directos
+
+Estaban las 20 apuntando a la **portada** de cada sitio. Se reemplazaron por
+enlaces profundos, priorizando fuente clínica y **eliminando las secundarias**
+(WebMD ×2, Healthline ×2, Verywell, Drugs.com, Harvard Health, American Family
+Physician) como pidió el QA.
+
+**Las 10 que quedaron — todas comprobadas con `curl`:**
+
+| Fuente | Estado |
+|---|---|
+| Cleveland Clinic — Sun allergy | 200 ✅ |
+| Cleveland Clinic — Polymorphous light eruption (PMLE) | 200 ✅ |
+| NHS — Polymorphic light eruption | 200 ✅ |
+| DermNet — Photosensitivity · Solar urticaria · Actinic prurigo | 200 ✅ (las 3) |
+| NLM / StatPearls — Polymorphic light eruption | 200 ✅ |
+| MedlinePlus — Sun exposure | 200 ✅ |
+| Skin Cancer Foundation — Sun protection | 200 ✅ |
+| **Mayo Clinic — Polymorphous light eruption** | ⚠️ **403 a la comprobación automática** |
+
+⚠️ **Sobre Mayo Clinic:** su sitio **bloquea los chequeos automáticos** (403 tanto
+a `curl` como a WebFetch), así que **no pude confirmarla yo mismo**. La URL sale
+corroborada en dos búsquedas independientes como la canónica del tema. Se dejó
+porque es la fuente más autorizada del artículo, **pero conviene que alguien la
+abra en el navegador**. Lo mismo pasó con CDC, y por eso **CDC no se incluyó**.
+
+## Señalado y no tocado
+
+- **F79** (la pregunta) sigue diciendo *«¿La **crema solar** evita…?»* mientras
+  **F80** (su respuesta) ya dice «protector solar». El QA solo listó F80. Queda
+  inconsistente dentro del mismo bloque de FAQ — se arregla en un segundo si
+  Connie quiere.
+- `I71` e `I72` siguen en **`Local URL not found`**; el QA no los mencionó.

@@ -1,0 +1,137 @@
+{
+ "F66": {
+  "text": "Piel propensa a las imperfecciones: NIVEA Derma Skin Clear SPF50+ Fluido UV Diario",
+  "runs": []
+ },
+ "F67": {
+  "text": "Las personas con piel propensa a las manchas pueden encontrar que los protectores solares grasos provocan un brote. Sin embargo, el Fluido Facial Derma Skin Clear ofrece una protección SPF 50+ específica para pieles con tendencia a imperfecciones y ayuda a proteger la piel más sensible al sol gracias al cuidado antiimperfecciones. Enriquecido con Carnitina, Glicerina y Niacinamida, ayuda a controlar el exceso de sebo y deja un acabado mate hasta 8 horas*. Protege incluso las pieles sensibles, manteniendo un aspecto saludable.\n \n *Prueba instrumental, 35 participantes \n \n CTA: NIVEA Fluido Facial Derma Skin Clear",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 372,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 383,
+    "format": {}
+   },
+   {
+    "startIndex": 577,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   }
+  ]
+ },
+ "F70": {
+  "text": "Protección solar para piel sensible: NIVEA Sun Protect & Sensitive FPS50",
+  "runs": []
+ },
+ "F71": {
+  "text": "Si tienes piel sensible o has presentado síntomas asociados a la alergia al sol, es importante elegir un protector solar de alta protección que ayude a cuidar la piel frente a los rayos UV. NIVEA Sun Protect & Sensitive FPS50 está desarrollado para piel sensible y ayuda a proteger la piel contra los efectos del sol, incluyendo la alergia al sol.\n\nSu fórmula entrega protección solar FPS50, es resistente al agua y ayuda a cuidar la piel sensible durante la exposición solar. Aplícalo generosamente antes de exponerte al sol y reaplica con frecuencia, especialmente después de nadar, sudar o secarte con una toalla.\n\nCTA: Protectores Solares Nivea",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 189,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 225,
+    "format": {}
+   },
+   {
+    "startIndex": 623,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   }
+  ]
+ },
+ "F77": {
+  "text": "La alergia solar puede producirse cuando la piel reacciona a la luz solar, provocando enrojecimiento, picor o erupciones, tras la exposición al sol. A diferencia de las quemaduras solares, se trata de una respuesta inmunitaria a los rayos UV, que suele afectar a quienes tienen la piel sensible o seca. Para proteger la piel, utiliza un protector solar con factor SPF alto, ponte ropa protectora y limita la exposición al sol. La exposición gradual al sol y el uso regular de una protección solar adecuada ayudan a proteger la piel de los efectos nocivos del sol.",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 168,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 187,
+    "format": {}
+   }
+  ]
+ },
+ "F78": {
+  "text": "Preguntas Frecuentes",
+  "runs": []
+ },
+ "F80": {
+  "text": "La crema solar ayuda a bloquear los rayos UV y protege la piel de sus efectos nocivos. Sin embargo, los rayos UV pueden desencadenar o agravar las reacciones al sol. Por ello, elige una crema solar con un FPS igual o superior a 50 y protección UVA, adecuada para pieles sensibles. Aplícala de forma generosa y uniforme entre 15 y 30 minutos antes de salir. Vuelve a aplicarla con regularidad y evita la exposición prolongada a la luz solar directa.",
+  "runs": []
+ },
+ "F86": {
+  "text": "Para ayudar a hacer frente a una alergia solar, intenta permanecer en casa durante las horas de máxima luz solar, generalmente de media mañana a media tarde. Al salir, lleva ropa protectora y crema solar FPS 50+ para proteger la piel de los efectos de los rayos UV.",
+  "runs": []
+ },
+ "F88": {
+  "text": "Mayo Clinic. (n.d.). Sun allergy: Symptoms and causes. Available at: https://www.mayoclinic.org/\n\nNHS. (n.d.). Sun sensitivity (photosensitivity). Available at: https://www.nhs.uk/\n\nAmerican Academy of Dermatology Association. (n.d.). Sun allergy: Overview. Available at: https://www.aad.org/\n\nWebMD. (n.d.). Sun Allergy (Photosensitivity). Available at: https://www.webmd.com/\n\nCleveland Clinic. (n.d.). Polymorphous light eruption (PMLE). Available at: https://my.clevelandclinic.org/\n\nHealthline. (n.d.). Photoallergic reactions: Causes and symptoms. Available at: https://www.healthline.com/\n\nMedlinePlus. (n.d.). Solar urticaria. Available at: https://medlineplus.gov/\n\nDermNet NZ. (n.d.). Actinic prurigo. Available at: https://dermnetnz.org/\n\nHarvard Health Publishing. (n.d.). Sun Allergy. Available at: https://www.health.harvard.edu/\n\nAmerican College of Allergy, Asthma, and Immunology. (n.d.). Sun Allergy Facts. Available at: https://acaai.org/\n\nDrugs.com. (n.d.). Photosensitivity reactions. Available at: https://www.drugs.com/\n\nVerywell Health. (n.d.). Sun Allergy Triggers. Available at: https://www.verywellhealth.com/\n\nNIH National Library of Medicine. (n.d.). Genetic Predisposition to Sun Allergy. Available at: https://www.ncbi.nlm.nih.gov/\n\nWebMD. (n.d.). Hydration and skin health. Available at: https://www.webmd.com/\n\nCDC. (n.d.). Sun Protection Tips. Available at: https://www.cdc.gov/\n\nAmerican Family Physician. (n.d.). Antihistamines and skin reactions. Available at: https://www.aafp.org/\n\nSkin Cancer Foundation. (n.d.). Sun Safety Tips. Available at: https://www.skincancer.org/\n\nMayo Clinic. (n.d.). Managing sun allergies. Available at: https://www.mayoclinic.org/\n\nNHS. (n.d.). Sunburn and sun allergy differences. Available at: https://www.nhs.uk/\n\nHealthline. (n.d.). Heat Rash vs. Sun Allergy. Available at: https://www.healthline.com/",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 1847,
+    "format": {
+     "underline": true,
+     "link": {
+      "uri": "https://www.healthline.com/"
+     }
+    }
+   }
+  ]
+ }
+}
