@@ -35,15 +35,24 @@ primer contacto.
 
 ## Canales de entrada
 
-- **Correo general:** `contacto@mts.cl`
-- **Teléfono:** **+56 2 2390 5100** (también aparece 2390 5000)
+⚠️ **Ninguno de estos dos salió del sitio de MTS** — vienen de directorios de
+terceros, así que hay que darlos por probables, no por confirmados. Barrí las 73
+páginas y las 50 entradas del sitio: **los únicos correos y teléfonos publicados
+son los de las ferreterías socias**, no los de la central.
+
+- **Correo general:** `contacto@mts.cl` *(sin verificar)*
+- **Teléfono:** **+56 2 2390 5100** (también aparece 2390 5000) *(sin verificar)*
+- **Lo más seguro es el formulario del sitio**, que sí es de la central.
 - **Dirección:** General Velásquez 7137, Cerrillos, Santiago
 - **Formularios:** `mts.cl/contactenos/` y `mts.cl/quiero-ser-proveedor/`
 - LinkedIn empresa: `cl.linkedin.com/company/mtschile` (11,2 mil seguidores)
 
 ## Catálogo de medios y tarifario: no existe público
 
-Se buscó y **MTS no publica media kit ni tarifario**. Tampoco aparece una unidad
+Verificado, no supuesto: barrí el contenido completo del sitio (73 páginas + 50
+entradas) buscando *retail media*, *tarifario*, *media kit*, *pauta* y
+*publicidad*. **Cero coincidencias de las cinco.** MTS no publica media kit ni
+tarifario, y ni siquiera nombra el concepto. Tampoco aparece una unidad
 de *retail media* formalizada (no está entre los players que sí lo tienen en
 Chile: Cencosud Media, Walmart Connect, Sodimac Media, Mercado Ads, Unimedios).
 
