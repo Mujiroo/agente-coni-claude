@@ -117,9 +117,64 @@ Orden del resto: (2) recortar `equipo de protección personal`, (3) completar lo
 anuncios AVERAGE a 15 títulos, (4) separar el grupo «General» por familia de
 producto, (5) rehacer los anuncios de Competencias.
 
+## CAMBIOS APLICADOS
+
+### 17-ago-2026 21:2x — reparto de presupuesto ✅ HECHO
+
+Autorizado por Connie (msg 25). Aplicado y **leído de vuelta para verificar**.
+
+| Campaña | Antes | Ahora | Tope mensual |
+|---|---|---|---|
+| Campaña Sudtec | 8.000 | **9.100** | 276.640 |
+| Competencias | 2.000 | **700** | 21.280 |
+| **Total** | 10.000 (**304.000** ⚠️) | **9.800** | **297.920** ✅ |
+
+Comprobaciones hechas **antes** de escribir:
+- moneda **CLP** confirmada en la cuenta
+- micros correctos: `9.100 CLP → 9100000000`
+- prueba con `validateOnly: true` → `{}` (válido, sin aplicar)
+- gasto agosto 1-17: **143.858** en 17 días. Peor caso a fin de mes con el nuevo
+  tope: **281.058** → margen de 18.942 CLP. Sin riesgo de pasarse.
+
+Ids de presupuesto: Sudtec `14514264126` · Competencias `15396548337`.
+
+## Correcciones a la auditoría inicial
+
+**Lo de «3 anuncios en fuerza Media» era engañoso.** Esos 3 están dentro de
+grupos de anuncios **eliminados** (`Botas de Bomberos`, `Camara Termal`,
+`Hi lift`): no se muestran nunca y completarlos no sirve de nada.
+
+**La realidad:** en «Campaña Sudtec» hay **un solo grupo activo («General») con
+un solo anuncio que se muestra** (`749580460058`, fuerza GOOD). Ese anuncio se
+llevó **el 100%**: los 234.527 CLP, los 743 clics y las 140 conversiones.
+Los otros 4 anuncios de la campaña tienen 0 impresiones.
+
+**Competencias está apagada de hecho:** 0 gasto y 0 impresiones en 7 días. Los
+grupos están pausados de forma cruzada (`fireground` pausado con anuncio activo;
+`Improfor` activo con anuncio pausado). No puede mostrarse.
+
+## Decisiones de Connie (17-ago) — no volver a proponer
+
+- **NO tocar GTM hasta que vuelva de China.** Viaja el **viernes 21-ago-2026**.
+  Su razón: no quiere que el cliente le pregunte por qué no hay cotizaciones
+  mientras está fuera. Ver [[medicion-gtm]].
+- **NO separar el grupo «General»** por ahora — se lo desaconsejé yo: grupos
+  nuevos parten sin historial. *Dato extra: ya existen grupos temáticos
+  eliminados, alguien lo intentó antes y lo deshizo.*
+- **NO cortar `equipo de protección personal`.** Ella sabe que genera
+  cotizaciones (19). Respetado. Pendiente de revisar cuando la medición esté
+  arreglada, porque su CPA real es desconocido con el conteo inflado 2,6×.
+
+## Pendiente de respuesta de Connie
+
+- **Punto 3:** ¿agregar un segundo anuncio junto al bueno (mejora con movimiento
+  chico la primera semana), o esperar a su vuelta (cero movimiento)? **No editar
+  el anuncio `749580460058`** — reiniciaría lo único que funciona.
+- **Punto 5:** Competencias necesita **reactivarse** para que arreglar sus
+  anuncios sirva. Recomendé dejarla apagada durante el viaje.
+- **Vigilancia durante el viaje:** ofrecí un chequeo diario que solo avisa si el
+  gasto se dispara, la campaña se detiene o las cotizaciones se caen.
+
 ## Estado
 
-🟡 **Nada modificado.** Todo lo anterior es lectura. Esperando de Connie:
-- OK al reparto de presupuesto
-- respuesta sobre el descuadre de medición (140 vs 55)
-- si SUDTEC vende Maryun / Holik / Holmatro / Sicor
+🟢 Presupuesto **corregido y verificado**. Resto en espera de sus respuestas.
