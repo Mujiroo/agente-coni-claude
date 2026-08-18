@@ -160,7 +160,7 @@ que nadie pidió. Se arregla en un minuto si Connie quiere.
 # Ronda 3 — producto local, terminología y sección reemplazada (msg 76)
 
 *Respaldo: `backup-guatemala-ronda3-18ago.json`. **7 celdas F + 9 celdas H/I**,
-todas verificadas leyendo de vuelta. Controles: B3 = 23 · B4 = 54 · B5 = 154.*
+todas verificadas leyendo de vuelta. Controles: **B3 = 24** (subió de 23: la nueva sección F67 también nombra la keyword) · B4 = 54 · B5 = 154.*
 
 | Celda | Qué se hizo |
 |---|---|
