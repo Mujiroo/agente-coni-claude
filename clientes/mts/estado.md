@@ -43,6 +43,23 @@ son los de las ferreterías socias**, no los de la central.
 - **Correo general:** `contacto@mts.cl` *(sin verificar)*
 - **Teléfono:** **+56 2 2390 5100** (también aparece 2390 5000) *(sin verificar)*
 - **Lo más seguro es el formulario del sitio**, que sí es de la central.
+
+### Correos reales encontrados (y el patrón)
+
+| Correo | Cómo se obtuvo |
+|---|---|
+| `911@mts.cl` | **leído directo** de `portalproveedor.mts.cl` (soporte del portal) |
+| `pfigueroa@mts.cl` | de `evento.mts.cl` vía buscador (el subdominio también da 403) |
+
+**Patrón: inicial + apellido @mts.cl.** Por eso el de la gerente de marketing
+**sería** `nperez@mts.cl` — **es deducción, no dato confirmado**, y así se le dijo
+a Connie. No usarlo como si estuviera verificado.
+
+**Subdominios útiles:** `portalproveedor.mts.cl` (portal de proveedores, responde
+200) y `evento.mts.cl` (inscripciones a sus eventos, tras Cloudflare).
+
+**La vía limpia para el correo de Natalia Pérez es LinkedIn**, donde ella está
+activa, o pedir derivación por teléfono / a `pfigueroa@mts.cl`.
 - **Dirección:** General Velásquez 7137, Cerrillos, Santiago
 - **Formularios:** `mts.cl/contactenos/` y `mts.cl/quiero-ser-proveedor/`
 - LinkedIn empresa: `cl.linkedin.com/company/mtschile` (11,2 mil seguidores)
