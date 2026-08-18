@@ -186,3 +186,23 @@ en la ficha**.
 Se les escribió meta description **diferenciada** a los tres Turbo Strike para que
 no compitan entre ellos, pero **el duplicado de producto sigue ahí** y es decisión
 de Sudtec si se unifican.
+
+
+---
+
+# Segunda tanda de 50 — 18-ago-2026, 15:35
+
+Connie dio el visto bueno (msg 92). **50 escritas, verificadas y 0 fallidas.**
+
+| | |
+|---|---|
+| **Hecho acumulado** | **105** de 180 |
+| **Falta** | **75** |
+
+**Qué cubrió:** separadores y cilindros LUKAS (SP 775, SP 778, CR 522, R 320) ·
+cámaras termales FT31 y FB21 · la línea LX de rescate vehicular · cascos
+Schuberth F 400 y F 200R · uniformes y esclavinas S-GARD · herramienta forestal
+(Pulaski, pala, rastrillo) · tiendas y duchas de descontaminación · arneses,
+camilla y casco PETZL · compresores Comptrade · Mini Pumper Fort Garry.
+
+Verificadas todas por API y una muestra en la **página pública con cache-buster**.
