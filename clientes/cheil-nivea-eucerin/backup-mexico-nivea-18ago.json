@@ -1,0 +1,146 @@
+{
+ "F57": {
+  "text": "Si tiendes a sudar mucho y tienes la piel sensible, la gama de desodorantes NIVEA Derma Control es ideal para ti. Esta fórmula avanzada combina ácido hialurónico con vitaminas esenciales para tu piel, ofreciendo una potente protección de 72 horas mientras cuida tu piel. Disponible en formatos spray, barra y roll-on, Derma Control ayuda a combatir el sudor y el mal olor, al mismo tiempo ayuda a proteger la piel frente a la irritación desde el principio para que puedas sentirte seco, tranquilo y seguro todo el día. Encuentra el desodorante adecuado para ti:\n \nNIVEA Derma Control Defend: la gama NIVEA Derma Control Defend, con ácido hialurónico puro y provitamina B5, protege tu piel contra la irritación del afeitado y proporciona mayor confort.\n \n <CTA: NIVEA Derma Control Defend > \n \nNIVEA Derma Control Natural Tone: la gama NIVEA Derma Control Natural Tone, con ácido hialurónico puro y vitamina C, ayuda a reducir manchas oscuras y recuperar un tono de piel uniforme. Los antitranspirantes ofrecen 72 horas* de protección contra el sudor y el mal olor, dejando las axilas más suaves y con una sensación saludable.\n \n *Prueba instrumental con 21 a 22 participantes, según el producto.\n \n <CTA: Nivea Derma Control Tono Natural >",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 165,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 166,
+    "format": {}
+   },
+   {
+    "startIndex": 752,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 761,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 787,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 790,
+    "format": {}
+   },
+   {
+    "startIndex": 898,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 908,
+    "format": {}
+   },
+   {
+    "startIndex": 926,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 941,
+    "format": {}
+   },
+   {
+    "startIndex": 1198,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   }
+  ]
+ },
+ "F67": {
+  "text": "Diseñada para satisfacer las necesidades de la piel sensible, la gama Derma Control, con ácido hialurónico y vitaminas, protege contra la transpiración mientras ayuda a fortalecer la piel y otorgarle una apariencia saludable. \n \n \n NIVEA MEN Defend Derma Control: NIVEA MEN Defend Derma Control proporciona una sensación de confort adicional con protección antitranspirante durante 72 horas. Su fórmula avanzada con ácido hialurónico puro y provitamina B5 ayuda a fortalecer la piel y la protege de picores mientras la nutre. \n \n <CTA: NIVEA MEN Defend Derma Control >\n \n *Prueba instrumental con 20 participantes.",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 529,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 536,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 566,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 568,
+    "format": {}
+   }
+  ]
+ }
+}
