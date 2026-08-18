@@ -234,3 +234,40 @@ pegado**.
 
 > Lección: cuando el cierre se arma por concatenación automática, hay que
 > comprobar el resultado renderizado, no solo el largo.
+
+
+---
+
+# ✅ Meta descripciones: TERMINADO — 18-ago-2026
+
+Última tanda de 25 escrita y verificada. **Auditoría final sobre el catálogo
+completo, releído entero desde la API:**
+
+| Control | Resultado |
+|---|---|
+| Productos en el catálogo | **307** |
+| **Sin meta description** | **0** ✅ |
+| Escritas por mí | **180** |
+| Largo de las mías | **entre 140 y 155**, ninguna fuera ✅ |
+| Con el cierre pegado (el error del bloque 6) | **0** ✅ |
+
+*Las 127 que ya existían quedaron intactas; su largo va de 106 a 252 caracteres,
+o sea que **algunas de esas sí están fuera del rango recomendado** — no las toqué
+porque nadie lo pidió, pero ahí están si Connie las quiere normalizar.*
+
+**Qué cubrió la última tanda:** sistemas de estabilización (AllFix, Multiblox,
+AirShore, y las seis alzaprimas Rescue 42 CTC) · cámaras termales FLIR K2 y K55 ·
+intercomunicador SETCOM · Rhyno Windshield Cutter · herramienta TNT · llavero
+RESQME · cinturón FHA · motosierra VentMaster · guante UtilityArmor · gata
+HI-LIFT · cojines hermetizadores VETTER · linternas Adalit L3000 y L10.
+
+Tres verificadas además en la **página pública con cache-buster**: salen correctas.
+
+## Lo que sigue pendiente en este frente
+
+- **457 alt de imagen.** Es el tramo lento: hacerlo bien exige abrir y mirar cada
+  foto, como se hizo en el piloto. Va en tandas de 50, según la regla de Connie.
+- **258 meta titles** (`rank_math_title`) — nunca se pidieron, pero es el mismo
+  trabajo y el mismo material fuente.
+- Purgar **LiteSpeed Cache** desde el panel, para que los cambios se vean sin
+  cache-buster. **No se puede desde la API.**
