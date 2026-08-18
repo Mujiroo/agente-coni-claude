@@ -9,12 +9,14 @@
 # 30 8 1 * * | [CRON] Día 1 del mes: revisa los pendientes mensuales y avisa por tg.sh.
 
 # --- SUDTEC: reenvio de cotizaciones cg@ -> bd@ (pedido por Connie 17-ago-2026) ---
-# Tres pasadas diarias acordadas con ella. El anti-duplicado vive en el script
+# Cuatro pasadas diarias: 09:00, 15:00, 19:00 y 23:30 (cambio pedido por Connie
+# el 18-ago-2026 17:01; antes eran 06:00, 15:00 y 23:00). El anti-duplicado vive en el script
 # (memory/estado/reenvio_sudtec.json), no en el horario: si una pasada se salta,
 # la siguiente recupera lo pendiente sin reenviar nada dos veces.
-0 6 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
+0 9 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
 0 15 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
-0 23 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
+0 19 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
+30 23 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
 
 # --- SUDTEC Google Ads: vigilancia diaria mientras Connie viaja (desde 17-ago-2026) ---
 # Solo avisa si algo se rompe. El silencio es la respuesta normal.
