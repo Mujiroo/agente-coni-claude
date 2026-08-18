@@ -146,3 +146,54 @@ vuelve a revisión y los textos cambiados parten sin historial propio.
 1. `validateOnly: true` primero → debe devolver `{}`.
 2. Aplicar.
 3. **Leer de vuelta** y confirmar a Connie con lo leído, no con lo enviado.
+
+---
+
+## 18-ago 10:19 — APLICADO (msg 48: *«si dale, cambia solo lo de los anuncios nuevos»*)
+
+**Decisión de Connie: NO se toca `749580460058`.** El acuerdo del 17-ago sigue en
+pie. Solo se modificaron los dos anuncios nuevos.
+
+### Cambios aplicados y verificados
+
+Procedimiento: `validateOnly` → `{}` · aplicado por `ads:mutate` · **leído de
+vuelta desde la API** (no se confirma con lo enviado).
+
+**`821206571976`** (Campaña Sudtec) — ENABLED, APPROVED/REVIEWED, 15 títulos y 4 descripciones intactos
+
+| Antes | Ahora |
+|---|---|
+| `Cotiza en 24 Horas` | `Cotiza en Menos de 48 Hrs` |
+| `Certificación NFPA y EN` | `Catálogo Técnico Bomberil` |
+| `Proveedor especializado en equipamiento bomberil. Cotización en 24 horas.` | `...Cotización en menos de 48 hrs.` |
+| `Cascos, botas, guantes y uniformes con certificación EN y NFPA. Asesoría técnica.` | `Cascos, botas, guantes y uniformes para bomberos y brigadas. Asesoría técnica.` |
+
+**`821323439891`** (Competencias / Improfor) — ENABLED, APPROVED/REVIEWED, 15 y 4 intactos
+
+| Antes | Ahora |
+|---|---|
+| `Certificación EN y NFPA` | `Catálogo Técnico Bomberil` |
+| `Cotiza en 24 Horas` | `Cotiza en Menos de 48 Hrs` |
+| `Alternativa especializada en bomberos: certificación EN y NFPA con asesoría técnica.` | `Alternativa especializada en bomberos: catálogo técnico y asesoría experta.` |
+| `Despacho a todo Chile para compañías y brigadas. Cotización en 24 horas.` | `...Cotización en menos de 48 hrs.` |
+
+*Los textos anteriores quedan en estas tablas: revertir es volver a aplicar la
+columna «Antes».*
+
+### ⚠️ Lo que NO quedó resuelto (dicho a Connie, msg 49)
+
+**El `749580460058` sigue diciendo «24h» y «certificación EN y NFPA», y es el que
+se lleva ~100% de las impresiones.** En la práctica el usuario sigue viendo el
+claim viejo y la contradicción con el sitelink de 48hrs sigue viva. Los cambios
+de hoy casi no se ven hasta que ese anuncio se toque.
+
+No es un descuido: es la consecuencia de una decisión suya, tomada con el costo
+sobre la mesa.
+
+### Pendiente de respuesta
+
+- **`821206571976` conserva el título `Botas y Cascos Certificados`** — mismo
+  problema, más suave. **No se cambió por no estar en lo aprobado.** Propuesto:
+  `Botas y Cascos para Bomberos`.
+- Siguen abiertas las otras preguntas del msg 44: ¿imágenes con IA? ¿verificación
+  de anunciante en el panel? ¿se puede publicar la certificación en el sitio?
