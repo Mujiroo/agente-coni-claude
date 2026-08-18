@@ -63,10 +63,83 @@ por ahí, pero tampoco estorban.
 
 ## Estado
 
-🟡 **Esperando OK de Connie.** Propuesto: piloto de **5 productos** primero, se
+🟢 **Piloto de 5 productos hecho y verificado el 18-ago.** Ver abajo.
+
+### (histórico) Esperando OK de Connie — Propuesto: piloto de **5 productos** primero, se
 los muestro, y recién con su visto bueno va la tanda completa.
 
 **Vía técnica ya verificada de lectura:** `wc/v3/products` (307 leídos sin
 problema). La escritura sería `wc/v3/products/<id>` con `meta_data` para la
 descripción, y `wp/v2/media/<id>` con `alt_text` para el alt. **Falta probar la
 escritura** — se probará en el piloto, no en masa.
+
+
+---
+
+# Piloto (5 productos, 12 imágenes) — 18-ago-2026
+
+Connie aprobó el piloto (msg 85). **Escrito y verificado en la página pública.**
+
+## Lo que se escribió
+
+| Producto | Meta description | car |
+|---|---|---|
+| **11206** Set Alzaprima Mighty Strut | Set Mighty Struts de 2 alzaprimas de rescate a batería para estabilizar y elevar cargas en emergencias técnicas, sin hidráulica externa. Cotiza en Sudtec. | 154 |
+| **11201** Botas Lytos FR-1406 | Botín Lytos FR-1406 para bomberos, certificado EN 15090 F2A HI3, con puntera de fibra 200J, cierre rápido BOA y suela nitrílica SRC. Cotiza en Sudtec. | 150 |
+| **8023** Casco Schuberth F220 | Casco Schuberth F220 fotoluminiscente con visor integrado, norma EN 16471 y aislación eléctrica E2/E3, para incendio estructural, forestal y rescate. | 149 |
+| **8027** Guantes Penkert Flash Long | Guantes de bombero Penkert Flash Long en cuero flor ignífugo con aislación térmica Needlona, certificados EN 659 y EN 420. Cotiza en Sudtec. | 140 |
+| **8019** Botas Jolly 9016/A | Bota estructural Jolly 9016/A Leather EVO, norma EN 15090 F2A HI3 CI AN SRC, con puntera 200J y suela de nitrilo resistente a 300 °C. Cotiza en Sudtec. | 151 |
+
+Las 5 entre **140 y 155 caracteres**, y **cada dato sale del texto del propio
+producto** — ninguna norma ni certificación inventada.
+
+12 alt escritos. **Se descargaron y se MIRARON las 12 imágenes** antes de
+redactar: por eso dicen lo que de verdad se ve (un poste caído sobre un auto, una
+camioneta encaramada, la suela vista desde abajo) y no una repetición del nombre.
+
+## ⚠️ La trampa de este sitio, confirmada — pero no es Elementor
+
+La API respondió **200** en las 17 escrituras… **y la página pública seguía
+mostrando la descripción vieja**. Ojo: **no era Elementor**. La cabecera lo
+delató:
+
+```
+x-litespeed-cache: hit
+```
+
+Era **LiteSpeed Cache** sirviendo una copia guardada. Repitiendo la llamada con
+un parámetro que evita la caché (`?nocache=...`) aparece **todo correcto**:
+
+```
+<meta name="description" content="Botín Lytos FR-1406 para bomberos, certificado
+EN 15090 F2A HI3, con puntera de fibra 200J, cierre rápido BOA y suela nitrílica
+SRC. Cotiza en Sudtec.">
+alt="Par de botas Lytos FR-1406 negras con cierre rápido BOA y detalles amarillos reflectantes"
+alt="Suela nitrílica antideslizante de la bota Lytos FR-1406 vista desde abajo"
+```
+
+> **Regla para las próximas tandas:** en Sudtec, verificar la página pública
+> **siempre con cache-buster**. Sin eso, un cambio correcto parece fallido y uno
+> fallido parece correcto.
+
+**No se puede purgar la caché desde la API:** LiteSpeed expone rutas REST
+(`/litespeed/v1/…`) pero **ninguna de purga**. Hay que hacerlo desde el panel de
+WordPress, o esperar a que la caché expire sola.
+
+## Vía técnica, ya probada de escritura
+
+- **Meta description:** `PUT wc/v3/products/<id>` con
+  `{"meta_data":[{"key":"rank_math_description","value":"…"}]}` → 200 y persiste.
+- **Alt:** `POST wp/v2/media/<id>` con `{"alt_text":"…"}` → 200 y persiste.
+
+## Lo que falta y cuánto pesa
+
+- **175 meta descriptions** restantes. Es el tramo rápido: el texto fuente ya
+  está en cada producto.
+- **457 alt** restantes. **Éste es el tramo lento**, porque hacerlo bien exige
+  abrir cada imagen y mirarla. A ojo son varias tandas.
+
+**Detectado de paso:** entre las imágenes que *sí* tienen alt, varias lo tienen
+pobre — solo el nombre del producto (`Botas Lytos FR-1401`) o basura de la subida
+(`Untitled (500 x 350 px) (1)`). No entra en el conteo de «faltantes», pero
+conviene saberlo.
