@@ -81,10 +81,103 @@ Las 4 URLs escritas o referidas devuelven **HTTP 200** (comprobado con curl).
    que esté aprobada para Chile antes de publicar.
 3. **`I46` e `I55` apuntan ahora a la misma URL** (`/consejos/solar/spf`). No es
    un error, pero son dos enlaces del mismo artículo al mismo destino.
-4. **F84 sigue llamando al producto «CC Fluid 3-in-1»** mientras F66 ya usa el
-   nombre local «Fluido de Día FPS 30 - Tono Claro». El QA no lo pidió; queda a
-   criterio de ella unificarlo.
+4. ~~F84 sigue llamando al producto «CC Fluid 3-in-1»~~ → **RESUELTO en la
+   ronda 2** (ver abajo). Ella pidió unificarlo.
 5. **Sin tocar, por ser decisión suya:** `B8` *First adaptation complete*, `B9`
    *Feedback amends complete* y `B10` (etiquetar a Atom) siguen en **No**.
 6. Fuera del alcance del QA, siguen con `Local URL not found` las filas
    **19 y 20** (carrusel de productos) y `Not live Yet` la **24**.
+
+
+---
+
+# Ronda 2 — 18-ago-2026 (msg 55)
+
+Connie pidió dos cosas: **«en el 4, por favor unifícalo»** y **«recuerda dejar en
+negrita y rojo todos los anchor text que hiciste»**.
+
+Respaldo previo (valores **y** formato): `backup-chile-nivea-bbcc-18ago-ronda2.json`.
+
+## 1. Unificación del nombre de producto
+
+Nombre local canónico (el del sitio, según la URL de I66/I84):
+**`NIVEA Luminous630 Anti-Manchas Fluido de Día FPS 30 - Tono Claro`**.
+Forma corta para el cuerpo del texto: **`NIVEA Luminous630 Anti-Manchas Fluido de Día`**.
+
+| Celda | Antes | Ahora |
+|---|---|---|
+| **H84** | `NIVEA Luminous630 CC Fluid 3-in-1` | nombre local completo |
+| **F84** ¶1 | `una pequeña cantidad de CC Fluid` | `una pequeña cantidad de fluido` |
+| **F84** ¶2 | `NIVEA Luminous630 CC Fluid 3-in-1 ofrece…` | nombre local completo (es el ancla) |
+| **F66** ¶4 | `NIVEA Luminous CC Fluid` | forma corta local |
+| **F73** | `Incluir NIVEA CC Fluid en tu rutina… aplicarla` | forma corta local + **`aplicarlo`** (concordancia: «fluido» es masculino) |
+| **F83** | `5. Aplica NIVEA CC Fluid` | `5. Aplica NIVEA Luminous630 Anti-Manchas Fluido de Día` |
+
+**F73 y F83 iban más allá de lo que ella señaló** (el punto 4 era solo F84 vs
+F66), pero dejarlas habría mantenido justo la inconsistencia que pidió sacar: el
+artículo nombraba el producto de tres maneras. **En el máster inglés B73 y B83
+también usan la forma corta** («NIVEA CC Fluid»), así que la versión local
+replica esa estructura, no inventa una nueva. Queda avisado por si prefiere
+revertir esas dos.
+
+Barrido final: **no queda ninguna celda de la columna F con «CC Fluid»,
+«3-in-1», «FPS 50» ni «Cellular»**.
+
+## 2. Negrita + rojo en las anclas
+
+**Éste era un error real mío de la ronda 1:** escribí F66 con `values.update`,
+que **borra los `textFormatRuns`** de la celda. El párrafo quedó bien redactado
+pero sin el formato de ancla — y F55 y F84 nunca lo tuvieron, porque las anclas
+H55 y H84 las creé yo.
+
+Formato de ancla que usa la plantilla (verificado leyendo las celdas que ya
+estaban buenas, F46/F52/F81):
+
+```json
+{"foregroundColor":{"red":1},"bold":true,"foregroundColorStyle":{"rgbColor":{"red":1}}}
+```
+
+Aplicado a:
+
+| Celda | Ancla puesta en rojo + negrita |
+|---|---|
+| **F55** | `rayos UV` (fila 55) |
+| **F66** | `NIVEA Luminous630 …FPS 30 - Tono Claro` (fila 66) y `<CTA: Descubre Luminous630>` (fila 67) |
+| **F84** | `NIVEA Luminous630 …FPS 30 - Tono Claro` (fila 84) |
+
+En F55 se **conservaron** las tres negritas de los subtítulos numerados, y en F84
+el rojo que ya tenía `ácido hialurónico`.
+
+### La lección técnica (para no repetirla en los otros 5 países)
+
+- **`values.update` borra el formato de texto de la celda.** Para escribir texto
+  que lleva anclas hay que usar `spreadsheets.batchUpdate` con `updateCells` y
+  `fields="userEnteredValue,textFormatRuns"`, mandando valor y formato juntos.
+- Los `startIndex` son **offsets de caracteres**, y **el último tramo no puede
+  empezar en el largo exacto del texto** (`startIndex` debe ser `< len`): si el
+  ancla cierra la celda, no se agrega el tramo de reseteo. Eso devuelve un
+  `400 TextFormatRun.startIndex must be less than the length`.
+- Un bloque de contenido (una celda F) puede tener **varias anclas**, listadas en
+  filas consecutivas de la hoja: F58 cubre las filas 58-60, F66 las 66-67, F81
+  las 81-82 y F84 las 84-85. Al verificar, **no basta con mirar la fila** — el
+  ancla de la fila 85 vive dentro de F84.
+
+## Verificación (leída de vuelta de la hoja)
+
+| Control | Valor |
+|---|---|
+| B3 keyword en el artículo (mín. 6) | **6** ✅ |
+| B4 meta-title (48-55) | **49** ✅ |
+| B5 meta-description (140-155) | **144** ✅ |
+| B6 | **0** ⚠️ el error de plantilla ya explicado, sin tocar |
+
+**Las 15 anclas locales de la pestaña quedaron en negrita + rojo en la columna F.**
+
+## Sigue pendiente de ella (no se tocó)
+
+- El claim **«reduce visiblemente las manchas oscuras en 2 semanas»** en F66
+  (venía del texto del QA): promesa de resultado con plazo, conviene aprobarla
+  para Chile antes de publicar.
+- `I46` e `I55` apuntan a la misma URL.
+- `B8`, `B9`, `B10` siguen en **No** — es decisión suya.
+- Filas **19, 20** (`Local URL not found`) y **24** (`Not live Yet`).

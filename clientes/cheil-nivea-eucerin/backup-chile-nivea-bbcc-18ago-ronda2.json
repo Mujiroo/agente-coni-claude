@@ -1,0 +1,107 @@
+{
+  "sheets": [
+    {
+      "data": [
+        {
+          "rowData": [
+            {
+              "values": [
+                {
+                  "formattedValue": "1. Corrección del tono: La CC cream ayuda a disimular visualmente el enrojecimiento, las diferencias de tono y otras irregularidades, favoreciendo una piel con apariencia más uniforme.\n\n2. Multifuncionalidad: La CC cream combina beneficios de cuidado facial y maquillaje, aportando hidratación, cobertura y, en muchos casos, protección solar en un solo producto.\n\n3. Protección solar: Muchas CC creams, al igual que algunas BB creams, incluyen FPS, lo que ayuda a proteger la piel de los rayos UV en el uso diario y a prevenir el daño causado por el sol.",
+                  "textFormatRuns": [
+                    {
+                      "format": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "startIndex": 24,
+                      "format": {}
+                    },
+                    {
+                      "startIndex": 186,
+                      "format": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "startIndex": 209,
+                      "format": {}
+                    },
+                    {
+                      "startIndex": 364,
+                      "format": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "startIndex": 385,
+                      "format": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowData": [
+            {
+              "values": [
+                {
+                  "formattedValue": "Al elegir una CC cream, conviene fijarse no solo en la cobertura, sino también en los ingredientes de la fórmula. Lo ideal es optar por productos que, además de unificar visualmente el tono, ayuden a tratar necesidades específicas de la piel.\n\nSi tienes manchas oscuras o hiperpigmentación, puedes elegir un producto corrector que combine ingredientes de cuidado facial con acción antimanchas junto con pigmentos que ayuden a mejorar visualmente el tono del rostro.\n\nCon Luminous630 y pigmentos microencapsulados, NIVEA Luminous630 Anti-Manchas Fluido de Día FPS 30 - Tono Claro ofrece una cobertura de aspecto natural, ayuda a unificar el tono al instante, reduce visiblemente las manchas oscuras en 2 semanas y protege de las manchas provocadas por el sol.\n\nUno de los atributos de NIVEA Luminous CC Fluid es que está disponible en varios tonos, adaptándose a diferentes tonalidades de piel. Además, su textura ligera ayuda a conseguir un acabado natural y radiante, mientras sus propiedades hidratantes mantienen la piel suave y flexible.\n\n\u003cCTA: Descubre Luminous630\u003e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowData": [
+            {
+              "values": [
+                {
+                  "formattedValue": "Coloca una pequeña cantidad de CC Fluid en las yemas de los dedos. Como rinde bastante, lo ideal es comenzar con poca cantidad y aplicar más solo si lo necesitas.\n\nNIVEA Luminous630 CC Fluid 3-in-1 ofrece una cobertura de aspecto natural y ayuda a unificar al instante el tono desigual de la piel, mientras contribuye a reducir la apariencia de manchas con el uso continuo. Además, contiene ácido hialurónico, que ayuda a hidratar y suavizar la piel.",
+                  "textFormatRuns": [
+                    {
+                      "format": {}
+                    },
+                    {
+                      "startIndex": 391,
+                      "format": {
+                        "foregroundColor": {
+                          "red": 1
+                        },
+                        "bold": true,
+                        "foregroundColorStyle": {
+                          "rgbColor": {
+                            "red": 1
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 408,
+                      "format": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowData": [
+            {
+              "values": [
+                {
+                  "formattedValue": "NIVEA Luminous630 CC Fluid 3-in-1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
