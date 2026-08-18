@@ -206,3 +206,31 @@ Schuberth F 400 y F 200R · uniformes y esclavinas S-GARD · herramienta foresta
 camilla y casco PETZL · compresores Comptrade · Mini Pumper Fort Garry.
 
 Verificadas todas por API y una muestra en la **página pública con cache-buster**.
+
+
+---
+
+# Tercera tanda de 50 — 18-ago-2026, 15:41
+
+**50 escritas, 0 fallidas. Acumulado: 155 de 180. Quedan 25.**
+
+**Qué cubrió:** uniformes Blauer (polera SAMU/SAPU, micropolar, pantalón TenX,
+bota Clash) · cámara FirstLook360 · piscinas Husky · duchas y sets de
+descontaminación VETTER e Isotemp · colchones de salto VETTER SP16 y SP25 ·
+cámaras termales FLIR K45 y K53 · y **toda la línea PETZL de altura** (arneses,
+poleas, descensores, cuerdas, ascendedores, anclajes, bolsos y guantes) ·
+trituradora de hormigón LSI 531 CC.
+
+## Un error propio, detectado y corregido
+
+En el bloque 6 automaticé el cierre de la frase para ajustar el largo, y **las
+bases no terminaban en punto**: quedaron 25 textos del tipo
+*«…en condiciones exigentes Cotízalo aquí.»*, sin el punto.
+
+Se detectó al imprimir el resultado, **se corrigió y se reescribieron las 25**.
+Después se auditaron los cinco lotes anteriores con la misma búsqueda: **ninguno
+tenía el defecto**. La verificación final sobre las 50 confirma **0 con el cierre
+pegado**.
+
+> Lección: cuando el cierre se arma por concatenación automática, hay que
+> comprobar el resultado renderizado, no solo el largo.
