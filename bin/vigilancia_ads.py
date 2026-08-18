@@ -111,6 +111,19 @@ def main():
                               "en el mes y al ritmo actual cierra en <b>%s</b> "
                               "(límite %s)." % (mtd, proyeccion, LIMITE)))
 
+    # ---- anuncios rechazados por politicas ----
+    # Importa sobre todo con el anuncio nuevo (821206571976, publicado 17-ago): si
+    # Google lo rechaza, deja de mostrarse y nadie se entera hasta ver los numeros.
+    d4 = gaql("SELECT ad_group.name, ad_group_ad.ad.id, "
+              "ad_group_ad.policy_summary.approval_status "
+              "FROM ad_group_ad WHERE ad_group_ad.status = 'ENABLED'")
+    for r in d4.get("results", []):
+        ap = r["adGroupAd"].get("policySummary", {}).get("approvalStatus")
+        if ap in ("DISAPPROVED", "AREA_OF_INTEREST_ONLY"):
+            alertas.append(("🔴", "El anuncio <b>%s</b> (grupo %s) quedó <b>%s</b>: "
+                                  "Google lo está limitando o no lo muestra."
+                            % (r["adGroupAd"]["ad"]["id"], r["adGroup"]["name"], ap)))
+
     # ---- solicitudes REALES: los correos de cg@ ----
     def correos(dias):
         r = maton("google-mail/gmail/v1/users/me/messages?q=from%%3Acg%%40sudtec.cl"

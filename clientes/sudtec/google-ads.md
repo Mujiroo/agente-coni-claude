@@ -138,6 +138,28 @@ Comprobaciones hechas **antes** de escribir:
 
 Ids de presupuesto: Sudtec `14514264126` · Competencias `15396548337`.
 
+### 17-ago-2026 21:30 — segundo anuncio en «General» ✅ HECHO
+
+Autorizado por Connie (msg 30 y 32). Anuncio nuevo **`821206571976`**, RSA con 15
+títulos y 4 descripciones, en el grupo `General` (181820804074).
+
+- **El anuncio bueno (`749580460058`) NO se tocó** — conserva su historial
+  completo. Ese era el punto: editarlo habría reiniciado lo único que funciona.
+- Los 15 títulos son **todos distintos** a los del anuncio existente. Si se
+  repiten, los dos no compiten y la prueba no mide nada.
+- Largos verificados en código (títulos ≤30, descripciones ≤90) y
+  `validateOnly` → `{}` antes de publicar.
+- Estado al publicar: `REVIEW_IN_PROGRESS`. Normal, revisión de Google.
+
+**Claims:** no inventé ninguno. Dejé fuera «despacho a todo Chile» y «entrega
+inmediata» por no poder respaldarlos; **Connie confirmó que el despacho a todo
+Chile sí es real** (msg 32) y recién ahí entró, como título y dentro de una
+descripción. Salió «Uniformes y Chaquetas» para hacerle sitio (su keyword
+`uniforme de bomberos` lleva 0 conversiones).
+
+**Cómo se revierte:** pausar `821206571976`. El tráfico vuelve completo al
+anuncio original, que nunca se modificó.
+
 ## Correcciones a la auditoría inicial
 
 **Lo de «3 anuncios en fuerza Media» era engañoso.** Esos 3 están dentro de
