@@ -71,6 +71,48 @@ Competencias quedó en **700 CLP/día** (tope 21.280/mes). Improfor gastó
 históricamente ~13.452/mes, así que **cabe sin problema**. El tope conjunto con
 la campaña principal sigue en **297.920**, bajo los 300.000.
 
+## Anuncio nuevo en Improfor ✅ HECHO (17-ago-2026 21:40)
+
+Autorizado por Connie (msg 36). Anuncio **`821323439891`** creado en el grupo
+`Improfor` (193715011357). El existente (`798446896209`) **no se tocó**.
+
+### La restricción que manda en este grupo
+
+La palabra clave es **`improfor`, una marca ajena**. Se puede **pujar** por ella,
+pero **NO se puede escribir en el anuncio**: Google lo rechaza por marca
+registrada. Consecuencia práctica importante: **el truco habitual de subir la
+fuerza del anuncio metiendo la keyword en los títulos aquí no se puede usar.**
+Por eso este grupo difícilmente llegue a «Excelente», y no es señal de que esté
+mal hecho.
+
+Verificado en código antes de publicar: ningún título ni descripción menciona
+`improfor`, `maryun`, `garmendia` ni `cespal`.
+
+### Por qué el anterior está en POOR
+
+Tiene **14 títulos** (no 15) y varios casi duplicados entre sí: `Cámaras
+Termales`/`Cámara Termal`, `Cotiza Equipos Bomberos`/`Cotiza Herramientas
+Bomberos`, `Herramientas para Bomberos`/`Herramientas de Rescate`. Poca
+diversidad = fuerza baja.
+
+### Qué trae el nuevo
+
+15 títulos, **ninguno repetido** del anterior (los repetidos no compiten y la
+prueba no mediría nada). Ángulo de campaña de competencia: *Compara Antes de
+Comprar*, *Alternativa especializada*, más los claims verificados con Connie —
+**despacho a todo Chile**, certificación EN/NFPA, cotización en 24 h.
+
+**Página de destino:** cambié a `/lista-productos/` (la que convierte en la
+campaña principal) en vez de la portada `sudtec.cl/` que usa el anuncio viejo.
+Quien busca a un proveedor de la competencia quiere ver catálogo, no portada.
+**Avisado a Connie** por si prefiere la portada.
+
+### Cómo se revierte
+
+Pausar `821323439891`. El anuncio original sigue intacto y toma todo el tráfico.
+
 ## Estado
 
-🟡 Esperando respuesta de Connie: ¿le armo el anuncio nuevo a Improfor?
+🟢 Improfor con dos anuncios compitiendo. Garmendia queda como próxima
+candidata, a evaluar **después** de ver si el anuncio nuevo destraba el 51,5%
+perdido por ranking.
