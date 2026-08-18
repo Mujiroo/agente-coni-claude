@@ -9,10 +9,11 @@
 - Respaldo de los valores anteriores:
   `backup-guatemala-nivea-sunallergy-18ago.json`
 
-## Aplicado (7 celdas) y verificado leyendo de vuelta
+## Aplicado (8 celdas) y verificado leyendo de vuelta
 
 | Celda | Cambio |
 |---|---|
+| **F21** | producto → *Crema Corporal Milk Nutritiva Piel Extra Seca* (**200 OK**), **elegido por Connie** el 18-ago 13:52 |
 | **F16** | meta title — ver la nota de abajo, **no es el texto literal del QA** |
 | **F17** | meta description del QA, tal cual · **154 car** ✅ |
 | **F22** | producto → protector solar facial piel sensible FPS 50 (**200 OK**) |
@@ -44,8 +45,9 @@ devuelve **404**. Pero **el reemplazo que propuso también da 404**:
 `crema-para-cuerpo-piel-extra-seca-y-piel-aspera-400-ml-40058086802520046.html`
 → redirige a `sitecore/service/notfound.aspx`.
 
-**F21 no se tocó** (dejarlo no empeora nada: ya estaba roto). Dos productos de
-piel seca **vivos y verificados** en nivea.com.gt, para que elija Connie:
+**Resuelto:** se le ofrecieron dos productos vivos y **Connie eligió la Crema
+Corporal Milk Nutritiva Piel Extra Seca**, que ya quedó escrita en F21. Las dos
+opciones que se le presentaron:
 
 - `…/crema-corporal-humectante-nivea-body-milk-nutritiva-para-piel-extra-seca-75010545091100046.html`
   → *Crema Corporal Milk Nutritiva Piel Extra Seca* (**200**) — es el que más se
@@ -72,8 +74,9 @@ Connie.
 
 | URL | Estado |
 |---|---|
-| F21 actual (repair-and-care) | **404** 🔴 |
-| F21 reemplazo sugerido por el QA | **404** 🔴 |
+| F21 anterior (repair-and-care) | **404** 🔴 *reemplazada* |
+| F21 reemplazo sugerido por el QA | **404** 🔴 *descartada* |
+| **F21 nueva** (milk nutritiva piel extra seca) | 200 ✅ |
 | F22 nueva (facial piel sensible FPS 50) | 200 ✅ |
 | F23 (sin tocar) | 200 ✅ |
 | F25 nueva (quemaduras solares) | 200 ✅ |
