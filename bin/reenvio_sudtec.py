@@ -71,10 +71,12 @@ def armar_reenvio(crudo, remitente):
     nuevo["From"] = remitente
     nuevo["To"] = DESTINO
     nuevo["Subject"] = "RV: " + asunto
-    # El original trae en Reply-To el correo del CLIENTE que pidio la cotizacion
-    # (cg@ es solo el buzon automatico del formulario web). Se conserva para que
-    # bd@, al apretar Responder, le conteste al cliente y no a un buzon que nadie lee.
-    nuevo["Reply-To"] = orig.get("Reply-To") or ORIGEN
+    # Las respuestas de bd@ vuelven a CONNIE, nunca al cliente (decision suya,
+    # 17-ago-2026): bd reparte la cotizacion entre los vendedores y son ellos los
+    # que hablan con el cliente. El original trae el mail del cliente en Reply-To,
+    # asi que hay que PISARLO a proposito: si se dejara pasar, bastaria que bd
+    # apretara Responder para escribirle al cliente antes de tiempo.
+    nuevo["Reply-To"] = remitente
     nuevo["Date"] = formatdate(localtime=True)
     # Rastro de que esto es un reenvio automatico y no un correo escrito a mano.
     nuevo["X-Reenviado-Por"] = "Kai (asistente de Constanza Pfeifer) - reenvio automatico"

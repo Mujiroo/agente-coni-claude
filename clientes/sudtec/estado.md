@@ -70,10 +70,14 @@ Modo simulación (`sin --enviar`) para ver qué haría sin mandar nada.
   hasta **9 h** de espera entre pasadas; se lo advertí y lo aceptó.
 - **Sin historial**: los 15 correos atrasados de la última semana **no** se
   reenvían. Si algún día los quiere, los pide.
-- **`Reply-To` = el cliente.** Ella preguntó por qué aparecía `cg@`; al revisarlo
-  resultó que el original trae el correo del cliente que pidió la cotización
-  (`cg@` es solo el buzón del formulario web, no lo lee nadie). Se conserva el
-  del cliente, para que bd@ le responda directo. Ella lo aprobó.
+- **`Reply-To` = Connie.** Historia corta: primero puse `cg@`, ella preguntó por
+  qué, al revisar resultó que el original trae el mail del **cliente**, y lo dejé
+  así. **El 17-ago a las 20:55 ella lo cambió: las respuestas de bd@ vuelven a
+  ella.** Razón: bd reparte la cotización entre los **vendedores**, y son ellos
+  los que hablan con el cliente. Así que el `Reply-To` del cliente se **pisa a
+  propósito** — si se dejara pasar, bastaría que bd apretara Responder para
+  escribirle al cliente antes de tiempo. Verificado: el mail del cliente no queda
+  en ninguna cabecera del reenvío.
 - **Aviso por Telegram:** solo cuando reenvía algo o cuando falla. Si no hay
   correos nuevos, silencio.
 
