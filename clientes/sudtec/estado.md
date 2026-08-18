@@ -55,7 +55,30 @@ Modo simulación (`sin --enviar`) para ver qué haría sin mandar nada.
 
 ## Estado
 
-- 🟡 **Escrito y probado en simulación. NO está enviando todavía** — falta el OK
-  de Connie, porque el primer envío le habla a un tercero.
-- Pendiente de definir con ella: si quiere que reenvíe también lo atrasado, y si
-  se persigue el arreglo de fondo con quien administra el correo de sudtec.cl.
+- ✅ **ACTIVO desde el 17-ago-2026, 20:50.** Connie dio el OK y pidió partir el
+  **18-ago-2026 a las 06:00**.
+- Crons puestos en `crons/jobs.txt`: **06:00, 15:00 y 23:00** todos los días.
+- Marca inicial puesta el 17-ago a las 20:50: los 5 correos que ya estaban en la
+  ventana quedaron como vistos. **No se reenvió historial.**
+- Arranque diferido (`no_antes_de` en el estado): la pasada de las 23:00 de hoy
+  **no hace nada** y no toca el estado, así el primer envío real es mañana 06:00
+  con todo lo que llegue de aquí a esa hora.
+
+## Decisiones ya tomadas (no volver a preguntar)
+
+- **Horarios: 06:00 / 15:00 / 23:00.** Ella los eligió sabiendo que eso implica
+  hasta **9 h** de espera entre pasadas; se lo advertí y lo aceptó.
+- **Sin historial**: los 15 correos atrasados de la última semana **no** se
+  reenvían. Si algún día los quiere, los pide.
+- **`Reply-To` = el cliente.** Ella preguntó por qué aparecía `cg@`; al revisarlo
+  resultó que el original trae el correo del cliente que pidió la cotización
+  (`cg@` es solo el buzón del formulario web, no lo lee nadie). Se conserva el
+  del cliente, para que bd@ le responda directo. Ella lo aprobó.
+- **Aviso por Telegram:** solo cuando reenvía algo o cuando falla. Si no hay
+  correos nuevos, silencio.
+
+## Lo que sigue pendiente
+
+- El **arreglo de fondo**: por qué `bd@sudtec.cl` no recibe correos en los que
+  figura como destinatario directo. Lo tiene que ver quien administre el correo
+  de sudtec.cl. Pista: `X-MC-Relay: Junk` en el trayecto.

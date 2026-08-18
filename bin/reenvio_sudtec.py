@@ -87,6 +87,18 @@ def armar_reenvio(crudo, remitente):
 def main():
     enviar = "--enviar" in sys.argv
     est = cargar_estado()
+
+    # Arranque diferido: Connie pidio partir el 18-ago-2026 a las 06:00. Antes de
+    # esa hora la corrida no hace NADA: ni envia ni toca el estado. Tocar el estado
+    # seria peor que enviar de mas, porque marcaria como visto un correo que despues
+    # nadie reenviaria.
+    na = est.get("no_antes_de")
+    if na and time.time() < na:
+        falta = int((na - time.time()) / 60)
+        print("Todavia no arranco: quedan %d min para la hora de partida acordada. "
+              "No toco nada." % falta)
+        return
+
     ya = set(est["reenviados"])
 
     perfil = maton("google-mail/gmail/v1/users/me/profile")
@@ -142,6 +154,8 @@ def main():
     guardar_estado(est)
     if enviar:
         print("TOTAL reenviados: %d" % len(hechos))
+        for _id, _a, _f in hechos:
+            print("   · %s  |  %s" % (_f, _a))
 
 
 if __name__ == "__main__":

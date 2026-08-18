@@ -7,3 +7,11 @@
 # Ejemplos:
 # 0 9 * * 0 | [CRON] Reporte semanal: resume la semana y envíalo por tg.sh.
 # 30 8 1 * * | [CRON] Día 1 del mes: revisa los pendientes mensuales y avisa por tg.sh.
+
+# --- SUDTEC: reenvio de cotizaciones cg@ -> bd@ (pedido por Connie 17-ago-2026) ---
+# Tres pasadas diarias acordadas con ella. El anti-duplicado vive en el script
+# (memory/estado/reenvio_sudtec.json), no en el horario: si una pasada se salta,
+# la siguiente recupera lo pendiente sin reenviar nada dos veces.
+0 6 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
+0 15 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
+0 23 * * * | [CRON] SUDTEC reenvio: corre `python3 bin/reenvio_sudtec.py --enviar` en /home/agent/workspace. Si reenvio 1 o mas, avisa a Connie con `bash bin/tg.sh send` en HTML, breve: cuantos y el asunto. Si no habia nuevos, NO avises nada. Si hubo ERROR o algun envio fallo, avisale SI O SI y explica que paso.
