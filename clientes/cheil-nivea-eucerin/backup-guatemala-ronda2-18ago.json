@@ -1,0 +1,235 @@
+{
+ "F36": {
+  "text": "Una alergia solar se produce cuando la piel tiene una reacción adversa a la luz solar, provocando enrojecimiento, picor o erupción. A diferencia de una quemadura solar, que puede producirse tras una exposición excesiva al sol, una alergia solar puede aparecer incluso tras un breve tiempo al aire libre.\n \n Ciertos tipos de piel pueden tener más fotosensibilidad y provocar una reacción inmediata, mientras que otros desarrollan esta reacción con el tiempo. Entender qué desencadena una alergia al sol y qué hacer para proteger la piel puede ayudar a evitar mayores molestias.",
+  "runs": []
+ },
+ "F39": {
+  "text": "La alergia al sol suele provocar reacciones cutáneas molestas que suelen aparecer a los pocos minutos u horas de la exposición al sol, aunque en algunos casos pueden aparecer al cabo de uno o dos días. Estas reacciones son diferentes de las quemaduras solares y suelen afectar únicamente a las zonas expuestas al sol, como los brazos, el pecho y la cara.\n \n Los 4 signos más comunes de una alergia al sol incluyen: \n \n 1. Picor, manchas rojas o piel inflamada que se siente irritada.\n 2. Pequeños bultos, una erupción o manchas ásperas que pueden extenderse con el tiempo.\n 3. Sensación de quemazón o escozor, incluso sin enrojecimiento visible.\n 4. Piel seca o escamosa después de exponerse al sol, con sensación de tirantez o incomodidad.\n \n Estos síntomas pueden variar de leves a graves y pueden desaparecer una vez fuera del sol o durar varios días. Reconocer estos primeros síntomas puede ayudar a prevenir irritaciones mayores y a mantener la piel protegida. Si te preocupa una posible alergia al sol, acude al médico para que te tranquilice y te oriente sobre la mejor forma de tratarla.",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 357,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 415,
+    "format": {}
+   },
+   {
+    "startIndex": 649,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 659,
+    "format": {}
+   },
+   {
+    "startIndex": 660,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 670,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 671,
+    "format": {}
+   }
+  ]
+ },
+ "F44": {
+  "text": "Al tratarse de un término colectivo, es importante entender que no todas las personas experimentan el mismo tipo. Hay una serie de afecciones que entran dentro del grupo de las alergias solares, que son:\n \n Erupción Polimorfa Lumínica: También conocida como \"intoxicación solar\", es la forma más común. Suele aparecer en forma de pequeñas protuberancias o manchas rojas (que a veces forman ampollas) tras unas horas al sol.\n \n Reacción fotoalérgica: Una reacción fotoalérgica se produce cuando una sustancia química aplicada a la piel reacciona con la luz solar e irrita la piel. Por ejemplo, puede deberse a ciertos ingredientes de los protectores solares o los perfumes.\n \n Uticaria solar: es un tipo de fotodermatosis que a veces se conoce como \"urticaria por alergia al sol\". Puede aparecer tras unos pocos minutos de exposición al sol, y los síntomas pueden variar de leves como los granitos por el sol a graves.\n \n Prurigo actínico: Esta variante de erupción cutánea afecta con mayor frecuencia a las personas con tonos de piel más oscuros. Aparece como una erupción acompañada de picor intenso, pápulas y manchas en la piel, que a veces pueden persistir durante todo el año, pero son más graves en primavera y en las zonas del cuerpo expuestas al sol.",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 206,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 235,
+    "format": {}
+   },
+   {
+    "startIndex": 426,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 449,
+    "format": {}
+   },
+   {
+    "startIndex": 675,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 691,
+    "format": {}
+   },
+   {
+    "startIndex": 920,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 938,
+    "format": {}
+   }
+  ]
+ },
+ "F50": {
+  "text": "Existen varios factores de riesgo que pueden aumentar la probabilidad de que alguien experimente una alergia al sol o una reacción solar, entre los que se cree que se encuentran:\n \n 1. Afecciones cutáneas existentes: \n \n Afecciones como la dermatitis pueden aumentar el riesgo de desarrollar una alergia al sol. En general, una pequeña dosis de luz solar tiende a mejorar la dermatitis atópica, pero en algunos casos poco frecuentes también puede empeorarla. Otras enfermedades como el lupus o la rosácea también pueden agravarse con la exposición al sol, lo que favorece la aparición de erupciones. \n \n 2. Uso de medicamentos específicos: \n \n Ciertos fármacos, como los antibióticos Tetraciclina, los medicamentos a base de Sulfa y los antiinflamatorios no esteroideos como el Ketoprofeno, pueden hacer que la piel sea más sensible al al sol.\n \n 3. Exposición a determinadas sustancias: \n \n Algunas alergias solares se producen cuando la piel entra en contacto con una sustancia y luego se expone a la luz solar. Entre los desencadenantes más comunes se encuentran las sustancias químicas contenidas en fragancias, desinfectantes y sustancias químicas de ciertos protectores solares. \n \n 4. Antecedentes familiares: \n \n Tener un padre o un hermano con alergia al sol aumenta la probabilidad de padecerla uno mismo.",
+  "runs": []
+ },
+ "F53": {
+  "text": "En general, los síntomas de una alergia al sol desaparecen por sí solos al cabo de unos días, siempre que se evite la exposición a los rayos UV. Aunque es difícil tratar una alergia al sol o deshacerse de ella por completo, existen soluciones para minimizar las molestias causadas por los distintos síntomas de la alergia. Si tu piel se enrojece, te pica o se irrita poco después de exponerte al sol, puedes tomar medidas para reducir la sensación de irritación. A continuación te damos algunos consejos para calmar la piel:\n \n 1. Hidratación: \n La hidratación ayuda a mantener la humedad de la piel, reforzando su barrera natural y reduciendo la sequedad o la irritación, lo que puede minimizar los síntomas de la reacción alérgica al sol.\n \n 2. Paño frío: \n Intenta colocar suavemente un paño frío en la zona afectada o intenta enjuagar la piel con agua fría para ayudar a reducir el calor y la irritación en la piel son propios de la alergia al sol síntomas​.\n \n 3. Tomar antihistamínicos: \n Los antihistamínicos pueden actuar sobre la causa de la alergia al sol reduciendo el picor, la hinchazón y la urticaria causada por la liberación de histamina. Consulta a un profesional médico para que te aconseje qué antihistamínicos tomar.\n \n 4. Tratamientos dermatológicos\n En algunos casos, se recomienda el tratamiento local con corticosteroides. Si los síntomas son graves o empeoran, consulta a tu médico para recibir el tratamiento adecuado.\n  \n Para evitar que estos síntomas empeoren y favorecer la reparación de la piel, es importante tomar algunas precauciones: \n  \n 1. Permanece a la sombra: \n Permanecer a la sombra, sobre todo durante las horas de máxima insolación, minimiza la exposición a los rayos UV, limitando así el riesgo de reacciones alérgicas al sol.\n  \n 2. Evita rascarte: \n Evita tocarte o rascarte la piel, ya que esto puede provocar una sensación adicional de irritación o una piel más seca.\n \n 3. Cuidar la piel: \n Una vez resueltos los síntomas más graves, es importante cuidar la piel para mantenerla hidratada y favorecer su reparación natural. La hidratación ayuda a mantener el contenido de humedad de la piel, reforzando su barrera natural y reduciendo los signos de sequedad causados por el sol, como el picor y la tirantez. No utilices productos cosméticos sobre la piel dañada. En caso de duda, consulta siempre a tu médico.\n \nPrueba aplicar NIVEA Repair & Care, una crema de cuidado intensivo para piel seca y extra seca. Su fórmula con Glicerina y Pantenol ayuda a aliviar la sensación de tirantez en la piel muy seca y áspera, nutriéndola intensamente y ayudando a proteger la barrera cutánea frente a la sequedad. Además, proporciona hasta 72 horas de hidratación para dejar la piel más suave y cuidada.\n  \n CTA : NIVEA Crema reparadora para Piel Seca",
+  "runs": [
+   {
+    "format": {}
+   },
+   {
+    "startIndex": 527,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 544,
+    "format": {}
+   },
+   {
+    "startIndex": 743,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 758,
+    "format": {}
+   },
+   {
+    "startIndex": 965,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 993,
+    "format": {}
+   },
+   {
+    "startIndex": 1239,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 1270,
+    "format": {}
+   },
+   {
+    "startIndex": 1574,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 1600,
+    "format": {}
+   },
+   {
+    "startIndex": 1775,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 1795,
+    "format": {}
+   },
+   {
+    "startIndex": 1917,
+    "format": {
+     "bold": true
+    }
+   },
+   {
+    "startIndex": 1939,
+    "format": {}
+   },
+   {
+    "startIndex": 2377,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   },
+   {
+    "startIndex": 2396,
+    "format": {}
+   },
+   {
+    "startIndex": 2747,
+    "format": {
+     "foregroundColor": {
+      "red": 1
+     },
+     "bold": true,
+     "foregroundColorStyle": {
+      "rgbColor": {
+       "red": 1
+      }
+     }
+    }
+   }
+  ]
+ }
+}

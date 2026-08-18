@@ -87,3 +87,69 @@ Connie.
 Las celdas F16:F34 **no tienen `textFormatRuns`** (se comprobó antes de escribir),
 así que aquí `values.batchUpdate` era seguro. En hojas con anclas en negrita+rojo
 hay que usar `updateCells` — ver `chile-nivea-bb-cc-cream.md`.
+
+
+---
+
+# Ronda 2 — cuerpo del artículo (msg 74)
+
+*Mismo día. Respaldo: `backup-guatemala-ronda2-18ago.json` (guarda texto **y**
+`textFormatRuns` de cada celda).*
+
+**5 celdas, 12 ediciones**, todas verificadas leyendo de vuelta. Controles
+intactos: **B3 = 23 · B4 = 54 · B5 = 154**.
+
+| Celda | Qué se hizo |
+|---|---|
+| **F36** | 2º párrafo reescrito: la variación depende del **tipo de alergia**, no del tipo de piel |
+| **F39** | 1er párrafo sin la repetición «suele/suelen» y sin «únicamente»; cierre nuevo derivando a un profesional (fuera «para que te tranquilice») |
+| **F44** | fuera «también conocida como intoxicación solar» · **«Uticaria» → «Urticaria»** · definición de reacción fotoalérgica reescrita |
+| **F50** | fuera el claim de que el sol mejora la dermatitis atópica · punto 2 reescrito sin lista de fármacos y con la advertencia de no suspenderlos · punto 3 acotado |
+| **F53** | frase rota del paño frío arreglada · antihistamínicos ya no «actúan sobre la causa» · corticosteroides solo por indicación profesional |
+
+## Lo delicado: el formato sí estaba en juego acá
+
+A diferencia de la ronda 1, **F39, F44 y F53 sí tienen `textFormatRuns`**
+(subtítulos en negrita y anclas en negrita+rojo). Escribirlas con `values.update`
+habría borrado el formato — el error de la ronda 1 de Chile.
+
+Se usó `updateCells` con `fields="userEnteredValue,textFormatRuns"`, **recalculando
+los offsets**: se expande el formato a una lista por carácter, se aplican los
+reemplazos arrastrando el formato del punto de inserción, y se reagrupan los
+tramos. Los tramos con formato quedaron **4, 4 y 9** — los mismos que antes — y
+las anclas siguen sobre `NIVEA Repair & Care`, el CTA y `Piel seca o escamosa`.
+
+*El script quedó como referencia para los otros países.*
+
+## Una redacción es mía, no del QA
+
+El QA pidió «aclarar que las reacciones a ingredientes de protectores solares
+pueden ocurrir, pero no son generales» **sin dar el texto**. Se escribió:
+
+> «Entre los desencadenantes descritos se encuentran sustancias presentes en
+> fragancias y desinfectantes y, en algunos casos, ingredientes de ciertos
+> protectores solares, aunque no se trata de reacciones generalizadas.»
+
+Está avisado a Connie por si quiere otra formulación.
+
+## 🔴 Pendiente que nadie ha pedido y conviene resolver
+
+**`I53` e `I55` apuntan a `nivea-repair-and-care-crema-400ml…`, que da 404** — es
+**la misma URL muerta** que había en F21 y que ya se reemplazó. O sea: el cuerpo
+del artículo sigue enlazando a un producto que no existe en Guatemala, dos veces.
+
+Además el texto de F53 **nombra el producto como «NIVEA Repair & Care»**, que es
+el nombre del máster inglés, no el nombre local.
+
+**Propuesta (no aplicada, esperando decisión de Connie):** apuntar I53 e I55 a
+`…/crema-corporal-regeneracion-intensiva-con-glicerina-250-ml-40058086802450046.html`
+(**200 OK**, es el equivalente local del Repair & Care) y unificar el nombre del
+producto en F53 y en las anclas H53/H55 — el mismo criterio que se aplicó en
+Chile.
+
+## Detalle menor observado
+
+El ancla roja de F39 viene **partida** desde antes (`Piel seca` + un carácter sin
+formato + `o escamosa`), aunque H40 declara el ancla completa `Piel seca o
+escamosa`. Se **preservó tal cual** en vez de corregirla, para no meter cambios
+que nadie pidió. Se arregla en un minuto si Connie quiere.
