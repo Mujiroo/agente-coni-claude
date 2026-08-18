@@ -143,3 +143,46 @@ WordPress, o esperar a que la caché expire sola.
 pobre — solo el nombre del producto (`Botas Lytos FR-1401`) o basura de la subida
 (`Untitled (500 x 350 px) (1)`). No entra en el conteo de «faltantes», pero
 conviene saberlo.
+
+
+---
+
+# Tanda de 50 — 18-ago-2026, 15:29
+
+Connie pidió (msg 89) **avanzar de a 50 y preguntar antes de seguir**, para no
+gastarle la cuota. Queda como preferencia fija en `memory/cuota-y-tandas.md`.
+
+**50 meta descripciones escritas y verificadas.** Todas releídas por API (0
+vacías) y dos comprobadas además en la **página pública con cache-buster**.
+
+| | |
+|---|---|
+| Sin meta al empezar | **180** |
+| Piloto | 5 |
+| Esta tanda | **50** |
+| **Hecho** | **55** |
+| **Falta** | **125** |
+
+Los ids exactos, en `seo-productos-hechos.json`.
+
+**Qué cubrió:** linternas ATEX, la familia completa de botas Lytos FR-1401 a
+1406, los parches VETTER Magnaseal, toda la línea AWG de espuma, pitones y
+accesorios, y los equipos CAFS (MFU, VARIO, HiCAFS, HiGUARD).
+
+**Dónde hubo que estirar el texto:** los productos CAFS traen como única fuente
+una frase de una línea («Extintor de Alta Presión Robusto y Versátil – Ideal para
+Brigadas Profesionales»). Con eso no se llega a 140 caracteres sin inventar, así
+que se completó con el encuadre de la tienda («Cotízalo en Sudtec, especialistas
+en equipos de emergencia»), **sin agregar ni una especificación que no estuviera
+en la ficha**.
+
+## 🔎 Productos duplicados detectados de paso
+
+- **AWG Accesorio de espuma Turbo Strike** existe **tres veces**: ids `10433`,
+  `10365` y `10363`, con el mismo texto y distintas categorías.
+- **AWG Turbo-Spritze 2750** aparece dos veces, en Storz B (`10346`) y Storz C
+  (`10343`) — eso sí tiene sentido, son acoples distintos.
+
+Se les escribió meta description **diferenciada** a los tres Turbo Strike para que
+no compitan entre ellos, pero **el duplicado de producto sigue ahí** y es decisión
+de Sudtec si se unifican.
