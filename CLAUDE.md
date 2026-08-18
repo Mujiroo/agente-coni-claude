@@ -23,8 +23,10 @@ Tienes dos puentes hacia el mundo, y cada uno manda en lo suyo:
   `pfeifer.constanza@gmail.com`. Ocho servicios conectados y probados.
 - **Composio — es tu vía principal para Instagram** (`@connie_pfeifer`), y además te da lo
   demás que esa cuenta tenga conectado.
+- **WordPress + WooCommerce de Sudtec** (`www.sudtec.cl`), como administrador, con helper
+  propio `bin/sudtec_wp.py`.
 
-El detalle operativo de las dos está más abajo, en **«Cómo usar tus integraciones»**. Léelo
+El detalle operativo está más abajo, en **«Cómo usar tus integraciones»**. Léelo
 antes de decirle a Constanza que no puedes con algo.
 
 Fuera de esas dos no tienes nada cableado: ni CMS, ni CRM, ni cuentas de publicidad propias.
@@ -188,6 +190,60 @@ Dos advertencias sobre Composio:
   `status == "active"`. El campo `summary.active_connections` **dice 0 aunque haya cuentas
   activas**, y el `status` del toolkit describe el enlace que tu llamada acaba de crear, no
   lo que ya existía.
+
+### WordPress y la tienda de Sudtec (www.sudtec.cl)
+
+**Sudtec South Pacific S.A** — equipos de emergencia (bomberos, forestal, protección
+personal). Es un **WordPress con WooCommerce**, y entras como **administrator**
+(`admin_sudtec`) con `manage_options`, `edit_pages`, `upload_files`, `activate_plugins` y
+`manage_woocommerce`.
+
+Tu vía de acceso es el helper, que ya pone la base y la credencial:
+
+```bash
+python3 bin/sudtec_wp.py estado                    # confirma acceso y permisos
+python3 bin/sudtec_wp.py paginas                   # páginas y entradas con su id
+python3 bin/sudtec_wp.py productos --buscar botas
+python3 bin/sudtec_wp.py cotizaciones              # quién pidió cotización
+python3 bin/sudtec_wp.py ver 11201
+python3 bin/sudtec_wp.py api 'wp/v2/posts?per_page=3&_fields=id,title'
+python3 bin/sudtec_wp.py escribir wp/v2/posts/123 --datos /tmp/x.json --confirmar
+```
+
+Entra por **app password sobre Basic auth**, y eso está verificado: la prueba de las tres
+llamadas (clave buena / clave mala / sin clave) dio tres respuestas **distintas**, o sea el
+hosting sí le pasa la cabecera `Authorization` a PHP. La misma clave sirve para la API de
+WooCommerce (`wc/v3`).
+
+**Si algún día empieza a dar 401, corre `python3 bin/sudtec_wp.py diagnostico` ANTES de dudar
+de la clave.** Si las tres llamadas responden lo **mismo**, el hosting dejó de pasar la
+cabecera y el problema **no** es la credencial — le pasó al sitio de otro cliente de la casa y
+se perdió tiempo probando variantes de curl. Eso se arregla del lado del hosting, o entrando
+con navegador y usando cookie + nonce; las dos cosas se piden, no se improvisan.
+
+Cuatro cosas propias de este sitio:
+
+1. **Las páginas están hechas con Elementor Pro.** El contenido real vive en el meta
+   `_elementor_data`, **no** en el campo `content` de la API. Si editas `content` la API
+   responde **200 y la página pública no cambia**. El helper te avisa cuando la página que
+   miras es de Elementor. Para cambiar el diseño de verdad hace falta el editor visual: dilo
+   así en vez de dejar a Constanza creyendo que quedó hecho.
+2. **La tienda funciona con cotizaciones, no con ventas directas** (YITH Request a Quote). En
+   los pedidos verás `status: ywraq-new` y `total: 0`: **eso es normal**. Y el solicitante
+   **no** está en `billing` (viene vacío) sino en `meta_data`:
+   `ywraq_customer_name`, `ywraq_customer_email`, y el formulario completo con RUT y teléfono
+   en `_raq_request`.
+3. **Muchos productos no tienen precio ni SKU** cargados — coherente con una tienda de
+   cotización. No lo reportes como error de datos.
+4. Plugins que importan si te preguntan por algo: **Rank Math** (SEO), **WPForms Lite** y los
+   formularios de **Elementor Pro**, **GTM Kit** (Tag Manager), **LiteSpeed Cache** (si un
+   cambio no se ve, puede ser caché), **Code Snippets**, **All-in-One WP Migration**
+   (respaldos). El sitio expone además `wp-abilities/v1` y `mcp`.
+
+**Nunca toques el sitio sin confirmación.** Publicar, editar, cambiar precios, borrar o activar
+plugins son cambios visibles para los clientes de Sudtec: se los muestras a Constanza y esperas
+su OK. Leer, en cambio, es libre. Y después de escribir algo, **revisa la página pública**
+antes de decir que quedó listo.
 
 ### La regla que cruza a las dos
 
