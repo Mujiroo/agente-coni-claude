@@ -81,6 +81,22 @@ Modo simulación (`sin --enviar`) para ver qué haría sin mandar nada.
 - **Aviso por Telegram:** solo cuando reenvía algo o cuando falla. Si no hay
   correos nuevos, silencio.
 
+## Primer envío real — 17-ago-2026 23:35 ✅
+
+Connie pidió probar con la solicitud que acababa de llegar (msg 38), sin esperar
+a las 06:00. **Se levantó el seguro de hora y el sistema quedó vivo desde ahí.**
+
+Se envió **por el script real del cron**, no a mano: así la prueba vale como
+prueba del cron.
+
+- Correo original: `1a012c026cce7d46`, del cliente `capitan11@cbqn.cl`
+- Salió: `De: pfeifer.constanza@gmail.com` · `Para: bd@sudtec.cl` ·
+  `RV: [Solicitud de presupuesto]` · `Responder a: pfeifer.constanza@gmail.com`
+- **Verificado en la bandeja de enviados**, no solo por el código de respuesta
+- **El correo del cliente no quedó en ninguna cabecera** ✔
+- **Anti-duplicado probado en vivo:** segunda corrida seguida → «Sin correos
+  nuevos». No reenvía dos veces.
+
 ## Lo que sigue pendiente
 
 - El **arreglo de fondo**: por qué `bd@sudtec.cl` no recibe correos en los que
