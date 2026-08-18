@@ -18,3 +18,11 @@ que la aplique. Vale la pena guardarla: ver `clientes/sudtec/politicas-2026.md`.
 pida algo de Meta hay que decírselo en la primera línea, no al final: de Meta solo
 tenemos Instagram por Composio (publicar y DMs), que no toca el administrador de
 anuncios. Conectarlo depende de Nicolás.
+
+**18-ago-2026** — Su **trabajo principal**: es **SEO de Nivea y Eucerin LATAM en
+Cheil** (agencia), a cargo de **Colombia, México, Chile, Ecuador, Guatemala y
+Perú**. Traduce, localiza y optimiza contenido que le llega en inglés, con una
+versión distinta por país para evitar duplicado, y relocalizando los enlaces
+internos a cada sitio local. Todo el detalle en
+`clientes/cheil-nivea-eucerin/estado.md`. Pidió guardarlo porque «eventualmente»
+me pedirá ayuda: cuando eso pase, **leer esa carpeta antes de responder**.
