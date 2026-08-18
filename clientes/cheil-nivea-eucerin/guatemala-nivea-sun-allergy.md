@@ -153,3 +153,88 @@ El ancla roja de F39 viene **partida** desde antes (`Piel seca` + un carácter s
 formato + `o escamosa`), aunque H40 declara el ancla completa `Piel seca o
 escamosa`. Se **preservó tal cual** en vez de corregirla, para no meter cambios
 que nadie pidió. Se arregla en un minuto si Connie quiere.
+
+
+---
+
+# Ronda 3 — producto local, terminología y sección reemplazada (msg 76)
+
+*Respaldo: `backup-guatemala-ronda3-18ago.json`. **7 celdas F + 9 celdas H/I**,
+todas verificadas leyendo de vuelta. Controles: B3 = 23 · B4 = 54 · B5 = 154.*
+
+| Celda | Qué se hizo |
+|---|---|
+| **F53** | producto cambiado a **NIVEA Crema Corporal Regeneración Intensiva**, con copy corregido (ver abajo) |
+| **H53 · H55** | ancla → `NIVEA Crema Corporal Regeneración Intensiva` |
+| **I53 · I55** | URL → la del Regeneración Intensiva **(200 OK, no la que dio el QA)** |
+| **F58** | las quemaduras ya no «se producen donde no se usó crema solar»: ahora protección insuficiente o mal reaplicada |
+| **F61** | `SPF`→`FPS` · `Permanezca`→`Permanece` · consejo 3 reescrito para que no invite a exponerse |
+| **F63** | «gama de Cremas Solares» → «gama de **protectores solares** NIVEA» |
+| **F64** | cremas/lociones → **protectores solares** · `SPF`→`FPS` · «exposición **al** sol» · CTA nuevo |
+| **H64** | ancla → `Protectores solares NIVEA` |
+| **F66 · F67** | sección del Derma Skin Clear **reemplazada** por el protector facial local |
+| **H67 · I67 · H68 · I68** | anclas y URL del protector facial **(200 OK)** — antes decían `Local URL not found` |
+
+## 🔴 El QA volvió a dar una URL muerta
+
+Para `I53` e `I55` el QA propuso
+`…/crema-para-cuerpo-piel-extra-seca-y-piel-aspera-400-ml-40058086802520046.html`
+→ **404**. Es **exactamente la misma URL** que ya había propuesto para F21 en la
+ronda 1 y que también estaba muerta.
+
+**Se usó la PDP viva del producto que el propio QA nombró**
+(`NIVEA Crema Corporal Regeneración Intensiva`):
+`…/crema-corporal-regeneracion-intensiva-con-glicerina-250-ml-40058086802450046.html`
+→ **200 OK**.
+
+> **Patrón que conviene recordar para los otros países:** las URLs que trae este
+> QA hay que comprobarlas una por una. Van dos de dos malas.
+
+## 🔴 Y dos claims del QA no están en la ficha
+
+El copy que el QA propuso para F53 decía *«Su fórmula con **Sérum de Humectación
+Profunda**, glicerina y dexpantenol… proporciona hasta **72 horas** de
+humectación»*. Contra la PDP real:
+
+| Claim del QA | Qué dice la ficha |
+|---|---|
+| «Sérum de Humectación Profunda» | **no aparece** — la ficha habla de «fórmula rica en glicerina» |
+| «hasta 72 horas de humectación» | **48 hrs**: *«Sensación de alivio para piel extra seca por 48 hrs»* |
+| glicerina · dexpantenol · piel extra seca | ✅ correctos |
+| «suave y tersa» | la ficha dice «suave y **elástica**» |
+
+**Texto que se escribió** (mismo sentido, cifras reales):
+
+> «Cuando la piel ya no esté irritada ni dañada, puedes aplicar NIVEA Crema
+> Corporal Regeneración Intensiva. Su fórmula rica en glicerina y con dexpantenol
+> ayuda a cuidar la piel extra seca, calma la piel áspera y brinda sensación de
+> alivio por 48 horas, dejándola suave y elástica.»
+
+*Nota a favor del QA:* su apertura («cuando la piel ya no esté irritada») calza
+con la advertencia de la propia ficha, que dice **«evitar el contacto con la piel
+irritada»**. Se conservó tal cual.
+
+## La sección F66/F67 la redacté yo
+
+El QA pidió reemplazar la sección del *Derma Skin Clear* por «el protector facial
+local para piel sensible» **sin dar el texto**. Se escribió desde los claims de la
+PDP real, ninguno inventado: piel del rostro más expuesta · FPS 50 · apto para
+piel sensible · fórmula no grasosa ni pegajosa · sin aroma · dermatológicamente
+probado.
+
+⚠️ **Un claim que conviene que Connie mire:** la PDP lista entre sus beneficios
+**«Protección contra la alergia al sol»**. Es el claim más pertinente del artículo
+y **es de NIVEA**, no inventado, pero es el más sensible. Se incluyó como *«entre
+sus beneficios NIVEA indica la protección frente a la alergia al sol»*. Si
+prefiere sacarlo, es una línea.
+
+## Dos cosas señaladas y no tocadas
+
+1. **H64 vs I64:** el ancla ahora dice «Protectores solares NIVEA» pero la URL
+   sigue apuntando al listado **«Leche solar»**. Existen dos listados más arriba
+   que calzan mejor y responden 200:
+   `…/productos/proteccion-solar` y `…/productos/proteccion-solar/proteccion-solar`.
+2. **F70** («Protección solar para piel sensible: NIVEA Sun Protect & Sensitive
+   FPS50») es el producto **corporal**, dentro de una sección que F65 titula como
+   de protectores **faciales**. Ahora que F66 es el facial de piel sensible, los
+   dos títulos se parecen mucho. Decisión de Connie.
