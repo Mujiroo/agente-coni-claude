@@ -102,3 +102,18 @@ prueba del cron.
 - El **arreglo de fondo**: por qué `bd@sudtec.cl` no recibe correos en los que
   figura como destinatario directo. Lo tiene que ver quien administre el correo
   de sudtec.cl. Pista: `X-MC-Relay: Junk` en el trayecto.
+
+---
+
+## 18-ago-2026 — Auditoría de políticas 2026
+
+Connie pidió revisar las políticas nuevas de Meta y las que vienen para Google
+Ads, y dejar la cuenta en orden. Resultado en [[politicas-2026]]
+(`clientes/sudtec/politicas-2026.md`).
+
+**Resumen:** los 13 anuncios están aprobados y el presupuesto sigue bajo el tope.
+Tres hallazgos abiertos: el claim de certificación EN/NFPA no está respaldado en
+el sitio, los anuncios dicen 24h mientras el sitelink dice 48h, y no existe
+política de privacidad. **Meta no se pudo auditar: no hay integración de Meta Ads.**
+
+Esperando 4 respuestas de Connie antes de tocar nada.
