@@ -1,0 +1,4 @@
+- [Tandas de 50 y cuota](cuota-y-tandas.md) — Connie pide avanzar de a 50 ítems y preguntarle antes de seguir.
+- [Maton tiene Google Slides](maton-google-slides.md) — novena app conectada, no está en CLAUDE.md.
+- [Un contador no es un envío](contadores-no-son-envios.md) — reporté 7 reenvíos cuando eran 2; verificar contra la fuente externa.
+- [Instagram no permite reaccionar por API](instagram-sin-reacciones.md) — solo texto, imagen y marcar visto.
