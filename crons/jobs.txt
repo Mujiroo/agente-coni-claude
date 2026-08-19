@@ -58,7 +58,8 @@
 # El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
 45 3 * * * | [CRON] Corre `python3 bin/crear_grupo_botas.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADO o YA-EXISTE, avisale a Connie con `bash bin/tg.sh send` en HTML que el grupo Botas quedo activo con sus keywords, el anuncio y la negativa en General, y RECUERDALE que no se modifico ningun presupuesto. Despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 45 3), commitea y pushea. Si dice ERROR, avisale con el detalle y deja el cron.
 
-# --- CHEQUEO: que el grupo Botas este recibiendo trafico (24-ago-2026) ---
-# Se le puso a General la negativa "botas" para rutear las busquedas al grupo nuevo.
-# Si el grupo nuevo NO sirve, esas 8 conversiones al mes se pierden en vez de mudarse.
-0 10 24 8 * | [CRON] Chequeo del grupo Botas de SUDTEC: con `bash bin/maton.sh` consulta en Google Ads (cliente 9907217991) las impresiones, clics y conversiones de los ultimos 5 dias del grupo llamado 'Botas'. Si tiene impresiones, avisale a Connie que el ruteo funciono, con las cifras. Si tiene CERO impresiones, avisale que el ruteo fallo y que conviene QUITAR la negativa 'botas' del grupo General para no seguir perdiendo esas busquedas. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 24 8"), commitea y pushea.
+# --- VIGILANCIA DE LOS CAMBIOS DEL 19-AGO (autorizado por Connie, msg 187) ---
+# Ella viaja el 21-ago y no va a estar mirando. Autorizo explicitamente revertir:
+# "si ves que las campanas empeoraron o no sirve, pausa los cambios".
+# Corre a las 09:30, despues de la vigilancia general de las 09:00.
+30 9 * * * | [CRON] Corre `python3 bin/vigilancia_cambios.py` en /home/agent/workspace. Si dice OK-SILENCIO o SIN-QUOTA, NO escribas a Connie ni hagas nada mas. Si dice REVERTIR-RUTEO: QUITA la negativa 'botas' del grupo General (buscala con ad_group_criterion donde negative=TRUE y keyword.text='botas' en el grupo 181820804074, y borrala con adGroupCriteria:mutate operacion remove), VERIFICA que quedo fuera, y recien ahi avisale a Connie que lo revertiste y por que. Si dice HAY-QUE-AVISAR, mandale las alertas en HTML con las cifras y decile en una linea que propones; NO revierta nada sin avisar primero en ese caso.
