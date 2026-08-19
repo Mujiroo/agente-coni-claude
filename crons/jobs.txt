@@ -50,8 +50,15 @@
 # El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
 15 3 * * * | [CRON] Corre `python3 bin/negativas_pendientes.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADAS o YA-EXISTEN, avisale a Connie con `bash bin/tg.sh send` en HTML que las negativas de "reloj" quedaron aplicadas y verificadas, y despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 15 3), commitea y pushea. Si dice ERROR, avisale y deja el cron.
 
-# --- PENDIENTE: diagnostico del grupo "Botas de Bomberos" (19-ago-2026) ---
-# 15 keywords ENABLED con 0 impresiones en 30 dias. Falta ver si el grupo esta
-# pausado o sin anuncios aptos; ese dia se agoto la cuota de la API. Corre de
-# madrugada, cuando la cuota ya se repuso.
-30 3 * * * | [CRON] Corre `python3 bin/diagnostico_botas.py` en /home/agent/workspace. Si dice SIN-QUOTA, no avises nada y deja el cron. Si imprime el VEREDICTO, mandale a Connie con `bash bin/tg.sh send` en HTML la causa concreta de por que el grupo de botas no tiene impresiones y que harias tu para arreglarlo, corto. Despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 30 3), commitea y pushea.
+# --- PENDIENTE: crear el grupo "Botas" (aprobado por Connie 19-ago msg 179) ---
+# El texto del anuncio se lo mostre antes (msg 178) y lo aprobo. Quedo pendiente
+# porque la cuota de ESCRITURA de la API de Ads se agoto (~10 h).
+# NO TOCA NINGUN PRESUPUESTO: el grupo vive dentro de Campana Sudtec y comparte el
+# presupuesto que ya tiene. El techo de 300.000 CLP/mes no se mueve.
+# El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
+45 3 * * * | [CRON] Corre `python3 bin/crear_grupo_botas.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADO o YA-EXISTE, avisale a Connie con `bash bin/tg.sh send` en HTML que el grupo Botas quedo activo con sus keywords, el anuncio y la negativa en General, y RECUERDALE que no se modifico ningun presupuesto. Despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 45 3), commitea y pushea. Si dice ERROR, avisale con el detalle y deja el cron.
+
+# --- CHEQUEO: que el grupo Botas este recibiendo trafico (24-ago-2026) ---
+# Se le puso a General la negativa "botas" para rutear las busquedas al grupo nuevo.
+# Si el grupo nuevo NO sirve, esas 8 conversiones al mes se pierden en vez de mudarse.
+0 10 24 8 * | [CRON] Chequeo del grupo Botas de SUDTEC: con `bash bin/maton.sh` consulta en Google Ads (cliente 9907217991) las impresiones, clics y conversiones de los ultimos 5 dias del grupo llamado 'Botas'. Si tiene impresiones, avisale a Connie que el ruteo funciono, con las cifras. Si tiene CERO impresiones, avisale que el ruteo fallo y que conviene QUITAR la negativa 'botas' del grupo General para no seguir perdiendo esas busquedas. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 24 8"), commitea y pushea.
