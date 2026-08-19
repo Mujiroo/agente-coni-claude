@@ -3,7 +3,7 @@
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
 > ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
-> **19-ago-2026**. Recibidas las partes 1 y 2; ella avisó *«sigue la skill,
+> **19-ago-2026**. Recibidas las partes 1 a 3; ella avisó *«sigue la skill,
 > espera la siguiente»*. Faltan las reglas específicas por tipo de página
 > (categoría y ficha de producto) y el checklist final.
 >
@@ -165,6 +165,52 @@ contener la keyword principal o un sinónimo directo.
 - Usar palabras clave **secundarias** (sinónimos, términos relacionados,
   entidades del top 10 de Google).
 - **Jamás forzar la keyword** de forma antinatural.
+
+### Slug / URL
+
+- Contiene la **keyword principal**.
+- Sin acentos, sin caracteres especiales: solo letras, números y guiones medios.
+- **Máximo 60 caracteres** (blog y producto). **Máximo 100** (categoría con jerarquía).
+- Único en el sitio. Sin números aleatorios.
+- ✅ Ejemplo bueno: `/estrategia-marketing-digital`
+- ❌ Ejemplo malo: `/category/12345`
+
+### Imágenes
+
+| Atributo | Regla |
+|---|---|
+| **Peso — imagen en contenido** | ≤ 150 KB (todo lo que supere los 200 KB perjudica CWV/LCP) |
+| **Peso — imagen destacada** (featured) | ≤ 200 KB máximo absoluto |
+| **Formato** | WebP preferido (~30% más ligero que JPG). JPG como alternativa. No PNG salvo transparencia |
+| **Dimensiones — featured** | 1.200×628 a 1.920×1.080 px |
+| **Dimensiones — en contenido** | 600×400 a 800×600 px |
+| **Nombre de archivo** | Descriptivo con keyword, guiones medios, sin espacios. Ej: `estrategia-marketing-digital-2025.webp` |
+| **Alt text** | Obligatorio en **todas** las imágenes. Descripción precisa; incluye keyword cuando sea natural. Si la imagen es puramente decorativa, usar `alt=""` — pero **nunca omitir el atributo** |
+
+> **Herramienta:** **Photopea** para comprimir, convertir y ajustar imágenes.
+
+#### Ratio de imágenes según extensión (blog)
+
+| Extensión del artículo | Imágenes mínimas |
+|---|---|
+| 300–600 palabras | 1 |
+| 600–1.200 palabras | 2 |
+| 1.200–2.000 palabras | 3 |
+| 2.000–3.000 palabras | 5 |
+| 3.000+ palabras | 7 |
+
+### Formato de texto
+
+- **Párrafos: máximo 50 palabras.** Evitar muros de texto.
+- **4 tipos de formato enriquecido** en todo artículo de blog: negritas,
+  cursivas, listas (`<ul>` / `<ol>`) y citas en bloque (`<blockquote>`).
+- **Oraciones cortas — máximo 20 palabras.** Vocabulario simple y directo.
+
+### Anti-competencia
+
+**No mencionar marcas, tiendas o empresas rivales** en ningún contenido del
+cliente. Usar genéricos: «otras empresas del sector», «la competencia»,
+«alternativas del mercado».
 
 ---
 
