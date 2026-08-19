@@ -22,13 +22,16 @@
 # Solo avisa si algo se rompe. El silencio es la respuesta normal.
 0 9 * * * | [CRON] Vigilancia Ads SUDTEC: corre `python3 bin/vigilancia_ads.py` en /home/agent/workspace. Si la salida empieza con OK-SILENCIO, NO escribas a Connie ni hagas nada mas. Si dice HAY-QUE-AVISAR, mandale las alertas con `bash bin/tg.sh send` en HTML, cortito, con el contexto de cifras, y decile en una linea que harias tu. Si el script revienta o no corre, avisale igual que estas ciega.
 
-# --- RECORDATORIOS DE VIAJE (pedido por Connie 19-ago-2026, msg 151) ---
-# Ella viaja el 21-ago y NO va a revisar el calendario. Las tareas salieron de su
-# Google Calendar (calendario primario). OJO CON LA HORA: China es UTC+8 y Chile
-# UTC-4, o sea 12 horas de diferencia. Para que el aviso le llegue a las 09:00 de
-# China hay que dispararlo a las 21:00 de Chile del DIA ANTERIOR. Por eso las
-# fechas de abajo van corridas un dia hacia atras a proposito: NO son un error.
-# Cada job se borra a si mismo despues de avisar.
-0 21 3 9 * | [CRON] Recordatorio de viaje: manana 4-sep le toca el DEPOSITO A PLAZO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 3 de septiembre), commitea y pushea.
-0 21 10 9 * | [CRON] Recordatorio de viaje: manana 11-sep le toca la BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 10 de septiembre), commitea y pushea.
-0 21 13 9 * | [CRON] Recordatorio de viaje: manana 14-sep le toca PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 13 de septiembre), commitea y pushea.
+# --- RECORDATORIOS DE VIAJE (pedido por Connie 19-ago-2026, msgs 151 y 153) ---
+# Ella viaja a CHINA el 21-ago y NO va a revisar el calendario. El detalle de cada
+# tarea lo dio ella misma por chat; las fechas venian de su Google Calendar.
+#
+# HORA — leer antes de "corregir" las fechas: China es UTC+8 y Chile UTC-4, o sea
+# 12 horas. Ella pidio el aviso en su MANANA. Por eso cada job dispara a las 21:00
+# de Chile del DIA ANTERIOR, que son las 09:00 de China del dia de la tarea.
+# Las fechas corridas un dia hacia atras son A PROPOSITO. No son un error.
+#
+# Cada job se borra a si mismo despues de avisar, para no repetirse el ano que viene.
+0 21 3 9 * | [CRON] Recordatorio (le llega 4-sep 09:00 en China): hoy le DEPOSITAN el deposito a plazo. Tiene que VOLVER A DEPOSITARLO, dejando 200.000 SIN depositar. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con esos dos datos bien claros (volver a depositar + dejar 200.000 fuera). Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 3 9"), commitea y pushea.
+0 21 10 9 * | [CRON] Recordatorio (le llega 11-sep 09:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 10 9"), commitea y pushea.
+0 21 13 9 * | [CRON] Recordatorio (le llega 14-sep 09:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 13 9"), commitea y pushea.
