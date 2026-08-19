@@ -3,7 +3,7 @@
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
 > ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
-> **19-ago-2026**. Recibidas las partes 1 a 4; ella avisó *«sigue la skill,
+> **19-ago-2026**. Recibidas las partes 1 a 5; ella avisó *«sigue la skill,
 > espera la siguiente»*. Faltan las reglas específicas por tipo de página
 > (categoría y ficha de producto) y el checklist final.
 >
@@ -299,6 +299,73 @@ contenido que solo se probó en desktop.
 |---|---|---|
 | **Interno** | Relacionado con lo que se quiere posicionar en la página destino | Si el enlace apunta a la categoría «créditos personales», el anchor debe ser «créditos personales» o una variante de esa keyword |
 | **Externo** | Amplio, **sin intención SEO** | «más información», «según este estudio», «fuente», «referencia». **Nunca** una keyword que queramos posicionar |
+
+### Notificación de enlaces — obligatoria
+
+Cada vez que se añadan enlaces (internos o externos), entregar **al final del
+artículo** una tabla con todos los enlaces colocados:
+
+```
+ENLACES COLOCADOS EN ESTE ARTÍCULO
+─────────────────────────────────────────────────
+Tipo       | Anchor text           | URL
+─────────────────────────────────────────────────
+Interno    | créditos personales   | /creditos-personales
+Interno    | tasas de interés      | /blog/tasas-de-interes-2025
+Externo    | según este estudio    | https://ejemplo.com/estudio
+─────────────────────────────────────────────────
+```
+
+Cerrar con: *«Puedes cambiar cualquiera de estos enlaces antes de publicar.»*
+
+### CTAs
+
+**Antes de incluir CTAs, consultar con el cliente:**
+
+- ¿Se necesita CTA en este artículo?
+- ¿A qué página / servicio debe apuntar el CTA?
+
+**Recomendación:** el CTA debe apuntar a la página de servicio o categoría que se
+quiere impulsar con esa nota. El artículo y el CTA trabajan juntos para empujar
+tráfico hacia una página de conversión.
+
+- **Ubicación:** pueden ir a mitad del artículo y al final. **No en el primer párrafo.**
+- **Formato:** resaltados con `<strong>` o como párrafos destacados. Integrarlos
+  de forma natural en el flujo del texto.
+
+### Artículos relacionados
+
+- Cada artículo relacionado en **su propio párrafo**, con espacio antes y después.
+- Formato estándar:
+
+```html
+<p><strong>【 Lee también: <a href="URL">Título del artículo relacionado</a> 】</strong></p>
+```
+
+- **Nunca mezclar** dentro de un párrafo normal.
+
+### HTML limpio (cuando el entregable es HTML)
+
+- **Solo el contenido del artículo.** Sin `<html>`, `<head>`, `<body>`, `<style>`
+  ni estilos inline.
+- Jerarquía **H1 → H2 → H3 estricta**. Un único `<h1>` al inicio.
+- Párrafos `<p>` de 2–4 oraciones.
+- Listas `<ul>` / `<ol>` cuando aporten claridad.
+- **Sanear el output:** quitar fences ```` ```html ```` y cualquier fuga de
+  instrucciones antes de entregar.
+
+### Bloque META SEO (al final de cada artículo)
+
+Todo artículo de blog debe incluir este bloque al final, con los metadatos listos
+para cargar en el CMS:
+
+```html
+<!--META_START-->
+meta-title: [máx 60 caracteres — keyword principal + elemento de atracción]
+meta-description: [135-145 caracteres — keyword principal + CTA o beneficio]
+meta-slug: [2-4 palabras — minúsculas, sin acentos, solo letras/números/guiones]
+<!--META_END-->
+```
 
 ---
 
