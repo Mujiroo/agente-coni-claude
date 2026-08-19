@@ -2,10 +2,9 @@
 
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
-> ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
-> **19-ago-2026**. Recibidas las partes 1 a 6; ella avisó *«sigue la skill,
-> espera la siguiente»*. Faltan las reglas específicas por tipo de página
-> (categoría y ficha de producto) y el checklist final.
+> ✅ **COMPLETA.** Connie la envió por Telegram en 7 partes el **19-ago-2026**.
+> Están los cinco bloques: pipeline, reglas comunes, blog, categoría, ficha de
+> producto y checklist final.
 >
 > **Cuándo se aplica:** cada vez que Connie pida **un artículo, una página de
 > categoría o una ficha de producto**. Es decir, trabajo de **SEO y SEM**.
@@ -439,6 +438,66 @@ imágenes, cursivas, subtítulos y párrafos cortos.
 La mayoría del tráfico y de las compras son **mobile**. Revisar la ficha en
 mobile antes de aprobar.
 
----
+## 5. Checklist final antes de publicar
 
-⏳ *(continúa — pendiente de recibir el resto)*
+### Título y metadatos
+
+- [ ] H1 ≤ 70 caracteres con keyword
+- [ ] Metatítulo 50–60 caracteres con keyword al inicio
+- [ ] Metadescripción 135–145 caracteres con keyword al inicio
+- [ ] Slug con keyword, sin acentos ni caracteres especiales
+
+### Estructura
+
+- [ ] Jerarquía H1 → H2 → H3 respetada, sin saltos
+- [ ] Número de H2 según extensión (≥2, ~1 cada 300 palabras)
+- [ ] Al menos 2 H2 contienen la keyword o un sinónimo directo
+
+### Contenido
+
+- [ ] Mínimo 600 palabras (o la extensión acordada)
+- [ ] Densidad de keyword entre 0,3% y 2,5%
+- [ ] Keyword en H1, primer párrafo, al menos un H2/H3 y ALT de imagen
+- [ ] Palabras secundarias y entidades relacionadas incluidas
+- [ ] Contenido original, no copiado
+- [ ] Responde a la intención de búsqueda
+
+### Formato
+
+- [ ] Párrafos ≤ 50 palabras
+- [ ] Oraciones ≤ 20 palabras
+- [ ] 4 tipos de formato: negritas, cursivas, listas, citas (blockquotes)
+- [ ] Sin Title Case inglés en títulos (solo primera letra mayúscula)
+
+### Imágenes
+
+- [ ] Todas las imágenes tienen `alt` (obligatorio — descriptivo con keyword cuando sea natural)
+- [ ] Imágenes en contenido ≤ 150 KB; featured ≤ 200 KB
+- [ ] Formato WebP o JPG
+- [ ] Cantidad suficiente según extensión (ver tabla)
+
+### Extras — solo blog
+
+- [ ] Mini-briefing completado antes de redactar (país, tono, palabras negativas, CTAs, H1)
+- [ ] Mínimo 2 enlaces internos + 2 externos, distribuidos (primer párrafo / cuerpo / último)
+- [ ] Internos con anchor text relacionado a la keyword de la página destino
+- [ ] Externos con anchor text amplio, sin intención SEO
+- [ ] Tabla de enlaces notificada al redactor al final del artículo
+- [ ] Sin enlaces rotos, sin `href="#"` ni `href="javascript:"`
+- [ ] CTA consultado: destino acordado, ubicado a mitad y/o final del artículo
+- [ ] Artículos relacionados con formato 【 Lee también: … 】 en párrafo propio
+- [ ] No menciona marcas o empresas rivales
+- [ ] Sin H2/H3 «Conclusión» — último H2 con valor SEO
+- [ ] Bloque META SEO (`<!--META_START-->` / `<!--META_END-->`) al final
+
+### Extras — categoría y producto
+
+- [ ] Mínimo 1 enlace interno
+- [ ] Sin enlaces externos
+
+### Post-publicación
+
+- [ ] Categoría asignada en el CMS
+- [ ] URL canónica configurada correctamente en el CMS
+- [ ] Indexación solicitada en Search Console
+- [ ] Revisión mobile aprobada

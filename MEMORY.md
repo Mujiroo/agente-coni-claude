@@ -5,3 +5,4 @@
 - [Un 429 pasajero en Ads](vigilancia-ads-429-transitorio.md) — reintentar antes de avisar que estoy ciega; la proyección de una corrida fallida es falsa.
 - [Escalas y tablas en Google Slides](slides-escala-y-tablas.md) — las formas se normalizan a 3,28"; no reescalar con scaleX:1.
 - [Comparativo Kai vs Windsor.ai](comparativo-kai-windsor.md) — material de venta; hablar en general y de "el usuario", nunca de Constanza.
+- [El estándar SEO de Connie](skill-seo-de-connie.md) — leer la skill completa antes de escribir cualquier artículo; el briefing de 8 preguntas es bloqueante.

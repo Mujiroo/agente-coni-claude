@@ -75,7 +75,27 @@ Anotado ahora para no perder tiempo después:
 - **Nunca entregar como si fuera de ella.** Yo redacto, ella revisa y entrega —
   es su trabajo y su nombre.
 
+## Su estándar de redacción SEO
+
+**19-ago-2026** — Connie me pasó su skill completa de redacción SEO y pidió que
+la tenga en cuenta **cada vez que le escriba un artículo**. Está en
+[`skill-redaccion-seo.md`](skill-redaccion-seo.md), en esta misma carpeta.
+
+**Alcance que ella fijó, textual:** aplica a los pedidos de **SEO y SEM** —
+artículos de blog, páginas de categoría y fichas de producto. **No** aplica a sus
+otros pedidos, que son de otra naturaleza.
+
+Lo que más se me puede olvidar y ella dejó explícito:
+
+- **El mini-briefing de 8 preguntas es bloqueante.** Sin keyword, país, tono,
+  términos prohibidos y CTAs, *no se empieza a redactar*. Preguntar primero.
+- **Mínimo 600 palabras**, nunca menos.
+- Investigar antes: intención de búsqueda, H2/H3 del top 10, FAQs reales. **No
+  redactar «a ciegas».**
+- Entregar siempre la **tabla de enlaces colocados** y el **bloque META SEO** al
+  final del artículo.
+
 ## Estado
 
 🟡 **Guardado, sin trabajo ejecutado todavía.** Esperando que ella traiga el
-primer archivo.
+primer archivo. Su estándar de redacción ya está cargado.
