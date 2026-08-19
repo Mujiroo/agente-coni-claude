@@ -7,3 +7,4 @@
 - [Comparativo Kai vs Windsor.ai](comparativo-kai-windsor.md) — material de venta; hablar en general y de "el usuario", nunca de Constanza.
 - [El estándar SEO de Connie](skill-seo-de-connie.md) — aplica a TODOS sus clientes; la skill completa está en skill-redaccion-seo.md.
 - [Recordatorios del viaje de Connie](recordatorios-viaje-connie.md) — crons corridos 1 día por el desfase China-Chile; no es un error.
+- [Skill de Google Ads instalada](skill-google-ads.md) — leerla antes de cualquier trabajo de Ads; está en memory/skills/google-ads/.
