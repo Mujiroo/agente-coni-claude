@@ -2,3 +2,4 @@
 - [Maton tiene Google Slides](maton-google-slides.md) — novena app conectada, no está en CLAUDE.md.
 - [Un contador no es un envío](contadores-no-son-envios.md) — reporté 7 reenvíos cuando eran 2; verificar contra la fuente externa.
 - [Instagram no permite reaccionar por API](instagram-sin-reacciones.md) — solo texto, imagen y marcar visto.
+- [Un 429 pasajero en Ads](vigilancia-ads-429-transitorio.md) — reintentar antes de avisar que estoy ciega; la proyección de una corrida fallida es falsa.
