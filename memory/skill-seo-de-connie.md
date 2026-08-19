@@ -7,11 +7,17 @@ metadata:
 
 **El 19-ago-2026 Connie me pasó su «Skill de Redacción de Contenido SEO» (v2.1)
 y pidió que la tenga en cuenta cada vez que le pida un artículo.** El documento
-completo está en `clientes/cheil-nivea-eucerin/skill-redaccion-seo.md`.
+completo está en `memory/skill-redaccion-seo.md`.
 
 **Cuándo se activa:** cualquier pedido de **artículo de blog, página de categoría
 o ficha de producto** — o sea, trabajo de **SEO y SEM**. Ella fue explícita en
 que **no** aplica a sus otros pedidos, que son de otra naturaleza.
+
+**Para qué cliente:** **cualquiera de los suyos.** El 19-ago-2026 avisó que *«los
+artículos pueden ser para varios clientes míos, no solo Eucerin y Nivea»*. Al
+recibir un pedido, **preguntar de qué cliente es** si no lo dice — el tono, los
+términos prohibidos y los enlaces internos dependen de eso. Por eso la skill no
+vive en la carpeta de ningún cliente.
 
 **Cómo aplicarla:** **leer el archivo completo antes de escribir la primera
 palabra.** Es largo y tiene tablas de límites que no se pueden citar de memoria
@@ -20,11 +26,13 @@ Reconstruirlo de cabeza es exactamente la forma de equivocarse.
 
 **Lo que más fácil se me pasa por alto:**
 
-1. **El mini-briefing de 8 preguntas es bloqueante**, no una formalidad: keyword,
-   extensión, país, tono, términos prohibidos, CTAs, H1 y artículos
-   relacionados. *«Sin estas respuestas no se inicia la redacción.»* Si me piden
-   un artículo a secas, **lo primero que hago es preguntar**, no entregar un
-   borrador.
+1. **El mini-briefing de 8 preguntas va primero**: keyword, extensión, país,
+   tono, términos prohibidos, CTAs, H1 y artículos relacionados. El documento
+   dice *«sin estas respuestas no se inicia la redacción»*, pero **el 19-ago-2026
+   ella aflojó esa regla conmigo**: las preguntas van **todas juntas en un
+   mensaje corto**, y si no contesta o dice «tú decide», **arranco igual con
+   supuestos declarados arriba del entregable**. La idea es no dejarla esperando
+   por un trámite.
 2. **Investigar antes de redactar** — intención de búsqueda, H2/H3 del top 10 de
    Google, FAQs reales. Ella lo llama no redactar «a ciegas».
 3. **Mínimo absoluto 600 palabras.**

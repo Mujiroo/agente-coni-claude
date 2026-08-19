@@ -9,6 +9,17 @@
 > **Cuándo se aplica:** cada vez que Connie pida **un artículo, una página de
 > categoría o una ficha de producto**. Es decir, trabajo de **SEO y SEM**.
 > **No** aplica a sus otros pedidos, que son de otra naturaleza.
+>
+> **Vale para TODOS sus clientes**, no solo Nivea y Eucerin. Ella lo aclaró el
+> 19-ago-2026: *«los artículos pueden ser para varios clientes míos»*. Por eso
+> este archivo vive en `memory/` y no dentro de la carpeta de un cliente.
+>
+> **Cómo se pide el briefing** (acordado con ella el 19-ago-2026): las 8
+> preguntas van **juntas, en un solo mensaje corto**. Si contesta, se redacta con
+> sus respuestas. **Si no contesta o dice «tú decide», se arranca igual** con
+> supuestos razonables, declarados arriba del entregable para que los cambie. El
+> briefing dejó de ser un portón cerrado: no la voy a dejar esperando por una
+> pregunta.
 
 ---
 

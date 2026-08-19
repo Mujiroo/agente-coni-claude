@@ -78,8 +78,9 @@ Anotado ahora para no perder tiempo después:
 ## Su estándar de redacción SEO
 
 **19-ago-2026** — Connie me pasó su skill completa de redacción SEO y pidió que
-la tenga en cuenta **cada vez que le escriba un artículo**. Está en
-[`skill-redaccion-seo.md`](skill-redaccion-seo.md), en esta misma carpeta.
+la tenga en cuenta **cada vez que le escriba un artículo**. Vive en
+`memory/skill-redaccion-seo.md` —**no** en esta carpeta— porque **vale para
+todos sus clientes**, no solo Nivea y Eucerin.
 
 **Alcance que ella fijó, textual:** aplica a los pedidos de **SEO y SEM** —
 artículos de blog, páginas de categoría y fichas de producto. **No** aplica a sus
