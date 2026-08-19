@@ -31,12 +31,27 @@ tareas se ejecutan en Chile** —el banco, la boleta, la farmacia, Integramédic
 no donde ella esté. Le sirve el aviso cuando **abre el día chileno**, aunque a
 ella le llegue de noche.
 
-**Queda entonces simple: 09:00 hora de Chile, en la fecha exacta de la tarea.**
-09:00 en Chile = 21:00 en China del mismo día. Sin fechas corridas.
+**Después precisó la hora: las 22:00 de su noche en China.** Y ahí aparece una
+segunda trampa: **Chile entra en horario de verano el 6-sep-2026** (UTC-4 →
+UTC-3), justo en medio de las tres fechas. El mismo instante en China cae en una
+hora distinta de Chile antes y después:
 
-**La lección, más allá de este viaje:** al calcular un huso hay que preguntarse
-primero **dónde ocurre la tarea**, no solo dónde está la persona. Si me hubiera
-hecho esa pregunta, el desfase salía bien a la primera.
+| Fecha | Hora en Chile | = en China |
+|---|---|---|
+| 4-sep | **10:00** | 22:00 |
+| 11-sep | **11:00** | 22:00 |
+| 14-sep | **11:00** | 22:00 |
+
+Por eso los tres crons **no tienen la misma hora**. Verificado con `zoneinfo`, no
+a ojo. Si alguien los "empareja", dos avisos llegan una hora antes.
+
+**Dos lecciones, más allá de este viaje:**
+
+1. Al calcular un huso, preguntarse primero **dónde ocurre la tarea**, no solo
+   dónde está la persona. Si me lo hubiera preguntado, salía bien a la primera.
+2. **Un cron con fecha fija cruzando un cambio de horario no es una hora, son
+   dos.** Comprobar el offset **de cada fecha** con `zoneinfo` antes de escribir
+   la línea.
 
 **Cada cron se borra a sí mismo** después de avisar, así que no quedan repitiendo
 el año que viene.

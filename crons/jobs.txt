@@ -22,16 +22,23 @@
 # Solo avisa si algo se rompe. El silencio es la respuesta normal.
 0 9 * * * | [CRON] Vigilancia Ads SUDTEC: corre `python3 bin/vigilancia_ads.py` en /home/agent/workspace. Si la salida empieza con OK-SILENCIO, NO escribas a Connie ni hagas nada mas. Si dice HAY-QUE-AVISAR, mandale las alertas con `bash bin/tg.sh send` en HTML, cortito, con el contexto de cifras, y decile en una linea que harias tu. Si el script revienta o no corre, avisale igual que estas ciega.
 
-# --- RECORDATORIOS DE VIAJE (pedido por Connie 19-ago-2026, msgs 151, 153 y 155) ---
+# --- RECORDATORIOS DE VIAJE (pedido por Connie 19-ago-2026, msgs 151-156) ---
 # Ella viaja a CHINA el 21-ago y NO va a revisar el calendario.
 #
-# HORA — ella lo corrigio el 19-ago y la razon importa: las tareas SE EJECUTAN EN
-# CHILE (banco, boleta, farmacia, Integramedica). Por eso NO quiere el aviso en su
-# manana china, sino cuando la jornada chilena recien empieza, aunque a ella le
-# llegue de noche. 21:00 en China = 09:00 en Chile del MISMO dia.
-# O sea: los jobs van a las 09:00 hora Chile, en la fecha exacta de la tarea.
+# HORA — pidio los recordatorios a las 22:00 de SU noche en China, porque las
+# tareas SE EJECUTAN EN CHILE (banco, boleta, farmacia, Integramedica) y asi le
+# llegan cuando la jornada chilena recien abre.
+#
+# OJO: las horas de abajo NO son todas iguales, y es a proposito. Chile entra en
+# horario de verano el 6-sep-2026 (UTC-4 -> UTC-3), asi que el mismo momento en
+# China cae a una hora distinta de Chile antes y despues de esa fecha:
+#   4-sep  -> 10:00 Chile = 22:00 China  (Chile todavia en UTC-4)
+#   11-sep -> 11:00 Chile = 22:00 China  (Chile ya en UTC-3)
+#   14-sep -> 11:00 Chile = 22:00 China  (Chile ya en UTC-3)
+# Si alguien "corrige" las tres a la misma hora, dos avisos van a llegar una hora
+# antes de lo que ella pidio.
 #
 # Cada job se borra a si mismo despues de avisar, para no repetirse el ano que viene.
-0 9 4 9 * | [CRON] Recordatorio (09:00 Chile = 21:00 en China): hoy le DEPOSITAN el deposito a plazo. Tiene que VOLVER A DEPOSITARLO, dejando 200.000 SIN depositar. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con esos dos datos bien claros (volver a depositar + dejar 200.000 fuera). Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 9 4 9"), commitea y pushea.
-0 9 11 9 * | [CRON] Recordatorio (09:00 Chile = 21:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 9 11 9"), commitea y pushea.
-0 9 14 9 * | [CRON] Recordatorio (09:00 Chile = 21:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 9 14 9"), commitea y pushea.
+0 10 4 9 * | [CRON] Recordatorio (10:00 Chile = 22:00 en China): hoy le DEPOSITAN el deposito a plazo. Tiene que VOLVER A DEPOSITARLO, dejando 200.000 SIN depositar. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con esos dos datos bien claros (volver a depositar + dejar 200.000 fuera). Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 4 9"), commitea y pushea.
+0 11 11 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 11 9"), commitea y pushea.
+0 11 14 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 14 9"), commitea y pushea.
