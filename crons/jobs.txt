@@ -49,3 +49,9 @@
 # dijo "Retry in 35691 seconds" (~10 h). Corre de madrugada, cuando ya se repuso.
 # El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
 15 3 * * * | [CRON] Corre `python3 bin/negativas_pendientes.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADAS o YA-EXISTEN, avisale a Connie con `bash bin/tg.sh send` en HTML que las negativas de "reloj" quedaron aplicadas y verificadas, y despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 15 3), commitea y pushea. Si dice ERROR, avisale y deja el cron.
+
+# --- PENDIENTE: diagnostico del grupo "Botas de Bomberos" (19-ago-2026) ---
+# 15 keywords ENABLED con 0 impresiones en 30 dias. Falta ver si el grupo esta
+# pausado o sin anuncios aptos; ese dia se agoto la cuota de la API. Corre de
+# madrugada, cuando la cuota ya se repuso.
+30 3 * * * | [CRON] Corre `python3 bin/diagnostico_botas.py` en /home/agent/workspace. Si dice SIN-QUOTA, no avises nada y deja el cron. Si imprime el VEREDICTO, mandale a Connie con `bash bin/tg.sh send` en HTML la causa concreta de por que el grupo de botas no tiene impresiones y que harias tu para arreglarlo, corto. Despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 30 3), commitea y pushea.
