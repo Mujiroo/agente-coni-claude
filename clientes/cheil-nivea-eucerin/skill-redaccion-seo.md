@@ -2,10 +2,10 @@
 
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
-> ⏳ **PARTE 1 DE 2 — INCOMPLETA.** Connie la envió por Telegram el
-> **19-ago-2026** y avisó: *«sigue el skill, espera que te mande la segunda
-> parte»*. Falta desde el punto 1 (reglas comunes) en adelante: reglas
-> específicas por tipo de página y checklist final.
+> ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
+> **19-ago-2026**. Recibidas las partes 1 y 2; ella avisó *«sigue la skill,
+> espera la siguiente»*. Faltan las reglas específicas por tipo de página
+> (categoría y ficha de producto) y el checklist final.
 >
 > **Cuándo se aplica:** cada vez que Connie pida **un artículo, una página de
 > categoría o una ficha de producto**. Es decir, trabajo de **SEO y SEM**.
@@ -95,6 +95,77 @@ La keyword principal debe estar presente en estos **4 campos sin excepción**:
 Si la keyword no está en alguno de estos 4 campos, la página tiene una **brecha
 de optimización básica**.
 
+### Título (H1 + metatítulo)
+
+| Campo | Mínimo | Máximo | Notas |
+|---|---|---|---|
+| **H1** | — | 70 caracteres | Un único H1 por página |
+| **Metatítulo** | 50 caracteres | 60 caracteres | Puede ser diferente del H1 |
+
+- La keyword principal debe aparecer en **ambos** —H1 y metatítulo— sin excepción.
+- Si la keyword incluye un **modificador geográfico** (ej. «en Perú»), ese
+  modificador también debe estar en ambos campos: forma parte de la keyword, no
+  es decoración.
+- H1 y metatítulo pueden tener textos distintos, pero los dos deben contener la
+  keyword. El metatítulo puede orientarse a marketing (números, CTA) mientras
+  respete el límite de 60 caracteres.
+- **No poner el país en el H1 si no es parte de la keyword.** Repetir el país en
+  todos los H1 hace que el feed del blog se vea uniforme y artificial. Si la
+  keyword no lo incluye, el país va solo en el metatítulo y el slug.
+
+### Metadescripción
+
+- **135–145 caracteres.** Google trunca lo que exceda.
+- Incluir la keyword principal **al inicio** o lo más cerca del inicio posible.
+- Debe resumir el contenido de forma convincente (rol de **copy**, no de
+  descripción literal).
+- **No repetir el metatítulo.** La metadescripción complementa el título con un
+  ángulo distinto.
+- **Única por página.** Dos páginas con la misma metadescripción → canibalización
+  en SERP.
+- Alineada con la intención de búsqueda. Desalineación = rebote alto = Google
+  baja la página.
+
+> **Herramienta de validación:** extensión **SEO Meta in 1 Click** — muestra
+> metatítulo, metadescripción, H1 y headings reales de cualquier URL.
+
+### Estructura de encabezados
+
+- **H1:** uno por página, único en todo el sitio.
+- **H2:** secciones principales.
+- **H3 y siguientes:** sub-secciones. **Jamás saltar niveles** (no H1 → H3).
+- Si la página tiene H1, debe tener al menos un H2. Jerarquía mínima.
+
+#### Número de H2 según extensión (blog)
+
+| Extensión del artículo | H2 recomendados |
+|---|---|
+| 600–900 palabras | 2–3 H2 |
+| 900–1.500 palabras | 3–5 H2 |
+| 1.500–2.100 palabras | 5–7 H2 |
+| 2.100+ palabras | 7+ H2 |
+
+**Regla base:** 1 H2 cada ~300 palabras, mínimo 2. Al menos **2 H2** deben
+contener la keyword principal o un sinónimo directo.
+
+### Uso de palabras clave
+
+- Keyword principal en: **H1**, **primer párrafo**, **al menos un H2/H3**, y el
+  **ALT de al menos una imagen**.
+- Densidad entre **0,3% y 2,5%**.
+
+| Densidad | Estado |
+|---|---|
+| < 0,3% | Insuficiente — keyword poco presente |
+| 0,3%–2,5% | **Normal** — rango saludable |
+| 2,5%–4% | Alta — vigilar, puede sonar forzado |
+| > 4% | Riesgo de penalización |
+| > 5% | Penalización directa por *keyword stuffing* |
+
+- Usar palabras clave **secundarias** (sinónimos, términos relacionados,
+  entidades del top 10 de Google).
+- **Jamás forzar la keyword** de forma antinatural.
+
 ---
 
-⏳ *(continúa en la parte 2 — pendiente de recibir)*
+⏳ *(continúa — pendiente de recibir el resto)*
