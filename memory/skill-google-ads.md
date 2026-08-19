@@ -6,8 +6,14 @@ metadata:
 ---
 
 **El 19-ago-2026 Connie pidió buscar en GitHub una skill de Google Ads bien
-puntuada para apoyarme en ella.** Quedó instalada en
-`memory/skills/google-ads/` — la skill principal más 8 referencias, 104 KB.
+puntuada, y después pidió quedarse con las dos mejores** para poder «operar y
+auditar como un profesional». Quedaron instaladas **las dos**:
+
+- `memory/skills/google-ads/` — **operar** (104 KB)
+- `memory/skills/ads-auditoria/` — **auditar** (116 KB)
+
+**`memory/skills/README.md` explica cuál cargar en cada caso y qué hacer cuando
+se contradicen.** Leer ese archivo primero.
 
 **De dónde salió:** [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills),
 **44.901 estrellas**, licencia MIT, actualizado el mismo 19-ago-2026. Copié solo
@@ -36,11 +42,9 @@ búsqueda), `conversion-tracking.md`, `audit-guardrails.md`.
    15-30 conversiones al mes no alimenta el smart bidding**. «Competencias» gastó
    3.922 de 60.800: es una campaña muerta de hambre que habría que fusionar.
 
-**Un desacuerdo entre skills, para no citarlo como dogma:** la otra candidata
-fuerte ([`AgriciDaniel/claude-ads`](https://github.com/AgriciDaniel/claude-ads),
-8.253 ⭐, más orientada a auditoría) prohíbe proponer negativas sin un informe de
-términos de búsqueda. La instalada sí trae listas de negativas de arranque
-(free, cheap, jobs, course, pdf…), que es justo lo que usé para Sudtec. **Las dos
-son razonables; conviene saber que no coinciden.**
+**Se contradicen en un punto**, y la regla para conciliarlas está en
+`memory/skills/README.md`: las negativas **de higiene** al construir no necesitan
+informe de términos de búsqueda; **afirmar que una keyword existente desperdicia
+plata, sí**.
 
 Relacionado: [[skill-seo-de-connie]], [[vigilancia-ads-429-transitorio]]
