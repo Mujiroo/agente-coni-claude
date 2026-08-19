@@ -3,7 +3,7 @@
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
 > ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
-> **19-ago-2026**. Recibidas las partes 1 a 3; ella avisó *«sigue la skill,
+> **19-ago-2026**. Recibidas las partes 1 a 4; ella avisó *«sigue la skill,
 > espera la siguiente»*. Faltan las reglas específicas por tipo de página
 > (categoría y ficha de producto) y el checklist final.
 >
@@ -211,6 +211,94 @@ contener la keyword principal o un sinónimo directo.
 **No mencionar marcas, tiendas o empresas rivales** en ningún contenido del
 cliente. Usar genéricos: «otras empresas del sector», «la competencia»,
 «alternativas del mercado».
+
+### Schema markup
+
+El schema (datos estructurados) **no es responsabilidad del redactor**: es una
+configuración del CMS o del desarrollador. Aun así, el redactor debe saber qué
+tipo corresponde a cada página para coordinar con el equipo técnico:
+
+| Tipo de página | Schema correspondiente |
+|---|---|
+| Blog | `Article` |
+| Producto | `Product` (genera estrellitas, precio y disponibilidad en Google) |
+| Categoría | `BreadcrumbList` |
+
+### Categorización y nombrado
+
+- Asignar **categoría lógica** dentro del CMS a cada contenido creado.
+- Nombrar archivos/páginas de forma **única** para evitar contenido duplicado futuro.
+
+### Indexación en Search Console
+
+Después de publicar, **solicitar indexación manual**:
+
+1. Entrar a Google Search Console.
+2. Pegar la URL en la lupa «Inspeccionar las URLs».
+3. Si sale «No indexada» → clic en **«Solicitar indexación»**.
+
+### Mobile-first
+
+El contenido debe verse y navegarse bien en **mobile**. No dar por aprobado un
+contenido que solo se probó en desktop.
+
+---
+
+## 2. Reglas específicas — Notas de blog
+
+*Adicionales a las comunes.*
+
+### Extensión y subtítulos
+
+- **Nunca menos de 600 palabras.** Ver tabla de extensión en la Sección 0.
+- Número de H2: 1 cada ~300 palabras, mínimo 2. Ver tabla en la Sección 1.
+
+### Capitalización
+
+- Solo mayúscula en la **primera letra del título** y en **nombres propios**.
+- **Prohibido el Title Case** al estilo inglés.
+- ❌ Mal: «Cómo Mejorar Tu Estrategia»
+- ✅ Bien: «Cómo mejorar tu estrategia de marketing digital»
+
+### Keywords y negritas
+
+- `<strong>` **obligatorio** en la keyword principal (mínimo **3-4 veces**,
+  distribuida a lo largo del artículo).
+- `<strong>` también en keywords secundarias y términos clave de cada sección.
+- **No es decoración:** solo en lo que realmente es importante o clave.
+
+### Regla anti-conclusión
+
+**Nunca** usar «Conclusión», «En conclusión» ni «Conclusiones» como H2 o H3. El
+último H2 debe tener **título descriptivo con valor SEO**.
+
+- ❌ Mal: `<h2>Conclusión</h2>`
+- ✅ Bien: `<h2>Pasos para implementar tu estrategia de marketing digital</h2>`
+
+### Enlaces — exclusivo de notas de blog
+
+> Los enlaces internos y externos aplican **únicamente a notas de blog**, no a
+> páginas de categoría ni a fichas de producto.
+
+#### Distribución dentro del artículo
+
+| Posición | Tipo | Regla |
+|---|---|---|
+| **Primer párrafo** (tras el H1) | Interno o externo | Al menos 1 enlace |
+| **Cuerpo del artículo** (no en los primeros 2 párrafos ni en el último) | Interno o externo | Al menos 1 enlace |
+| **Último párrafo** | Interno o externo | Al menos 1 enlace |
+
+- **Mínimo 2 enlaces internos + 2 enlaces externos** por artículo.
+- Externos: `<a href="URL" target="_blank" rel="noopener">texto</a>`
+- Internos: `<a href="URL">texto</a>` (**sin** `target="_blank"`)
+- Sin enlaces rotos, sin `href="#"` ni `href="javascript:"`.
+
+#### Anchor text — regla crítica
+
+| Tipo | Anchor text | Criterio |
+|---|---|---|
+| **Interno** | Relacionado con lo que se quiere posicionar en la página destino | Si el enlace apunta a la categoría «créditos personales», el anchor debe ser «créditos personales» o una variante de esa keyword |
+| **Externo** | Amplio, **sin intención SEO** | «más información», «según este estudio», «fuente», «referencia». **Nunca** una keyword que queramos posicionar |
 
 ---
 
