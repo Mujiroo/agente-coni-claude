@@ -3,7 +3,7 @@
 > **Memoria operativa para ejecución por IA · Versión 2.1 — Abril 2026**
 >
 > ⏳ **EN RECEPCIÓN.** Connie la está enviando por Telegram por partes el
-> **19-ago-2026**. Recibidas las partes 1 a 5; ella avisó *«sigue la skill,
+> **19-ago-2026**. Recibidas las partes 1 a 6; ella avisó *«sigue la skill,
 > espera la siguiente»*. Faltan las reglas específicas por tipo de página
 > (categoría y ficha de producto) y el checklist final.
 >
@@ -366,6 +366,78 @@ meta-description: [135-145 caracteres — keyword principal + CTA o beneficio]
 meta-slug: [2-4 palabras — minúsculas, sin acentos, solo letras/números/guiones]
 <!--META_END-->
 ```
+
+## 3. Reglas específicas — Páginas de categoría
+
+*Adicionales a las comunes.*
+
+### Estructura recomendada
+
+1. **Contenido corto antes de la grilla de productos:** H1 + descripción breve
+   (2–3 líneas) con keyword principal.
+2. **Grilla de productos** en el medio.
+3. **Contenido largo al final:** párrafos con H2 sobre beneficios y
+   características de la categoría.
+4. **Acordeón o tab de FAQ al cierre:** preguntas frecuentes de la categoría.
+   Ideal para *rich snippets*.
+
+### Foco del contenido
+
+- Descripciones **útiles y detalladas** que aporten valor al usuario, no texto de
+  relleno.
+- Keyword principal + secundarias a lo largo del contenido.
+
+### Enlaces
+
+- **Mínimo 1 enlace interno** a una página relacionada (landing, producto
+  destacado, blog).
+- **Sin enlace externo** — las páginas de categoría son **páginas de conversión**;
+  no conviene desviar tráfico hacia afuera.
+
+---
+
+## 4. Reglas específicas — Fichas de producto
+
+*Adicionales a las comunes.*
+
+### Estructura del contenido
+
+- **Descripción corta:** bullets o pocos párrafos con especificaciones técnicas
+  (medidas, material, color, etc.).
+- **Descripción larga:** H2/H3 + párrafos con **tono comercial**. No es copia
+  técnica.
+
+#### Ejemplo de tono
+
+- ❌ Mal: «Cama King, 200×200 cm, base de madera.»
+- ✅ Bien: «Disfruta del espacio como nunca antes con nuestra cama King —
+  comodidad y espacio para toda la familia…»
+
+### Formatos amigables para lectura
+
+En la descripción larga incluir: listas con viñetas, negritas, numeraciones,
+imágenes, cursivas, subtítulos y párrafos cortos.
+
+### Contenido enriquecido
+
+- **FAQ por producto:** preguntas frecuentes respondiendo dudas reales, con
+  keywords integradas naturalmente.
+- **Multimedia:** video del producto en uso cuando sea viable. Aumenta la
+  permanencia (factor SEO positivo).
+- **Prueba social:** opiniones y valoraciones de usuarios. Aporta contenido único
+  + confianza + conversión.
+
+### Enlaces
+
+- **Mínimo 1 enlace interno** a la categoría principal del producto y/o a una
+  nota de blog relacionada.
+- **Sin enlace externo** — mismo criterio que categoría: no desviar tráfico desde
+  páginas de conversión.
+
+### Mobile
+
+La mayoría del tráfico y de las compras son **mobile**. Revisar la ficha en
+mobile antes de aprobar.
 
 ---
 
