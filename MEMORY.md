@@ -8,3 +8,4 @@
 - [El estándar SEO de Connie](skill-seo-de-connie.md) — aplica a TODOS sus clientes; la skill completa está en skill-redaccion-seo.md.
 - [Recordatorios del viaje de Connie](recordatorios-viaje-connie.md) — crons corridos 1 día por el desfase China-Chile; no es un error.
 - [Skill de Google Ads instalada](skill-google-ads.md) — leerla antes de cualquier trabajo de Ads; está en memory/skills/google-ads/.
+- [La cuota de la API de Google Ads](cuota-google-ads.md) — tope diario por token (de Maton, no de Connie); consultar una vez y guardar.
