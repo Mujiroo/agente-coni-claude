@@ -200,3 +200,60 @@ grupos están pausados de forma cruzada (`fireground` pausado con anuncio activo
 ## Estado
 
 🟢 Presupuesto **corregido y verificado**. Resto en espera de sus respuestas.
+
+---
+
+## 19-ago-2026 — Grupo de botas, keywords duplicadas y negativas
+
+*Trabajo pedido por Connie (msgs 162-175). Auditoría + dos cambios aplicados.*
+
+### Lo aplicado (con su autorización explícita)
+
+- ✅ **`accesorios bomberos` en FRASE → PAUSADA.** Verificado leyendo después de
+  escribir. Motivo: 2.176 CLP por conversión contra **657** de la exacta, y
+  10,53% de tasa de conversión contra **28,57%**. La exacta sigue activa.
+- ⏳ **Negativas `reloj` y `relojes`** (amplia, ambas campañas): autorizadas, **sin
+  aplicar todavía** — la cuota de escritura de la API se agotó. Quedó
+  `bin/negativas_pendientes.py` con cron a las 03:15. Sudtec **no vende relojes**:
+  verificado, 0 productos en el catálogo. Van las dos formas porque **las
+  negativas no reconocen plurales**.
+
+### El grupo de botas: está ELIMINADO, no pausado
+
+Connie creía que estaba pausado. **No: `REMOVED`, y hay dos grupos así.** Un grupo
+eliminado **no se puede reactivar** — hay que crear uno nuevo.
+
+Sus 2 anuncios estaban **ENABLED y APPROVED**: no falló el anuncio, alguien borró
+el grupo.
+
+Consecuencia hoy: las **15 keywords de botas no compiten**, y todo el tráfico de
+botas entra por `botas bombero` en **amplia** desde el grupo *General* —
+393 impresiones, 55 clics, **8 conversiones**, 15.764 CLP → **CPA 1.970**, por
+encima del promedio de la cuenta (1.675).
+
+### Otros grupos eliminados o pausados (hallazgo lateral)
+
+- `Cámara Termal` y `Hi lift`: **REMOVED**.
+- Campaña **Competencias**: el único grupo vivo es `Improfor`. `fireground`,
+  `maryun`, `Cespal Talca` y `Garmendia` están **PAUSED**. Es una campaña con
+  presupuesto asignado y prácticamente sin actividad.
+
+### Catálogo de botas contra las keywords
+
+**8 botas publicadas:** 6 **Lytos** (FR-1401 a FR-1406), 1 **Jolly** (9016/A),
+1 **Blauer** (CLASH®).
+
+- 7 de las 8 keywords del grupo borrado **calzan** con productos reales.
+- ❌ `botas de bomberos rosadas` **no tiene respaldo**: no hay botas rosadas.
+- ❌ **`Lytos` no aparece en ninguna keyword de toda la cuenta**, siendo **6 de las
+  8 botas**. Se puja por `botas jolly`, que es **un solo producto**. `Blauer`
+  tampoco está.
+
+### Propuesta (esperando su OK)
+
+Grupo **«Botas»** nuevo en Campaña Sudtec → `https://www.sudtec.cl/lista-productos/?yith_wcan=1&product_cat=botas`
+(URL verificada; da 403 a `curl` por el firewall del sitio, 200 desde navegador).
+
+Las 7 keywords válidas + **`botas lytos`** y **`botas blauer`**, sin las rosadas,
+y **`botas` como negativa en el grupo General** para rutear el tráfico sin gastar
+de más. La cuenta está topada por presupuesto: esto **reordena**, no suma gasto.
