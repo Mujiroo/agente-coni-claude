@@ -26,3 +26,10 @@ versión distinta por país para evitar duplicado, y relocalizando los enlaces
 internos a cada sitio local. Todo el detalle en
 `clientes/cheil-nivea-eucerin/estado.md`. Pidió guardarlo porque «eventualmente»
 me pedirá ayuda: cuando eso pase, **leer esa carpeta antes de responder**.
+
+**19-ago-2026** — **Viaja el 21-ago a China** y pidió que yo le avise sus tareas
+con fecha, porque no va a revisar el calendario. Quedaron tres avisos montados
+(4, 11 y 14 de septiembre). El detalle que importa: **China va 12 horas adelante
+de Chile**, así que los crons disparan el día anterior a las 21:00 de Chile.
+Todo el razonamiento está en `memory/recordatorios-viaje-connie.md`.
+**Falta saber la fecha de vuelta.**
