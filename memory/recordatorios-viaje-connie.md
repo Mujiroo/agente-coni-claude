@@ -18,28 +18,25 @@ una por chat el 19-ago (msg 153):
 - **14-sep-2026** — Dos cosas: **Nico** va a buscar el medicamento **Eutirox**, y
   ella **pide hora para la eco** en Integramédica.
 
-**La trampa, y es la parte importante:** mis crons corren en **America/Santiago**
-y ella va a estar en **China (UTC+8)**. Son **12 horas de diferencia**. Un aviso
-a las 09:00 de Chile le llega a las **21:00** de su día — inútil para una tarea
-que hay que hacer esa jornada.
+**La hora, que es donde me equivoqué y vale la pena tenerlo claro:**
 
-Por eso los crons están **corridos un día hacia atrás a propósito**: disparan a
-las **21:00 de Chile del día anterior**, que son las 09:00 de China del día de la
-tarea. Si alguien mira `jobs.txt` y ve fechas que no cuadran, **no es un error**;
-está explicado en el comentario del archivo.
+Mis crons corren en **America/Santiago** y ella está en **China (UTC+8)**: 12
+horas de diferencia. Mi primer supuesto fue avisarle en **su** mañana —21:00 de
+Chile del día anterior— porque di por hecho que las tareas eran suyas, para hacer
+donde estuviera.
 
-**Resuelto:** es **China**, lo confirmó ella el 19-ago. El calendario se llama
-«VIAJE TOKYO» pero ese nombre está viejo — **no fiarse del nombre del
-calendario**.
+**Estaba mal, y ella lo corrigió:** *«quiero que sea noche en China para que en
+Chile recién esté comenzando la jornada de esa fecha»*. La razón es que **las
+tareas se ejecutan en Chile** —el banco, la boleta, la farmacia, Integramédica—,
+no donde ella esté. Le sirve el aviso cuando **abre el día chileno**, aunque a
+ella le llegue de noche.
 
-**Sobre cómo lo pidió:** escribió *«avísame en la noche para que en Chile sea de
-mañana»*, con los países cambiados de lugar. Lo que quiere es evidente por el
-sentido del encargo —recibir el aviso **en su mañana**— y así quedó: 21:00 de
-Chile (noche acá) = 09:00 en China. Se lo confirmé con las dos horas explícitas
-para que pudiera corregirme si me equivocaba.
+**Queda entonces simple: 09:00 hora de Chile, en la fecha exacta de la tarea.**
+09:00 en Chile = 21:00 en China del mismo día. Sin fechas corridas.
 
-**Sigue pendiente: la fecha de vuelta.** Mientras no la sepa, cualquier aviso
-posterior mantiene el huso de China.
+**La lección, más allá de este viaje:** al calcular un huso hay que preguntarse
+primero **dónde ocurre la tarea**, no solo dónde está la persona. Si me hubiera
+hecho esa pregunta, el desfase salía bien a la primera.
 
 **Cada cron se borra a sí mismo** después de avisar, así que no quedan repitiendo
 el año que viene.
