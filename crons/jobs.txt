@@ -21,3 +21,14 @@
 # --- SUDTEC Google Ads: vigilancia diaria mientras Connie viaja (desde 17-ago-2026) ---
 # Solo avisa si algo se rompe. El silencio es la respuesta normal.
 0 9 * * * | [CRON] Vigilancia Ads SUDTEC: corre `python3 bin/vigilancia_ads.py` en /home/agent/workspace. Si la salida empieza con OK-SILENCIO, NO escribas a Connie ni hagas nada mas. Si dice HAY-QUE-AVISAR, mandale las alertas con `bash bin/tg.sh send` en HTML, cortito, con el contexto de cifras, y decile en una linea que harias tu. Si el script revienta o no corre, avisale igual que estas ciega.
+
+# --- RECORDATORIOS DE VIAJE (pedido por Connie 19-ago-2026, msg 151) ---
+# Ella viaja el 21-ago y NO va a revisar el calendario. Las tareas salieron de su
+# Google Calendar (calendario primario). OJO CON LA HORA: China es UTC+8 y Chile
+# UTC-4, o sea 12 horas de diferencia. Para que el aviso le llegue a las 09:00 de
+# China hay que dispararlo a las 21:00 de Chile del DIA ANTERIOR. Por eso las
+# fechas de abajo van corridas un dia hacia atras a proposito: NO son un error.
+# Cada job se borra a si mismo despues de avisar.
+0 21 3 9 * | [CRON] Recordatorio de viaje: manana 4-sep le toca el DEPOSITO A PLAZO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 3 de septiembre), commitea y pushea.
+0 21 10 9 * | [CRON] Recordatorio de viaje: manana 11-sep le toca la BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 10 de septiembre), commitea y pushea.
+0 21 13 9 * | [CRON] Recordatorio de viaje: manana 14-sep le toca PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro, diciendo que es para hoy en su hora de China. Despues borra ESTA linea de crons/jobs.txt (la del 13 de septiembre), commitea y pushea.
