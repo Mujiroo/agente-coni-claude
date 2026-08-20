@@ -1,0 +1,2968 @@
+{
+  "title": "Estado SEO",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 2,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 2,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2,
+        "endIndex": 130,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2,
+              "endIndex": 130,
+              "textRun": {
+                "content": "1. CONTENIDOS — qué está live, qué está aprobado o por subir, qué sigue en revisión del cliente y qué requiere ajustes nuestros\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ukqwi13za86k",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 130,
+        "endIndex": 131,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 130,
+              "endIndex": 131,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 131,
+        "endIndex": 133,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 131,
+              "endIndex": 132,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.go677kqf1xsf",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 132,
+              "endIndex": 133,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 133,
+        "endIndex": 134,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 133,
+              "endIndex": 134,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 134,
+        "endIndex": 174,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 134,
+              "endIndex": 174,
+              "textRun": {
+                "content": "EL CIRCUITO DE PUBLICACIÓN, PASO A PASO\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.nenr5r4r3p2j",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 174,
+        "endIndex": 262,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 174,
+              "endIndex": 262,
+              "textRun": {
+                "content": "1. Los artículos que están en “ready to upload” ya están en JIRA, en proceso de subida.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 262,
+        "endIndex": 319,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 262,
+              "endIndex": 319,
+              "textRun": {
+                "content": "2. JIRA demora entre 2 y 3 semanas en subir un artículo.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 319,
+        "endIndex": 384,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 319,
+              "endIndex": 384,
+              "textRun": {
+                "content": "3. Cuando lo suben, responden el ticket con la URL del artículo.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 384,
+        "endIndex": 507,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 384,
+              "endIndex": 507,
+              "textRun": {
+                "content": "4. Esa URL hay que revisarla: que los links funcionen, que los botones estén bien puestos y que las imágenes se vean bien.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 507,
+        "endIndex": 547,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 507,
+              "endIndex": 547,
+              "textRun": {
+                "content": "Pato está copiado en todos los tickets.\n",
+                "textStyle": {
+                  "bold": true,
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 547,
+        "endIndex": 548,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 547,
+              "endIndex": 548,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 548,
+        "endIndex": 595,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 548,
+              "endIndex": 595,
+              "textRun": {
+                "content": "LOS QUE DICEN “NOT READY” (MÉXICO Y GUATEMALA)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.bmldh4tmgop6",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 595,
+        "endIndex": 646,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 595,
+              "endIndex": 646,
+              "textRun": {
+                "content": "Son los que Nidia todavía no me revisa ni aprueba.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 646,
+        "endIndex": 686,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 646,
+              "endIndex": 686,
+              "textRun": {
+                "content": "· Cuando los aprueba, avisa por correo.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 686,
+        "endIndex": 861,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 686,
+              "endIndex": 861,
+              "textRun": {
+                "content": "· Sus comentarios y cambios se ven en el SharePoint del equipo (enlace más abajo), en el archivo [MX] H1 2026 Eucerin _ Localized Content, o [GT] según el país que se revise.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 861,
+        "endIndex": 1058,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 861,
+              "endIndex": 1058,
+              "textRun": {
+                "content": "· Dentro del archivo, cada pestaña corresponde a un artículo. Sus comentarios van en la columna “NIVEA comments”; a veces hace los cambios directamente sobre el contenido, depende de quién revise.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1058,
+        "endIndex": 1059,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1058,
+              "endIndex": 1059,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1059,
+        "endIndex": 1298,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1059,
+              "endIndex": 1070,
+              "textRun": {
+                "content": "IMPORTANTE:",
+                "textStyle": {
+                  "bold": true,
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1070,
+              "endIndex": 1298,
+              "textRun": {
+                "content": " esos comentarios y cambios de producto hay que pasarlos a la tarjeta de Trello del país que corresponda. JIRA saca el artículo final desde Trello, no desde el SharePoint, así que un cambio que no llegue a Trello no se publica.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1298,
+        "endIndex": 1299,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1298,
+              "endIndex": 1299,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1299,
+        "endIndex": 1322,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1299,
+              "endIndex": 1322,
+              "textRun": {
+                "content": "SharePoint del equipo:\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1322,
+        "endIndex": 1548,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1322,
+              "endIndex": 1547,
+              "textRun": {
+                "content": "https://bdfgrp.sharepoint.com/teams/EMSEASEOTransition/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FEMSEASEOTransition%2FShared%20Documents%2FLATAM%2FEucerin%2FCAMEX&viewid=634b1266%2D91bc%2D4297%2Db4fb%2D8ac787e80bd3",
+                "textStyle": {
+                  "underline": true,
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  },
+                  "link": {
+                    "url": "https://bdfgrp.sharepoint.com/teams/EMSEASEOTransition/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FEMSEASEOTransition%2FShared%20Documents%2FLATAM%2FEucerin%2FCAMEX&viewid=634b1266%2D91bc%2D4297%2Db4fb%2D8ac787e80bd3"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1547,
+              "endIndex": 1548,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1548,
+        "endIndex": 1612,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1548,
+              "endIndex": 1612,
+              "textRun": {
+                "content": "CUANDO EL CONTENIDO YA ESTÁ APROBADO: ABRIR EL TICKET DE SUBIDA\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ozl0uk1597hb",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1612,
+        "endIndex": 1714,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1612,
+              "endIndex": 1714,
+              "textRun": {
+                "content": "Aplica a Guatemala y México una vez que el contenido está escrito, aprobado y con los cambios hechos.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1714,
+        "endIndex": 1715,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1714,
+              "endIndex": 1715,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1715,
+        "endIndex": 1858,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1715,
+              "endIndex": 1723,
+              "textRun": {
+                "content": "Se crea ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1723,
+              "endIndex": 1784,
+              "textRun": {
+                "content": "un ticket de JIRA por cada país y por cada pieza de contenido",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1784,
+              "endIndex": 1858,
+              "textRun": {
+                "content": ". Es decir: si la misma pieza va a México y a Guatemala, son dos tickets.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1858,
+        "endIndex": 1859,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1858,
+              "endIndex": 1859,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1859,
+        "endIndex": 1888,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1859,
+              "endIndex": 1888,
+              "textRun": {
+                "content": "El ticket se abre desde acá:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1888,
+        "endIndex": 1972,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1888,
+              "endIndex": 1971,
+              "textRun": {
+                "content": "https://beiersdorf.atlassian.net/servicedesk/customer/portal/17/group/19?groupId=19",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://beiersdorf.atlassian.net/servicedesk/customer/portal/17/group/19?groupId=19"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1971,
+              "endIndex": 1972,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1972,
+        "endIndex": 1973,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1972,
+              "endIndex": 1973,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1973,
+        "endIndex": 2043,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1973,
+              "endIndex": 2043,
+              "textRun": {
+                "content": "Cómo llenarlo (los nombres de los campos aparecen en inglés en JIRA):\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2043,
+        "endIndex": 2168,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2043,
+              "endIndex": 2168,
+              "textRun": {
+                "content": "· Summary — País y marca | Nombre de la pieza | Fecha límite. Por ejemplo: Mexico Eucerin | Hyaluronic Acid | Due 27th April\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2168,
+        "endIndex": 2186,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2168,
+              "endIndex": 2186,
+              "textRun": {
+                "content": "· Priority — High\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2186,
+        "endIndex": 2204,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2186,
+              "endIndex": 2204,
+              "textRun": {
+                "content": "· Brand — Eucerin\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2204,
+        "endIndex": 2239,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2204,
+              "endIndex": 2239,
+              "textRun": {
+                "content": "· Market — el país que corresponda\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2239,
+        "endIndex": 2322,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2239,
+              "endIndex": 2322,
+              "textRun": {
+                "content": "· Language — el código de idioma del país: es-MX para México, es-GT para Guatemala\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2322,
+        "endIndex": 2349,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2322,
+              "endIndex": 2349,
+              "textRun": {
+                "content": "· Page type — Article page\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2349,
+        "endIndex": 2436,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2349,
+              "endIndex": 2436,
+              "textRun": {
+                "content": "· Links — el enlace a la versión UK de la página, que está en el content tracker sheet\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2436,
+        "endIndex": 2511,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2436,
+              "endIndex": 2511,
+              "textRun": {
+                "content": "· Description — pegar este texto, cambiando la ruta, el idioma y la fecha:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2511,
+        "endIndex": 2756,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2511,
+              "endIndex": 2756,
+              "textRun": {
+                "content": "Please localise the master page path 'Advice\u003e Skin \u003e Hyaluronic-acid-IRIS-05-25' for es-MX by X date and paste the live link in this ticket once complete. You can find the translation in this sheet (link the tdoc for your specific country tab).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2756,
+        "endIndex": 2757,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2756,
+              "endIndex": 2757,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2757,
+        "endIndex": 2823,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2757,
+              "endIndex": 2823,
+              "textRun": {
+                "content": "Después de crear el ticket quedan dos pasos que se olvidan fácil:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2823,
+        "endIndex": 2926,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2823,
+              "endIndex": 2926,
+              "textRun": {
+                "content": "1. Marcar la columna M de la hoja, para que internamente quede constancia de que el ticket ya se creó.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2926,
+        "endIndex": 3013,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2926,
+              "endIndex": 3013,
+              "textRun": {
+                "content": "2. Cuando CTRL QS responda con el link en vivo, pegarlo en la hoja EM Content Tracker.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3013,
+        "endIndex": 3014,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3013,
+              "endIndex": 3014,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3014,
+        "endIndex": 3047,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3014,
+              "endIndex": 3047,
+              "textRun": {
+                "content": "2. AUDITORÍAS Y CAMBIOS TÉCNICOS\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.pvd99ko6txqs",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3047,
+        "endIndex": 3134,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3047,
+              "endIndex": 3134,
+              "textRun": {
+                "content": "NIVEA está parado, así que hoy la única auditoría que se puede hacer es la de Eucerin.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3134,
+        "endIndex": 3135,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3134,
+              "endIndex": 3135,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3135,
+        "endIndex": 3232,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3135,
+              "endIndex": 3232,
+              "textRun": {
+                "content": "Para cualquier redirección de URL, cambio de metadata o similar hay que abrir un ticket en JIRA:\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3232,
+        "endIndex": 3233,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3232,
+              "endIndex": 3233,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3233,
+        "endIndex": 3258,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3233,
+              "endIndex": 3256,
+              "textRun": {
+                "content": "Paso 1. Entrar por acá:",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3256,
+              "endIndex": 3257,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.hjpdf5k7tysg",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3257,
+              "endIndex": 3258,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3258,
+        "endIndex": 3259,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3258,
+              "endIndex": 3259,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3259,
+        "endIndex": 3296,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3259,
+              "endIndex": 3294,
+              "textRun": {
+                "content": "Paso 2. Después, clic en esta otra:",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3294,
+              "endIndex": 3295,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.1kyf6rl2l8wc",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3295,
+              "endIndex": 3296,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3296,
+        "endIndex": 3297,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3296,
+              "endIndex": 3297,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3297,
+        "endIndex": 3353,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3297,
+              "endIndex": 3353,
+              "textRun": {
+                "content": "Paso 3. Rellenar los campos con lo que se quiere hacer.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3353,
+        "endIndex": 3354,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3353,
+              "endIndex": 3354,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3354,
+        "endIndex": 3379,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3354,
+              "endIndex": 3379,
+              "textRun": {
+                "content": "3. ESTADO ACTUAL DEL SEO\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.xfzyuo80se0z",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3379,
+        "endIndex": 3445,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3379,
+              "endIndex": 3445,
+              "textRun": {
+                "content": "· Los contenidos que fueron seleccionados ya tienen sus keywords.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3445,
+        "endIndex": 3536,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3445,
+              "endIndex": 3536,
+              "textRun": {
+                "content": "· Pendiente: que se cree el dashboard con las fechas de las traducciones y optimizaciones.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3536,
+        "endIndex": 3537,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3536,
+              "endIndex": 3537,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3537,
+        "endIndex": 3538,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3537,
+              "endIndex": 3538,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3538,
+        "endIndex": 3586,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3538,
+              "endIndex": 3586,
+              "textRun": {
+                "content": "4. SI HACEN FALTA CONTENIDOS ANTES DE MI VUELTA\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.vsq99wu8awmy",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3586,
+        "endIndex": 3664,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3586,
+              "endIndex": 3664,
+              "textRun": {
+                "content": "Si ven que se necesitan contenidos antes de que yo vuelva, se puede resolver:\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3664,
+        "endIndex": 3736,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3664,
+              "endIndex": 3736,
+              "textRun": {
+                "content": "· Hasta 5 artículos los puedo hacer yo sin problema, aunque esté fuera.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3736,
+        "endIndex": 3847,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3736,
+              "endIndex": 3847,
+              "textRun": {
+                "content": "· Un retraso de unos días no complica, porque ya no necesito la aprobación de IRIS: mando todo directo a JIRA.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3847,
+        "endIndex": 3921,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3847,
+              "endIndex": 3921,
+              "textRun": {
+                "content": "· Eso me permite enviar una tanda masiva de artículos a subir de una vez.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3921,
+        "endIndex": 3922,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3921,
+              "endIndex": 3922,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3922,
+        "endIndex": 3937,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3922,
+              "endIndex": 3937,
+              "textRun": {
+                "content": "PERSONAS CLAVE\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.un1z2ki2sucz",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3937,
+        "endIndex": 3989,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3937,
+              "endIndex": 3989,
+              "textRun": {
+                "content": "· Pato — está copiado en todos los tickets de JIRA.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3989,
+        "endIndex": 4062,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3989,
+              "endIndex": 4062,
+              "textRun": {
+                "content": "· Nidia — es quien revisa y aprueba los artículos de México y Guatemala.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4062,
+        "endIndex": 4122,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4062,
+              "endIndex": 4122,
+              "textRun": {
+                "content": "· IRIS — ya no hace falta su aprobación para mandar a JIRA.\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.8901961,
+                        "green": 0.99607843,
+                        "blue": 0.8784314
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Roboto",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true,
+    "documentFormat": {
+      "documentMode": "PAGES"
+    }
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "AIroW36k9a830eiLpFtLKk9wQ8w9Ox0drwZktYDbrPEd4R3o1wAXwqtdMV9S2c7Q-wV4krgYZo91twwZCWWjeE4QW3WpqepEaCXm5UabEw",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.1kyf6rl2l8wc": {
+      "objectId": "kix.1kyf6rl2l8wc",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd680KkeXNjx4ZLX9CA2nEOcLE_rtqcu4f_9OUxDP5x5NfuyvUAreNDlkQo0TfG4cHDP57S3ihmHfhbJnw0W7HjlcSD-1ZnX9wxTdGwDn10-Zm1-wZc99zFYn-WR0OK7rn-5B5YjqNZ0IpcD7aOKzKMK1ziF1Lqjsa5MW0QBXfejHGugHRt=s2048?key=WXaiY_MbPdKA4s7oFd0oCA",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 94.5,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 319.5,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    },
+    "kix.go677kqf1xsf": {
+      "objectId": "kix.go677kqf1xsf",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1s9RxvvYukqzTNtGz8qzGqUXvHWvLUVsosfYvt132xYBXeOv0v77baw4Flf_kCgplGgxY3qETjflN5mYlWIVFOYGMVQ-iYSdzWINB8VGgYlWQdSLTFBi1BezCDCDdhz9uSw_MmX8ihTIGNo4CBo9fpocsXNPVt3ydkI2BIYs3vOT1dOCh=s2048?key=WXaiY_MbPdKA4s7oFd0oCA",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 229,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 451.27559055118115,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    },
+    "kix.hjpdf5k7tysg": {
+      "objectId": "kix.hjpdf5k7tysg",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd25cskDmggYcmbUF-Lbl0a_zf19ZWUZtyDjh6l9ZAhcikxlhXGXIrU2YnFNtd-WVdDxCrxlctL08rEssHqJ5vq309lkR1FA3207PP8iAOZnhDGDsqVKp8c2A1SPdd_jbhgzmGhPZBInQq186vapYNlHpTOshh38f4ffoRquJTI8Zkmfg=s2048?key=WXaiY_MbPdKA4s7oFd0oCA",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 197,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 451.27559055118115,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
+  "documentId": "1QMFAzWbsZQvN2-9S_iIpvmPQoq0JfWhvHoTGfOoreT8"
+}
+

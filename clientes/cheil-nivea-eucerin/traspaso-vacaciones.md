@@ -122,3 +122,51 @@ Su doc cubre Contenidos, JIRA, auditorías y estado. De los nueve puntos pedidos
 faltan **H2 Content Plans**, **reporting/rankings**, **stakeholders por país** y el
 resto de **links** (Trello, JIRA, dashboards). Ofrecido agregarlos con lo que ella
 dicte.
+
+
+## 20-ago 11:57 — Sección del ticket de JIRA (msg 238)
+
+Connie mandó el proceso oficial (en inglés) y pidió agregarlo. Quedó como H2
+dentro de la sección 1, **después** de los «not ready», que es el orden real:
+primero aprueba Nidia, después se abre el ticket.
+
+**Portal:** `https://beiersdorf.atlassian.net/servicedesk/customer/portal/17/group/19?groupId=19`
+
+**Regla clave:** **un ticket por país y por pieza de contenido.** La misma pieza
+para México y Guatemala son **dos tickets**.
+
+Campos (nombre en inglés, como aparece en JIRA):
+
+| Campo | Qué va |
+|---|---|
+| Summary | `País y marca | Nombre de la pieza | Fecha límite` |
+| Priority | High |
+| Brand | Eucerin |
+| Market | el país |
+| Language | `es-MX` (México) · `es-GT` (Guatemala) |
+| Page type | Article page |
+| Links | versión UK de la página (está en el content tracker sheet) |
+| Description | texto fijo para pegar, cambiando ruta, idioma y fecha |
+
+**Los dos pasos que se olvidan:**
+1. Marcar la **columna M** de la hoja → deja constancia interna de que el ticket
+   se creó.
+2. Cuando **CTRL QS** responde con el link en vivo, pegarlo en la hoja
+   **EM Content Tracker**.
+
+**Adaptaciones hechas (avisadas a Connie):** el ejemplo original era de Brasil /
+`pt-BR`; se cambió a México y se pusieron los códigos de sus mercados.
+
+### 🐞 El error que hay que evitar al insertar en un Google Doc
+
+Se insertó el texto en el índice donde **empezaba un párrafo con estilo
+`HEADING_1`**, y **todo el bloque insertado heredó ese estilo**: 20 párrafos como
+título gigante.
+
+**Regla:** el texto insertado hereda el estilo del párrafo en cuyo índice se
+inserta. Después de insertar, **siempre releer y forzar `NORMAL_TEXT`** en el
+rango nuevo, y revisar los **párrafos vacíos**, que también se quedan con el
+estilo heredado y dejan huecos enormes.
+
+Verificación final: **4 H1, 4 H2, 3 imágenes**. Copia del estado final en
+`traspaso-doc-estado-20ago-final.json`.
