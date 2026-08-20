@@ -46,7 +46,7 @@ token generado por el propio conector. Sospecha: **la clave no quedó guardada**
 **Que «active» en Composio NO significa que la credencial sirva** — solo que se
 guardó algo. La única prueba válida es una llamada real.
 
-### 🔴 Causa raíz confirmada: el conector no pasa la API key
+### ❌ Diagnóstico EQUIVOCADO (se corrigió, queda por la lección)
 
 Connie cargó **dos claves distintas** (msgs 253 y 255). En las dos, el valor que
 Composio envía a Semrush en el parámetro `key=`:
@@ -55,17 +55,42 @@ Composio envía a Semrush en el parámetro `key=`:
 - **mantuvo el prefijo `semrtkn-pat-`**, que es formato de **token de Composio**,
   no de clave de Semrush.
 
-**Conclusión: el conector genera un identificador propio y manda ese en lugar de la
-clave. La clave de ella nunca llega a Semrush.** Por eso el `ERROR 122`.
+**Se concluyó —mal— que el conector generaba un token propio y no pasaba la clave.**
+
+**Era falso.** Connie mandó una captura de su pantalla de API Keys (msg 257) y el
+**final de su clave coincide con el final del valor que el conector envía**. La
+clave SÍ llegaba.
+
+**El prefijo `semrtkn-pat-` es el formato de las claves v4 de Semrush**, no un
+token de Composio.
 
 No hay **una** sola conexión duplicada (verificado con `action: "list"`: una sola
 cuenta activa), así que tampoco es que use la vieja.
 
-**No sirve seguir pegando claves.** Es configuración de la plataforma → **Nicolás**.
+### 🔑 La causa real: choque de versiones de API
 
-Mensaje para él, ya redactado: *«El conector de Semrush en Composio no está pasando
-la API key: manda un token propio con prefijo `semrtkn-pat-` y Semrush responde
-ERROR 122. Probado con dos claves distintas.»*
+Su captura muestra la clave creada con **Version: v4**, permisos *Read-only*.
+
+Las herramientas de Semrush en Composio llaman al **API clásico**
+(`https://api.semrush.com/?type=phrase_this&key=...`), que espera una clave
+**de formato antiguo**: cadena alfanumérica larga, **sin prefijos ni guiones**.
+
+Una clave **v4** en ese endpoint da `ERROR 122 :: WRONG FORMAT OR EMPTY KEY`. La
+clave es válida; es **del tipo equivocado para esa API**.
+
+**Dónde está la clave clásica:** Semrush → **Info de suscripción** (no «API Keys»)
+→ sección **API units**. Si esa sección no existe o marca 0 unidades, ahí sí el
+bloqueo es el plan Guru.
+
+### ⚠️ La lección de método
+
+**Dos claves fallando con el mismo prefijo parecía prueba suficiente de que el
+conector inventaba el token. No lo era.** Faltaba el dato que solo se veía en la
+pantalla de ella: que el prefijo es el formato v4 de Semrush.
+
+**Antes de declarar causa raíz y mandar a escalar, pedir la captura de la pantalla
+del otro lado.** Un patrón consistente puede tener una explicación completamente
+distinta a la que uno infiere desde su lado del cable.
 
 ### ✅ La salida que NO depende de arreglar nada
 
