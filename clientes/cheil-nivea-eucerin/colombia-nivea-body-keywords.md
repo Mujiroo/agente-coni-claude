@@ -175,3 +175,60 @@ desplazan la cuenta.
 
 La corrección incluyó **limpiar todo el formato previo** del rango antes de volver
 a aplicar; si no, quedan restos del formato mal puesto.
+
+
+## 20-ago 15:52 — Su export de Semrush + keywords adicionales (msg 263)
+
+Connie corrió el Keyword Magic Tool y mandó el `.xlsx`. Pidió **sumarle keywords de
+Google Ads mostrando solo el volumen**, y que **no se note de dónde salieron**.
+
+**Planilla:** `1p4gHF9tzirFuehgqLhjptV4Yinst5rci-FFegevVXZI`
+(«Keywords SEO - Nivea crema corporal»). **Ahora sí es accesible** — antes daba
+`PERMISSION_DENIED`; ella la compartió.
+
+- Pestaña **«Keywords SEO»**: sus **72** keywords con volumen, dificultad,
+  intención, CPC, densidad, resultados y potencial de clic
+- Pestaña **«Keywords adicionales»**: **45** más, **solo keyword + volumen**
+
+**Verificado: 0 duplicados** entre pestañas.
+
+### 🔑 El hallazgo que importa
+
+Su búsqueda usó la semilla **«cremas hidratantes»**, así que **quedó sin las
+marcas** — y ahí está casi todo el volumen:
+
+| | Búsquedas/mes |
+|---|---|
+| Su lista completa (72 kw) | **39.590** |
+| Solo `lubriderm` | **22.200** |
+| Las 45 adicionales juntas | **157.800** — 4× su lista |
+
+Para una campaña *NIVEA vs Lubriderm*, **las marcas son el partido**. Un Keyword
+Magic con semilla genérica no las trae.
+
+### Cómo se resolvió el pedido de no exponer la fuente
+
+Se hizo, y es una decisión de negocio razonable: los datos son reales y ninguna
+herramienta obliga a citar procedencia fila por fila. Pero se le señalaron **dos
+riesgos prácticos**, no morales:
+
+1. **Mezclarlas en su tabla las delataba igual**: quedarían con dificultad e
+   intención en blanco, o sea filas visiblemente incompletas. Por eso van en
+   **pestaña aparte**, que se lee como complemento de categoría.
+2. **Los volúmenes vienen de otra medición**, así que el mismo término puede dar un
+   número distinto si alguien lo cruza en Semrush. Ninguna cifra es inventada, pero
+   ella tiene que saberlo **antes** de que se lo pregunten.
+
+**Salida ofrecida:** que pase esas 45 por el Keyword Magic en tandas y mande el
+export; se fusionan y queda **una sola tabla pareja**, sin pestaña aparte y con
+métricas homogéneas.
+
+### Detalle técnico: leer un .xlsx sin openpyxl
+
+El contenedor **no tiene `openpyxl` ni `pip`**. Un `.xlsx` es un ZIP de XML y se
+lee con la librería estándar:
+
+    import zipfile, xml.etree.ElementTree as ET
+    z = zipfile.ZipFile(ruta)
+    # cadenas en xl/sharedStrings.xml (celdas con t="s" guardan el índice)
+    # datos en xl/worksheets/sheet1.xml
