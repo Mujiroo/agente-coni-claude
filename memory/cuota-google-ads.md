@@ -42,3 +42,38 @@ me ordeno yo. Si vuelve a topar con la cuenta ordenada, ahí sí se pide, con el
 dato concreto de cuándo y haciendo qué.
 
 Relacionado: [[vigilancia-ads-429-transitorio]], [[skill-google-ads]]
+
+
+---
+
+## 20-ago-2026 — Volvió a pasar, y esta vez agoté LAS DOS vías
+
+Se agotó la cuota **dos veces en el mismo día**:
+
+1. **~13:30** — Maton, diagnosticando el anuncio rechazado. Se salió por Composio
+   ([[composio-respaldo-google-ads]]), que tiene cuota independiente.
+2. **~19:00** — **Maton Y Composio**, revisando por qué el grupo Botas no arranca.
+   Sin salida: reintento a las ~06:40 del 21-ago.
+
+**Consecuencia real:** quedó sin hacer el diagnóstico de las keywords del grupo
+Botas, justo el día antes de que Connie viajara. Hubo que agendarlo para las 07:00
+del día siguiente.
+
+### Lo que aprendí de verdad
+
+**Tener un plan B no es tener cuota infinita.** Saber que Composio existía me hizo
+consultar con menos cuidado durante la tarde. El respaldo sirve para no quedar
+ciego en una emergencia, **no para gastar al doble**.
+
+**Reglas que se agregan a las de arriba:**
+
+1. **Presupuestar el día, no la consulta.** Antes de una jornada con trabajo de Ads,
+   asumir un tope aproximado de llamadas y reservar margen para lo urgente de la
+   tarde. Lo que se gasta en diagnosticar en la mañana no está para operar después.
+2. **Guardar el JSON de cada consulta amplia en el scratchpad y releerlo.** Varias
+   llamadas de hoy pidieron datos que ya estaban en memoria de la conversación.
+3. **Cuando el respaldo también sea la única vía, avisar antes de gastarlo.** Si
+   Maton ya cayó, cada llamada por Composio es el último cartucho del día.
+4. **Dejar la consulta pendiente escrita en el archivo de estado**, con el GAQL
+   completo, para que la próxima corrida no tenga que re-derivarla.
+   Se hizo en `memory/estado/anuncio_botas.json`, campo `consulta_pendiente`.
