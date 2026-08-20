@@ -85,8 +85,50 @@ caché no tapa el golpe.
 (no hay Wordfence, Sucuri ni similar). El 403 es una página genérica de
 **LiteSpeed**, sin ID de incidente: es del **servidor / hosting**.
 
-**Lo que hay que pedir:** que el hosting deje pasar a **Googlebot** y
-**AdsBot-Google** (y de paso Bingbot). Ni Connie ni yo lo podemos tocar.
+### CONFIRMADO por Connie (msg 204, 20-ago 09:42)
+
+**La semana del 11-ago se puso un bloqueo de robots en el `.htaccess`**, porque el
+sitio estaba bajo un **ataque de bots** que navegaban el sitio, saturaban procesos
+internos y lo dejaban caído.
+
+O sea: el 403 es **intencional y reciente**, y calza con la fecha en que el
+anuncio se cayó. No es un problema del hosting "por error" — es una defensa real
+puesta a mano, mal calibrada.
+
+**Alcance medido** (forzando cache MISS): **todo el sitio** devuelve 403 a
+Googlebot y AdsBot — home, `/lista-productos/`, categorías y fichas de producto.
+Solo `robots.txt` y `sitemap_index.xml` pasan, por ser estáticos (no tocan PHP).
+
+### El defecto de la regla: filtra por user-agent, y eso se miente
+
+**Probado:** una petición desde `curl` declarando un user-agent de Chrome
+**inventado** pasa con **200**. Sin bloqueo.
+
+Entonces la regla:
+
+- **NO detiene** a los bots del ataque, que basta con que manden un UA de navegador
+- **SÍ detiene** a Googlebot, AdsBot y Bingbot, que son los únicos que declaran
+  honestamente quiénes son
+
+Está frenando exactamente a los que no molestan.
+
+### Lo que se pidió (msgs 206 y 207)
+
+Mínimo — agregar a la regla existente la excepción:
+
+    RewriteCond %{HTTP_USER_AGENT} !(Googlebot|AdsBot-Google|Google-InspectionTool|Storebot-Google|bingbot) [NC]
+
+De fondo — contra bots que mienten, el user-agent no sirve: va **rate limiting por
+IP** o un **Cloudflare** que verifique robots de verdad.
+
+**Pendiente:** que Connie mande el bloque actual del `.htaccess` para devolver el
+parche exacto. Yo no tengo acceso a archivos del servidor.
+
+### Lo urgente no es el anuncio
+
+**Googlebot lleva desde la semana del 11-ago recibiendo 403 en todo el sitio.**
+Si se sostiene, Google empieza a desindexar. El anuncio rechazado es el síntoma
+barato; la pérdida orgánica es la cara — y Connie vive del SEO.
 
 ## La señal que se dejó pasar el 19-ago
 
