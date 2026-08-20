@@ -121,7 +121,7 @@ Lytos). También 200 al robot.
 Hay **dos categorías "Botas"** en Woo: id **280** slug `botas` (8 productos) e id
 **302** slug `botas-material-forestal` (6).
 
-## Estado — NO resuelto (la URL se cambió igual, pero no era la causa)
+## Estado — ✅ RESUELTO (aprobado el 20-ago 14:00)
 
 Connie dio el OK (msg 199) y se aplicó el cambio con `ads:mutate`
 (`updateMask=finalUrls`) sobre el ad `821602063409`.
@@ -269,3 +269,36 @@ concluir nada — y mejor purgar acotado que todo.
 **Carros de Bomberos** apunta a *Material Mayor*, que tiene **3 productos**. El
 enlace funciona, pero promete más de lo que muestra. Planteado a Connie (msg 233)
 para revisarlo a su vuelta; **no se tocó** porque es decisión suya.
+
+
+## ✅ Cierre — 20-ago-2026 14:00
+
+Google reejecutó la comprobación de destino, esta vez contra la URL nueva, y el
+anuncio **quedó APPROVED**:
+
+- `approvalStatus`: **APPROVED** · `reviewStatus`: REVIEWED
+- `policyTopicEntries`: **vacío** — cayeron **las dos**, incluida
+  `UNAPPROVED_SUBSTANCES`
+
+**Confirma toda la cadena de diagnóstico:** el destino con `yith_wcan=1` daba 403
+al robot por la regla del `.htaccess`, y el rechazo que Connie recibió a las 10:39
+era el **veredicto viejo** (comprobación de las 07:00, anterior al cambio de las
+09:12). Lo de «sustancias» era ruido asociado, no una infracción propia del texto.
+
+**Tiempo real del ciclo:** cambio a las **09:12** → aprobado visto a las **14:00**.
+Unas **5 horas**, no el día hábil que Google indica como referencia.
+
+### Sitelinks, 3 horas después del cambio
+
+De los 9 modificados: **6 APPROVED, 3 REVIEW_IN_PROGRESS, 0 rechazados.**
+
+| Estado | Sitelinks |
+|---|---|
+| APPROVED | Uniformes Bomberos · Carros de Bomberos · Linternas Bomberos · Cámaras Termales · EPP Bomberos · Herramientas Rescate |
+| En revisión | Cámara Termal · Herramientas de Rescate · EPP |
+
+### Lo que queda
+
+El grupo Botas sigue con **0 impresiones** — esperable, se aprobó recién. Si a la
+pasada de las 19:00 sigue en cero, **ahí sí hay algo más que mirar** (puja,
+keywords o presupuesto), no el destino.

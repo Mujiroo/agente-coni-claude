@@ -2,10 +2,12 @@
  "ad_id": "821602063409",
  "customer_id": "9907217991",
  "grupo": "Botas (197186444097)",
- "url_nueva": "https://www.sudtec.cl/product-category/epp/botas/",
+ "url_final": "https://www.sudtec.cl/product-category/epp/botas/",
  "cambio_aplicado": "2026-08-20T09:12:00-04:00",
- "ultimo_estado_visto": "DISAPPROVED",
- "ultima_comprobacion_google": "2026-08-20 07:00 (ANTERIOR al cambio)",
- "url_que_google_probo": "https://www.sudtec.cl/lista-productos/?yith_wcan=1&product_cat=botas",
- "nota": "Mientras la comprobacion de Google siga siendo anterior a las 09:12 del 20-ago, el rechazo es viejo y NO hay que avisar ni tocar nada."
+ "estado": "APPROVED",
+ "review_status": "REVIEWED",
+ "politicas": "ninguna — cayeron DESTINATION_NOT_WORKING y UNAPPROVED_SUBSTANCES",
+ "aprobado_visto": "2026-08-20T14:00-04:00",
+ "impresiones_hoy": 0,
+ "nota": "Resuelto. El rechazo era por la URL vieja con yith_wcan. Queda ver que el grupo empiece a tener impresiones; la vigilancia diaria lo cubre."
 }
