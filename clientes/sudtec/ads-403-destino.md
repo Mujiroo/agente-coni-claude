@@ -45,90 +45,56 @@ queda apuntando a una lista mezclada.
 `/categoria-producto/botas/` tampoco sirve: **redirige a un producto suelto**
 (Bota Blauer CLASH), no es una categoría.
 
-## CORRECCIÓN (20-ago 09:35) — la causa NO era el parámetro
+## LA VERSIÓN DEFINITIVA (20-ago 09:50, con el `.htaccess` a la vista)
 
-Todo lo de arriba **quedó desmentido**: el anuncio se volvió a rechazar con la
-URL nueva. La tabla de 403/200 estaba **confundida por la caché de LiteSpeed**.
+Connie mandó el `.htaccess` (msg 208). El bloque que importa:
 
-Lo que pasa de verdad:
+    # === BLOQUEO DE BOTS AGRESIVOS ===
+    RewriteCond %{HTTP_USER_AGENT} (Barkrowler|babbar|GPTBot|CCBot|ClaudeBot|anthropic-ai|
+      Bytespider|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|DataForSeoBot|ZoominfoBot|
+      serpstatbot|BLEXBot) [NC]
+    RewriteRule .* - [F,L]
+    ...
+    RewriteCond %{QUERY_STRING} (yith_wcan=|filter_|min_price=|max_price=) [NC]
+    RewriteCond %{HTTP_USER_AGENT} !(Chrome|Firefox|Safari|Edg|OPR)/ [NC]
+    RewriteRule .* - [F,L]
 
-- Petición que llega a **PHP** (cache **MISS**) → **403 a cualquier robot**
-- Petición servida desde **caché** (`x-litespeed-cache: hit`) → **200 a todos**
+**Googlebot y AdsBot NO están en la lista de bots bloqueados.** Lo único que los
+golpea es la última regla: **URL con parámetro de filtro + user-agent que no sea
+navegador → 403**.
 
-Las páginas que parecían "buenas" (`/lista-productos/`, home, la categoría)
-estaban simplemente **cacheadas**. La del filtro no lo estaba. De ahí la falsa
-conclusión de que el culpable era `yith_wcan=1`.
+Puesto en fecha: el bloqueo se agregó la semana del 11-ago-2026 por un **ataque de
+bots** que navegaban el sitio y saturaban procesos (Connie, msg 204). La regla de
+los filtros ataca exactamente eso: la navegación facetada genera combinaciones
+infinitas de URL y es lo que tumba el PHP.
 
-**Prueba decisiva** (URL con parámetro aleatorio, siempre MISS):
+**Conclusión: la causa era la del primer diagnóstico.** El anuncio apuntaba a
+`?yith_wcan=1&product_cat=botas` → regla 4 → 403 → `DESTINATION_NOT_WORKING`.
+Cambiar el destino a `/product-category/epp/botas/` **es el arreglo correcto**, y
+ya está aplicado.
 
-| User-agent | Resultado |
-|---|---|
-| Chrome escritorio / Safari iPhone | **200** |
-| `Mozilla/...` inventado sin «bot» | **200** |
-| Googlebot · AdsBot-Google · Bingbot | **403** |
-| `curl/8.0` · sin user-agent · `bot` | **403** |
-| `Mozilla/5.0 (compatible; MiCosaBot/1.0)` | **403** |
+**El `.htaccess` no hay que tocarlo.** Está bien hecho. Que Google no crawlee URLs
+de filtro es lo correcto también para SEO (presupuesto de rastreo, contenido
+duplicado). Mejora opcional, no urgente: agregar `AdsBot-Google` a la excepción de
+la regla 4, como red de seguridad por si un anuncio vuelve a apuntar a un filtro.
 
-O sea: **la regla bloquea por user-agent de robot**, y solo se nota cuando la
-caché no tapa el golpe.
+## Dos errores míos en este diagnóstico (para no repetirlos)
 
-### Consecuencias
+**1. Confundí caché con permiso.** Comparé URLs sin mirar `x-litespeed-cache`. Las
+que daban 200 estaban **cacheadas** (LiteSpeed responde sin pasar por
+`.htaccess`); la del filtro no. De ahí salió la primera tabla, que era correcta en
+los números y equivocada en la causa.
 
-1. **El anuncio va a seguir cayéndose.** Si Google revisa con la caché vencida,
-   ve un 403. Cambiar la URL no lo arregla: es cuestión de suerte de caché.
-2. **También afecta al SEO.** Googlebot recibe el mismo 403 — y Connie vive del
-   SEO, así que esto le importa por partida doble.
+**2. Contaminé mi propia prueba, y con eso alarmé de más.** Para forzar cache MISS
+le agregué `?yith_wcan=1` a cada URL… que es **justo el parámetro que dispara la
+regla**. Concluí que *todo el sitio* devolvía 403 a Googlebot y le avisé a Connie
+que el SEO estaba en riesgo de desindexación. **Era falso.** Repetido con `?cb=`
+(un parámetro que no está en la regla) y con `miss` confirmado en la cabecera,
+home, lista, categorías y fichas dan **200** a Googlebot y AdsBot.
 
-### Dónde está el bloqueo
-
-**No es de WordPress.** Los 18 plugins activos no incluyen ninguno de seguridad
-(no hay Wordfence, Sucuri ni similar). El 403 es una página genérica de
-**LiteSpeed**, sin ID de incidente: es del **servidor / hosting**.
-
-### CONFIRMADO por Connie (msg 204, 20-ago 09:42)
-
-**La semana del 11-ago se puso un bloqueo de robots en el `.htaccess`**, porque el
-sitio estaba bajo un **ataque de bots** que navegaban el sitio, saturaban procesos
-internos y lo dejaban caído.
-
-O sea: el 403 es **intencional y reciente**, y calza con la fecha en que el
-anuncio se cayó. No es un problema del hosting "por error" — es una defensa real
-puesta a mano, mal calibrada.
-
-**Alcance medido** (forzando cache MISS): **todo el sitio** devuelve 403 a
-Googlebot y AdsBot — home, `/lista-productos/`, categorías y fichas de producto.
-Solo `robots.txt` y `sitemap_index.xml` pasan, por ser estáticos (no tocan PHP).
-
-### El defecto de la regla: filtra por user-agent, y eso se miente
-
-**Probado:** una petición desde `curl` declarando un user-agent de Chrome
-**inventado** pasa con **200**. Sin bloqueo.
-
-Entonces la regla:
-
-- **NO detiene** a los bots del ataque, que basta con que manden un UA de navegador
-- **SÍ detiene** a Googlebot, AdsBot y Bingbot, que son los únicos que declaran
-  honestamente quiénes son
-
-Está frenando exactamente a los que no molestan.
-
-### Lo que se pidió (msgs 206 y 207)
-
-Mínimo — agregar a la regla existente la excepción:
-
-    RewriteCond %{HTTP_USER_AGENT} !(Googlebot|AdsBot-Google|Google-InspectionTool|Storebot-Google|bingbot) [NC]
-
-De fondo — contra bots que mienten, el user-agent no sirve: va **rate limiting por
-IP** o un **Cloudflare** que verifique robots de verdad.
-
-**Pendiente:** que Connie mande el bloque actual del `.htaccess` para devolver el
-parche exacto. Yo no tengo acceso a archivos del servidor.
-
-### Lo urgente no es el anuncio
-
-**Googlebot lleva desde la semana del 11-ago recibiendo 403 en todo el sitio.**
-Si se sostiene, Google empieza a desindexar. El anuncio rechazado es el síntoma
-barato; la pérdida orgánica es la cara — y Connie vive del SEO.
+**La regla que queda:** el rompe-caché nunca debe contener el parámetro que se está
+investigando. Y antes de avisar de una alarma grande —desindexación, pérdida de
+tráfico— **verificarla con una prueba que no comparta variable con la hipótesis**.
 
 ## La señal que se dejó pasar el 19-ago
 
@@ -138,8 +104,8 @@ En la propuesta del grupo Botas quedó escrito, textual:
 
 **Estaba visto y se descartó como inofensivo.** Ese 403 era exactamente lo que
 después desaprobó el anuncio. La lección: **un 403 a `curl` con 200 en navegador
-NO es un detalle cosmético cuando esa URL va a ser el destino de un anuncio** —
-el robot de Google es, para el servidor, un cliente tan "no navegador" como curl.
+NO es cosmético cuando esa URL va a ser el destino de un anuncio** — para el
+servidor, el robot de Google es un cliente tan "no navegador" como curl.
 
 ## La URL buena
 

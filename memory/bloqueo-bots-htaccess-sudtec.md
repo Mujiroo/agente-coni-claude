@@ -9,25 +9,35 @@ metadata:
 porque el sitio estaba bajo un ataque de bots que saturaba procesos y lo tumbaba.
 Connie lo contó el 20-ago (msg 204).
 
-**Efecto colateral:** todo el sitio devuelve **403 a Googlebot y AdsBot** cuando
-la petición llega a PHP. Desaprobó un anuncio de Ads por
-`DESTINATION_NOT_WORKING`, y deja el **SEO en riesgo de desindexación**.
+**Alcance real (verificado con el `.htaccess` a la vista):** el bloqueo golpea
+**solo las URLs con parámetro de filtro** — `yith_wcan=`, `filter_`, `min_price=`,
+`max_price=` — cuando el user-agent no es de navegador. **Googlebot y AdsBot NO
+están** en la lista de bots bloqueados. El resto del sitio les responde 200.
+
+Eso desaprobó un anuncio de Ads (`DESTINATION_NOT_WORKING`) porque su destino era
+una URL de filtro. **No hay riesgo de desindexación**: llegué a decírselo a Connie
+y era una alarma falsa, generada por mi propia prueba. Ver
+[[ads-403-robot-vs-navegador]].
 
 **La caché de LiteSpeed lo disimula:** si la página está cacheada, el robot recibe
 200. Por eso parece intermitente y por eso me equivoqué de diagnóstico al
 principio. Ver [[ads-403-robot-vs-navegador]].
 
-**El defecto de la regla, y el argumento para cambiarla:** filtra por
-**user-agent**, que es lo que el visitante *dice* ser. Probado: `curl` con un UA
-de Chrome inventado **pasa con 200**. Así que la regla no detiene a los atacantes
-(les basta mentir) y sí detiene a Google y Bing, que se identifican honestamente.
+**La regla está bien hecha y NO hay que tocarla.** Bloquea scrapers por nombre
+(Semrush, Ahrefs, GPTBot, CCBot…) y protege las URLs de filtro, que es justo por
+donde entraba el ataque: la navegación facetada genera combinaciones infinitas de
+URL y satura el PHP. Que Google no crawlee URLs de filtro es además **correcto
+para SEO**.
 
-**Lo pedido:** excepción para `Googlebot|AdsBot-Google|Google-InspectionTool|Storebot-Google|bingbot`
-antes de la regla de bloqueo; y de fondo, rate limiting por IP o Cloudflare, que
-verifica robots de verdad.
+**Lo que sí se arregla es el anuncio**, no el sitio: su destino no debe ser una URL
+de filtro. Ya se cambió a `/product-category/epp/botas/`.
 
-**Estado al 20-ago-2026:** esperando que Connie consiga el bloque actual del
-`.htaccess` para devolver el parche exacto. **No tengo acceso a archivos del
-servidor** — esto se cambia con quien administra el hosting.
+**Mejora opcional, no urgente:** agregar `AdsBot-Google` a la excepción de la regla
+de filtros, como red de seguridad por si algún anuncio vuelve a apuntar a un
+filtro.
+
+**Límite conocido:** esa regla filtra por user-agent, así que un bot que mienta y
+declare `Chrome/` pasa igual. Si el ataque vuelve, lo que sirve es **rate limiting
+por IP** o Cloudflare. No es urgente hoy.
 
 Relacionado: [[ads-403-robot-vs-navegador]], [[cuota-google-ads]]
