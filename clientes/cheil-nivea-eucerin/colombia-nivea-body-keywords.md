@@ -126,3 +126,52 @@ así funciona de **leyenda** sin ocupar espacio extra.
 - `hideGridlines` va en `updateSheetProperties`, no en el formato de celda.
 - El **nombre del archivo** se cambia con `updateSpreadsheetProperties`. Estaba en
   «Hoja de cálculo sin título» — un entregable a cliente no puede salir así.
+
+
+## 20-ago 15:26 — Connie descartó pagar; guía para que ella misma busque en Semrush
+
+Después de evaluar DataForSEO decidió **no pagar nada** (msg 261) y pedir una lista
+de keywords para buscar ella en su Semrush Guru, que **sí funciona en el navegador**
+(lo roto es solo la API).
+
+**Entregado:** pestaña **«Qué buscar en Semrush»** en la misma planilla
+`1nstuPCSbtuK7eK6iDqVR3Wm8Cr_SBK1IEYSWzeVdueo`.
+
+⚠️ **La planilla que ella mandó (`1p4gHF9tzir...`) NO es accesible**: da
+`PERMISSION_DENIED` incluso para **leer**, con la cuenta
+`pfeifer.constanza@gmail.com`. Está creada con otra cuenta suya. Avisado.
+
+### Contenido de la guía
+
+- **14 semillas de categoría** con la razón de cada una (no una lista suelta)
+- **9 semillas de marca**, Lubriderm en rojo, NIVEA en verde
+- **Dominios verificados con `curl`** para el Keyword Gap:
+
+| Rol | Dominio | Nota |
+|---|---|---|
+| Propio | `nivea.com.co` | 200 |
+| Competidor #1 | `lubriderm.com.co` | **tiene dominio propio en Colombia** |
+| Competidor | `lactovit.co` | 200 (`lactovit.com.co` no existe) |
+| Competidor | `cetaphil.com.co` | 200 |
+| Competidor | `cerave.com` | **no tiene `.co`**, usa el global |
+| Referencia | `eucerin.com.co` | misma casa (Beiersdorf) |
+
+- **El paso 3, Keyword Gap, es el que importa:** pestaña *Missing* = donde el rival
+  rankea y NIVEA no aparece. **Eso es exactamente lo que pidió Alex** y no se puede
+  obtener de datos de publicidad.
+- Dos advertencias: **no mezclar rostro** (Semrush trae CeraVe/Cetaphil faciales) y
+  **conservar la columna Intent**.
+
+### 🐞 Error de formato que hubo que corregir
+
+Las bandas de sección se aplicaron con **índices calculados a mano sobre la lista
+que se iba a escribir**, y quedaron **corridas**: la banda de «PASO 2» cayó encima
+de una semilla.
+
+**Regla:** después de escribir en una hoja, **releer y localizar las filas por su
+contenido** antes de formatear. Nunca asumir que el índice de la lista en Python
+coincide con la fila de la hoja — las filas vacías y las de una sola celda
+desplazan la cuenta.
+
+La corrección incluyó **limpiar todo el formato previo** del rango antes de volver
+a aplicar; si no, quedan restos del formato mal puesto.
