@@ -14,7 +14,8 @@ Viene de un WhatsApp de **Alex Sabogal, PM Lead de Andean** a **Pato**:
 
 ## Entregable
 
-Planilla: `1nstuPCSbtuK7eK6iDqVR3Wm8Cr_SBK1IEYSWzeVdueo`
+Planilla: **NIVEA vs All · Colombia — Keywords BODY (ago 2026)**
+`1nstuPCSbtuK7eK6iDqVR3Wm8Cr_SBK1IEYSWzeVdueo`
 (ella primero mandó un Doc y luego pidió trabajarlo en Sheets)
 
 - **Pestaña «Lectura estratégica»** — el análisis
@@ -85,3 +86,43 @@ competidor**. Quedó preguntado si lo pide.
 
 Cambiar solo el `geoTargetConstant`: Chile 2152 · Colombia 2170 · México 2484 ·
 Perú 2604 · Ecuador 2218 · Guatemala 2320.
+
+
+## Formato (pedido en msg 246: «se ve muy desordenado»)
+
+**Aprendizaje:** escribir los datos no es entregar. Un volcado de `values.update`
+sin formato se lee como desorden aunque el contenido sea bueno. **El formato va en
+la misma tanda que los datos, no como paso aparte.**
+
+### Código de color, igual en las dos pestañas
+
+| Grupo | Fondo | Texto | Por qué ese color |
+|---|---|---|---|
+| 1. Lubriderm | `F8E9E7` | `7A2E2E` | rojo — el rival a conquistar |
+| 2. Marca NIVEA | `E6F2EC` | `1E6E4B` | verde — lo propio, defensa |
+| 3. Otros competidores | `FDF1EA` | `8A5A08` | ámbar — conquista ampliada |
+| 0. Categoría corporal | `E8EEF7` | `12315C` | azul — genéricos |
+| 4. Necesidad / problema | `F3EDF8` | `5B3E7A` | violeta — dolor del usuario |
+| 5. Transaccional | `E9F4F7` | `12657A` | celeste — cerca de la compra |
+| 6. Informacional | `F1F3F6` | `5A6472` | gris — NO va a Search pagado |
+
+La tabla de grupos de «Lectura estratégica» está pintada con **los mismos colores**,
+así funciona de **leyenda** sin ocupar espacio extra.
+
+### Lo aplicado
+
+- **Lectura estratégica:** bandas azul marino en los títulos de sección, cifras de
+  Lubriderm en rojo y de NIVEA en verde (la brecha se ve sin leer), advertencia en
+  ámbar, cuadrícula oculta para que parezca documento.
+- **Keywords:** formato condicional por grupo con `CUSTOM_FORMULA`
+  (`=REGEXMATCH($B2,"^N. ")`), degradado de calor en la columna de volumen,
+  competencia Alta en rojo / Baja en verde, fila fija y filtro básico.
+
+### Detalles de la API de Sheets que sirven
+
+- El color por categoría se hace con `addConditionalFormatRule` + `CUSTOM_FORMULA`
+  sobre la fila completa; **la referencia debe ser `$B2`** (columna fija, fila
+  relativa a la primera fila del rango).
+- `hideGridlines` va en `updateSheetProperties`, no en el formato de celda.
+- El **nombre del archivo** se cambia con `updateSpreadsheetProperties`. Estaba en
+  «Hoja de cálculo sin título» — un entregable a cliente no puede salir así.
