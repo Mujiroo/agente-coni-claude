@@ -77,3 +77,40 @@ pero **no explica las horas previas**. Ver [[verificar-sin-rompe-cache]].
 
 Y por Composio: `campaign.status`, `campaign.serving_status` y métricas
 `DURING TODAY` + `LAST_7_DAYS`.
+
+
+## Pasada de las 15:00 — dato que acota el problema
+
+**El script de reenvío (`reenvio_sudtec.py`) tampoco encontró correos nuevos** de
+`cg@sudtec.cl`. Eso es **corroboración independiente**: no es que las
+cotizaciones no se vean en WooCommerce, es que **no llegan correos tampoco**.
+
+Descarta un fallo de visualización o de la API de Woo. El embudo está seco de
+verdad.
+
+### Cifras a las 15:00 (vía Maton, que recuperó cuota)
+
+| | Hoy 15:00 | Días normales (completos) |
+|---|---|---|
+| Impresiones | **38** | 158–328 |
+| Clics | **9** | 24–41 |
+| Gasto | 5.951 de 9.100 CLP | ~8.000–11.000 |
+| Conversiones | **0** | 3–9 |
+
+**Lectura honesta:** con 9 clics y tasa histórica ~15%, lo esperable era **1–2**
+cotizaciones. **Cero es bajo pero no imposible** — no alcanza para declarar avería.
+
+Lo llamativo son las **impresiones**, muy por debajo. Puede ser el retraso conocido
+de los datos del día en curso. **No se reportó como diagnóstico**, solo como
+observación, para no repetir la falsa alarma de la mañana.
+
+### Sigue bloqueado en lo mismo
+
+**La prueba del navegador (agregar al cotizador) es la única concluyente** y solo
+la puede hacer ella. Se insistió (msg 250) explicando por qué: desde fuera el sitio
+responde igual ante una llamada válida y una inválida, así que no se puede
+certificar el envío.
+
+**Criterio para mañana:** si el 21-ago amanece con cotizaciones normales, fue un día
+flojo. Si sigue en cero con clics entrando, es avería y hay que mirar el formulario
+y el registro de conversiones.
