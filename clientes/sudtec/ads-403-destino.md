@@ -59,10 +59,20 @@ Lytos). También 200 al robot.
 Hay **dos categorías "Botas"** en Woo: id **280** slug `botas` (8 productos) e id
 **302** slug `botas-material-forestal` (6).
 
-## Estado
+## Estado — RESUELTO el 20-ago-2026 09:10
 
-Propuesto a Connie el 20-ago (msgs 195 y 198). **Pendiente su OK** para cambiar
-el destino del anuncio — es cambio en producción, no se toca sin confirmación.
+Connie dio el OK (msg 199) y se aplicó el cambio con `ads:mutate`
+(`updateMask=finalUrls`) sobre el ad `821602063409`.
+
+Después del cambio, verificado contra la API:
+
+- destino: `https://www.sudtec.cl/product-category/epp/botas/`
+- `status`: ENABLED · `reviewStatus`: **REVIEW_IN_PROGRESS**
+- `policyTopicEntries`: **vacío** — se cayeron las dos políticas
+
+Editar el `finalUrls` **reenvía el anuncio a revisión solo**, no hay que pedirla
+aparte. Queda un cron de seguimiento para el 21-ago 10:00 que le confirma a
+Connie cómo quedó y se borra a sí mismo.
 
 ## Regla que quedó en el código
 

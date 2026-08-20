@@ -49,3 +49,9 @@
 # "si ves que las campanas empeoraron o no sirve, pausa los cambios".
 # Corre a las 09:30, despues de la vigilancia general de las 09:00.
 30 9 * * * | [CRON] Corre `python3 bin/vigilancia_cambios.py` en /home/agent/workspace. Si dice OK-SILENCIO o SIN-QUOTA, NO escribas a Connie ni hagas nada mas. Si dice REVERTIR-RUTEO: QUITA la negativa 'botas' del grupo General (buscala con ad_group_criterion donde negative=TRUE y keyword.text='botas' en el grupo 181820804074, y borrala con adGroupCriteria:mutate operacion remove), VERIFICA que quedo fuera, y recien ahi avisale a Connie que lo revertiste y por que. Si dice HAY-QUE-AVISAR, mandale las alertas en HTML con las cifras y decile en una linea que propones; NO revierta nada sin avisar primero en ese caso.
+
+# --- SUDTEC Ads: seguimiento del anuncio de Botas (20-ago-2026) ---
+# Se le cambio el destino a /product-category/epp/botas/ tras el rechazo por 403
+# al robot. Quedo en REVIEW_IN_PROGRESS. Connie viaja el 21-ago, asi que se le
+# confirma UNA vez como quedo y despues este job se borra solo.
+0 10 21 8 * | [CRON] Seguimiento anuncio Botas: consulta con maton.sh el ad 821602063409 de la cuenta 9907217991 (ad_group_ad.policy_summary.approval_status, review_status, policy_topic_entries, y metrics.impressions del grupo 197186444097 DURING TODAY). Avisale a Connie con `bash bin/tg.sh send` en HTML, corto: si quedo APPROVED dile que corre y si ya tuvo impresiones; si sigue en revision dile que aun no resuelven y que la vigilancia diaria lo sigue; si volvio a DISAPPROVED dile el motivo exacto y que propones. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 21 8"), commitea y pushea.
