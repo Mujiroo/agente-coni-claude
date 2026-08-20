@@ -195,3 +195,35 @@ configuración está limpia — `finalUrls` es la nueva, y no hay URL móvil, pl
 de seguimiento ni sufijo. Se asume veredicto viejo pendiente de re-revisión.
 Verificado vía **Composio**, porque Maton estaba sin cuota
 ([[composio-respaldo-google-ads]]).
+
+
+## Confirmación desde el panel de Google (20-ago 10:39, captura de Connie)
+
+La ficha «Ver problemas con la política» del anuncio zanja el asunto:
+
+- **URL final:** `https://www.sudtec.cl/product-category/epp/botas/` (la nueva, correcta)
+- **Destino no operativo** · Plataforma: ordenador · Error de HTTP: **403**
+- **URL ampliada:** `https://www.sudtec.cl/lista-productos/?yith_wcan=1&product_cat=botas`
+  ← **la VIEJA**, o sea lo que Google probó
+- **Última comprobación: 20 ago 2026, 7** ← **7:00**, y el cambio se aplicó a las **9:12**
+
+**Conclusión: el veredicto es anterior al arreglo.** No hay nada más que tocar; se
+cae solo cuando Google reejecute la comprobación de destino. Si sigue rechazado con
+una comprobación **posterior a las 9:12**, ahí sí toca pedir revisión manual.
+
+Dato operativo: **editar `finalUrls` dispara la revisión del anuncio, pero la
+comprobación del destino corre por su cuenta** — `reviewStatus` volvió a `REVIEWED`
+sin que el rastreador hubiera vuelto a la URL nueva. No confundir las dos cosas.
+
+### «Sustancias no aprobadas» es un falso positivo, y no es del texto
+
+Los **15 titulares y 4 descripciones** están **APPROVED uno por uno**
+(`policySummaryInfo.approvalStatus`), y **ninguno contiene la palabra «product»**.
+
+La evidencia que Google marca (`textList: ["product"]`) sale de la **URL**, que
+contiene `product-category`. Google la cruza con su política de fármacos y
+suplementos.
+
+Es de tipo **LIMITED**, no PROHIBITED: **por sí sola no apaga el anuncio**. La que
+lo apaga es `DESTINATION_NOT_WORKING`. No perseguirla ni reescribir el anuncio por
+ella.
