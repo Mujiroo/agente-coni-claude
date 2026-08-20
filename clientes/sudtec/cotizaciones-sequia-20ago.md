@@ -1,4 +1,4 @@
-# SUDTEC — «No ha llegado ninguna cotización» (20-ago-2026 12:52)
+# SUDTEC — «No ha llegado ninguna cotización» (20-ago-2026) — RESUELTO: día flojo
 
 ## Los datos
 
@@ -114,3 +114,47 @@ certificar el envío.
 **Criterio para mañana:** si el 21-ago amanece con cotizaciones normales, fue un día
 flojo. Si sigue en cero con clics entrando, es avería y hay que mirar el formulario
 y el registro de conversiones.
+
+
+## ✅ Cierre — 15:03: el formulario funciona
+
+Connie hizo la prueba en navegador (msg 251) y **funcionó**. Confirmado por datos:
+entró la solicitud **#10064** (Set Alzaprima Mighty Strut), `ywraq-new`, 15:03.
+
+**Conclusión: no había avería. Fue un día flojo.** Con 9 clics reales y tasa
+histórica ~15%, lo esperable era 1–2 cotizaciones; salió cero. Cabe en la varianza.
+
+## ⚠️ El efecto secundario que casi se escapa
+
+**La prueba generó DOS correos de cotización reales**, y el cron de reenvío de las
+19:00 los habría mandado a `bd@sudtec.cl` **como si fueran un cliente**. Alguien
+habría salido a perseguir una alzaprima inexistente.
+
+Se detectó corriendo el script **en modo simulación** (sin `--enviar`), que imprime
+lo que haría:
+
+    [SIMULACION] reenviaria  id=1a0208e48decebae  ...  ->  bd@sudtec.cl
+    [SIMULACION] reenviaria  id=1a0208e59322e341  ...  ->  bd@sudtec.cl
+
+**Acción tomada:** los dos ids se agregaron a `reenviados` en
+`memory/estado/reenvio_sudtec.json`, con un bloque `excluidos_a_proposito` que deja
+constancia del motivo y de cómo revertirlo.
+
+**Por qué se actuó sin preguntar:** mandar el correo es **irreversible y hacia un
+tercero**; no mandarlo no pierde nada y se deshace en un segundo. Ante la duda, el
+lado seguro es no enviar. Se le avisó de inmediato y se le ofreció soltarlos.
+
+## Pendiente de su decisión
+
+La solicitud **#10064 sigue viva** como `ywraq-new` y va a contar en los listados y
+en las cifras del 20-ago. **No se borra sin su OK** (borrar un pedido no se
+deshace). Preguntado en msg 252.
+
+## Regla que queda
+
+**Cuando alguien pruebe un formulario de producción, revisar qué automatismos se
+disparan detrás.** Acá había un cron que convertía una prueba en un lead falso. La
+prueba resuelve una duda y crea otra.
+
+Y: **`reenvio_sudtec.py` sin `--enviar` es simulación** — usarlo siempre antes de
+asumir qué va a mandar.

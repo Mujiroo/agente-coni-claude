@@ -13,11 +13,13 @@
   "1a01b4073e46c731",
   "1a01b4d75a1f0122",
   "1a01b97d2c2f42b0",
-  "1a01c0236b941ab2"
+  "1a01c0236b941ab2",
+  "1a0208e48decebae",
+  "1a0208e59322e341"
  ],
  "arranque": 1787014179,
  "no_antes_de": null,
- "ultima_corrida": 1787230819,
+ "ultima_corrida": 1787252705,
  "nota": "Seguro de hora levantado el 17-ago 23:35: Connie pidio enviar la primera de prueba antes de las 06:00. El sistema queda vivo desde aqui.",
  "marcados_sin_enviar": 5,
  "enviados": [
@@ -77,5 +79,15 @@
    "fecha_original": "Wed, 19 Aug 2026 21:51:36 +0000",
    "enviado_en": 1787180435
   }
- ]
+ ],
+ "excluidos_a_proposito": {
+  "2026-08-20": {
+   "ids": [
+    "1a0208e48decebae",
+    "1a0208e59322e341"
+   ],
+   "motivo": "Prueba del cotizador hecha por Connie el 20-ago 15:03 (solicitud #10064, Set Alzaprima Mighty Strut). NO es un cliente real: no debe reenviarse a bd@. Marcados como ya reenviados para que los crons los salten.",
+   "reversible": "Si se decide mandarlos, quitar estos dos ids de 'reenviados' y correr el script."
+  }
+ }
 }
