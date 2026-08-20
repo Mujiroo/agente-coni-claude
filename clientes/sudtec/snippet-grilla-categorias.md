@@ -75,3 +75,59 @@ https://claude.ai/code/artifact/e43bd00b-8b71-4b29-b3bc-33e260cb7893
 Campos: `name`, `desc`, `code`, `tags`, `scope`, `active`, `priority`.
 **El `code` NO lleva `<?php`.** Para CSS conviene un string PHP en comillas simples
 → **el CSS no puede contener comillas simples**.
+
+---
+
+# Snippet 2 — «Seguir viendo productos» al final de las categorías
+
+*Pedido de Connie el 20-ago-2026 (msg 226): que el visitante sepa que hay más
+productos y pueda seguir «vitrineando».*
+
+**Code Snippets, snippet id 11**, scope `front-end`, activo:
+
+    KAI · Seguir viendo productos al final de las categorías (20-ago-2026) — BORRAR ESTE PARA REVERTIR
+
+## Qué hace
+
+Engancha en `woocommerce_after_shop_loop` (prioridad 30) y, solo si
+`is_product_taxonomy()`, imprime un bloque con enlaces y un CTA. La lista de
+enlaces se elige en cascada:
+
+1. **Subcategorías** del término actual → título *«Explora dentro de X»*
+   (ej. `/product-category/rescate/` muestra sus 7 hijas)
+2. Si no tiene hijas, **categorías hermanas** → *«También te puede servir»*
+   (ej. `/epp/botas/` muestra Uniformes, Cascos, Guantes, Cinturones, Esclavinas)
+3. Si tampoco, **categorías principales** → *«Otras categorías»*
+
+Cada chip muestra el **número de productos** de esa categoría. Abajo, un botón
+**Ver todo el catálogo** → `/lista-productos/`.
+
+## La decisión de las URL (importante, no cambiarla sin pensar)
+
+Los chips enlazan a **`/product-category/<slug>/`**, NO a
+`/lista-productos/?yith_wcan=1&product_cat=<slug>`.
+
+**Por qué:** para el visitante es equivalente, pero las URL de filtro son las que
+el `.htaccess` bloquea con 403 a los robots. Llenar el sitio de enlaces internos
+hacia ellas le daría a Googlebot **cientos de 403 internos**, con daño en orgánico.
+Ver [[bloqueo-bots-htaccess-sudtec]].
+
+Verificado: los 5 chips de la categoría Botas responden **200 a AdsBot**.
+
+El botón grande sí va a `/lista-productos/` (limpia, sin parámetros), que es lo que
+Connie pidió.
+
+## Verificación hecha
+
+✅ Botas → *También te puede servir*, 5 chips · Rescate → *Explora dentro de
+Rescate*, 7 chips · Cámaras termales → 6 chips
+✅ `code_error: null`, sin warnings ni fatals en el HTML
+✅ **NO** aparece en home, `/contacto-sudtec/`, ficha de producto ni
+`/lista-productos/`
+
+## Detalle que casi se pasa
+
+La primera versión salió **sin tildes** («Tambien», «catalogo», «categorias»)
+porque se escribió el PHP evitando acentos por precaución. **Se ve mal en un sitio
+de cliente.** El transporte JSON del helper es UTF-8 y los acepta sin problema: se
+corrigieron y se verificó en la página pública.
