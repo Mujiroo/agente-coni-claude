@@ -90,7 +90,36 @@ def main():
     else:
         st["dias_botas_sin_nada"] = 0
 
-    revertir = st["dias_botas_sin_nada"] >= DIAS_BOTAS
+    # Antes de culpar al ruteo hay que descartar la otra causa de "0 impresiones":
+    # que el anuncio del grupo este DESAPROBADO. Si lo esta, la negativa en General
+    # no tiene nada que ver y quitarla seria revertir un cambio bueno por un
+    # diagnostico equivocado (paso el 20-ago-2026: DESTINATION_NOT_WORKING por un
+    # 403 que el sitio le devuelve al robot en la URL con 'yith_wcan=1').
+    botas_desaprobado = None
+    if st["dias_botas_sin_nada"] >= 1:
+        da = gaql("SELECT ad_group_ad.ad.id, ad_group_ad.policy_summary.approval_status "
+                  "FROM ad_group_ad WHERE ad_group.name = 'Botas' "
+                  "AND ad_group_ad.status = 'ENABLED'")
+        if "error" not in da:
+            malos = [r["adGroupAd"] for r in da.get("results", [])
+                     if r["adGroupAd"].get("policySummary", {})
+                          .get("approvalStatus") == "DISAPPROVED"]
+            vivos = [r for r in da.get("results", [])
+                     if r["adGroupAd"].get("policySummary", {})
+                          .get("approvalStatus") != "DISAPPROVED"]
+            if malos and not vivos:
+                botas_desaprobado = ", ".join(a["ad"]["id"] for a in malos)
+
+    if botas_desaprobado:
+        # No es el ruteo: no se revierte y no se acumula el contador.
+        st["dias_botas_sin_nada"] = 0
+        alertas.append(("🔴", "El grupo <b>Botas</b> sigue sin impresiones porque su "
+                              "anuncio (<code>%s</code>) esta <b>DESAPROBADO</b>, no por el "
+                              "ruteo. <b>No toco la negativa de General.</b> Hay que arreglar "
+                              "el destino del anuncio y mandarlo a revision."
+                              % botas_desaprobado))
+
+    revertir = (not botas_desaprobado) and st["dias_botas_sin_nada"] >= DIAS_BOTAS
     if revertir:
         alertas.append(("🔴", "El grupo <b>Botas</b> lleva <b>%d días sin una sola "
                               "impresión</b>. La negativa en General ya está cortando esas "
