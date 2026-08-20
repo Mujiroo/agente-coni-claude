@@ -165,3 +165,33 @@ porque pesca tráfico suelto. Para nombres de marca va **exacta o de frase**.
 
 Queda cron el **21-ago 04:00** que trae el volumen real y el estado del anuncio
 en **una sola pasada batcheada** (la cuota se agotó el 20-ago).
+
+
+## Los sitelinks: 9 más apuntando a URLs bloqueadas (hallazgo 20-ago 10:05)
+
+Revisando la cuenta completa aparecieron **9 sitelinks** cuyo destino lleva
+`yith_wcan=1` — el mismo patrón que la regla 4 del `.htaccess` bloquea:
+
+| Categoría | Reemplazo verificado | Productos |
+|---|---|---|
+| uniformes | `/product-category/uniformes/` | 16 |
+| rescate | `/product-category/rescate/` | 16 |
+| epp | `/product-category/epp/` | 16 |
+| camaras-termales-rescate | `/product-category/camaras-termales-rescate/` | 5 |
+| linternas | `/product-category/linternas/` | 3 |
+| material-mayor | `/product-category/material-mayor/` | 2 |
+
+**Hoy figuran APPROVED** porque Google los revisó antes del bloqueo (semana del
+11-ago). Pero los 6 destinos **dan 403 hoy** a AdsBot. Cuando Google los
+re-revise, se caen igual que el anuncio de botas.
+
+Los reemplazos están **verificados**: 200 a AdsBot sin caché y con productos.
+
+**Estado: propuesto a Connie (msg 211), esperando su OK.** Son 9 cambios en
+producción.
+
+**Nota sobre el anuncio de botas:** al 20-ago 10:05 sigue `DISAPPROVED`, pero su
+configuración está limpia — `finalUrls` es la nueva, y no hay URL móvil, plantilla
+de seguimiento ni sufijo. Se asume veredicto viejo pendiente de re-revisión.
+Verificado vía **Composio**, porque Maton estaba sin cuota
+([[composio-respaldo-google-ads]]).

@@ -181,6 +181,20 @@ disponibles, agrupadas:
 - **Métricas:** `INSTAGRAM_GET_USER_INSIGHTS`, `INSTAGRAM_GET_IG_MEDIA_INSIGHTS`,
   `INSTAGRAM_GET_USER_INFO`
 
+**Composio también tiene Google Ads, y es tu plan B cuando Maton se queda sin cuota.**
+Verificado el 20-ago-2026 (idea de Connie): el toolkit `googleads` está **ACTIVE** y ve las
+**mismas 3 cuentas** que Maton, Sudtec incluida (`9907217991`). Se probó corriendo por
+Composio la misma consulta que Maton acababa de rechazar con `RESOURCE_EXHAUSTED`: **pasó
+sin problema**, o sea **las cuotas son independientes**.
+
+La regla, entonces: **si Maton devuelve `RESOURCE_EXHAUSTED`, no te quedes ciego — repite
+por Composio** con `GOOGLEADS_SEARCH_STREAM_GAQL` (pasando `customer_id`). Eso no te
+autoriza a gastar de más: sigue agrupando consultas, porque esa cuota tampoco es infinita.
+
+El servidor declara conectadas: `gmail`, `googleads`, `googlecalendar`, `googledocs`,
+`googledrive`, `googlesheets`, `instagram`. Para Google **la vía principal sigue siendo
+Maton**; Composio es respaldo.
+
 Dos advertencias sobre Composio:
 
 - **`COMPOSIO_MANAGE_CONNECTIONS` tiene efecto secundario:** cada vez que preguntas por un
