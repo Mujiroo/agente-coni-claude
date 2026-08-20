@@ -187,8 +187,7 @@ re-revise, se caen igual que el anuncio de botas.
 
 Los reemplazos están **verificados**: 200 a AdsBot sin caché y con productos.
 
-**Estado: propuesto a Connie (msg 211), esperando su OK.** Son 9 cambios en
-producción.
+**Estado: APLICADO el 20-ago-2026 11:08**, con OK de Connie (msg 232).
 
 **Nota sobre el anuncio de botas:** al 20-ago 10:05 sigue `DISAPPROVED`, pero su
 configuración está limpia — `finalUrls` es la nueva, y no hay URL móvil, plantilla
@@ -227,3 +226,46 @@ suplementos.
 Es de tipo **LIMITED**, no PROHIBITED: **por sí sola no apaga el anuncio**. La que
 lo apaga es `DESTINATION_NOT_WORKING`. No perseguirla ni reescribir el anuncio por
 ella.
+
+
+## Sitelinks — aplicado (20-ago-2026 11:08)
+
+Los 9 se cambiaron con `GOOGLEADS_MUTATE_ASSETS` **por Composio** (Maton seguía sin
+cuota), `update_mask: final_urls`, primero con `validate_only: true` y luego en
+firme con `partial_failure: true`.
+
+| id | Texto del enlace | Destino nuevo |
+|---|---|---|
+| 335606059860 | Cámara Termal | `/product-category/camaras-termales-rescate/` |
+| 337464913368 | Cámaras Termales | `/product-category/camaras-termales-rescate/` |
+| 337322119721 | Uniformes Bomberos | `/product-category/uniformes/` |
+| 371724058864 | Herramientas de Rescate | `/product-category/rescate/` |
+| 372779306605 | Herramientas Rescate | `/product-category/rescate/` |
+| 371793951090 | EPP | `/product-category/epp/` |
+| 372779306602 | EPP Bomberos | `/product-category/epp/` |
+| 337464701931 | Linternas Bomberos | `/product-category/linternas/` |
+| 337463806029 | Carros de Bomberos | `/product-category/material-mayor/` |
+
+**Verificado releyendo los 22 sitelinks:** **cero** con `yith_wcan`. Y los **12
+destinos de toda la cuenta** (incluidos los que no se tocaron) responden **200 a
+AdsBot y a navegador**.
+
+Al editarlos, los 9 vuelven a **revisión** de Google — esperado, y esta vez contra
+la URL buena.
+
+### Susto durante la verificación (vale recordarlo)
+
+Justo después de la purga total de caché, `uniformes` y `camaras-termales-rescate`
+devolvieron **500 a AdsBot**. Repetidas 8 veces cada una: **200 constante**. Era la
+regeneración masiva posterior al purge. **No se aplicó nada hasta confirmarlo** y
+hasta barrer las 15 rutas del sitio.
+
+**Lección:** una purga total sobre este sitio provoca un pico de 500 transitorios.
+Si hay que purgar y después verificar, dar un margen y repetir la medición antes de
+concluir nada — y mejor purgar acotado que todo.
+
+### Pendiente de criterio (no técnico)
+
+**Carros de Bomberos** apunta a *Material Mayor*, que tiene **3 productos**. El
+enlace funciona, pero promete más de lo que muestra. Planteado a Connie (msg 233)
+para revisarlo a su vuelta; **no se tocó** porque es decisión suya.
