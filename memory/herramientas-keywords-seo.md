@@ -14,9 +14,9 @@ Ella paga **Semrush Guru**, y el acceso a la API requiere **Business**.
 
 ## Lo que hay
 
-### 1. Semrush — el conector ya existe en Composio
+### 1. Semrush — conectado el 20-ago-2026, pero la clave NO funciona
 
-Toolkit `semrush`, **sin conexión activa**. Herramientas disponibles:
+Toolkit `semrush`, cuenta `semrush_expone-lei`, que Composio reporta **«active»**. Herramientas disponibles:
 
 | Tool | Para qué |
 |---|---|
@@ -31,8 +31,24 @@ Toolkit `semrush`, **sin conexión activa**. Herramientas disponibles:
 Bases regionales incluyen **`co` (Colombia)**, **`cl` (Chile)**, `mx`, `pe`, `ec`,
 `gt` — o sea, **los seis mercados de Connie**.
 
-⚠️ **El bloqueo es su plan, no la integración.** Con una API key de Semrush
-Business se conecta en minutos.
+⚠️ **Estado real al 20-ago-2026 15:10: NO funciona.** Connie conectó una clave
+(msg 253) y Composio la da por activa, pero **Semrush rechaza toda llamada**:
+
+    ERROR 122 :: WRONG FORMAT OR EMPTY KEY
+
+Probado con `SEMRUSH_KEYWORD_OVERVIEW_ONE_DATABASE` y `SEMRUSH_KEYWORD_DIFFICULTY`:
+**mismo error en las dos**, así que es la credencial y no un endpoint.
+
+**Pista importante:** el valor que el conector envía a Semrush **no tiene forma de
+clave de Semrush** (que es una cadena larga alfanumérica, sin prefijos) sino de
+token generado por el propio conector. Sospecha: **la clave no quedó guardada**.
+
+**Que «active» en Composio NO significa que la credencial sirva** — solo que se
+guardó algo. La única prueba válida es una llamada real.
+
+**Cómo lo verifica ella:** Semrush → foto de perfil → *Subscription info* →
+sección **API units**. Si dice **0 unidades** o no existe la sección, el bloqueo es
+el **plan Guru** (no incluye API). Si hay unidades, ahí está la clave real.
 
 **Detalle técnico:** las respuestas de Semrush son **CSV, no JSON**. Hay que
 parsear cabeceras y filas. `ERROR 50 :: NOTHING FOUND` significa cero resultados,
