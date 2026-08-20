@@ -108,16 +108,43 @@ credencial.
 parsear cabeceras y filas. `ERROR 50 :: NOTHING FOUND` significa cero resultados,
 no fallo de transporte.
 
-### 2. DataForSEO — la alternativa recomendada
+### 2. DataForSEO — elegido por Connie el 20-ago-2026 (msg 259)
 
-Toolkit `dataforseo` en Composio, **sin conexión activa**. Da dificultad, volumen,
+Toolkit `dataforseo` en Composio. Da dificultad, volumen, intención de búsqueda,
 SERP y keywords que rankea un dominio.
 
-**Modelo de precio verificado en su web el 20-ago-2026:** *pay-as-you-go*, **sin
-suscripción mensual**, **depósito mínimo US$50** que se consume por uso.
+**Precios verificados en su web el 20-ago-2026:**
 
-**Es la opción recomendada** por costo y porque cubre justo lo que Guru no permite
-por API.
+| Concepto | Costo |
+|---|---|
+| Por consulta (task) | **US$0,012** |
+| Por keyword devuelta (item) | **US$0,00012** |
+| Depósito mínimo | **US$50** (saldo, no mensualidad) |
+
+**En su caso:** un estudio de **1.000 keywords con métricas ≈ US$0,13**. Con US$50
+alcanza para cientos de estudios.
+
+**Autenticación:** usuario (correo) + **contraseña de API**, distinta de la del
+sitio. Va en el conector, **nunca por el chat**.
+
+### ⚠️ Precaución acordada: probar antes de pagar
+
+Después del episodio de Semrush —conector que falla con credencial válida— se le
+propuso hacerlo en **dos pasos**:
+
+1. Crear la cuenta (gratis) y conectar
+2. **Llamada de prueba de mi lado.** Solo si responde, ella recarga los US$50
+
+**Regla general: nunca pedirle que pague por una integración que todavía no se
+probó de punta a punta.**
+
+### Lo que se correría para el caso Colombia / NIVEA body
+
+- Ideas de keywords de la categoría, con volumen
+- **Dificultad** (lo que el Planificador no da)
+- **Intención de búsqueda** — separa lo que va a Search de lo que va a contenido
+- **Qué rankea Lubriderm orgánicamente y dónde NIVEA no aparece** ← el keyword gap,
+  que es exactamente lo que pidió Alex y no se arma con datos de publicidad
 
 ### 3. Google Search Console — gratis y la mejor fuente para sitios propios
 
