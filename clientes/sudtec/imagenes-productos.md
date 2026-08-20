@@ -65,3 +65,29 @@ anuncio, tiene **8 productos con foto propia y limpia** cada uno: `botas.webp`,
 Si un archivo aparece más veces de lo esperado, está compartido entre productos.
 **Y mirar el archivo, no el nombre:** `Flir-K2.png` suena a foto de producto y es
 un collage.
+
+## 5 fotos de producto que ya NO existen en el servidor (20-ago-2026)
+
+Medido pidiendo cada imagen de la grilla con user-agent de navegador:
+
+| Categoría | Producto | Archivo | HTTP |
+|---|---|---|---|
+| Uniformes | Blauer ARMORSKIN® | `ARMORSKIN®.jpg` | **410 Gone** |
+| Uniformes | Blauer ARMORSKIN® Polo Bicolor | `ARMORSKIN®-POLO-BICOLOR.jpg` | 404 |
+| Uniformes | Chaqueta de micropolar Blauer | `CHAMARRA-AFELPADA-324x324.jpg` | 404 |
+| Uniformes | Polo Bicolor de alto rendimiento | `POLO-BICOLOR-...-324x324.jpg` | 404 |
+| Rescate | Arnés Petzl Newton Easyfit Hi-Viz | `SUDTEC-PETZL-...-324x324.jpg` | 404 |
+
+**El navegador muestra el hueco de imagen rota.** Ningún CSS lo arregla: hay que
+volver a subir la foto. Avisado a Connie (msg 219).
+
+Dos detalles técnicos:
+
+1. **Las dos ARMORSKIN llevan `®` en el nombre del archivo.** Al pedirlas hay que
+   URL-encodear (`%C2%AE`) o da 404 por otra razón distinta a la real.
+2. **Esas dos además no son cuadradas**: el `<img>` declara `324x182`, no `324x324`
+   — WooCommerce no generó el recorte cuadrado. Con el snippet nuevo eso ya no
+   descuadra la grilla (`aspect-ratio:1/1`), pero la foto sigue faltando.
+
+**Cómo medirlo de nuevo:** parsear los `<img class="attachment-woocommerce_thumbnail">`
+de la categoría, comparar `width` vs `height`, y pedir cada `src` con HEAD.
