@@ -148,3 +148,35 @@ La primera versión salió **sin tildes** («Tambien», «catalogo», «categori
 porque se escribió el PHP evitando acentos por precaución. **Se ve mal en un sitio
 de cliente.** El transporte JSON del helper es UTF-8 y los acepta sin problema: se
 corrigieron y se verificó en la página pública.
+
+
+---
+
+# ⚠️ La caché casi deja los dos snippets sin efecto (20-ago 10:53)
+
+Ambos snippets se verificaron con `?cb=<random>`, que fuerza regenerar la página.
+**Eso probaba que el código corre, no que el visitante lo viera:** la copia
+cacheada de la URL limpia seguía siendo la de antes, en PC y en móvil. Connie lo
+pilló (msg 230): *«en botas no se ve, en rescate sí»* — eran cachés de distinta
+antigüedad, no un problema del código.
+
+**Purga que funcionó** (snippet `single-use`, ya ejecutado):
+
+```php
+\LiteSpeed\Purge::purge_all( 'kai manual' );
+@header( 'X-LiteSpeed-Purge: *' );
+```
+
+No funcionaron `do_action('litespeed_purge_url', $url)` ni
+`do_action('litespeed_purge_all')`.
+
+**Verificación posterior, ya como visitante** (URL limpia, sin parámetros, segunda
+pasada para confirmar que la copia guardada trae el cambio): Botas, Rescate,
+Uniformes y Cámaras termales, en **PC y móvil**, todas `cache=hit` **con** el
+bloque y los estilos.
+
+Detalle pendiente de orden: quedaron los **snippets 12, 13 y 14** inactivos («un
+solo uso»). `POST ...?_method=DELETE` devolvió 204 **sin borrar**, y renombrarlos
+tampoco tomó. Se borran a mano desde el panel; no hacen nada mientras tanto.
+
+Regla general en [[verificar-sin-rompe-cache]].
