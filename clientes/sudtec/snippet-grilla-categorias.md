@@ -50,6 +50,23 @@ Y la grilla centrada, que además centra las filas incompletas:
 | botón | `.add-request-quote-button` (YITH, no `add_to_cart`) |
 | título categoría | `.woocommerce-products-header__title.page-title` |
 
+## Móvil (pedido de Connie, msg 228)
+
+Verificado pidiendo las páginas con **user-agent de iPhone y de Android**, no
+asumido. Ambos snippets llegan al teléfono, con `viewport` presente.
+
+Ajustes propios de pantalla chica en el snippet 10:
+
+- `@media(max-width:767px)` → 2 columnas forzadas
+  (`repeat(2,1fr)!important`, porque el `minmax(200px,250px)` del escritorio
+  colapsaría a 1 sola columna), `gap:12px`, padding de tarjeta 10px,
+  título 13.5px, botón 12.5px
+- `@media(max-width:360px)` → `gap:9px`, padding 8px, título 12.5px
+
+**Dato de caché:** LiteSpeed guarda **versiones separadas para móvil**. Hay que
+probar con UA de teléfono aparte; verificar solo en escritorio no dice nada del
+móvil.
+
 ## Verificación hecha
 
 ✅ Aparece en `/product-category/uniformes/`, `/epp/botas/` y
