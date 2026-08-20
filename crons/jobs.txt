@@ -43,20 +43,6 @@
 0 11 11 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 11 9"), commitea y pushea.
 0 11 14 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 14 9"), commitea y pushea.
 
-# --- PENDIENTE: negativas "reloj"/"relojes" (autorizado por Connie 19-ago msg 171) ---
-# Sudtec NO vende relojes (verificado: 0 productos en el catalogo). Quedo sin
-# aplicar porque la cuota de ESCRITURA de la API de Ads se agoto — el propio error
-# dijo "Retry in 35691 seconds" (~10 h). Corre de madrugada, cuando ya se repuso.
-# El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
-15 3 * * * | [CRON] Corre `python3 bin/negativas_pendientes.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADAS o YA-EXISTEN, avisale a Connie con `bash bin/tg.sh send` en HTML que las negativas de "reloj" quedaron aplicadas y verificadas, y despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 15 3), commitea y pushea. Si dice ERROR, avisale y deja el cron.
-
-# --- PENDIENTE: crear el grupo "Botas" (aprobado por Connie 19-ago msg 179) ---
-# El texto del anuncio se lo mostre antes (msg 178) y lo aprobo. Quedo pendiente
-# porque la cuota de ESCRITURA de la API de Ads se agoto (~10 h).
-# NO TOCA NINGUN PRESUPUESTO: el grupo vive dentro de Campana Sudtec y comparte el
-# presupuesto que ya tiene. El techo de 300.000 CLP/mes no se mueve.
-# El script es idempotente y verifica. Este bloque se borra solo al confirmarse.
-45 3 * * * | [CRON] Corre `python3 bin/crear_grupo_botas.py` en /home/agent/workspace. Si dice SIN-QUOTA, NO escribas a Connie: se reintenta manana. Si dice CREADO o YA-EXISTE, avisale a Connie con `bash bin/tg.sh send` en HTML que el grupo Botas quedo activo con sus keywords, el anuncio y la negativa en General, y RECUERDALE que no se modifico ningun presupuesto. Despues BORRA de crons/jobs.txt este bloque completo (comentario y linea 45 3), commitea y pushea. Si dice ERROR, avisale con el detalle y deja el cron.
 
 # --- VIGILANCIA DE LOS CAMBIOS DEL 19-AGO (autorizado por Connie, msg 187) ---
 # Ella viaja el 21-ago y no va a estar mirando. Autorizo explicitamente revertir:
