@@ -46,9 +46,38 @@ token generado por el propio conector. Sospecha: **la clave no quedó guardada**
 **Que «active» en Composio NO significa que la credencial sirva** — solo que se
 guardó algo. La única prueba válida es una llamada real.
 
-**Cómo lo verifica ella:** Semrush → foto de perfil → *Subscription info* →
-sección **API units**. Si dice **0 unidades** o no existe la sección, el bloqueo es
-el **plan Guru** (no incluye API). Si hay unidades, ahí está la clave real.
+### 🔴 Causa raíz confirmada: el conector no pasa la API key
+
+Connie cargó **dos claves distintas** (msgs 253 y 255). En las dos, el valor que
+Composio envía a Semrush en el parámetro `key=`:
+
+- **cambió** entre un intento y otro, y
+- **mantuvo el prefijo `semrtkn-pat-`**, que es formato de **token de Composio**,
+  no de clave de Semrush.
+
+**Conclusión: el conector genera un identificador propio y manda ese en lugar de la
+clave. La clave de ella nunca llega a Semrush.** Por eso el `ERROR 122`.
+
+No hay **una** sola conexión duplicada (verificado con `action: "list"`: una sola
+cuenta activa), así que tampoco es que use la vieja.
+
+**No sirve seguir pegando claves.** Es configuración de la plataforma → **Nicolás**.
+
+Mensaje para él, ya redactado: *«El conector de Semrush en Composio no está pasando
+la API key: manda un token propio con prefijo `semrtkn-pat-` y Semrush responde
+ERROR 122. Probado con dos claves distintas.»*
+
+### ✅ La salida que NO depende de arreglar nada
+
+**Su cuenta Semrush Guru funciona perfecto en el navegador** — lo que no funciona
+es la API. Entonces: **ella exporta desde el Keyword Magic Tool** (base Colombia) y
+**yo proceso el CSV**: limpieza, agrupación por intención, cruce con competidores y
+armado de la planilla.
+
+**Regla general:** cuando una integración está rota pero el usuario tiene la
+herramienta en su navegador, **el export manual + procesamiento de mi lado
+desbloquea el entregable el mismo día.** No dejarla esperando a que se arregle la
+credencial.
 
 **Detalle técnico:** las respuestas de Semrush son **CSV, no JSON**. Hay que
 parsear cabeceras y filas. `ERROR 50 :: NOTHING FOUND` significa cero resultados,
