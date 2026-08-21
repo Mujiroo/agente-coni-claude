@@ -3,3 +3,5 @@
 Un archivo por tema, en Markdown. Lo que se escribe aca sobrevive a los
 reinicios; lo que queda solo en el chat, no.
 - [Leer el estado real antes de proponer](leer-estado-real-antes-de-proponer.md) — propuse agregar una keyword que ya estaba, y colgué un diagnóstico entero de ese error.
+- [Cache de LiteSpeed sobre la API REST](litespeed-cachea-la-api-rest.md) — el helper mostraba cotizaciones viejas con HTTP 200
+- [Leads perdidos por correo mal escrito](leads-perdidos-por-correo-mal-escrito.md) — el formulario no valida el dominio; el teléfono salva el contacto

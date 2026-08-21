@@ -32,7 +32,7 @@ Ejemplos:
   sudtec_wp.py ver 11201
 """
 import argparse
-import base64
+import base64, time
 import json
 import os
 import sys
@@ -62,6 +62,15 @@ def llamar(ruta, metodo="GET", datos=None, usuario=None, clave=None):
     if clave is not None:
         c = clave
     url = base + "/wp-json/" + ruta.lstrip("/")
+    # LiteSpeed cachea las respuestas REST por URL exacta. El 21-ago-2026 esto hizo
+    # que `cotizaciones` (que siempre pide per_page=20) mostrara datos VIEJOS: se
+    # comio las 3 cotizaciones mas nuevas, entre ellas dos de esa madrugada.
+    # Probado: per_page=20 devolvia la #11602 y per_page=19 la #11609, la real.
+    # En las LECTURAS agregamos un parametro unico para forzar respuesta fresca.
+    # (Ojo: esto es para leer DATOS por la API. Para verificar como se ve una PAGINA
+    # publica sirve lo contrario -> ver memory/verificar-sin-rompe-cache.md)
+    if metodo == "GET":
+        url += ("&" if "?" in url else "?") + "_nc=%d" % int(time.time() * 1000)
     cuerpo = json.dumps(datos).encode() if datos is not None else None
     req = urllib.request.Request(url, data=cuerpo, method=metodo)
     tok = base64.b64encode((u + ":" + c).encode()).decode()
