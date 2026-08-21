@@ -1,4 +1,4 @@
-# SUDTEC — «No ha llegado ninguna cotización» (20-ago-2026) — RESUELTO: día flojo
+# SUDTEC — «No ha llegado ninguna cotización» (20-ago-2026) — CERRADO: era un día flojo
 
 ## Los datos
 
@@ -158,3 +158,42 @@ prueba resuelve una duda y crea otra.
 
 Y: **`reenvio_sudtec.py` sin `--enviar` es simulación** — usarlo siempre antes de
 asumir qué va a mandar.
+
+
+## ✅ 23:30 — llegaron dos y se cerró el tema
+
+En la pasada de las 23:30 el reenvío mandó **2 solicitudes reales** a `bd@sudtec.cl`:
+
+| Pedido | Hora (Chile) | Producto |
+|---|---|---|
+| **#10065** | 22:10 | Sujeción para cabinas de camiones LUKAS |
+| **#10066** | 22:18 | Set Glassmaster |
+
+Ambas de **Primera Compañía Cuerpo de Bomberos de Curacautín**.
+
+**Confirma el diagnóstico:** no había avería. Formulario, campañas y reenvío
+funcionan; el 20-ago fue un día flojo con la mayor parte del tráfico de botas caído
+en el hueco del ruteo.
+
+### ⚠️ El correo del solicitante tiene una errata
+
+    primeracia.cbcuracautin@gmail.con     ← termina en .con, no .com
+
+**Comprobado: el dominio `gmail.con` no resuelve.** Cualquier respuesta a esa
+dirección **rebota** y se pierde un cliente que pidió **dos** productos.
+
+Avisado a Connie (msg 274) para que quien tome la cotización pruebe con `.com` o
+los ubique por otra vía.
+
+**Vale como chequeo de rutina:** al reenviar cotizaciones, **validar que el dominio
+del correo del solicitante exista**. Es barato y evita perder leads reales.
+
+## 🕐 Dato técnico importante: WooCommerce guarda las fechas en UTC
+
+`date_created` de `wc/v3/orders` viene en **UTC**, no en hora de Chile. Se confirmó
+cruzándolo con la prueba de Connie: la planilla marcaba `2026-08-20T19:03:03` y ella
+la hizo a las **15:03** de Chile → **UTC-4**.
+
+**Restar 4 horas** (o 3 desde el 6-sep, con el horario de verano) antes de
+comparar con horas locales o con lo que ella diga. Si no, se concluyen cosas falsas
+sobre a qué hora entra el negocio.
