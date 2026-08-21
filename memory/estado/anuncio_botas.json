@@ -8,8 +8,8 @@
  "aprobado_visto": "2026-08-20T14:00-04:00",
  "impresiones_20ago": 0,
  "revisado_19h": "2026-08-20T19:00-04:00",
- "pendiente": "El anuncio esta aprobado pero el grupo sigue en 0 impresiones. FALTA revisar las keywords del grupo: estado, approval_status, system_serving_status y puja efectiva. No se pudo el 20-ago porque Maton Y Composio quedaron sin cuota (429, rateScope DEVELOPER, reintento ~06:40 del 21-ago).",
- "consulta_pendiente": "SELECT ad_group.cpc_bid_micros, ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type, ad_group_criterion.status, ad_group_criterion.negative, ad_group_criterion.approval_status, ad_group_criterion.system_serving_status, ad_group_criterion.effective_cpc_bid_micros FROM ad_group_criterion WHERE ad_group.id = 197186444097",
+ "pendiente": "RESUELTO el 21-ago 04:02: el grupo no arranca porque casi todas sus keywords tienen volumen cero (botas lytos = 0, blauer y jolly = 10/mes). Detalle en clientes/sudtec/botas-volumen-keywords.md. Se le propuso a Connie (msg 275) agregar 'botas de bomberos' (390/mes), pausar 'botas lytos' y dejar blauer/jolly en exacta. ESPERANDO SU OK: no se aplico nada.",
  "por_que_0_impresiones_el_20ago": "El anuncio estuvo DESAPROBADO desde antes de medianoche hasta las 14:00, y era el UNICO del grupo. Un anuncio desaprobado no se muestra: ~14 de las ~19 horas del dia el grupo no podia servir. Los sitelinks en revision NO influyen: si un sitelink no esta aprobado simplemente no se muestra, el anuncio sale igual. Queda por explicar solo la ventana 14:00-19:00.",
- "ojo": "El 20-ago NO sirve para juzgar el rendimiento del grupo: el anuncio estuvo caido casi todo el dia. El primer dia valido es el 21-ago."
+ "ojo": "El 20-ago NO sirve para juzgar el rendimiento del grupo: el anuncio estuvo caido casi todo el dia. El primer dia valido es el 21-ago.",
+ "cron_diagnostico_07h_21ago": "Borrado el 21-ago 05:05 por redundante: la pregunta ya estaba contestada y la consulta habria gastado cuota de Ads sin agregar nada."
 }
