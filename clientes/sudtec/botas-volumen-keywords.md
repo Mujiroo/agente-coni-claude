@@ -11,11 +11,11 @@ tuvieran búsquedas?». La respuesta honesta es que **no**, y ahora se midió.*
 | `botas blauer` | **10** | — | sí ← **la propuse yo** |
 | `botas jolly` | **10** | LOW | sí |
 | `botas bombero` | **260** | HIGH | sí |
-| **`botas de bomberos`** | **390** | HIGH | **NO** ← la más buscada |
+| **`botas de bomberos`** | **390** | HIGH | **SÍ** ← *(ver corrección abajo)* |
 | `botas haix bomberos` | 210 | MEDIUM | no |
 | `botas bombero haix` | 210 | MEDIUM | no |
 | `botas bombero forestal` | 70 | HIGH | no |
-| `botas para bomberos` | 50 | HIGH | no |
+| `botas para bomberos` | 50 | HIGH | **sí** ← *(ver corrección abajo)* |
 | `botas estructurales bomberos` | 50 | MEDIUM | no |
 
 ## Lo que esto significa
@@ -51,3 +51,66 @@ es decisión comercial de ella.
 **Validar contra el catálogo y validar contra la demanda son dos cosas distintas.**
 Antes de proponer una keyword nueva, mirar su volumen; cuesta una llamada al
 Planificador y evita armar un grupo que no puede arrancar.
+
+
+---
+
+# ⚠️ CORRECCIÓN — 21-ago-2026 05:30
+
+**La columna «¿Está en el grupo?» de arriba estaba mal en dos filas.** Se llenó de
+memoria, sin consultar los criterios reales del grupo. Al ir a aplicar los cambios
+que Connie aprobó (msg 276) se leyó el grupo `197186444097` y aparecieron **9
+keywords**, no las 4 que yo suponía:
+
+| Keyword | Match | Estado | Serving |
+|---|---|---|---|
+| `botas de bomberos` | PHRASE | ENABLED | ELIGIBLE |
+| `botas bombero` | PHRASE | ENABLED | ELIGIBLE |
+| `botas para bomberos` | PHRASE | ENABLED | ELIGIBLE |
+| `botas para incendios forestales` | PHRASE | ENABLED | ELIGIBLE |
+| `botas incendio` | PHRASE | ENABLED | ELIGIBLE |
+| `botas seguridad incendio` | PHRASE | ENABLED | RARELY_SERVED |
+| `botas jolly` · `botas blauer` · `botas lytos` | PHRASE | ENABLED | ELIGIBLE |
+
+**`botas de bomberos` (390/mes) ya estaba**, activa y elegible. La propuesta 1
+(«agregarla») era un **no-op**.
+
+## Y eso tumba la conclusión principal
+
+**«El grupo no arranca porque sus keywords tienen volumen cero» es falso.** Las dos
+más buscadas —`botas de bomberos` (390) y `botas bombero` (260)— estaban dentro,
+activas y elegibles. El volumen cero de las de marca es real, pero **no** es la
+causa.
+
+## La causa real (medida el 21-ago)
+
+1. **La campaña usa `MAXIMIZE_CONVERSIONS`.** El `cpc_bid_micros` de los grupos es
+   el mismo default (1.000.000 micros) y **no se usa**: la puja la decide Google.
+   La hipótesis «la puja del grupo es baja» está descartada.
+2. **La negativa `botas` (broad) que se agregó en el grupo General el 19-ago
+   bloquea también las keywords propias de General**: `botas bombero`,
+   `bota bomberos` y `botas incendio` — y `botas bombero` era la que traía
+   **393 impresiones y 8 conversiones**.
+3. **Con Maximize Conversions, el presupuesto va donde hay historial de
+   conversión.** El grupo Botas parte en cero, así que recibe muy poco:
+   **1 impresión en 7 días**, contra **1.472** de General.
+
+O sea: el tráfico que convertía se sacó de donde convertía y se mandó a un grupo
+sin historial, en una campaña que reparte por historial.
+
+## Estado
+
+Aplicado el 21-ago (aprobado por Connie, msg 276): `botas lytos` **pausada**;
+`botas blauer` y `botas jolly` pasadas a **exacta** (se quitó el criterio en frase
+y se creó uno nuevo — el match type no se puede editar).
+
+**Pendiente de decisión de Connie:** si a los ~3 días el grupo sigue casi en cero,
+quitar la negativa `botas` (id `18320463`) del grupo General y devolver el tráfico
+donde ya convertía. El cron de las 09:30 (`vigilancia_cambios.py`) ya vigila esto.
+
+## La lección, corregida
+
+La de ayer («validar contra el catálogo no es validar contra la demanda») sigue en
+pie, pero la de hoy es más básica: **antes de proponer agregar algo, leer lo que ya
+está.** Media consulta habría evitado proponer una keyword que llevaba semanas
+adentro — y habría evitado la explicación equivocada que se construyó encima.

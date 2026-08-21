@@ -8,8 +8,32 @@
  "aprobado_visto": "2026-08-20T14:00-04:00",
  "impresiones_20ago": 0,
  "revisado_19h": "2026-08-20T19:00-04:00",
- "pendiente": "RESUELTO el 21-ago 04:02: el grupo no arranca porque casi todas sus keywords tienen volumen cero (botas lytos = 0, blauer y jolly = 10/mes). Detalle en clientes/sudtec/botas-volumen-keywords.md. Se le propuso a Connie (msg 275) agregar 'botas de bomberos' (390/mes), pausar 'botas lytos' y dejar blauer/jolly en exacta. ESPERANDO SU OK: no se aplico nada.",
+ "pendiente": "21-ago 05:30: aplicados los cambios que Connie aprobo (msg 276): 'botas lytos' PAUSADA; 'botas blauer' y 'botas jolly' pasadas a EXACTA (remove+create, el match type no se edita). La propuesta de agregar 'botas de bomberos' era NO-OP: ya estaba en el grupo.",
  "por_que_0_impresiones_el_20ago": "El anuncio estuvo DESAPROBADO desde antes de medianoche hasta las 14:00, y era el UNICO del grupo. Un anuncio desaprobado no se muestra: ~14 de las ~19 horas del dia el grupo no podia servir. Los sitelinks en revision NO influyen: si un sitelink no esta aprobado simplemente no se muestra, el anuncio sale igual. Queda por explicar solo la ventana 14:00-19:00.",
  "ojo": "El 20-ago NO sirve para juzgar el rendimiento del grupo: el anuncio estuvo caido casi todo el dia. El primer dia valido es el 21-ago.",
- "cron_diagnostico_07h_21ago": "Borrado el 21-ago 05:05 por redundante: la pregunta ya estaba contestada y la consulta habria gastado cuota de Ads sin agregar nada."
+ "cron_diagnostico_07h_21ago": "Borrado el 21-ago 05:05 por redundante: la pregunta ya estaba contestada y la consulta habria gastado cuota de Ads sin agregar nada.",
+ "causa_real_0_impresiones": "NO es volumen cero (esa conclusion del 04:02 quedo desmentida). Son dos cosas: (1) la campana usa MAXIMIZE_CONVERSIONS, que reparte por historial de conversion, y el grupo Botas parte en cero; (2) la negativa broad 'botas' puesta en el grupo General el 19-ago (criterion 18320463) bloquea tambien las keywords propias de General, entre ellas 'botas bombero', que traia 393 impresiones y 8 conversiones. Se saco el trafico de donde convertia y se mando a un grupo sin historial.",
+ "puja": "Descartada como causa: cpc_bid_micros es el default 1000000 en TODOS los grupos y no se usa con Maximize Conversions.",
+ "medicion_7dias_al_21ago": {
+  "grupo_Botas": {
+   "impresiones": 1,
+   "clics": 0
+  },
+  "grupo_General": {
+   "impresiones": 1472,
+   "clics": 191
+  }
+ },
+ "decision_pendiente_de_connie": "Propuesto en msg 278: esperar hasta el lunes 24-ago; si el grupo Botas sigue casi en cero, quitar la negativa 'botas' (18320463) del grupo General y devolver el trafico. Ella respondio? NO todavia. Viaja a China hoy 21-ago.",
+ "criterios_al_21ago": [
+  "botas de bomberos PHRASE",
+  "botas bombero PHRASE",
+  "botas para bomberos PHRASE",
+  "botas para incendios forestales PHRASE",
+  "botas incendio PHRASE",
+  "botas seguridad incendio PHRASE (RARELY_SERVED)",
+  "botas blauer EXACT",
+  "botas jolly EXACT",
+  "botas lytos PHRASE PAUSED"
+ ]
 }
