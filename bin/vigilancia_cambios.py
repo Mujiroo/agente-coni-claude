@@ -16,7 +16,8 @@ benchmarks de internet.
 
 ECONOMIA DE CUOTA: una sola consulta por corrida. Ver [[cuota-google-ads]].
 
-Salidas: OK-SILENCIO | HAY-QUE-AVISAR | REVERTIR-RUTEO | SIN-QUOTA
+Salidas: OK-SILENCIO | HAY-QUE-AVISAR | SIN-QUOTA
+(REVERTIR-RUTEO quedo obsoleto el 21-ago-2026: el ruteo ya se revirtio.)
 """
 import json, subprocess, sys, os, datetime
 
@@ -33,7 +34,7 @@ BASE_BOTAS_CONV_DIA = 8 / 30.0    # 0,27 al dia
 CAIDA_CONV = 0.30      # baja de mas del 30% en conversiones/dia
 SUBIDA_CPA = 1.50      # CPA por sobre 1,5x la base (= ~2.500 CLP)
 DIAS_SEGUIDOS = 3      # tiene que sostenerse; un dia malo no significa nada
-DIAS_BOTAS = 5         # margen para que el grupo nuevo arranque
+DIAS_BOTAS = 5         # (en desuso desde el 21-ago: ver nota en la rama del ruteo)
 
 
 def gaql(q):
@@ -119,12 +120,14 @@ def main():
                               "el destino del anuncio y mandarlo a revision."
                               % botas_desaprobado))
 
-    revertir = (not botas_desaprobado) and st["dias_botas_sin_nada"] >= DIAS_BOTAS
-    if revertir:
-        alertas.append(("🔴", "El grupo <b>Botas</b> lleva <b>%d días sin una sola "
-                              "impresión</b>. La negativa en General ya está cortando esas "
-                              "búsquedas, así que se están perdiendo. <b>Hay que quitar la "
-                              "negativa.</b>" % st["dias_botas_sin_nada"]))
+    # 21-ago-2026: el ruteo SE REVIRTIO. La negativa 'botas' (criterion 18320463) ya
+    # NO existe en el grupo General, asi que "Botas sin impresiones" dejo de ser una
+    # anomalia: General compite libre por esas busquedas y normalmente se las gana,
+    # porque la campana es MAXIMIZE_CONVERSIONS y reparte por historial.
+    # Esta rama alertaba "hay que quitar la negativa" — hoy seria FALSO y mandaria un
+    # 🔴 a Connie sobre algo que no existe. Se desactiva; el contador queda solo
+    # como dato informativo en el estado.
+    revertir = False
 
     # --- cuenta completa: conversiones y CPA contra su propia base ---
     malo = False

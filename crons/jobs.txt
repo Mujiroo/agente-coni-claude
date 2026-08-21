@@ -49,7 +49,7 @@
 # Ella viaja el 21-ago y no va a estar mirando. Autorizo explicitamente revertir:
 # "si ves que las campanas empeoraron o no sirve, pausa los cambios".
 # Corre a las 09:30, despues de la vigilancia general de las 09:00.
-30 9 * * * | [CRON] Corre `python3 bin/vigilancia_cambios.py` en /home/agent/workspace. OJO: el ruteo YA SE REVIRTIO el 21-ago 05:30 — la negativa 'botas' del grupo General (criterion 18320463) FUE QUITADA con OK de Connie (msg 281), asi que si el script pide REVERTIR-RUTEO ya no hay nada que quitar: verificalo con una consulta y NO vuelvas a tocarlo. Si dice OK-SILENCIO o SIN-QUOTA, NO escribas a Connie. Si dice HAY-QUE-AVISAR, mandale las alertas en HTML con las cifras y decile en una linea que propones; no cambies nada sin avisar primero.
+30 9 * * * | [CRON] Corre `python3 bin/vigilancia_cambios.py` en /home/agent/workspace. Si dice OK-SILENCIO o SIN-QUOTA, NO escribas a Connie ni hagas nada mas. Si dice HAY-QUE-AVISAR, mandale las alertas en HTML con las cifras y decile en una linea que propones; NO cambies nada sin avisarle primero. (La rama REVERTIR-RUTEO se desactivo el 21-ago: el ruteo ya se revirtio y la negativa 'botas' de General ya no existe.)
 
 # --- SUDTEC Ads: seguimiento del anuncio de Botas (20-ago-2026) ---
 # Se le cambio el destino a /product-category/epp/botas/ tras el rechazo por 403
