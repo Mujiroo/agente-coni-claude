@@ -12,6 +12,10 @@ están montados como crons en `crons/jobs.txt`.
 **Las tareas** salieron de su Google Calendar primario y ella misma detalló cada
 una por chat el 19-ago (msg 153):
 
+- **1-sep-2026** — Revisar **si le cobraron Google Workspace** (pedido el
+  20-ago, msg 272). Está **también en su Google Calendar** (evento
+  `0617vhc3a9d2qujkvtu193r99g`, 10:00 Chile), pero se duplicó por Telegram porque
+  durante el viaje no revisa el calendario.
 - **4-sep-2026** — Le **depositan** el depósito a plazo. Tiene que **volver a
   depositarlo**, dejando **200.000 sin depositar**.
 - **11-sep-2026** — **Enviar la boleta de Sudtec.**
@@ -57,3 +61,17 @@ a ojo. Si alguien los "empareja", dos avisos llegan una hora antes.
 el año que viene.
 
 Relacionado: [[connie]], [[notas-connie]]
+
+
+## Regla que quedó (20-ago-2026)
+
+**Cuando pida «agrégame algo al calendario» durante el viaje, hacer las dos cosas:**
+crear el evento **y** montar el aviso por Telegram.
+
+El calendario solo no le sirve — ella misma dijo que no lo va a revisar, y ese fue
+justamente el motivo de montar estos crons. Crear únicamente el evento sería cumplir
+la letra del pedido y fallar el objetivo.
+
+**La hora siempre igual: 22:00 de China**, que es cuando en Chile empieza la
+jornada. Ojo con el cambio de horario chileno del **6-sep-2026** (UTC-4 → UTC-3):
+antes de esa fecha son las **10:00** de Chile, después las **11:00**.
