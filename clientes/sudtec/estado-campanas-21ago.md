@@ -78,3 +78,78 @@ encima de la caída de tráfico sí explica la sensación de Connie.
 **No fue el cambio de esta mañana.** El tope de presupuesto y la etiqueta mal
 configurada son anteriores. Quitar la negativa `botas` (05:30) solo devolvió
 tráfico a General; hoy el grupo Botas ya registró 3 impresiones.
+
+---
+
+# Cierre del 21-ago (18:55) — Connie volvió a preguntar (msg 290)
+
+## Cómo cerró el día
+
+**52 impresiones · 12 clics · 9.389 CLP · 0 cotizaciones.**
+
+El presupuesto diario son **9.100 CLP** y se gastaron **9.389**: la campaña **se
+quedó sin plata cerca de las 17:00** y dejó de mostrarse (última impresión 17:00).
+
+## El CPC se duplicó
+
+| | CPC medio |
+|---|---|
+| Hoy 21-ago | **782 CLP** |
+| Media 7 días | **337 CLP** |
+
+Evolución del CPC por día: 268 (14-ago) → 237 (17) → 441 (18) → 384 (19) →
+498 (20) → **782 (21)**.
+
+Y las impresiones al revés: 267 → 328 → 200 → 182 → 165 → **52**.
+
+**Con presupuesto fijo y CPC al doble, el derrumbe de impresiones es aritmética.**
+
+**No lo causó el cambio de las 05:30**: el desglose por hora muestra CPC alto ya a
+la 01:00 (799/clic) y a las 02:00 (1.042/clic), antes de tocar nada.
+
+## Dónde se va la plata — 453 términos de la semana
+
+**El 87% del gasto (29.737 de 34.111 CLP) fue a búsquedas con CERO conversiones.**
+
+| Término | Costo 7d | Clics | Conv |
+|---|---|---|---|
+| `improfor` | 2.943 | 9 | 0 |
+| `halligan` | 2.532 | 3 | 0 |
+| `segurycel santiago` | 1.320 | 1 | 0 |
+| `segurycel` | 1.081 | 2 | 0 |
+| `maryun puerto montt` | 640 | 2 | 0 |
+| `improfort` | 614 | 1 | 0 |
+
+**Segurycel, Maryun e Improfor son competencia.** El grupo General ya tiene
+negativas para `steelpro`, `vicsa safety`, `romak`, `garmendia`, `improfor store`,
+`workwear center`, `cespal talca`, `safety store`, `rmh`, `holmatro chile` — pero
+**no** para `segurycel`, `maryun` ni `improfort`, así que ese tráfico se cuela.
+
+*(Ojo: `improfor store` está bloqueado en EXACTA, lo que no bloquea `improfor` a
+secas. La negativa exacta no cubre las variantes.)*
+
+## Propuesto a Connie (msg 291), NADA aplicado
+
+1. **Negativas `segurycel`, `maryun`, `improfort` en General** — gratis, frena la
+   sangría de inmediato. *Esperando su OK.*
+2. **Arreglar la etiqueta de conversión** (msg 287). *Esperando su OK.*
+3. **Revisar la campaña Competencias**: 2.943 CLP en 7 días por `improfor`, cero
+   cotizaciones. Es decisión comercial de ella.
+4. **Después el presupuesto** — plata suya, monto lo decide ella. CLP = factor ×1.
+
+## Hipótesis que une los dos hallazgos
+
+La etiqueta cuenta como conversión **cualquier** formulario del sitio. La campaña
+usa **Maximize Conversions**. Si Google cree que clics de búsquedas como
+`segurycel` o `halligan` «convierten» —porque alguien usó el buscador del sitio—
+**puja más caro por ellos**. Eso explicaría a la vez el CPC disparado y que el 87%
+del gasto no produzca cotizaciones.
+
+**No está probado**, pero es consistente con todo lo medido y es una razón más
+para arreglar la etiqueta antes que subir el presupuesto: subir plata con una
+señal sucia solo hace el problema más caro.
+
+## Sigue sin respuesta
+
+La autorización para **enviar una cotización de prueba** (msg 289) y descartar que
+el formulario esté roto desde anoche. Sin eso, esa hipótesis queda abierta.
