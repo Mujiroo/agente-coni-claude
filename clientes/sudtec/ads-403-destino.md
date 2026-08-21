@@ -328,3 +328,45 @@ Queda sin explicar solo la ventana **14:00–19:00**, y ahí caben dos hipótesi
 ⚠️ **Conclusión que importa para no leer mal los números:** el **20-ago no sirve
 para juzgar el rendimiento del grupo Botas** — el anuncio estuvo caído casi todo el
 día. **El primer día válido es el 21-ago.**
+
+
+## 🕳️ El hueco de tráfico del 20-ago (pregunta de Connie, msg 270)
+
+Preguntó si los grupos de *General* estaban andando. **Sí**, según la lectura de
+las 19:00:
+
+| Grupo | Impresiones | Clics |
+|---|---|---|
+| General | 91 | 13 |
+| Improfor | 21 | 1 |
+| **Botas** | **0** | 0 |
+| **Total cuenta** | **112** | — |
+
+*(días normales: 158–328 impresiones)*
+
+**Pero la pregunta destapa el problema real del día:**
+
+- El **19-ago** se puso **`botas` como negativa en el grupo General**, para rutear
+  ese tráfico al grupo nuevo.
+- El **20-ago**, General tenía las botas **bloqueadas** y el grupo Botas estaba
+  **desaprobado hasta las 14:00**.
+
+→ **El tráfico de botas se cayó por el hueco entre los dos. Nadie lo capturó.**
+
+Y no es marginal: `botas bombero` traía históricamente **393 impresiones y 8
+conversiones**. Es plausible que buena parte del bajón del día sea eso, y **no** un
+problema general de la campaña.
+
+### La red de seguridad ya está puesta
+
+`bin/vigilancia_cambios.py` corre a diario: si el grupo Botas pasa **5 días**
+(`DIAS_BOTAS`) sin una sola impresión, **quita la negativa de General
+automáticamente** y devuelve el tráfico. Connie no tiene que hacer nada desde China.
+
+Y por el parche del 20-ago en la mañana, **no cuenta los días en que el anuncio
+estaba desaprobado** — sería castigar por una causa ya resuelta. Por eso el contador
+sigue en **0** (`memory/estado/vigilancia_cambios.json`).
+
+**Ese parche resultó ser justo lo que hacía falta:** sin él, el sistema habría
+revertido el ruteo por un motivo equivocado; con él, la reversión solo se dispara si
+el grupo no arranca **estando en condiciones de hacerlo**.
