@@ -302,3 +302,29 @@ De los 9 modificados: **6 APPROVED, 3 REVIEW_IN_PROGRESS, 0 rechazados.**
 El grupo Botas sigue con **0 impresiones** — esperable, se aprobó recién. Si a la
 pasada de las 19:00 sigue en cero, **ahí sí hay algo más que mirar** (puja,
 keywords o presupuesto), no el destino.
+
+
+## Por qué el grupo Botas marcó 0 impresiones el 20-ago (pregunta de Connie, msg 268)
+
+Ella planteó que podía ser porque los **sitelinks** entraron en revisión al
+cambiarles la URL. **Hay que separarlo:**
+
+**Los sitelinks NO frenan el anuncio.** Son *assets*: si uno no está aprobado,
+simplemente **no se muestra**; el anuncio sale igual, sin ese enlace. No apagan la
+campaña.
+
+**El anuncio sí, y explica casi todo.** Estuvo **DISAPPROVED desde antes de
+medianoche hasta las 14:00**, y era el **único** del grupo. Un anuncio desaprobado
+no sirve. **De las ~19 horas del día, en ~14 el grupo no podía mostrarse.**
+
+Queda sin explicar solo la ventana **14:00–19:00**, y ahí caben dos hipótesis:
+
+1. Un anuncio recién aprobado **tarda un rato** en entrar a subastas (normal)
+2. Las keywords del grupo tienen la **puja demasiado baja** frente al grupo
+   *General* y no ganan ninguna subasta
+
+**La hipótesis 2 es la que se mide el 21-ago 07:00** con la consulta ya guardada.
+
+⚠️ **Conclusión que importa para no leer mal los números:** el **20-ago no sirve
+para juzgar el rendimiento del grupo Botas** — el anuncio estuvo caído casi todo el
+día. **El primer día válido es el 21-ago.**
