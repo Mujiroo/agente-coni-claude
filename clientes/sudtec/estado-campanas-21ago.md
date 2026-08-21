@@ -153,3 +153,39 @@ señal sucia solo hace el problema más caro.
 
 La autorización para **enviar una cotización de prueba** (msg 289) y descartar que
 el formulario esté roto desde anoche. Sin eso, esa hipótesis queda abierta.
+
+---
+
+# APLICADO 21-ago 19:05 — negativas de competencia (Connie, msg 292: «hace el 1»)
+
+Creadas en el grupo **General** (`181820804074`), las tres **BROAD** y ENABLED:
+
+| Término | criterion_id |
+|---|---|
+| `segurycel` | 364551321517 |
+| `maryun` | 320624629372 |
+| `improfort` | 367217732843 |
+
+Verificado por consulta: las tres activas. General queda con **74** negativas.
+
+**Por qué BROAD y no EXACT.** La negativa exacta solo bloquea la consulta
+idéntica: por eso `improfor store` (EXACT, ya existente) **no** evitaba el gasto en
+`improfor` a secas ni en `improfort`. En amplia, la negativa bloquea cualquier
+consulta que **contenga** el término, así que cubre `segurycel santiago` y
+`maryun puerto montt`. Sudtec no vende ninguna de esas marcas → sin riesgo de
+bloquear tráfico propio.
+
+**Libera ~4.655 CLP/semana** que se iban en esos términos con cero conversiones.
+
+**Ojo para el futuro:** las negativas de marca de competencia en General están casi
+todas en EXACTA (`steelpro`, `vicsa safety`, `romak`, `garmendia`, `workwear
+center`, `cespal talca`, `safety store`, `rmh`, `holmatro chile`). **Probablemente
+estén filtrando igual** por variantes y consultas largas. Vale la pena revisarlas
+—no se tocaron ahora porque Connie autorizó solo las tres.
+
+## Sigue pendiente de ella
+
+1. Etiqueta de conversión (msg 287) — **el de mayor impacto**.
+2. Campaña Competencias: 2.943 CLP/7d por `improfor`, cero cotizaciones (msg 291).
+3. Permiso para enviar una cotización de prueba (msg 289).
+4. Presupuesto — su decisión, CLP factor ×1.
