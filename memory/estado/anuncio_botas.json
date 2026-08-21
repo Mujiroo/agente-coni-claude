@@ -24,7 +24,7 @@
    "clics": 191
   }
  },
- "decision_pendiente_de_connie": "Propuesto en msg 278: esperar hasta el lunes 24-ago; si el grupo Botas sigue casi en cero, quitar la negativa 'botas' (18320463) del grupo General y devolver el trafico. Ella respondio? NO todavia. Viaja a China hoy 21-ago.",
+ "decision_pendiente_de_connie": "RESUELTA el 21-ago 05:30 (msg 281, 'dale nomas'): se quito la negativa 'botas' del grupo General.",
  "criterios_al_21ago": [
   "botas de bomberos PHRASE",
   "botas bombero PHRASE",
@@ -35,5 +35,8 @@
   "botas blauer EXACT",
   "botas jolly EXACT",
   "botas lytos PHRASE PAUSED"
- ]
+ ],
+ "revertido_21ago": "Quitada la negativa broad 'botas' (criterion 18320463) del grupo General 181820804074. Verificado: 0 negativas con 'bota' en General, y 'botas bombero' (la de 8 conversiones) quedo ENABLED + ELIGIBLE. El grupo Botas sigue activo y elegible; ya no bloquea a General, Google elige por consulta.",
+ "ojo_general": "En General quedaron PAUSADAS 'botas de bomberos', 'botas para bomberos' y 'botas jolly' desde el cambio del 19-ago. No se reactivaron: no estaba autorizado y 'botas bombero' en amplia ya cubre esas consultas. Si Connie quiere, se puede reactivar.",
+ "pendiente_para_cuando_vuelva": "Si quiere que el grupo Botas tenga vida propia, la via correcta es CAMPANA APARTE con presupuesto propio: dentro de una campana con Maximize Conversions no hay forma de reservarle presupuesto a un grupo. Implica presupuesto nuevo -> decision de ella, y OJO con la moneda (CLP, factor x1)."
 }

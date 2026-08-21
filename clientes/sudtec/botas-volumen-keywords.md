@@ -104,9 +104,19 @@ Aplicado el 21-ago (aprobado por Connie, msg 276): `botas lytos` **pausada**;
 `botas blauer` y `botas jolly` pasadas a **exacta** (se quitó el criterio en frase
 y se creó uno nuevo — el match type no se puede editar).
 
-**Pendiente de decisión de Connie:** si a los ~3 días el grupo sigue casi en cero,
-quitar la negativa `botas` (id `18320463`) del grupo General y devolver el tráfico
-donde ya convertía. El cron de las 09:30 (`vigilancia_cambios.py`) ya vigila esto.
+**Revertido el 21-ago 05:30, con OK de Connie (msg 281).** Se quitó la negativa
+`botas` (id `18320463`) del grupo General. Verificado: no queda ninguna negativa
+con «bota» en General, y **`botas bombero` volvió a ENABLED + ELIGIBLE**. El grupo
+Botas sigue activo — dejó de bloquear a General, nada más.
+
+No se recomendó esperar: bajo Maximize Conversions el grupo nuevo no iba a
+acumular historial sin presupuesto, y sin historial no iba a recibir presupuesto.
+La espera solo habría costado más días de la keyword que convertía bloqueada.
+
+**Para cuando Connie vuelva:** si quiere el grupo Botas con vida propia, la vía es
+**campaña aparte con presupuesto propio**. Dentro de una campaña con Maximize
+Conversions no existe forma de reservarle presupuesto a un grupo. Implica plata
+nueva, así que lo decide ella (y ojo con la moneda: CLP, factor ×1).
 
 ## La lección, corregida
 
