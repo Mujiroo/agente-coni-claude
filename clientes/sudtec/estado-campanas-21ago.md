@@ -491,3 +491,42 @@ semanas. **Queda congelada mientras viaja**, salvo que ella lo pida.
 conversión limpia marcada como **secundaria** — mide la cotización real pero **no
 se usa para pujar**. Permite ver la verdad sin tocar el pilotaje. Pendiente de que
 ella la quiera.
+
+---
+
+# Cierre del sábado 22-ago (19:00)
+
+**El CPC no volvió a subir — bajó.** Se avisó a Connie (msg 307) porque en msg 306
+se le había prometido avisar si repuntaba.
+
+Mismas horas (00:00–18:59), viernes contra sábado:
+
+| | Impr | Clics | Gasto | CPC |
+|---|---|---|---|---|
+| Viernes 21 | 53 | 12 | 9.389 | **782** |
+| **Sábado 22** | **126** | 19 | 7.833 | **412** |
+
+**El doble de impresiones con el clic a mitad de precio**, y **el presupuesto no se
+agotó** (7.833 de 9.100) — o sea los anuncios siguieron activos todo el día, al
+revés que el viernes.
+
+**Cotizaciones del sábado: 0.** Esperable: el 57% de los sábados cierra en cero
+según [[linea-base-cotizaciones]]. La última real sigue siendo el 20-ago 22:18.
+
+## Lectura
+
+Las negativas de competencia del viernes 19:05 (`segurycel`, `maryun`,
+`improfort`) están haciendo lo que se esperaba: el CPC pasó de **725-782** a
+**412** y el presupuesto rinde el doble de impresiones.
+
+**El CPC de 412 sigue por encima de la media de 7 días (~337-379)**, así que no
+está resuelto del todo — pero está lejos del pico del viernes.
+
+**Criterio para el lunes 24:** es el primer día hábil y la prueba de verdad. Si el
+CPC se sostiene bajo con tráfico de día laboral y entran cotizaciones, el episodio
+queda cerrado. Se le anticipó así a Connie.
+
+## Pendientes de ella, sin cambios (congelados por el viaje)
+
+Ver [[congelar-cambios-viaje-china]]. Nada se toca hasta que vuelva, salvo que lo
+pida: etiqueta de conversión, grupo Improfor, presupuesto.
