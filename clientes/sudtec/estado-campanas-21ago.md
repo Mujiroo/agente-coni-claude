@@ -189,3 +189,49 @@ estén filtrando igual** por variantes y consultas largas. Vale la pena revisarl
 2. Campaña Competencias: 2.943 CLP/7d por `improfor`, cero cotizaciones (msg 291).
 3. Permiso para enviar una cotización de prueba (msg 289).
 4. Presupuesto — su decisión, CLP factor ×1.
+
+---
+
+# Cierre 21-ago 23:30
+
+**El día cerró con CERO cotizaciones.** Última real: 20-ago 22:18 hora de Chile
+(pedidos 11608 y 11609, ambos de Bomberos de Curacautín).
+
+## El formulario NO está roto (verificado sin escribir)
+
+| Comprobación | Resultado |
+|---|---|
+| `/cotizacion-sudtec/` (la página real) | **200**, con el formulario renderizado |
+| `/cotizacion/` | 301 → redirige, normal |
+| `/lista-productos/` | 200, con los botones YITH |
+| Plugin YITH Request a Quote Premium | **active** |
+| Prueba propia de Connie (pedido 11607) | entró bien el 20-ago 19:03 UTC |
+
+*(Ojo: `/lista-de-cotizacion/` da 404, pero ese slug me lo inventé yo al tantear —
+no es la página real. No es un síntoma.)*
+
+**Lo que NO se pudo verificar:** que el envío se complete de punta a punta. Eso
+exige mandar el formulario de verdad. Se le pidió permiso a Connie (msg 289), no
+lo dio, y **se retiró el pendiente** (msg 294): con todo lo demás sano, no
+justifica crear un pedido falso en producción.
+
+**Explicación más probable del cero de hoy:** no hubo tráfico. **52 impresiones**
+contra 165 de ayer, con el presupuesto agotado a las 17:00.
+
+## Contexto para leer los próximos días
+
+**22-ago es sábado.** Las cotizaciones de bomberos e instituciones caen fuerte el
+fin de semana: **un sábado en cero es normal y no indica falla.** El primer día
+útil para juzgar si las negativas de competencia ayudaron es el **lunes 24-ago**.
+Así se le advirtió, para que no lea el sábado como una emergencia.
+
+## Estado de los pendientes de Connie
+
+| Pendiente | Estado |
+|---|---|
+| Negativas de competencia | ✅ **aplicado** (msg 292) |
+| Etiqueta de conversión | ⏳ esperando OK — **el de mayor impacto** |
+| Campaña Competencias (`improfor`, 2.943 CLP/7d, 0 conv) | ⏳ esperando |
+| Presupuesto | ⏳ decisión suya · CLP factor ×1 |
+| Cotización de prueba | ❌ **retirado**, ya no hace falta |
+| Llamar a Bomberos de Curacautín (933964206) | ⏳ en su cancha |
