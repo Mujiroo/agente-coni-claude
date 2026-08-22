@@ -364,3 +364,65 @@ día útil para juzgar las negativas del viernes es el **lunes 24-ago**.
     python3 bin/sudtec_wp.py api 'wc/v3/orders?per_page=60&_fields=id,number,date_created&orderby=date&order=desc'
 
 Las 5 consultas de Ads fueron por **Maton**, que respondió sin problemas de cuota.
+
+---
+
+# 22-ago 08:45 — «¿Deberíamos pausar el grupo Improfor?» (msg 299)
+
+Connie pidió opinión, **no autorizó nada**. Se le recomendó **no pausar todavía**
+(msgs 300 y 301).
+
+## 🔑 El dato que cambia la respuesta: los presupuestos NO son compartidos
+
+| Campaña | Estado | Estrategia | Presupuesto | ¿Compartido? |
+|---|---|---|---|---|
+| **Campaña Sudtec** | ENABLED | MAXIMIZE_CONVERSIONS | **9.100 CLP/día** | **No** |
+| **Competencias** | ENABLED | MAXIMIZE_CONVERSIONS | **700 CLP/día** | **No** |
+
+**Pausar Improfor NO libera un peso para Campaña Sudtec.** Son presupuestos
+separados (`explicitly_shared = false`): la plata no se traspasa, solo deja de
+gastarse. Por eso pausarla **no ayuda** al cuello de botella real, que es el 84% de
+impresiones perdidas por presupuesto en la campaña principal.
+
+**Esto se verificó antes de opinar**, porque el argumento intuitivo —«ese gasto
+podría estar en General, que sí convierte»— **habría sido falso** y la habría
+llevado a esperar una mejora que no iba a ocurrir.
+
+## Por qué no pausar todavía
+
+1. **Es el 2,8% del gasto de la cuenta** (700/día ≈ 21.000/mes). No puede ser la
+   causa de que la cuenta rinda poco.
+2. **13 clics no son muestra.** Con la tasa histórica (~10-15%) lo esperable eran
+   1-2 cotizaciones; cero cabe en la varianza. Es el mismo razonamiento que se
+   aplicó el 20-ago con la «sequía» y que resultó correcto.
+3. **Es nueva, no lleva meses fallando.** Sus 4.062 CLP de 30 días son exactamente
+   los mismos 4.062 de los últimos 7 → **empezó a gastar esta semana**.
+4. **Corre con la etiqueta sucia.** Competencias también usa MAXIMIZE_CONVERSIONS,
+   así que hoy puja guiada por un dato falso. Juzgarla ahora es juzgarla con la
+   balanza mala.
+
+## Plan propuesto
+
+1. Arreglar la etiqueta (la usan **las dos** campañas).
+2. Dejar Improfor 2-3 semanas con datos limpios.
+3. **Mediados de septiembre:** si sigue en cero cotizaciones **reales**, pausar con
+   fundamento.
+
+## Si ella decide pausar igual
+
+Se le dijo que se pausaría **la campaña completa**, no el grupo: **Improfor es el
+único grupo activo que le queda a Competencias** (fireground, Maryun, Garmendia y
+Cespal Talca ya están PAUSED). Dejar la campaña encendida y vacía solo genera
+confusión al releerlo.
+
+## Grupos con gasto, últimos 30 días
+
+| Campaña | Grupo | Impr | Clics | Gasto | «Conv» | CPC |
+|---|---|---|---|---|---|---|
+| Campaña Sudtec | General | 5.716 | 724 | **242.495** | 135 | 335 |
+| Competencias | Improfor | 76 | 13 | 4.062 | 1 | 312 |
+| Competencias | fireground *(hoy PAUSED)* | 154 | 15 | 3.923 | 3 | 262 |
+
+Nota: el CPC de Improfor (**312**) está **por debajo** del de General (335). El
+problema de Improfor no es que sea caro por clic, es que no hay evidencia todavía
+de que convierta.
