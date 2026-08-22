@@ -235,3 +235,132 @@ Así se le advirtió, para que no lea el sábado como una emergencia.
 | Presupuesto | ⏳ decisión suya · CLP factor ×1 |
 | Cotización de prueba | ❌ **retirado**, ya no hace falta |
 | Llamar a Bomberos de Curacautín (933964206) | ⏳ en su cancha |
+
+---
+
+# 22-ago-2026 08:40 — Connie preguntó por la aparente contradicción (msg 295)
+
+*«Si el dinero se acabó el otro día a las 17 hrs, cómo es que llegaron
+cotizaciones a las 22 hrs? ¿Hay algún grupo gastando más de lo normal y no
+convirtiendo?»*
+
+## Respuesta 1: no había contradicción — son DOS DÍAS distintos
+
+- Las cotizaciones de las 22:00 fueron el **jueves 20-ago** (#10065 a las 22:10,
+  #10066 a las 22:18, hora de Chile).
+- El presupuesto que se agotó a las 17:00 fue el **viernes 21-ago**.
+
+**El 20-ago la campaña gastó hasta las 23:00** (total 11.965 CLP) y tuvo clics
+pagados justo en esa franja: **22:00 → 2 clics / 1.566 CLP** y **23:00 → 3 clics /
+683 CLP**. Las dos cotizaciones calzan con esos clics.
+
+## ⚠️ Corrección de lo que se le dijo el 21-ago
+
+Se le reportó que el viernes la campaña «se quedó sin plata cerca de las 17:00 y
+**dejó de mostrarse** (última impresión 17:00)». **La segunda mitad es falsa.**
+
+El desglose por hora del 21-ago muestra **17 impresiones entre las 17:00 y las
+23:00** — siguió apareciendo. Lo que se detuvo fue el **gasto** (último a las
+16:00), no la exhibición. No hubo ni un clic en esas 7 horas.
+
+**Lección:** gasto en cero con impresiones > 0 NO es «dejó de mostrarse». En un
+modelo CPC se paga por clic: cero gasto puede significar simplemente cero clics.
+Mirar impresiones y gasto por separado antes de concluir.
+
+## ✅ Zona horaria de la cuenta Ads: America/Santiago (moneda CLP)
+
+Verificado con `SELECT customer.time_zone, customer.currency_code FROM customer`.
+**`segments.hour` de Google Ads ya viene en hora de Chile** — no hay que
+convertirlo. Ojo con no confundirlo con WooCommerce, que **sí** guarda en UTC y
+hay que restarle 4 horas. Son dos convenciones distintas en el mismo análisis.
+
+## Respuesta 2: no hay un grupo desviado — hay UNO SOLO que gasta
+
+Gasto por grupo, últimos 7 días (total **68.886 CLP**):
+
+| Campaña | Grupo | Estado | Impr | Clics | Gasto | «Conv» |
+|---|---|---|---|---|---|---|
+| Campaña Sudtec | **General** | ENABLED | 1.256 | 171 | **64.823** | 27 |
+| Competencias | **Improfor** | ENABLED | 76 | 13 | **4.062** | 1 |
+| Campaña Sudtec | Botas | ENABLED | 7 | 0 | 0 | 0 |
+| *(resto)* | Cámara Termal, Hi Lift, Botas de Bomberos, Garmendia, Maryun, Cespal Talca, fireground | REMOVED/PAUSED | 0 | 0 | 0 | 0 |
+
+**General concentra el 94% del gasto.** El desperdicio no es un grupo suelto: está
+**dentro de General**, a nivel de término de búsqueda.
+
+## Hallazgo nuevo: no es solo la competencia — los términos PROPIOS están caros
+
+De los 438 términos de la semana (34.206 CLP), el **84% del gasto (28.839 CLP) fue
+a búsquedas con cero conversiones**. Pero al mirar el top por gasto aparece algo que
+antes no se había separado: **búsquedas legítimas de Sudtec a ~1.000 CLP el clic**.
+
+| Término | Gasto 7d | Clics | CPC | Conv |
+|---|---|---|---|---|
+| `improfor` | 3.537 | 11 | 322 | 0 |
+| `halligan` | 1.975 | 2 | **988** | 0 |
+| `cascos incendios forestales` | 1.630 | 2 | **815** | 1 |
+| `segurycel santiago` | 1.320 | 1 | 1.320 | 0 |
+| `hachas para bomberos` | 1.124 | 1 | **1.124** | 0 |
+| `elementos de proteccion personal` | 1.060 | 1 | 1.060 | 0 |
+| `chaqueta de bomberos de chile` | 1.047 | 1 | 1.047 | 0 |
+| `ropa ignifuga` | 1.042 | 1 | 1.042 | 0 |
+
+**`halligan`, `hachas para bomberos`, `cascos incendios forestales`, `ropa
+ignifuga` son productos que Sudtec SÍ vende.** No se bloquean. Pero a 1.000 CLP el
+clic, un presupuesto de 9.100 se agota en **9 visitas**. Ese es el cuello real, y
+es distinto del problema de la competencia (que ya se atacó con las negativas).
+
+## 🔎 Prueba dura de que la etiqueta cuenta de más
+
+- **Google Ads reporta 27 conversiones** en el grupo General (7 días).
+- **El sitio recibió 18 cotizaciones en total** entre el 15 y el 21 de agosto,
+  **contando todas las fuentes** (orgánico y directo incluidos), y una de esas 18
+  fue la prueba de la propia Connie (#10064).
+
+Ads dice haber generado **más conversiones que las cotizaciones que el sitio
+recibió por todos los canales juntos**. Eso cierra la duda: la etiqueta cuenta
+formularios que no son solicitudes de cotización.
+
+*(Se le pasó como argumento en msg 298 para destrabar la autorización.)*
+
+## Presupuesto: se está pasando del diario, y eso no se había reportado
+
+Nominal **9.100 CLP/día**, pero Google permite gastar hasta el doble en un día
+mientras cuadre el promedio del mes:
+
+| Día | Gasto |
+|---|---|
+| 18-ago | 10.589 |
+| 19-ago | 11.132 |
+| 20-ago | **11.965** |
+| 21-ago | 9.419 |
+
+**Agosto 1-22: 190.133 CLP.** Media diaria 9.054 → **proyección de mes ~281.000**
+contra el tope duro de **300.000** del cliente. Alcanza, pero con menos holgura de
+la que sugiere el «9.100 diario». **No se toca el monto: es decisión de ella.**
+
+## Enviado a Connie (msgs 296, 297, 298) — pendiente de su OK
+
+1. **Arreglar la etiqueta de conversión** — ahora con la prueba 27 vs 18.
+2. **Pausar el grupo Improfor** — 4.062 CLP/7d, cero cotizaciones.
+3. Presupuesto: informado, sin tocar.
+
+Se le recordó que **hoy es sábado** y un fin de semana en cero es normal; el primer
+día útil para juzgar las negativas del viernes es el **lunes 24-ago**.
+
+## Cómo reproducir
+
+    # hora a hora (ojo: ya viene en hora de Chile)
+    SELECT campaign.name, segments.date, segments.hour, metrics.impressions,
+           metrics.clicks, metrics.cost_micros, metrics.conversions
+    FROM campaign WHERE segments.date BETWEEN '2026-08-19' AND '2026-08-22'
+
+    # gasto por grupo
+    SELECT campaign.name, ad_group.id, ad_group.name, ad_group.status,
+           metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions
+    FROM ad_group WHERE segments.date DURING LAST_7_DAYS
+
+    # cotizaciones reales (restar 4 h: vienen en UTC)
+    python3 bin/sudtec_wp.py api 'wc/v3/orders?per_page=60&_fields=id,number,date_created&orderby=date&order=desc'
+
+Las 5 consultas de Ads fueron por **Maton**, que respondió sin problemas de cuota.
