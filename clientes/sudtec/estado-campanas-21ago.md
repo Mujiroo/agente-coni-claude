@@ -426,3 +426,68 @@ confusión al releerlo.
 Nota: el CPC de Improfor (**312**) está **por debajo** del de General (335). El
 problema de Improfor no es que sea caro por clic, es que no hay evidencia todavía
 de que convierta.
+
+---
+
+# 22-ago 08:50 — «El miércoles llegaron muchas y ahora ninguna» (msg 303)
+
+Connie aclaró su preocupación real: no era Improfor, era el **contraste** entre el
+miércoles 19 (6 cotizaciones) y el viernes/sábado en cero.
+
+**Se construyó la línea base de verdad** en
+[[linea-base-cotizaciones]] (`clientes/sudtec/linea-base-cotizaciones.md`):
+300 cotizaciones, 165 días.
+
+**Respuesta:** el miércoles fue el atípico, no el cero de ahora. Media global
+**1,8/día**, y **el 20% de los días cierra en cero**. Viernes en cero: 25% de los
+viernes. Sábado en cero: **57%** de los sábados. El patrón viernes+sábado ambos en
+cero ya ocurrió **4 veces en 24 semanas**, la última el **7-8 de agosto**.
+
+## ✅ Señal buena: las negativas del viernes están funcionando
+
+Comparando **las mismas horas** (00:00–08:59), viernes contra sábado:
+
+| | Impr | Clics | Gasto | CPC |
+|---|---|---|---|---|
+| Viernes 21 | 18 | 5 | 3.408 | **682** |
+| **Sábado 22** | **51** | 7 | **1.437** | **205** |
+
+**Casi el triple de impresiones gastando menos de la mitad**, y el CPC cayó de 682
+a 205. Es el efecto esperado de las negativas `segurycel` / `maryun` / `improfort`
+aplicadas el viernes 19:05.
+
+*Con cautela: una sola mañana, sábado contra viernes son días distintos y el dato
+del día en curso se asienta después. Se le comunicó con ese matiz.*
+
+**Evolución del CPC diario:** 268 → 237 → 441 → 384 → 499 → **725** (viernes) →
+**205** (sábado en curso). El alza sí era real y es lo que hundió el tráfico.
+
+**Criterio para el lunes 24:** si el CPC se mantiene bajo, el problema quedó
+resuelto por las negativas. Si vuelve a subir, avisar.
+
+## Cifras diarias ya asentadas (ojo: cambian respecto a lo reportado en vivo)
+
+| Día | Impr | Clics | Gasto | CPC |
+|---|---|---|---|---|
+| 19-ago | 182 | 29 | 11.132 | 384 |
+| 20-ago | 165 | 24 | 11.965 | 499 |
+| 21-ago | **66** | 13 | 9.419 | **725** |
+
+⚠️ El 21-ago se reportó en vivo como «52 impresiones · 12 clics · 9.389 CLP» y
+cerró en **66 · 13 · 9.419**. **Los datos del día en curso se asientan hacia
+arriba**: no citar cifras del día como definitivas.
+
+## Decisión de Connie (msg 302)
+
+**«Esperemos un poco»** — no se pausa Improfor. Además pidió explícitamente
+**no hacer nada que pueda afectar más las conversiones mientras viaja a China.**
+
+Por eso se le corrigió el encuadre de la etiqueta de conversión: se le había dicho
+«es gratis», lo cual es cierto **en plata pero no en riesgo** — al arreglarla las
+conversiones reportadas caen y MAXIMIZE_CONVERSIONS entra en reaprendizaje de 1-2
+semanas. **Queda congelada mientras viaja**, salvo que ella lo pida.
+
+**Alternativa ofrecida (msg 304), sin riesgo:** crear una **segunda** acción de
+conversión limpia marcada como **secundaria** — mide la cotización real pero **no
+se usa para pujar**. Permite ver la verdad sin tocar el pilotaje. Pendiente de que
+ella la quiera.
