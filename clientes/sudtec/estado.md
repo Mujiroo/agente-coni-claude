@@ -117,3 +117,30 @@ el sitio, los anuncios dicen 24h mientras el sitelink dice 48h, y no existe
 política de privacidad. **Meta no se pudo auditar: no hay integración de Meta Ads.**
 
 Esperando 4 respuestas de Connie antes de tocar nada.
+
+---
+
+## 23-ago-2026 — Cómo van las campañas (Connie preguntó, msg 308)
+
+Comparativo semana contra semana, cuenta `9907217991`:
+
+| | 16-22 ago | 9-15 ago |
+|---|---|---|
+| Gasto | $71.008 | $55.062 |
+| Conversiones | 27 | 31 |
+| CPA | $2.630 | $1.776 |
+| CPC | $390 | $324 |
+| Impresiones | 1.340 | 1.361 |
+
+**Lectura:** las impresiones están parejas — no perdimos presencia. Lo que subió
+es el **precio del clic**, y las conversiones bajaron. `Competencias` arrancó esta
+semana ($4.276 / 1 conv) y encarece el promedio, pero **`Campaña Sudtec` sola
+también subió su CPA**, de $1.776 a $2.567: no es solo la campaña nueva.
+
+Mes: $200.528 gastados, proyección $278.928. El presupuesto no se agota.
+
+**No se tocó nada** — rige el congelamiento del viaje ([[congelar-cambios-viaje-china]]).
+Es la primera semana mala seguida (`malos_seguidos: 1` en vigilancia_cambios.json);
+si se repite, cruza el umbral y ahí se propone con cifras.
+
+Sigue pendiente de su respuesta la **conversión secundaria limpia** (ofrecida msg 304).
