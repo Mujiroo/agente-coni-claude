@@ -9,3 +9,7 @@
 - [Recordatorios del viaje de Connie](recordatorios-viaje-connie.md) — crons corridos 1 día por el desfase China-Chile; no es un error.
 - [Skill de Google Ads instalada](skill-google-ads.md) — leerla antes de cualquier trabajo de Ads; está en memory/skills/google-ads/.
 - [La cuota de la API de Google Ads](cuota-google-ads.md) — tope diario por token (de Maton, no de Connie); consultar una vez y guardar.
+- [Gasto en cero no es "dejó de mostrarse"](gasto-cero-con-impresiones.md) — en CPC se paga por clic; mirar impresiones y gasto por separado.
+- [Ads va en hora de Chile, Woo en UTC](ads-hora-chile-woo-utc.md) — dos convenciones en el mismo cruce; no restarle 4 h a Ads.
+- [sudtec_wp.py trunca en 6.000 caracteres](sudtec-wp-trunca-salida.md) — usar --limite alto en listados largos; el conteo truncado no da error.
+- [Cambios congelados durante el viaje a China](congelar-cambios-viaje-china.md) — nada que afecte conversiones hasta que vuelva; "gratis" no es "sin riesgo".
