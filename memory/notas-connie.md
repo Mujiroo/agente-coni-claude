@@ -41,3 +41,9 @@ evitar (Jiefangbei, Hongya Dong, Ciqikou) y cómo regatear. **Aprendizaje para
 próximos pedidos del viaje: mandarle los nombres en caracteres chinos**, así se
 los muestra al taxi o los pega en el mapa — sin eso el dato no le sirve en
 terreno. Vuelve el **18-sep-2026**; ver [[recordatorios-viaje-connie]].
+
+**24-ago-2026** — No sabía qué era **RMB** (le apareció en una etiqueta de Miniso).
+**Para lo que queda del viaje: cuando le mencione un precio chino, convertirlo a
+CLP en la misma línea**, no dejarle la conversión a ella. Regla al paso que le di:
+**RMB × 1,4 leído en miles** (el 24-ago el cambio real era 1 RMB = 137 CLP).
+
