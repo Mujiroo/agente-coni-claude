@@ -281,3 +281,51 @@ Acumulado: 21 → **0** · 22 → **0** · 23 → **1** · 24 → **0** (a las 1
 **No se le avisó**: el cron manda silencio si no hay correos, y no hay hallazgo
 nuevo que agregue a lo ya reportado en msg 331. Se reporta en la pasada de las
 23:30 con el día cerrado, que ahí sí es un dato concluyente.
+
+### 24-ago 19:55 — Puntaje de calidad y revisión creativa (pedido por Connie, msg 351)
+
+**Puntaje de calidad, 30 días:** 232 keywords, solo **61 con QS asignado**.
+**Promedio 4,3/10** y **31 de 61 bajo 5**.
+
+| Keyword | QS | Anuncio | Página | Impr | Clics |
+|---|---|---|---|---|---|
+| equipos de bomberos (broad) | **8** | sobre prom | promedio | 2.058 | 278 |
+| botas bombero (broad) | **5** | BAJO | **BAJO** | 381 | 56 |
+| accesorios bomberos (exact) | 7 | sobre prom | **BAJO** | 78 | 11 |
+| articulos para bomberos (exact) | 6 | promedio | **BAJO** | 161 | 18 |
+| tienda de bomberos (exact) | 4 | promedio | **BAJO** | 30 | 7 |
+
+**El patrón dominante: la componente que Google marca baja es la EXPERIENCIA DE LA
+PÁGINA DE DESTINO, no el anuncio.**
+
+**Hipótesis con base:** todos los anuncios de `General` apuntan a
+**`/lista-productos/`**, el catálogo completo. Quien busca «botas bombero» aterriza
+en una lista de todo y tiene que buscar. Eso explica a la vez el QS bajo de página
+y una conversión pobre.
+
+⚠️ **Se le dijo explícitamente que esto NO explica la caída de estos 4 días** — es
+una debilidad de siempre, no un cambio reciente. Después del error del nonce
+([[litespeed-nonce-vencido-sudtec]]) toca separar bien lo estructural de lo agudo.
+
+**Fuerza de los anuncios:**
+
+| Grupo | Anuncios | Fuerza |
+|---|---|---|
+| General | 2 | **BUENA** <i>(los que realmente corren)</i> |
+| Botas | 1 | **BUENA** — nombra modelos: Lytos FR-1401 a 1406, Jolly, Blauer |
+| Improfor | 2 | **POBRE** — esperable: es campaña de competencia y no se puede usar su marca |
+| Cámara Termal · Botas de Bomberos · Hi lift | — | grupos eliminados, no corren |
+
+**Tres defectos concretos, encontrados leyendo el creativo (msg 353):**
+
+1. **Falta de ortografía EN VIVO** en un anuncio de General:
+   «Uniformes con **certificacion** EN y NFPA» — sin tilde.
+2. **Contradicción de plazo dentro del mismo grupo:** un anuncio promete
+   «Cotización en **24h**» y el otro «Cotiza en Menos de **48 Hrs**». Compiten por
+   las mismas búsquedas.
+3. **Mezcla de tuteo y usted** entre anuncios («Solicite» vs «Cotiza»).
+
+Sigue abierto lo del 18-ago: la afirmación de **certificación EN y NFPA** no está
+respaldada en el sitio (riesgo de política, ver [[politicas-2026]]).
+
+**No se tocó nada.** Ofrecido corregir tilde y plazo cuando ella diga.
