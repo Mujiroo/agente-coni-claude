@@ -329,3 +329,35 @@ Sigue abierto lo del 18-ago: la afirmación de **certificación EN y NFPA** no e
 respaldada en el sitio (riesgo de política, ver [[politicas-2026]]).
 
 **No se tocó nada.** Ofrecido corregir tilde y plazo cuando ella diga.
+
+### 24-ago 20:00 — «¿Pausamos el grupo Botas?» (Connie, msg 354)
+
+**Respuesta: no, y la premisa no se cumple.** Ella suponía que Botas le estaba
+quitando tráfico a General.
+
+**Lo verificado antes de responder:**
+
+1. **La correlación con el ruteo del 21-ago NO se sostiene.** Se midió el tráfico
+   diario de las keywords de botas, 14 al 24-ago: **bajó** después del 21
+   (16·10·29·34·14·14 → 6·2·7·4·5), no subió. La reversión del ruteo **no**
+   inundó General de búsquedas de botas. Hipótesis descartada con datos.
+2. **General ya captura las botas:** `botas bombero` (260 búsquedas/mes) vive en
+   **General**, con 381 impresiones y 56 clics en 30 días. Botas recibe migajas.
+3. **Pausar libera $44/día** de ~$9.800 diarios: **0,45%**. No mueve la aguja.
+4. **Negativas revisadas: 74 de grupo + 23 de campaña = 97.** **HAIX no está en
+   ninguna**, así que la propuesta del 21-ago sigue abierta y vale
+   ([[botas-volumen-keywords]]: 420 búsquedas/mes de una marca que Sudtec no vende).
+   Tampoco hay negativa `botas` en General — coherente con la reversión del 21.
+
+**El diagnóstico invertido:** el grupo Botas es **el único que apunta a la página
+correcta** (`/product-category/epp/botas/`) y su anuncio tiene fuerza **BUENA**.
+General manda esas búsquedas al catálogo completo, que es justo donde Google marca
+la página **bajo el promedio**. Pausar Botas empeoraría eso, no lo arreglaría.
+
+**Propuesto (sin aplicar, rige [[congelar-cambios-viaje-china]]):**
+
+- Volver a rutear botas al grupo Botas, **ahora que el bloqueo original ya no
+  existe** — el 21-ago se revirtió porque el anuncio estaba rechazado por el 403,
+  y hoy está aprobado con destino corregido.
+- **Con regla de corte:** si en 5 días no levanta impresiones, revertir solo.
+- **Negativa de HAIX**, que es ahorro sin contra.
