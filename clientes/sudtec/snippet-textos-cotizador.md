@@ -1,4 +1,4 @@
-# SUDTEC — Snippet de textos del cotizador (PREPARADO, NO APLICADO)
+# SUDTEC — Snippet de textos del cotizador (APLICADO 24-ago-2026, snippet id 15)
 
 **Pedido por Connie el 24-ago-2026** (msgs 332-333): el aviso que sale al agregar
 un producto dice **«Explorar la lista»**, y ella quiere algo tipo *«Producto
@@ -51,6 +51,66 @@ Comparar contra la cadena que efectivamente se muestra es lo que se verificó.
 **Riesgo de colateral:** bajo — son tres cadenas exactas y largas. Aun así, tras
 aplicarlo hay que **revisar la página pública**, no solo el código de respuesta.
 
-## Estado
+## ❌ El primer intento falló: NO son traducciones, son opciones
 
-**Propuesto a Connie en msg 336, esperando su OK sobre las palabras.** No aplicado.
+Escribí el snippet con un filtro **`gettext`** dando por hecho que las cadenas
+venían del sistema de traducciones. Quedó activo, sin error de PHP… **y no cambió
+nada**. Lo delató el AJAX, que **no se cachea** y seguía devolviendo el texto viejo:
+si hubiera sido caché, ahí se habría visto el cambio.
+
+**Son opciones del plugin**, encontradas leyendo `wp_options`:
+
+| Opción | Valor original |
+|---|---|
+| `ywraq_show_browse_list` | `Explorar la lista` |
+| `ywraq_show_product_added` | `Producto agregado a la lista` |
+| `ywraq_show_already_in_quote` | `Este producto ya está en su lista de solicitud de cotización.` |
+
+**Pista que lo anticipaba y no aproveché:** el botón dice «Agregar a cotizador»,
+que no es una traducción por defecto de nada — era señal de que estos textos se
+configuran, no se traducen.
+
+## El snippet que SÍ funciona (id 15, scope `front-end`, activo)
+
+```php
+add_filter( 'pre_option_ywraq_show_browse_list', function () {
+	return 'Enviar cotización →';
+} );
+
+add_filter( 'pre_option_ywraq_show_product_added', function () {
+	return 'Producto agregado a tu cotización';
+} );
+
+add_filter( 'pre_option_ywraq_show_already_in_quote', function () {
+	return 'Este producto ya está en tu cotización';
+} );
+```
+
+`pre_option_*` **no escribe en la base de datos**: los valores originales siguen
+intactos y **borrar el snippet revierte todo**. Scope `front-end` a propósito, para
+que el panel de YITH siga mostrando los valores reales si alguien va a editarlos.
+
+## Verificado en producción
+
+- HTML fresco: **28** de cada texto nuevo, **0** de los viejos
+- AJAX: `true → Producto agregado a tu cotización` · `exists → Este producto ya está en tu cotización`
+- `code_error: null`
+
+## ⚠️ Pendiente: la caché tapa el cambio
+
+Un visitante normal recibe `x-litespeed-cache: hit` con páginas de hace días y
+**sigue viendo «Explorar la lista»**. El cambio solo se ve forzando render fresco.
+
+Para que llegue hace falta **purgar**, y el 20-ago una purga total dejó el sitio en
+**500 varios minutos** ([[verificar-sin-rompe-cache]]). Se le ofrecieron tres
+caminos (msg 339) y se recomendó **purgar de madrugada**. **Esperando su decisión.**
+
+## Cabo suelto
+
+El snippet **id 16** («TEMPORAL lector de opciones») quedó **inactivo y con el
+código vaciado** — no ejecuta nada y su endpoint da 404. La API devuelve
+`rest_cannot_delete` al intentar borrar el registro. Se le pidió a Connie borrarlo
+de un clic en el panel.
+
+**Regla que deja:** un snippet de diagnóstico que expone datos por REST **se borra
+en el mismo turno en que se usa**, no después.
