@@ -33,3 +33,11 @@ con fecha, porque no va a revisar el calendario. Quedaron tres avisos montados
 de Chile**, así que los crons disparan el día anterior a las 21:00 de Chile.
 Todo el razonamiento está en `memory/recordatorios-viaje-connie.md`.
 **Regresa el 18-sep-2026 a las 00:00.**
+
+**24-ago-2026** — Está en **Chongqing** (China) y preguntó dónde comprar sin
+«precio turista». Le mandé los barrios locales (Guanyinqiao, Chaotianmen
+mayorista en Chayuan, Sanxia Guangchang en Shapingba, Nanping/Yangjiaping), qué
+evitar (Jiefangbei, Hongya Dong, Ciqikou) y cómo regatear. **Aprendizaje para
+próximos pedidos del viaje: mandarle los nombres en caracteres chinos**, así se
+los muestra al taxi o los pega en el mapa — sin eso el dato no le sirve en
+terreno. Vuelve el **18-sep-2026**; ver [[recordatorios-viaje-connie]].
