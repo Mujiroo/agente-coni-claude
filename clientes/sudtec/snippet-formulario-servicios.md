@@ -61,3 +61,49 @@ parámetro que fuerce MISS: `https://www.sudtec.cl/servicios-sudtec/?ver=kai`
 (enlace de vista previa que se le pasó a Connie en msg 346).
 
 Queda visible con la **purga programada para el 25-ago 04:00**.
+
+---
+
+## 🔴 24-ago 15:50 — Hallazgo aparte: RUT y Teléfono no se pueden escribir
+
+Revisando la estructura del formulario para responderle a Connie sobre el color,
+apareció algo peor que lo estético. **Verificado en el HTML, no supuesto:**
+
+| Campo | Tipo real | Consecuencia |
+|---|---|---|
+| **Rut** (id 4) | `type="number"` | El navegador **rechaza punto, guión y K**. `12.345.678-K` es imposible de ingresar. |
+| **Teléfono** (id 9) | `type="number"` | No acepta `+56 9 …`: el signo y los espacios se bloquean. |
+| Nº de Casa/Of (id 10) | `type="number"` | Correcto, ese sí es numérico. |
+| Correo (id 1) | `type="email"` | Correcto. |
+
+**Los dos primeros son obligatorios**, así que la persona completa el formulario,
+se traba ahí y se va. En el teléfono además le sale teclado numérico.
+
+**Cómo se comprueba:**
+
+```bash
+curl -s "https://www.sudtec.cl/servicios-sudtec/?cb=1" \
+  | grep -oE '<input[^>]*id="wpforms-6789-field_(4|9)"[^>]*>'
+```
+
+**El arreglo NO es CSS ni JS.** Cambiar el `type` en el cliente no sirve: WPForms
+**valida el número también en el servidor**, así que el envío se rechazaría igual.
+Hay que cambiar el tipo de campo en el constructor, de **Numbers** a **Single Line
+Text**.
+
+**No se tocó:** eso altera la configuración del formulario y lo que recibe el
+vendedor. Propuesto a Connie en msg 348, **esperando su OK**.
+
+⚠️ **No se le vendió como la causa de la sequía de cotizaciones** — no hay dato de
+desde cuándo está así, y hoy ya se cometió el error de afirmar un mecanismo sin
+probar el último eslabón ([[litespeed-nonce-vencido-sudtec]]).
+
+## Opinión de diseño que se le dio (msg 348)
+
+- **Mantener el fondo negro:** coherente con el rubro y diferencia de la
+  competencia, que va en blanco y azul.
+- **Suavizar los campos:** blanco puro sobre negro es contraste máximo; los
+  inputs se leen como agujeros y se llevan la atención.
+- **Propuesto:** envolver el formulario en una **tarjeta** apenas más clara que el
+  fondo, con borde sutil, para que se lea como un bloque.
+- Hay una **foto de fondo casi invisible** tras el negro: subirla o sacarla.
