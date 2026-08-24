@@ -229,3 +229,39 @@ Es la única concluyente. **Pendiente de su respuesta.**
 
 **Observación menor:** el tráfico por «improfor» pasó de **15% a 22%** de los clics
 (9 → 10 de 61 → 45). Convierte mal por naturaleza, pero no explica una caída de 10×.
+
+### 24-ago 15:27 — ✅ Connie probó en navegador: el sitio está sano
+
+Hizo la prueba pedida (msgs 332-334, con foto): **el botón funciona**, el producto
+se agrega y sale el aviso. **Queda descartado el embudo como causa de la caída** —
+el problema es de demanda o de anuncios.
+
+De paso pidió cambiar los textos del aviso: ver
+[[snippet-textos-cotizador]] (preparado, **no aplicado**, esperando su OK).
+
+### 24-ago 15:28 — Revisión de grupos de anuncios (pedida por ella, msg 335)
+
+14 días, 11 al 24-ago:
+
+| Campaña | Grupo | Estado | Clics | Costo | CPC |
+|---|---|---|---|---|---|
+| Campaña Sudtec | **General** | ENABLED | 324 | **$120.117** | $370 |
+| Competencias | Improfor | ENABLED | 21 | $5.702 | $271 |
+| Campaña Sudtec | **Botas** | ENABLED | **1** | $618 | $618 |
+| Campaña Sudtec | Cámara Termal · Botas de Bomberos · Hi lift | REMOVED | 0 | 0 | — |
+| Competencias | fireground · maryun · Cespal Talca · Garmendia | PAUSED | 0 | 0 | — |
+| Botas Bomberos | Grupo de anuncios 1 | ENABLED | 0 | 0 | — |
+
+**Tres cosas que salen de ahí:**
+
+1. **Concentración total en «General»: 95% del gasto y de los clics.** No hay nada
+   que amortigüe si ese grupo se cae, que es justo lo que pasó estos 4 días.
+2. **«Botas» está muerto:** 39 impresiones y 1 clic en dos semanas pese a todo el
+   trabajo hecho encima. Ya estaba medido el 21-ago: **sus keywords de marca no
+   tienen volumen en Chile**. No es configuración, es demanda inexistente.
+3. **El CPA de Google engaña:** marca **52** conversiones en 14 días contra **27**
+   solicitudes reales en Woo. **CPA real $4.683**, no ~$2.400
+   ([[contadores-no-son-envios]]).
+
+**No se propusieron cambios** — rige [[congelar-cambios-viaje-china]]. Ofrecida una
+propuesta escrita para su vuelta.
