@@ -265,3 +265,19 @@ De paso pidió cambiar los textos del aviso: ver
 
 **No se propusieron cambios** — rige [[congelar-cambios-viaje-china]]. Ofrecida una
 propuesta escrita para su vuelta.
+
+### 24-ago 19:00 — pasada de reenvío: sin correos. El lunes sigue en cero.
+
+Reenvío corrido **primero en simulación** ([[contadores-no-son-envios]] no, la
+regla es la del 20-ago): si Connie hubiera hecho el envío de prueba que se le
+pidió, no podía salir hacia `bd@` como si fuera un cliente. **No había nada**, así
+que la precaución no costó nada y la regla queda ejercitada.
+
+**Último pedido en Woo sigue siendo el #11610 del 23-ago 20:09.** O sea el lunes
+24 va **0 cotizaciones a las 19:00**, con un histórico de ~2/día en día hábil.
+
+Acumulado: 21 → **0** · 22 → **0** · 23 → **1** · 24 → **0** (a las 19:00).
+
+**No se le avisó**: el cron manda silencio si no hay correos, y no hay hallazgo
+nuevo que agregue a lo ya reportado en msg 331. Se reporta en la pasada de las
+23:30 con el día cerrado, que ahí sí es un dato concluyente.
