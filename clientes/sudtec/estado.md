@@ -185,3 +185,47 @@ Otra confirmación de [[contadores-no-son-envios]].
 **No se tocó nada** — rige [[congelar-cambios-viaje-china]]. Se le pidió a Connie
 (msg 322) permiso para **enviar una solicitud de prueba por el formulario**: es lo
 único que no se puede descartar desde afuera. **Pendiente de su OK.**
+
+### 24-ago 15:00-16:00 — investigación a fondo, y un diagnóstico equivocado de por medio
+
+**Primero el error, que importa más que el resto:** le mandé a Connie (msg 328) la
+teoría de que LiteSpeed servía páginas vencidas y el **nonce caducado** rompía el
+cotizador. Ella aprobó actuar. **Probé antes de tocar y era falso**: YITH acepta el
+nonce viejo igual. Corregido en msg 330. Detalle en [[litespeed-nonce-vencido-sudtec]].
+**No se purgó la caché** — que además ya causó 500 en este sitio el 20-ago.
+
+**La línea base, que es lo que faltaba** (pedidos de Woo, 38 días, convertidos a
+hora de Chile):
+
+- **1,92 solicitudes/día** de promedio · mediana **2**
+- días en cero: **6 de 38 (16%)** · **racha máxima en cero: 2 días**
+- **21-24 ago: 1 solicitud en total**, contra ~8 esperables
+- probabilidad de que sea azar: **~0,4%** → el quiebre es real
+
+⚠️ El conteo se hizo con `--limite 900000`; sin eso el helper corta en 6.000
+caracteres y **da un número menor y creíble** ([[sudtec-wp-trunca-salida]]).
+
+**Lo que se verificó sano** (todo de solo lectura):
+
+| Chequeo | Resultado |
+|---|---|
+| `/lista-productos/` <i>(destino real de General e Improfor)</i> | 200, escritorio y móvil, 32 botones |
+| Destinos con `?yith_wcan=1&product_cat=…` | 200, con botones |
+| Endpoint `add_item` por `/?wc-ajax=yith_ywraq_action` | acepta y agrega |
+| `/cotizacion-sudtec/` con sesión | muestra el formulario con el ítem |
+| Términos de búsqueda 17-20 vs 21-24 | **misma calidad**, sin basura nueva |
+| Snippets de Kai del 20-ago | solo aplican a taxonomías, **no** a `/lista-productos/` |
+
+**Causa: NO encontrada.** Se dijo así, sin sustituto inventado.
+
+**No se mandó la solicitud de prueba pese al «dale»**, y se le explicó por qué:
+desde el contenedor **no hay navegador** (ni chromium, ni node, ni playwright), así
+que solo se puede simular con `curl` sin ejecutar JS — justamente el tramo que falta
+por probar. A cambio crearía un lead falso hacia `bd@`, que ya pasó el 20-ago. Se le
+ofreció mandarla igual si la quiere.
+
+**Pedido a Connie:** la prueba de 30 segundos en navegador sobre `/lista-productos/`.
+Es la única concluyente. **Pendiente de su respuesta.**
+
+**Observación menor:** el tráfico por «improfor» pasó de **15% a 22%** de los clics
+(9 → 10 de 61 → 45). Convierte mal por naturaleza, pero no explica una caída de 10×.
