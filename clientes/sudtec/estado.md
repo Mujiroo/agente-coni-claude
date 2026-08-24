@@ -144,3 +144,44 @@ Es la primera semana mala seguida (`malos_seguidos: 1` en vigilancia_cambios.jso
 si se repite, cruza el umbral y ahí se propone con cifras.
 
 Sigue pendiente de su respuesta la **conversión secundaria limpia** (ofrecida msg 304).
+
+---
+
+## 24-ago-2026 — La caída de solicitudes se confirmó en el sitio (cron 09:00)
+
+`vigilancia_ads.py` disparó `HAY-QUE-AVISAR` por solicitudes bajas. **Antes de
+avisar se verificó contra el sitio, y la alerta resultó real**, no un artefacto
+del baseline.
+
+**Cuidado con el baseline del script:** compara los últimos 3 días contra un
+promedio plano de 14 días, así que **un lunes siempre mide vie+sáb+dom** y
+tiende a gritar por el fin de semana. Acá la sospecha de «es solo el finde» se
+cayó: los sábados y domingos anteriores **sí** traían pedidos (9-ago: 2,
+15-ago: 1, 16-ago: 3).
+
+**Pedidos reales en WooCommerce** (no correos): vie 21 = **0**, sáb 22 = **0**,
+dom 23 = **1** (orden 11610, 20:09 Chile). Mismo vie-dom de la semana anterior: **7**.
+
+**El tráfico no bajó** — por eso importa:
+
+| | impr | clics | costo |
+|---|---|---|---|
+| vie 21 | 66 | 13 | $9.419 |
+| sáb 22 | 159 | 24 | $10.165 |
+| dom 23 | 241 | 35 | $11.006 |
+
+$30.590 en 3 días contra $24.368 el vie-dom anterior: **+26% de gasto para 1
+solicitud en vez de 7**. Es la continuación del CPA en alza del comparativo del
+23-ago, pero ahora se ve en pedidos reales.
+
+**Descartado:** sitio responde HTTP 200; sin páginas editadas desde el 18-ago;
+no es pérdida de correos (los pedidos tampoco existen en Woo).
+
+**El contador de Google marcó 2-4 conversiones esos días** y el sitio recibió 0-1.
+Otra confirmación de [[contadores-no-son-envios]].
+
+**Presupuesto sin riesgo:** mes $211.467, proyección $280.067 de $300.000.
+
+**No se tocó nada** — rige [[congelar-cambios-viaje-china]]. Se le pidió a Connie
+(msg 322) permiso para **enviar una solicitud de prueba por el formulario**: es lo
+único que no se puede descartar desde afuera. **Pendiente de su OK.**
