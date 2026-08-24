@@ -107,3 +107,56 @@ probar el último eslabón ([[litespeed-nonce-vencido-sudtec]]).
 - **Propuesto:** envolver el formulario en una **tarjeta** apenas más clara que el
   fondo, con borde sutil, para que se lea como un bloque.
 - Hay una **foto de fondo casi invisible** tras el negro: subirla o sacarla.
+
+---
+
+## ✅ 24-ago 15:55 — Aplicados los dos cambios (Connie: «si porfavor», msg 349)
+
+### A) Tipos de campo corregidos en el formulario 6789
+
+**Cambio real en la definición del formulario**, no CSS:
+
+| Campo | Antes | Ahora |
+|---|---|---|
+| **Rut** (id 4) | `number` | **`text`** |
+| **Teléfono** (id 9) | `number` | **`text`** |
+| Nº de Casa/Of (id 10) | `number` | `number` <i>(sin tocar, ahí corresponde)</i> |
+
+**Respaldo previo:** `clientes/sudtec/respaldos/wpforms-6789-antes-24ago2026.json`
+(3.610 bytes, la definición completa). Revertir = volver a poner ese
+`post_content` en el post 6789.
+
+**Cómo se hizo:** WPForms **no está expuesto en REST** (`wp/v2/wpforms/6789` da 404
+y `wp/v2/types/wpforms` da 403). Se creó un snippet temporal con una ruta
+admin-only que lee y escribe el `post_content` del post 6789 (JSON de WPForms), se
+usó, **y se borró en el mismo turno**.
+
+Las claves del campo (`id, type, label, description, required, size, placeholder,
+default_value, css, connect_to`) son **las mismas** para `number` y `text`, por eso
+el cambio es limpio y no deja campos huérfanos.
+
+**Verificado en la página pública:** `type="text"` en los dos.
+
+### B) La tarjeta (respuesta a «¿se ve bien el fondo negro?»)
+
+Se mantuvo el negro y se atacó lo que de verdad molestaba:
+
+- `#wpforms-6789` pasa a ser **tarjeta**: fondo `#15161a`, borde `#2c2f37`,
+  radio 14px, sombra, `max-width:760px` centrado
+- Inputs de blanco puro a **`#f4f5f7`** con borde `#3a3e47` → dejan de leerse como
+  agujeros; en foco vuelven a blanco con halo celeste
+- Etiquetas `#f2f3f5`, asterisco `#ff7a7a`, placeholders `#8b9098`
+- En móvil, padding reducido y una sola columna
+
+## ⚠️ Lo que queda pendiente de verificación
+
+**No se probó un envío real.** Se cambió el tipo de dos campos, y lo único que
+prueba que el correo sigue llegando es **mandar el formulario** — cosa que crearía
+una consulta falsa al vendedor de Sudtec. **Se le pidió a Connie que haga el envío
+de prueba** (msg 350) con su RUT y teléfono reales.
+
+## Cabos sueltos
+
+Snippets **16** y **18** (temporales) quedaron **inactivos y con el código
+vaciado**; sus endpoints dan 404. La API responde `rest_cannot_delete` al borrar el
+registro. Pedido a Connie borrarlos desde el panel.
