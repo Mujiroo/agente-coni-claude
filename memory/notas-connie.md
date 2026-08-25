@@ -47,3 +47,15 @@ terreno. Vuelve el **18-sep-2026**; ver [[recordatorios-viaje-connie]].
 CLP en la misma línea**, no dejarle la conversión a ella. Regla al paso que le di:
 **RMB × 1,4 leído en miles** (el 24-ago el cambio real era 1 RMB = 137 CLP).
 
+
+**25-ago-2026** — Pidió ayuda para comprar por **Taobao** estando en China. Su
+traba: puso la moneda en USD y solo le ofrecía Australia. **La causa no era la
+moneda sino la región**: la cuenta estaba en modo internacional (淘宝海外), que
+amarra la moneda al país de despacho. Le di los pasos para dejarla en 中国大陆 +
+人民币, y los dos requisitos que sí frenan a un extranjero: **teléfono +86** (sin
+él el repartidor no puede entregar) y **Alipay 支付宝 con tarjeta extranjera**
+verificada con pasaporte.
+**Queda abierto**: le ofrecí mandarle los **términos de búsqueda en caracteres
+chinos** de lo que quiera comprar, porque buscar en español en Taobao no devuelve
+nada. Si vuelve con una lista, eso es lo que espera. Precios siempre en ¥ y CLP en
+la misma línea (ver la nota del 24-ago).
