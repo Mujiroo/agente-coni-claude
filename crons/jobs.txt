@@ -61,13 +61,6 @@
 # Estado en memory/estado/anuncio_botas.json. OJO: Maton quedo SIN CUOTA el 20-ago, asi que
 # estas consultas van por COMPOSIO (GOOGLEADS_SEARCH_STREAM_GAQL). Silencio si nada cambio.
 
-# --- SUDTEC: purga de cache de madrugada (aprobado por Connie 24-ago-2026, msg 340) ---
-# Motivo: el 24-ago se cambiaron los textos del cotizador (snippet 15), pero LiteSpeed
-# sirve paginas cacheadas de dias y los visitantes siguen viendo "Explorar la lista".
-# Se purga a las 04:00 y NO durante el dia porque el 20-ago una purga total dejo el
-# sitio en 500 varios minutos mientras regeneraba, con los anuncios corriendo.
-# Es de UNA VEZ: el job se borra a si mismo al terminar.
-0 4 25 8 * | [CRON] SUDTEC purga de cache, aprobada por Connie (msg 340). Pasos: (1) crea un snippet en Code Snippets via `python3 bin/sudtec_wp.py escribir 'code-snippets/v1/snippets' --datos <json> --confirmar` con scope global y activo, que registre una ruta REST admin-only (permission_callback con current_user_can manage_options) que ejecute `do_action('litespeed_purge_all')`. (2) Llama la ruta con `python3 bin/sudtec_wp.py api '<ruta>'`. (3) BORRA el snippet en el mismo turno: primero vacia su `code` y ponlo `active:false`, despues DELETE — la API devuelve rest_cannot_delete si intentas borrarlo de una. (4) Verifica en la pagina publica SIN cache-buster que `https://www.sudtec.cl/lista-productos/` ya diga "Enviar cotizacion" y no "Explorar la lista", y que responda HTTP 200 (no 500). (5) Avisa a Connie por `bash bin/tg.sh send` en HTML solo el resultado, corto. Si el sitio queda en 500 o la purga falla, avisale SI O SI. (6) Borra ESTA linea de crons/jobs.txt (la que empieza con "0 4 25 8"), commitea y pushea.
 
 # --- SUDTEC: regla de corte del ruteo de botas (aprobado por Connie 24-ago, msg 356) ---
 # El 24-ago 20:10 se pausaron 3 keywords amplias de botas en el grupo General para que

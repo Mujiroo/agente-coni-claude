@@ -435,3 +435,36 @@ Con n=2 no significa nada; queda anotado para mirar.
 
 **Los cambios de Ads de hoy (ruteo de botas + negativa haix) empiezan a contar
 desde el 25-ago.** Corte programado al 29.
+
+### 25-ago 04:00 — ✅ Purga de caché ejecutada y verificada
+
+**Estado ANTES (visitante normal, sin cache-buster):**
+
+| página | caché generada | texto |
+|---|---|---|
+| `/` | 24-ago 20:35 | **nuevo** ✔ |
+| `/lista-productos/` | 24-ago 20:55 | **nuevo** ✔ |
+| `/servicios-sudtec/` | 24-ago 19:55 | CSS nuevo ✔ |
+| `/product-category/epp/botas/` | **22-ago 03:30** | **viejo** ✗ |
+| `/producto/set-alzaprima-…/` | **22-ago 19:20** | **viejo** ✗ |
+
+**Hallazgo:** las páginas de más tráfico **se habían refrescado solas** anoche
+(probablemente al guardar el form 6789 y al activar snippets, que disparan purgas
+parciales). El TTL **no** era infinito como se supuso el 24 a las 15:00.
+
+**Lo que seguía viejo eran las categorías y fichas de producto** — y ahí estaba lo
+importante: `/product-category/epp/botas/` **es el destino del ruteo aplicado
+ayer**. Sin purgar, el tráfico de botas habría empezado a llegar hoy a una página
+de hace 3 días. Por eso la purga se ejecutó igual, en vez de darla por innecesaria.
+
+**Ejecución:** snippet temporal con ruta admin-only →
+`do_action('litespeed_purge_all')` + `\LiteSpeed\Purge::purge_all()` → ambas
+respondieron. **Snippet borrado en el mismo turno** (endpoint en 404). Esta vez el
+DELETE sí funcionó, con la secuencia vaciar+desactivar y después borrar.
+
+**Verificación posterior:** las 5 páginas en **HTTP 200**, regeneradas 04:02,
+**«Enviar cotización» presente y «Explorar la lista» en cero** en todas. Sin 500 en
+ningún momento — la primera petición tardó 2,0s regenerando y la siguiente 0,37s.
+Campos `field_4` y `field_9` siguen en `type="text"`.
+
+**Cron borrado** (era de una vez).
