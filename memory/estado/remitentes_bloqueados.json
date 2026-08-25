@@ -1,0 +1,6 @@
+{
+  "_nota": "Remitentes que Connie pidio bloquear. La barrida (bin/limpieza_remitentes.py) manda a la PAPELERA todo lo que llegue de estos dominios. Se agregan/quitan editando esta lista.",
+  "remitentes": [
+    {"dominio": "aliexpress.com", "desde": "2026-08-25", "pedido_por": "Connie msg 387"}
+  ]
+}

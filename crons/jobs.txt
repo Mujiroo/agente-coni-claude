@@ -69,3 +69,11 @@
 # OJO: la campana usa MAXIMIZE_CONVERSIONS, asi que Google decide las pujas; el grupo
 # Botas casi no tiene historial de conversiones y puede que no arranque por eso.
 0 10 29 8 * | [CRON] SUDTEC regla de corte del ruteo de botas. Corre esta consulta por `bash bin/maton.sh "google-ads/v23/customers/9907217991/googleAds:search" -X POST -H "Content-Type: application/json" -d` con la query: SELECT ad_group.name, metrics.impressions, metrics.clicks, metrics.cost_micros FROM ad_group WHERE segments.date BETWEEN '2026-08-25' AND '2026-08-28' AND ad_group.name = 'Botas'. (A) Si el grupo Botas junto MENOS de 20 impresiones en esos 4 dias, el ruteo NO funciono: REVIERTE reactivando las 3 keywords en General con `bash bin/maton.sh "google-ads/v23/customers/9907217991/adGroupCriteria:mutate" -X POST -H "Content-Type: application/json" -d` y operations update status ENABLED sobre estos resourceName exactos: customers/9907217991/adGroupCriteria/181820804074~297314270360 (botas bombero), customers/9907217991/adGroupCriteria/181820804074~345382888741 (botas incendio), customers/9907217991/adGroupCriteria/181820804074~2369517656523 (bota bomberos). Verifica que queden ENABLED y avisale a Connie con `bash bin/tg.sh send` en HTML que se revirtio y por que. (B) Si junto 20 o mas impresiones, DEJALO ASI y avisale el resultado con las cifras, comparando cotizaciones reales de Woo antes y despues. En ambos casos NO toques presupuestos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 29 8"), commitea y pushea.
+
+# --- LIMPIEZA DE REMITENTES BLOQUEADOS (pedido por Connie 25-ago-2026, msg 387) ---
+# Pidio no recibir mas correos de AliExpress. El filtro NATIVO de Gmail no se puede
+# crear desde aca: Maton y Composio dan 403 por falta del scope gmail.settings.basic.
+# Esta barrida hace lo mismo por fuera, cada hora, mandando a PAPELERA (reversible
+# 30 dias, no borrado definitivo). La lista vive en memory/estado/remitentes_bloqueados.json
+# y ahi se agregan otros remitentes si ella pide mas.
+20 * * * * | [CRON] Corre `python3 bin/limpieza_remitentes.py` en /home/agent/workspace. Si dice SIN-NOVEDAD, NO escribas a Connie ni hagas nada mas. Si dice LIMPIADOS, tampoco le avises: es la rutina normal y no quiere ruido. Avisale SOLO si la salida empieza con ERROR, explicandole que la limpieza esta fallando.
