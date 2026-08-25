@@ -61,3 +61,26 @@ ella.** Casi siempre existe la versión que cubre lo mismo sin costo.
 **Capacidad que se le ofreció y conviene repetir:** que **fotografíe la etiqueta**
 y yo leo los ingredientes en chino. Banderas rojas: 樟脑 (alcanfor),
 水杨酸甲酯 (salicilato de metilo), 快乐鼠尾草 (salvia romana), 冬青 (gaulteria).
+
+## Y me pasé de precavido (msg 373, mismo día)
+
+Después de tres rondas de afinar la tarjeta, **Connie me paró**: *«¿de verdad es
+necesario darle tanta instrucción? Tengo 20 semanas nomás»*. **Tenía razón.**
+
+Cada línea que agregué era defendible por separado, pero **el conjunto no**: quedó
+una lista de seis restricciones para un masaje de pies que a 20 semanas y con
+embarazo normal no es un riesgo real. Yo mismo le había dicho que la evidencia de
+los puntos de acupresión es floja, y aun así seguí acumulando reglas.
+
+**El patrón a vigilar: acumular precauciones de a una, sin releer el total.** Cada
+pregunta suya me hizo agregar algo; nadie estaba mirando si el resultado seguía
+siendo proporcionado.
+
+**Lo que quedó:** dos líneas — que está embarazada y que no la remojen en agua
+caliente con presión suave. Y le dije por qué mantengo esa: **no es por la guagua,
+es por ella** — el calor dilata las venas y le empeora la hinchazón, que es
+justamente lo que fue a resolver.
+
+**Regla:** cuando le dé recomendaciones de salud, **separar lo que es riesgo real
+de lo que es precaución barata**, y no dejar que la lista crezca sola. Ver también
+la corrección de los aceites, más arriba: el mismo error dos veces el mismo día.
