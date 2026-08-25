@@ -530,3 +530,35 @@ queda cerrado. Se le anticipó así a Connie.
 
 Ver [[congelar-cambios-viaje-china]]. Nada se toca hasta que vuelva, salvo que lo
 pida: etiqueta de conversión, grupo Improfor, presupuesto.
+
+---
+
+## 25-ago-2026 — saltó la alerta de `vigilancia_cambios.py`
+
+`HAY-QUE-AVISAR` al tercer chequeo malo seguido. **Ojo con la palabra «días»**:
+`malos_seguidos` cuenta **corridas** del cron (una diaria), y cada una mira la
+misma ventana de 7 días corrida un día. No son tres días independientes.
+
+**Cifras de Google (7 días):** 3,6 conv/día contra 4,7 de base · CPA 2.992 contra
+1.675 · gasto 74.789 · proyección mensual 280.689, **bajo el tope de 300.000**.
+
+**Contraste con las cotizaciones reales de Woo** —que es lo que manda, ver
+`linea-base-cotizaciones.md`—:
+
+| Ventana | Reales | Esperado |
+|---|---|---|
+| 19-25 ago (7 días) | 13 → 1,9/día | base 1,8/día |
+| **20-24 ago** (sin el atípico del 19) | **4** | **8-9** por día de semana |
+| 25-ago | 3 al mediodía | martes promedia 2,6 |
+
+**La lectura:** el 7 días completo parece normal **solo porque el miércoles 19
+metió 6**. Sacando ese día hubo una semana floja de verdad. Pero el 25 repuntó
+sobre su promedio, así que no es una caída sostenida.
+
+**Decisión: NO se revirtió nada.** Se le avisó a Connie (msg 404) con las dos
+fuentes separadas. Revertir los cambios del 19-ago apoyándose en el contador de
+Google —que cuenta casi el doble de lo que llega a la tienda— sería repetir el
+error de diagnosticar por un proxy. El **29-ago** corre la regla de corte de botas
+ya aprobada y ahí hay un dato limpio.
+
+Grupo Botas al 25-ago: **45 impresiones, 1 conversión** en 7 días.
