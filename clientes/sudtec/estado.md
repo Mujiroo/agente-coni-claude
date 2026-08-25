@@ -361,3 +361,44 @@ la página **bajo el promedio**. Pausar Botas empeoraría eso, no lo arreglaría
   y hoy está aprobado con destino corregido.
 - **Con regla de corte:** si en 5 días no levanta impresiones, revertir solo.
 - **Negativa de HAIX**, que es ahorro sin contra.
+
+### 24-ago 20:10 — ✅ Aplicados los dos cambios de Ads (Connie: «si dale a las dos», msg 356)
+
+**Verificaciones previas, porque este mismo ruteo salió mal el 21-ago:**
+
+- **El grupo Botas SÍ tiene cobertura** para atajar el tráfico: `botas bombero`,
+  `botas de bomberos`, `botas para bomberos`, `botas incendio`,
+  `botas para incendios forestales`, `botas seguridad incendio` — todas en
+  **concordancia de frase** y ENABLED. `botas lytos` sigue pausada (volumen 0).
+- **Sudtec tiene 0 productos HAIX** (`sudtec_wp.py productos --buscar haix`).
+
+**1. Negativa `haix` BROAD a nivel de campaña** (Campaña Sudtec, `22490713380`).
+`resourceName: customers/9907217991/campaignCriteria/22490713380~41753151`.
+
+**2. Ruteo: se pausaron 3 keywords amplias de botas en General** (`181820804074`):
+
+| Keyword | criterion_id |
+|---|---|
+| `botas bombero` BROAD | `297314270360` |
+| `botas incendio` BROAD | `345382888741` |
+| `bota bomberos` BROAD | `2369517656523` |
+
+**Se eligió esto y NO la negativa amplia `botas` en General**, que es la
+configuración que el 21-ago dejó el tráfico en blanco cuando el anuncio de Botas
+estaba rechazado. Pausar keywords consigue el mismo ruteo y **se revierte
+reactivando esas 3**, sin cortar tráfico de golpe.
+
+**Verificado después:** todas las keywords de botas en General quedan PAUSED; las
+del grupo Botas siguen ENABLED; la negativa `haix` aparece en la campaña.
+
+⚠️ **Riesgo real declarado a Connie (msg 357):** la campaña usa
+**MAXIMIZE_CONVERSIONS**, así que Google decide las pujas, y el grupo Botas
+**casi no tiene historial de conversiones**. Puede no arrancar aunque tenga la
+cancha libre. Las pujas por grupo (`cpc_bid_micros`) son irrelevantes con esa
+estrategia.
+
+**Regla de corte programada** (`crons/jobs.txt`, 29-ago 10:00, se borra sola):
+si el grupo Botas no junta **≥20 impresiones** entre el 25 y el 28, se reactivan
+las 3 keywords con los `resourceName` anotados arriba y se avisa.
+
+**No se tocaron presupuestos ni pujas.**
