@@ -402,3 +402,36 @@ si el grupo Botas no junta **≥20 impresiones** entre el 25 y el 28, se reactiv
 las 3 keywords con los `resourceName` anotados arriba y se avisa.
 
 **No se tocaron presupuestos ni pujas.**
+
+### 24-ago 23:30 — Cierre del lunes: 1 cotización, reenviada
+
+**Reenvío corrido primero en simulación** — mostró 1 pendiente. **Se envió muy
+rápido después, sin inspeccionar antes qué era.** Se verificó *a posteriori* y por
+suerte era legítima, pero el orden correcto es **mirar y después enviar**: la
+simulación no sirve de nada si no se lee.
+
+**#11612 · 24-ago 20:22 Chile · `ywraq-new`**
+`Cuerpo de Bombero Ultima Esperanza` · `capitanprimera1927@gmail.com` (dominio
+válido, chequeado por la regla del 20-ago). Reenviada a `bd@sudtec.cl`.
+
+**Sin huecos:** los ids de Woo saltan (#11611 no existe como pedido), pero no
+falta ninguna cotización.
+
+**La racha, ya con el lunes cerrado:**
+
+| día | cotizaciones |
+|---|---|
+| 21-ago | 0 |
+| 22-ago | 0 |
+| 23-ago | 1 (20:09) |
+| 24-ago | **1 (20:22)** |
+
+Sigue bajo la media de **1,92/día**, pero **menos dramático de lo que se veía a las
+19:00**, cuando el lunes iba en cero. Se le dijo así de explícito.
+
+**Observación sin conclusión:** las dos últimas entraron **pasadas las 20:00**,
+cuando antes llegaban repartidas por todo el día (08:35, 12:13, 14:19, 15:55…).
+Con n=2 no significa nada; queda anotado para mirar.
+
+**Los cambios de Ads de hoy (ruteo de botas + negativa haix) empiezan a contar
+desde el 25-ago.** Corte programado al 29.
