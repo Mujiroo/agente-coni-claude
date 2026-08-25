@@ -73,7 +73,10 @@
 # --- LIMPIEZA DE REMITENTES BLOQUEADOS (pedido por Connie 25-ago-2026, msg 387) ---
 # Pidio no recibir mas correos de AliExpress. El filtro NATIVO de Gmail no se puede
 # crear desde aca: Maton y Composio dan 403 por falta del scope gmail.settings.basic.
-# Esta barrida hace lo mismo por fuera, cada hora, mandando a PAPELERA (reversible
-# 30 dias, no borrado definitivo). La lista vive en memory/estado/remitentes_bloqueados.json
-# y ahi se agregan otros remitentes si ella pide mas.
-20 * * * * | [CRON] Corre `python3 bin/limpieza_remitentes.py` en /home/agent/workspace. Si dice SIN-NOVEDAD, NO escribas a Connie ni hagas nada mas. Si dice LIMPIADOS, tampoco le avises: es la rutina normal y no quiere ruido. Avisale SOLO si la salida empieza con ERROR, explicandole que la limpieza esta fallando.
+# Esta barrida hace lo mismo por fuera, mandando a PAPELERA (reversible 30 dias, no
+# borrado definitivo). La lista vive en memory/estado/remitentes_bloqueados.json y ahi
+# se agregan otros remitentes si ella pide mas.
+#
+# CADA 10 HORAS: Connie lo pidio asi el 25-ago-2026 (msg 389), cada hora le parecio de mas.
+# Cron no sabe decir "cada 10 horas", asi que van tres pasadas fijas: 00:20, 10:20 y 20:20.
+20 0,10,20 * * * | [CRON] Corre `python3 bin/limpieza_remitentes.py` en /home/agent/workspace. Si dice SIN-NOVEDAD, NO escribas a Connie ni hagas nada mas. Si dice LIMPIADOS, tampoco le avises: es la rutina normal y no quiere ruido. Avisale SOLO si la salida empieza con ERROR, explicandole que la limpieza esta fallando.
