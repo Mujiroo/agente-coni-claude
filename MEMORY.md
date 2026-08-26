@@ -13,3 +13,4 @@
 - [Ads va en hora de Chile, Woo en UTC](ads-hora-chile-woo-utc.md) — dos convenciones en el mismo cruce; no restarle 4 h a Ads.
 - [sudtec_wp.py trunca en 6.000 caracteres](sudtec-wp-trunca-salida.md) — usar --limite alto en listados largos; el conteo truncado no da error.
 - [Cambios congelados durante el viaje a China](congelar-cambios-viaje-china.md) — nada que afecte conversiones hasta que vuelva; "gratis" no es "sin riesgo".
+- [Los audios salen por whisper local](audios-solo-whisper-local.md) — no hay clave de OpenAI ni Gemini; si una nota de voz sale confusa puede ser el modelo, no ella.
