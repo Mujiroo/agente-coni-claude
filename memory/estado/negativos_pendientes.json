@@ -1,0 +1,22 @@
+{
+  "propuesto": "2026-08-26",
+  "cuenta": "9907217991",
+  "campana": "Campaña Sudtec",
+  "estado": "esperando_ok_de_connie",
+  "motivo_congelado": "viaje a China; regresa 2026-09-18",
+  "negativos": [
+    {"termino": "cotona ignifuga",   "gasto_2d": 1031, "clics": 1, "conv": 0, "en_catalogo": false},
+    {"termino": "traje encapsulado", "gasto_2d": 1432, "clics": 1, "conv": 0, "en_catalogo": false},
+    {"termino": "epp",               "gasto_2d": 680,  "clics": 1, "conv": 0, "nota": "demasiado generico; aparecio 6 dias seguidos"}
+  ],
+  "NO_bloquear": [
+    {"termino": "camara termica bullard", "razon": "marca competidora, pero Sudtec vende camaras termales FLIR"},
+    {"termino": "arnes de seguridad chilesin", "razon": "marca competidora, pero Sudtec vende arneses Petzl"},
+    {"termino": "dyg seguridad industrial", "razon": "convirtio"}
+  ],
+  "hallazgos_de_contexto": {
+    "red": "100% SEARCH; SEARCH_PARTNERS con 0 gasto, sin Display",
+    "cobertura_terminos": "solo 46% del gasto se ve desglosado por termino; el resto lo oculta Google",
+    "lectura": "el alza de CPC (312 -> 502) son 5 clics sueltos de mas de $940 en 41 clics totales: ruido de volumen bajo, no fuga estructural"
+  }
+}

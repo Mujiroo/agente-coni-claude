@@ -59,3 +59,13 @@ verificada con pasaporte.
 chinos** de lo que quiera comprar, porque buscar en español en Taobao no devuelve
 nada. Si vuelve con una lista, eso es lo que espera. Precios siempre en ¥ y CLP en
 la misma línea (ver la nota del 24-ago).
+
+**26-ago-2026** — Pidió el estado de cotizaciones y campañas de Sudtec. Quedó
+**una decisión abierta suya**: agregar 3 keywords negativas a *Campaña Sudtec*
+—«cotona ignífuga», «traje encapsulado» y «epp»—, que en la semana del 24-ago
+gastaron **$3.143 sin una sola conversión**, y cuyos dos primeros términos **no
+tienen ningún producto en el catálogo** (verificado con `sudtec_wp.py productos`).
+Le dije que puede esperar a que vuelva (18-sep) porque los cambios están
+congelados; **si contesta que sí, hacerlo; si no contesta, recordárselo al
+regreso**. Ver [[congelar-cambios-viaje-china]] y el detalle en
+`memory/estado/negativos_pendientes.json`.
