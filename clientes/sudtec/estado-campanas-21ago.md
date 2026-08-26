@@ -562,3 +562,47 @@ error de diagnosticar por un proxy. El **29-ago** corre la regla de corte de bot
 ya aprobada y ahí hay un dato limpio.
 
 Grupo Botas al 25-ago: **45 impresiones, 1 conversión** en 7 días.
+
+---
+
+## 26-ago-2026 — la alerta volvió a saltar (4ª corrida) y otra vez NO se revirtió
+
+Mismo patrón que el 25, con un dato nuevo que lo cierra: **las dos fuentes ahora
+apuntan en direcciones opuestas.**
+
+| Fuente | 7 días (19-25 ago) | Veredicto |
+|---|---|---|
+| Contador de Google | 24 conv · 3,4/día vs base 4,7 · CPA 3.095 vs 1.675 | 🔴 cayendo |
+| **Cotizaciones reales de Woo** | **16 · 2,3/día vs 1,8 esperado** | ✅ **25% sobre la base** |
+
+**Google contó 24; a la tienda llegaron 16.** Ratio **1,5×**. La alerta está
+calibrada contra el contador de Google (`BASE_CONV_DIA = 140/30`), así que mide
+un proxy inflado y **va a seguir sonando todos los días** aunque la tienda ande bien.
+
+**Día por día contra la base por día de semana** (`linea-base-cotizaciones.md`):
+
+| Día | Real | Esperado |
+|---|---|---|
+| mié 19 | 6 | 1,7 |
+| jue 20 | 2 | 2,8 |
+| vie 21 | 0 | 1,5 *(25% de los viernes cierra en cero)* |
+| sáb 22 | 0 | 0,8 *(57% de los sábados)* |
+| dom 23 | 1 | 1,2 |
+| lun 24 | 2 | 2,2 |
+| **mar 25** | **5** | **2,6** |
+
+El tramo flojo **20-24** (5 contra 8,5) es real, pero el **martes 25 entró al
+doble** y dio vuelta la ventana. La tendencia va mejorando.
+
+**Decisión: no se revirtió nada** (msg 437). Gasto proyectado del mes **280.464**,
+bajo el tope de 300.000. Grupo Botas: **57 impresiones, 1 conversión** en 7 días;
+la regla de corte ya aprobada corre el **29-ago** y ahí habrá dato limpio.
+
+**Queda esperando OK de Connie:** recalibrar `bin/vigilancia_cambios.py` para que
+mida contra las cotizaciones de Woo en vez del contador de Google. Es cambio en mi
+herramienta, no en las campañas, pero se pregunta igual.
+
+⚠️ **Ojo con `malos_seguidos`:** cuenta **corridas del cron**, no días
+independientes. Cuatro corridas miran la misma ventana de 7 días corrida un día.
+
+Ver [[congelar-cambios-viaje-china]], [[contadores-no-son-envios]].
