@@ -13,9 +13,21 @@ mkdir -p "$DEST"
 TOKVAR="${TG_TOKEN_VAR:-TELEGRAM_BOT_TOKEN}"
 TOK=$(grep -m1 "^${TOKVAR}=" "$ENV_FILE" | cut -d= -f2- | sed 's/[[:space:]]*#.*$//' | tr -d '"'"'"' \r')
 [ -n "$TOK" ] || { echo "ERROR: sin token ($TOKVAR) en $ENV_FILE" >&2; exit 1; }
-FP=$(curl -s --max-time 30 "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" \
-  | python3 -c 'import sys,json;print(json.load(sys.stdin).get("result",{}).get("file_path",""))')
-[ -n "$FP" ] || { echo "ERROR: file_id invalido o expirado" >&2; exit 1; }
+# getFile a veces se cuelga aunque el resto de la API responda (paso el 25-ago-2026:
+# getMe al instante y getFile timeout una y otra vez, con file_id validos). Antes eso
+# reventaba con un traceback de Python sobre respuesta vacia y parecia "file_id expirado",
+# que es un diagnostico equivocado y manda a buscar por el lado que no es.
+RESP=$(curl -s --max-time 30 "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" || true)
+if [ -z "$RESP" ]; then
+  echo "ERROR-RED: getFile no respondio (timeout). La API puede estar caida solo para archivos; reintenta en unos minutos." >&2
+  exit 2
+fi
+FP=$(printf '%s' "$RESP" | python3 -c 'import sys,json
+try:
+    print(json.load(sys.stdin).get("result",{}).get("file_path",""))
+except Exception:
+    print("")')
+[ -n "$FP" ] || { echo "ERROR: file_id invalido o expirado -- respuesta: $(printf '%s' "$RESP" | head -c 200)" >&2; exit 1; }
 OUT="$DEST/$(basename "$FP")"
 curl -s --max-time 180 -o "$OUT" "https://api.telegram.org/file/bot${TOK}/${FP}"
 echo "$OUT"
