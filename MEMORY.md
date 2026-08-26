@@ -14,3 +14,4 @@
 - [sudtec_wp.py trunca en 6.000 caracteres](sudtec-wp-trunca-salida.md) — usar --limite alto en listados largos; el conteo truncado no da error.
 - [Cambios congelados durante el viaje a China](congelar-cambios-viaje-china.md) — nada que afecte conversiones hasta que vuelva; "gratis" no es "sin riesgo".
 - [Los audios salen por whisper local](audios-solo-whisper-local.md) — no hay clave de OpenAI ni Gemini; si una nota de voz sale confusa puede ser el modelo, no ella.
+- [La hora del puente es la mía, no la de ella](hora-de-connie-no-la-mia.md) — Chile +12 = China; convertir ANTES de juzgar si algo es urgente.

@@ -69,3 +69,11 @@ Le dije que puede esperar a que vuelva (18-sep) porque los cambios están
 congelados; **si contesta que sí, hacerlo; si no contesta, recordárselo al
 regreso**. Ver [[congelar-cambios-viaje-china]] y el detalle en
 `memory/estado/negativos_pendientes.json`.
+
+**26-ago-2026** (27-ago en China) — Viaja de **Chongqing a Zhangjiajie** en el
+tren **G2445**, sale **09:52** de <code>重庆东站</code> (Chongqing **Este**, la
+estación nueva del sur-oriente, no la Oeste ni la Norte), puerta **28B**, llega
+**11:58** a <code>张家界西站</code>. Localizador `E9W7045790`.
+**Lección que casi me cuesta caro:** el puente marcaba 19:44 y el pasaje decía
+«jue 27», así que parecía que era al día siguiente — pero para ella eran las 07:44
+del jueves y el tren salía **en dos horas**. Ver [[hora-de-connie-no-la-mia]].
