@@ -56,6 +56,26 @@ Regla: ante un botón irreversible, **comprobar el supuesto contra los datos
 reales** antes de dar el visto bueno. Si los números no cierran, frenar y pedir el
 dato que falta — aunque la pantalla afirme lo contrario.
 
-**Estado: esperando que mande la pantalla de perfil de Google Fotos.**
+## Resuelto el mismo día (msg 494)
+
+**Ella confirmó: «tengo mi Google Fotos con otro correo».** La hipótesis era
+correcta — yo estaba mirando `pfeifer.constanza@gmail.com`, que es la cuenta
+conectada a Maton, y su Google Fotos vive en otra. Los 109 GB están en esa otra
+cuenta y el descuadre desaparece.
+
+**Lo que esto deja como dato permanente, y es lo que hay que recordar:**
+
+> Su **Google Fotos NO es la cuenta que yo veo**. `pfeifer.constanza@gmail.com` es
+> su correo/Drive/Calendar, pero las fotos están en otro correo que **no tengo
+> conectado**. Cualquier pregunta sobre sus fotos **no la puedo verificar yo**:
+> hay que pedirle a ella la pantalla, o conectar esa cuenta (OAuth, solo lo puede
+> hacer ella).
+
+Le dejé igual las dos advertencias que **siguen valiendo** aunque el respaldo esté
+sano: que confirme que dice «copia de seguridad completada», y que **en China no va
+a poder ver lo que libere** porque Google está bloqueado — así que lo antiguo sí,
+pero las fotos **de este viaje** que se queden en el teléfono hasta el 18-sep.
+
+**Cerrado.** No perdió nada y no la frené de más: la alerta duró 4 minutos.
 
 Relacionado: [[notas-connie]], [[connie]], [[leer-estado-real-antes-de-proponer]]

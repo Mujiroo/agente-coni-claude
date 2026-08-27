@@ -38,3 +38,17 @@ escribe**, no se deja en la conversación.
 - Qué clientes concretos me va a pasar, y cuáles son de la agencia y cuáles
   propios.
 - Si quiere un resumen diario/semanal por Telegram (eso sería un cron).
+
+
+## Sus cuentas: ojo con asumir que veo todo (27-ago-2026)
+
+**Su Google Fotos está en OTRO correo**, no en `pfeifer.constanza@gmail.com`.
+Esa —la que tengo conectada por Maton— es su correo, Drive y Calendar, pero **las
+fotos no**. No tengo forma de verificar nada de sus fotos: se le pide la pantalla,
+o ella conecta esa cuenta (es OAuth, solo lo puede hacer ella).
+
+**Lo general:** que yo tenga conectada *una* cuenta suya no significa que sea *la*
+cuenta para todo. Antes de afirmar algo sobre un servicio suyo, comprobar que lo
+que estoy mirando es de verdad el mismo lugar donde vive el dato.
+
+Ver [[google-fotos-liberar-espacio]].
