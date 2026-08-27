@@ -39,5 +39,22 @@
  "revertido_21ago": "Quitada la negativa broad 'botas' (criterion 18320463) del grupo General 181820804074. Verificado: 0 negativas con 'bota' en General, y 'botas bombero' (la de 8 conversiones) quedo ENABLED + ELIGIBLE. El grupo Botas sigue activo y elegible; ya no bloquea a General, Google elige por consulta.",
  "ojo_general": "En General quedaron PAUSADAS 'botas de bomberos', 'botas para bomberos' y 'botas jolly' desde el cambio del 19-ago. Connie pregunto el 21-ago (msg 283) si convenia reactivarlas; se le recomendo QUE NO (msg 284) y ella no insistio: (1) no suman alcance, 'botas bombero' en amplia ya cubre esas consultas; (2) duplicarian keywords que ya estan activas en el grupo Botas ('botas jolly' quedaria en EXACTA en los dos grupos); (3) el duplicado impide leer que grupo se gana el trafico por merito, que es justo lo que queremos medir ahora.",
  "pendiente_para_cuando_vuelva": "Si quiere que el grupo Botas tenga vida propia, la via correcta es CAMPANA APARTE con presupuesto propio: dentro de una campana con Maximize Conversions no hay forma de reservarle presupuesto a un grupo. Implica presupuesto nuevo -> decision de ella, y OJO con la moneda (CLP, factor x1).",
- "solape_conocido": "Tras quitar la negativa, 'botas bombero' y 'botas incendio' quedan ACTIVAS en los dos grupos (amplia en General, frase en Botas). Google resuelve por consulta segun Ad Rank. Es esperado y se le aviso a Connie; NO es un error que haya que arreglar."
+ "solape_conocido": "Tras quitar la negativa, 'botas bombero' y 'botas incendio' quedan ACTIVAS en los dos grupos (amplia en General, frase en Botas). Google resuelve por consulta segun Ad Rank. Es esperado y se le aviso a Connie; NO es un error que haya que arreglar.",
+ "medicion_14dias_al_26ago": {
+  "impresiones": 57,
+  "clics": 3,
+  "gasto_clp": 1124,
+  "conversiones": 1,
+  "por_dia": {
+   "2026-08-20": 1,
+   "2026-08-21": 6,
+   "2026-08-22": 10,
+   "2026-08-23": 17,
+   "2026-08-24": 11,
+   "2026-08-25": 12
+  },
+  "ventana_regla_25_28": "12 de 20 al 26-ago (faltan 27 y 28); al ritmo actual pasa el umbral"
+ },
+ "debilidad_de_la_regla_de_corte": "La regla del 29-ago mide SOLO impresiones (umbral 20). El grupo puede pasarlo y seguir con 1 conversion en 14 dias. Pasar el corte no prueba que sirva, solo que aparece. Recomendado a Connie el 26-ago (msg 453): el 29 mirar impresiones Y conversiones, y revertir igual si no hay conversiones, porque el trafico convertia mejor en General. ESPERA RESPUESTA.",
+ "discrepancia_pendiente": "Al 26-ago: ad_group level da 57 impresiones en 14 dias, pero keyword_view del mismo grupo y mismo rango solo atribuye 12. Faltan 45 por explicar (posible DSA u otra fuente). No cambia la conclusion comercial, pero queda ABIERTO."
 }
