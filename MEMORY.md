@@ -17,3 +17,4 @@
 - [La hora del puente es la mía, no la de ella](hora-de-connie-no-la-mia.md) — Chile +12 = China; convertir ANTES de juzgar si algo es urgente.
 - [getFile lento no es getFile caído](getfile-lento-no-caido.md) — el helper cortaba a los 30s; ahora 60s y 3 intentos. Probar getMe antes de declarar caída una API.
 - [Cómo se comunica Connie conmigo](canal-y-formato.md) — audios por whisper local; y todo carácter chino va con traducción y pronunciación entre paréntesis.
+- [Liberar espacio en Google Fotos](google-fotos-liberar-espacio.md) — 109 GB a liberar contra una cuenta de 15 GB casi vacía; verificar el supuesto antes de aprobar un botón irreversible.
