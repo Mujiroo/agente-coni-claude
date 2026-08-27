@@ -112,3 +112,22 @@ yo "sabía" estaba desactualizado (大庸古城 quebró en 2024 y reabrió en ju
 Se aplicaron las dos reglas del viaje: nombres en **caracteres chinos** para
 mostrarle al taxi, y precios en **¥ y CLP en la misma línea**.
 Regresa el **18-sep-2026**.
+
+**27-ago-2026, noche** — Fue al **七十二奇楼**, o sea siguió la recomendación.
+Desde adentro mandó la foto del cartel de programación preguntando dónde era el
+show de las 19:55. Eran las **19:49** en China: **6 minutos**. Respondí corto y
+primero la ubicación: 《奇楼掌灯》 (*Qilou Zhangdeng*, «el encendido de las
+linternas de la torre»), en **湘西老街** (*Xiangxi Laojie*, «Calle Antigua de
+Xiangxi»), con la frase <code>湘西老街怎么走？</code> para preguntarle a
+cualquiera. Después, en un segundo mensaje, le traduje la programación completa.
+
+**Lo que hay que retener del cartel** (sirve si vuelve a un parque chino):
+· **必看** = imprescindible · **推荐** = recomendado · **非遗** = patrimonio inmaterial
+· El cierre grande es 《篝火盛典》 («gran ceremonia de la fogata»), **21:30**, desfile
+  que termina en 篝火广场
+· **山歌醉 es local de consumo**: para ver el show de ahí hay que pedir algo
+
+**Lección de forma, no de contenido:** con 6 minutos encima, lo correcto fue
+**partir por el dato que ella necesitaba para moverse** y dejar todo lo demás
+para un segundo mensaje. La respuesta completa habría llegado tarde aunque
+fuera mejor.
