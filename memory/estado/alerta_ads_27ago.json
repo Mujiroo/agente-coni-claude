@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-08-27",
+  "origen": "cron vigilancia_cambios 09:30",
+  "salida": "HAY-QUE-AVISAR",
+  "estado": "esperando_ok_de_connie",
+  "avisado_msg": 489,
+  "cifras_7d": {
+    "conv_dia": 3.43,
+    "conv_dia_base": 4.67,
+    "caida_pct": -27,
+    "cpa": 3084,
+    "cpa_base": 1675,
+    "cpa_ratio": 1.84,
+    "costo": 74012,
+    "conversiones": 24,
+    "conversiones_equivalentes_a_base": 44,
+    "botas_impresiones": 63,
+    "botas_conversiones": 1
+  },
+  "malos_seguidos": 5,
+  "matiz_importante": "La racha mala arranca el 23-ago; el ruteo de botas se cambio el 24-ago 20:10. El deterioro PRECEDE al ruteo, asi que el ruteo no explica todo. Los candidatos previos son los cambios del 19-ago (A: 'accesorios bomberos' en FRASE pausada, B: negativas reloj/relojes).",
+  "propuesta": "Reactivar las 3 keywords de botas en General ahora, sin esperar al 29-ago.",
+  "defecto_detectado_en_mi_propia_regla": "El cron del 29-ago mide SOLO impresiones con umbral 20. Botas ya lleva 63 impresiones en 7 dias, asi que caeria en la rama (B) y NO revertiria solo, pese a tener 1 conversion. La regla esta mal calibrada: mide alcance, no negocio.",
+  "no_tocar": "No se modifico nada. Requiere OK explicito de Connie."
+}

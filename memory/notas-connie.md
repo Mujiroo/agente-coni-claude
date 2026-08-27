@@ -131,3 +131,20 @@ cualquiera. Después, en un segundo mensaje, le traduje la programación complet
 **partir por el dato que ella necesitaba para moverse** y dejar todo lo demás
 para un segundo mensaje. La respuesta completa habría llegado tarde aunque
 fuera mejor.
+
+**27-ago-2026, 09:30** — El cron de vigilancia de cambios dio **HAY-QUE-AVISAR**:
+la cuenta de Sudtec lleva **5 días seguidos peor** que la base — **3,4 conv/día**
+contra 4,7 (**−27%**) y **CPA $3.084** contra $1.675 (**×1,84**). En 7 días:
+**$74.012 por 24 conversiones**, cuando a la tasa anterior esa plata compraba ~44.
+Grupo Botas: **63 impresiones, 1 conversión**.
+
+**El matiz que casi me como:** la racha mala empieza el **23-ago** y el ruteo de
+botas se cambió el **24-ago 20:10**. El deterioro **precede** al ruteo, así que
+atribuírselo entero habría sido falso. Se lo dije así.
+
+**Defecto propio que encontré y le confesé:** el cron que dejé para el 29-ago mide
+**solo impresiones** con umbral 20, y Botas ya lleva 63 → caería en la rama (B) y
+**no revertiría solo**, pese a tener 1 conversión. La regla mide alcance, no
+negocio. Está anotado en `memory/estado/alerta_ads_27ago.json`.
+
+**Estado: esperando su OK** (msg 489). No se tocó nada.
