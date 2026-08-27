@@ -77,6 +77,42 @@ entregues una plantilla para que la complete ella estando en la calle —
 shows que le quedaban esa noche, y el molde `请问，__的《__》在哪里？` **al final
 y como extra**, no como respuesta.
 
+### Y el error de verdad, el mismo día (msg 480)
+
+Después de las dos correcciones anteriores todavía me faltaba la principal. Ella
+escribió, ya con signos de exclamación: **«En chino! Quiero preguntarle a
+alguien!»**.
+
+Yo *sí* le había mandado chino — pero envuelto en un mensaje largo, con títulos,
+negritas, viñetas, siete frases y un molde al final. **Con una persona parada al
+frente, eso no se puede usar.** Tenía que hacer scroll, encontrar el bloque
+correcto y recién ahí mostrarlo.
+
+**La regla, y es la que manda sobre las otras dos:**
+
+> Cuando lo que necesita es **mostrarle algo a alguien**, la frase va **sola, en
+> su propio mensaje, sin una palabra alrededor**. La explicación va **después, en
+> un mensaje aparte**.
+
+Así levanta el teléfono y ya está. Lo que envié al final fueron dos mensajes:
+
+```
+请问，现在这个时间的演出在哪里？
+```
+```
+👆 Muéstrale ese mensaje. Dice: «¿dónde es el show de esta hora?»
+```
+
+**El patrón de fondo, que es lo que más me cuesta:** cuando ella está en
+movimiento, **más información es peor respuesta**. Yo estaba optimizando por
+completitud —dejarla cubierta toda la noche— cuando lo que pedía era una sola
+cosa utilizable en ese segundo. Las tres correcciones del 27-ago
+(traducción → rellenada → sola) son la misma flecha: **acercarle el dato a la
+mano**.
+
+**Corolario práctico:** una frase genérica que sirve toda la noche («el show de
+esta hora») vale más que siete prellenadas, porque no la obliga a elegir.
+
 **Pendiente ofrecido:** armarle un **mini-glosario de frases de viaje** en chino
 (pedir la cuenta, precio, baño, taxi, alergias, "¿me lo puede escribir?"). No se
 lo mandé el 27-ago porque estaba en medio de los shows; ofrecérselo cuando esté
