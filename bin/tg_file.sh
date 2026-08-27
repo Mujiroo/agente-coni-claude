@@ -17,9 +17,17 @@ TOK=$(grep -m1 "^${TOKVAR}=" "$ENV_FILE" | cut -d= -f2- | sed 's/[[:space:]]*#.*
 # getMe al instante y getFile timeout una y otra vez, con file_id validos). Antes eso
 # reventaba con un traceback de Python sobre respuesta vacia y parecia "file_id expirado",
 # que es un diagnostico equivocado y manda a buscar por el lado que no es.
-RESP=$(curl -s --max-time 30 "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" || true)
+# 27-ago-2026: con 30s se rendia y una llamada identica a 45s SI respondia, en plena
+# emergencia (Connie en la estacion de tren). getFile puede tardar >30s y responder bien:
+# se sube el techo a 60s y se reintenta 3 veces antes de declarar caida la API.
+RESP=""
+for INTENTO in 1 2 3; do
+  RESP=$(curl -s --max-time 60 "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" || true)
+  [ -n "$RESP" ] && break
+  [ "$INTENTO" -lt 3 ] && sleep 3
+done
 if [ -z "$RESP" ]; then
-  echo "ERROR-RED: getFile no respondio (timeout). La API puede estar caida solo para archivos; reintenta en unos minutos." >&2
+  echo "ERROR-RED: getFile no respondio tras 3 intentos de 60s. La API puede estar caida solo para archivos; reintenta en unos minutos." >&2
   exit 2
 fi
 FP=$(printf '%s' "$RESP" | python3 -c 'import sys,json
