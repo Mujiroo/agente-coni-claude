@@ -16,3 +16,4 @@
 - [Los audios salen por whisper local](audios-solo-whisper-local.md) — no hay clave de OpenAI ni Gemini; si una nota de voz sale confusa puede ser el modelo, no ella.
 - [La hora del puente es la mía, no la de ella](hora-de-connie-no-la-mia.md) — Chile +12 = China; convertir ANTES de juzgar si algo es urgente.
 - [getFile lento no es getFile caído](getfile-lento-no-caido.md) — el helper cortaba a los 30s; ahora 60s y 3 intentos. Probar getMe antes de declarar caída una API.
+- [Cómo se comunica Connie conmigo](canal-y-formato.md) — audios por whisper local; y todo carácter chino va con traducción y pronunciación entre paréntesis.
