@@ -606,3 +606,24 @@ herramienta, no en las campañas, pero se pregunta igual.
 independientes. Cuatro corridas miran la misma ventana de 7 días corrida un día.
 
 Ver [[congelar-cambios-viaje-china]], [[contadores-no-son-envios]].
+
+### 26-ago-2026, cierre del día — la alerta de la mañana quedó desmentida
+
+**Cotizaciones reales del miércoles 26: 4**, contra **1,7** esperadas para un
+miércoles. Semana en curso: **11** (lun 2 · mar 5 · mié 4). La tienda anda por
+sobre la línea base tres días seguidos.
+
+**Ads del 26:** $8.802 · 12 clics · 3 conv · CPC $734. Semana lun-mié: **$29.387 ·
+13 conv · CPA $2.260**.
+
+**⚠️ La proyección del mes va más justa de lo que dice el script.** Gastado al
+26-ago: **$240.266**. Quedan 5 días. El script proyecta asumiendo **$8.200/día**,
+pero el ritmo real de la última semana es **$10.278/día** → cierre estimado
+**~$291.700** contra el tope de **$300.000**. Margen real: **$8.300**, no $20.000.
+Si algún día se pasa del promedio, **toca el techo antes del 31**. Se le avisó
+(msg 451) y se le ofreció vigilancia fina; **espera respuesta**.
+
+**Campañas vivas (verificado):** solo **Campaña Sudtec** ($9.100/día) y
+**Competencias** ($700/día), ambas `ENABLED` + `SERVING`. **«Prueba Max
+Rendimiento» y «Botas Bomberos» están `REMOVED`** — sus ceros son esperables, no
+una falla. Anotarlo evita el falso positivo la próxima vez que aparezcan en cero.
