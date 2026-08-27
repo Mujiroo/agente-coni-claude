@@ -84,8 +84,15 @@ Chongqing). A las 18:25 de allá preguntó qué ver esa noche. Le mandé: **天�
 (18:00–19:30, gratis), **大庸古城** —reabrió en julio-2026, entrada gratis— con
 **南门口美食街** al frente, y **三下锅** en <code>胡师傅三下锅</code> (子午路).
 **魅力湘西** (19:30) queda en **武陵源**, a 40 min, así que solo sirve si se alojó allá.
-**Quedó preguntado**: si está en 永定区 o en 武陵源 — el dato cambia todas las
-recomendaciones de los días siguientes, así que anotarlo cuando conteste.
+**Contestó (msg 467)**: se aloja en el **Yunmei Bieyuan Hotel**, No. 1, Lane 2,
+<code>双拥路</code>, barrio <b>南庄坪</b>, <b>永定区</b> — o sea la **ciudad**, no
+武陵源. Con eso 魅力湘西 quedó descartado (está en Wulingyuan) y todo lo demás sirve.
+Datos útiles de ese barrio: <code>老七三下锅</code> le queda **a pasos** (frente al
+condominio 雅典国际); al 天门狐仙 son 10–20 min en taxi y **los hoteles gestionan una
+furgoneta ida y vuelta por 20 ¥** (≈ $2.700); 大庸古城 está en 解放路 152, ~10 min,
+gratis y abierto hasta tarde.
+**Queda preguntado**: cuántas noches se queda en Zhangjiajie, para adelantarle los
+panoramas sin que tenga que pedirlos.
 Se aplicaron las dos reglas del viaje: nombres en **caracteres chinos** para
 mostrarle al taxi, y precios en **¥ y CLP en la misma línea**.
 Regresa el **18-sep-2026**.
