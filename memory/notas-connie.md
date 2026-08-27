@@ -77,3 +77,15 @@ estación nueva del sur-oriente, no la Oeste ni la Norte), puerta **28B**, llega
 **Lección que casi me cuesta caro:** el puente marcaba 19:44 y el pasaje decía
 «jue 27», así que parecía que era al día siguiente — pero para ella eran las 07:44
 del jueves y el tren salía **en dos horas**. Ver [[hora-de-connie-no-la-mia]].
+
+**27-ago-2026** — Ya está en **Zhangjiajie** (llegó 11:58, tren G2445 desde
+Chongqing). A las 18:25 de allá preguntó qué ver esa noche. Le mandé: **天门狐仙**
+(20:00, en 永定区 o sea la ciudad, 238 ¥ ≈ $33.000), el **天门山 iluminado**
+(18:00–19:30, gratis), **大庸古城** —reabrió en julio-2026, entrada gratis— con
+**南门口美食街** al frente, y **三下锅** en <code>胡师傅三下锅</code> (子午路).
+**魅力湘西** (19:30) queda en **武陵源**, a 40 min, así que solo sirve si se alojó allá.
+**Quedó preguntado**: si está en 永定区 o en 武陵源 — el dato cambia todas las
+recomendaciones de los días siguientes, así que anotarlo cuando conteste.
+Se aplicaron las dos reglas del viaje: nombres en **caracteres chinos** para
+mostrarle al taxi, y precios en **¥ y CLP en la misma línea**.
+Regresa el **18-sep-2026**.
