@@ -68,10 +68,19 @@
 # correcta. Connie aprobo revertir solo si en 5 dias el grupo Botas no levanta.
 # OJO: la campana usa MAXIMIZE_CONVERSIONS, asi que Google decide las pujas; el grupo
 # Botas casi no tiene historial de conversiones y puede que no arranque por eso.
-# 26-ago: Connie dijo 'esperemos esos dias de datos' (msg 454). La rama (B) se endurecio:
-# antes decia 'dejalo asi'; ahora se le llevan impresiones Y conversiones y decide ella.
-# La rama (A) mantiene la autorizacion que ya dio el 24-ago (msg 356): revierte sola.
-0 10 29 8 * | [CRON] SUDTEC regla de corte del ruteo de botas. Corre esta consulta por `bash bin/maton.sh "google-ads/v23/customers/9907217991/googleAds:search" -X POST -H "Content-Type: application/json" -d` con la query: SELECT ad_group.name, metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions FROM ad_group WHERE segments.date BETWEEN '2026-08-25' AND '2026-08-28' AND ad_group.name = 'Botas'. (A) Si el grupo Botas junto MENOS de 20 impresiones en esos 4 dias, el ruteo NO funciono: REVIERTE reactivando las 3 keywords en General con `bash bin/maton.sh "google-ads/v23/customers/9907217991/adGroupCriteria:mutate" -X POST -H "Content-Type: application/json" -d` y operations update status ENABLED sobre estos resourceName exactos: customers/9907217991/adGroupCriteria/181820804074~297314270360 (botas bombero), customers/9907217991/adGroupCriteria/181820804074~345382888741 (botas incendio), customers/9907217991/adGroupCriteria/181820804074~2369517656523 (bota bomberos). Verifica que queden ENABLED y avisale a Connie con `bash bin/tg.sh send` en HTML que se revirtio y por que. (B) Si junto 20 o mas impresiones, NO revierta y NO decidas tu: la regla mide impresiones, que no son negocio, y el grupo puede pasar el umbral con cero conversiones (al 26-ago llevaba 1 conversion en 14 dias). Mandale a Connie LAS DOS CIFRAS -impresiones Y conversiones del grupo Botas en 25-28 ago-, comparadas con las cotizaciones reales de Woo antes y despues, y dile explicitamente que si paso en impresiones pero sigue sin conversiones lo que YO recomiendo es revertir igual, porque ese trafico convertia mejor en General. Ella decide; espera su respuesta y NO toques nada mientras. En ambos casos NO toques presupuestos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 29 8"), commitea y pushea.
+# 26-ago: Connie dijo 'esperemos esos dias de datos' (msg 454).
+#
+# CERRADO EL 27-AGO-2026: no se espero al 29. La vigilancia de cambios dio
+# HAY-QUE-AVISAR (5 dias seguidos peor: 3,4 conv/dia vs 4,7; CPA 3.084 vs 1.675),
+# Connie aprobo por chat (msg 490 "si reactivemos entonces") y las 3 keywords se
+# reactivaron en General ese mismo dia, verificadas ENABLED. El cron del 29 se borro.
+#
+# DOS DEFECTOS QUE TENIA ESE CRON, anotados para no repetirlos:
+#  1. Media SOLO impresiones (umbral 20). El grupo llevaba 63 impresiones con 1 sola
+#     conversion: habria caido en la rama (B) y NO habria revertido. Medir alcance
+#     en vez de negocio da el veredicto contrario al correcto.
+#  2. Filtraba por ad_group.name = 'Botas', pero el grupo se llama en realidad
+#     'Botas de Bomberos'. Ese igual exacto no devolvia ninguna fila.
 
 # --- LIMPIEZA DE REMITENTES BLOQUEADOS (pedido por Connie 25-ago-2026, msg 387) ---
 # Pidio no recibir mas correos de AliExpress. El filtro NATIVO de Gmail no se puede

@@ -2,7 +2,7 @@
   "fecha": "2026-08-27",
   "origen": "cron vigilancia_cambios 09:30",
   "salida": "HAY-QUE-AVISAR",
-  "estado": "esperando_ok_de_connie",
+  "estado": "resuelto_aprobado_y_aplicado",
   "avisado_msg": 489,
   "cifras_7d": {
     "conv_dia": 3.43,
@@ -21,5 +21,24 @@
   "matiz_importante": "La racha mala arranca el 23-ago; el ruteo de botas se cambio el 24-ago 20:10. El deterioro PRECEDE al ruteo, asi que el ruteo no explica todo. Los candidatos previos son los cambios del 19-ago (A: 'accesorios bomberos' en FRASE pausada, B: negativas reloj/relojes).",
   "propuesta": "Reactivar las 3 keywords de botas en General ahora, sin esperar al 29-ago.",
   "defecto_detectado_en_mi_propia_regla": "El cron del 29-ago mide SOLO impresiones con umbral 20. Botas ya lleva 63 impresiones en 7 dias, asi que caeria en la rama (B) y NO revertiria solo, pese a tener 1 conversion. La regla esta mal calibrada: mide alcance, no negocio.",
-  "no_tocar": "No se modifico nada. Requiere OK explicito de Connie."
+  "no_tocar": "No se modifico nada. Requiere OK explicito de Connie.",
+  "aprobacion": {
+    "msg": 490,
+    "texto": "Si reactivemos entonces",
+    "hora_chile": "09:35"
+  },
+  "accion_aplicada": {
+    "que": "3 keywords de botas reactivadas a ENABLED en el grupo General (181820804074)",
+    "criterios": [
+      "297314270360 botas bombero",
+      "345382888741 botas incendio",
+      "2369517656523 bota bomberos"
+    ],
+    "match_type": "BROAD",
+    "verificado": "si - relectura posterior confirma ENABLED en los 3",
+    "presupuestos_tocados": "ninguno"
+  },
+  "segundo_defecto_del_cron_29": "Filtraba por ad_group.name = 'Botas' pero el grupo se llama 'Botas de Bomberos'; el igual exacto no devolvia filas.",
+  "cron_29_borrado": true,
+  "pendiente_real": "La racha mala arranca el 23-ago, ANTES del ruteo. Reactivar botas no ataca esa causa. Quedan por revisar los cambios del 19-ago: (A) 'accesorios bomberos' en FRASE pausada, (B) negativas reloj/relojes. Vigilar 3-4 dias si la cuenta se recupera; si no, ahi esta la causa."
 }
