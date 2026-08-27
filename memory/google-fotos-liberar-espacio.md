@@ -76,6 +76,34 @@ sano: que confirme que dice «copia de seguridad completada», y que **en China 
 a poder ver lo que libere** porque Google está bloqueado — así que lo antiguo sí,
 pero las fotos **de este viaje** que se queden en el teléfono hasta el 18-sep.
 
+## Corrección: Google NO le está bloqueado (msg 496)
+
+**Me equivoqué en la advertencia de China.** Le dije que Google está bloqueado y que
+no vería lo que liberara; ella respondió que **sí ve sus fotos y que está subiendo
+las últimas en ese momento**.
+
+**Explicación más probable: roaming.** Con SIM chilena el tráfico sale por el
+operador de origen y no pasa por el filtro chino. Por eso Google le funciona igual.
+**El matiz que sí vale:** si se conecta al **WiFi del hotel**, ese sí es tráfico
+chino y Google puede dejar de funcionar. No es lo mismo «tiene Google» que «tiene
+Google en cualquier red».
+
+**Regla para el resto del viaje:** no dar por sentado que está tras el Gran
+Cortafuegos. **Preguntar o mirar la evidencia** antes de construir un consejo sobre
+ese supuesto — llevo una advertencia entera montada sobre algo que no era cierto
+para ella.
+
+## Lo que sí resultó ser el riesgo real
+
+**Estaba subiendo fotos en ese mismo momento.** Ahí está el peligro concreto: si
+aprieta *Liberar* con la subida a medias, **lo que todavía no alcanzó a subir se
+borra del teléfono sin estar arriba**. Le dije que espere el «copia de seguridad
+completada» y recién ahí apriete.
+
+Nota: ese riesgo apareció porque **ella** aportó el dato, no porque yo lo detectara.
+Cuando corrige un supuesto mío, lo que dice suele traer información nueva —
+**leerlo como dato, no solo como corrección**.
+
 **Cerrado.** No perdió nada y no la frené de más: la alerta duró 4 minutos.
 
 Relacionado: [[notas-connie]], [[connie]], [[leer-estado-real-antes-de-proponer]]
