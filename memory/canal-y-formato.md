@@ -69,6 +69,14 @@ es una **herramienta de salida**, no de lectura.
 2. Con la traducción entre paréntesis, para que sepa **qué está mostrando**
 3. Sola, sin párrafos alrededor — la va a leer caminando
 
+**Y enseguida lo afinó (msg 478): «pero ponle la hora y el nombre porfa».**
+Yo le había dado la frase *genérica* («¿dónde es el show de esta hora?») y ella
+quería la **frase ya rellenada** con los datos concretos. La lección: no le
+entregues una plantilla para que la complete ella estando en la calle —
+**entrégale el resultado terminado**. Le dejé las 7 frases prellenadas de los
+shows que le quedaban esa noche, y el molde `请问，__的《__》在哪里？` **al final
+y como extra**, no como respuesta.
+
 **Pendiente ofrecido:** armarle un **mini-glosario de frases de viaje** en chino
 (pedir la cuenta, precio, baño, taxi, alergias, "¿me lo puede escribir?"). No se
 lo mandé el 27-ago porque estaba en medio de los shows; ofrecérselo cuando esté
