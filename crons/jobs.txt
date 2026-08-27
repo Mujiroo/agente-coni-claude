@@ -92,3 +92,11 @@
 # CADA 10 HORAS: Connie lo pidio asi el 25-ago-2026 (msg 389), cada hora le parecio de mas.
 # Cron no sabe decir "cada 10 horas", asi que van tres pasadas fijas: 00:20, 10:20 y 20:20.
 20 0,10,20 * * * | [CRON] Corre `python3 bin/limpieza_remitentes.py` en /home/agent/workspace. Si dice SIN-NOVEDAD, NO escribas a Connie ni hagas nada mas. Si dice LIMPIADOS, tampoco le avises: es la rutina normal y no quiere ruido. Avisale SOLO si la salida empieza con ERROR, explicandole que la limpieza esta fallando.
+
+# --- SUDTEC Ads: veredicto del revert de botas (montado el 27-ago-2026) ---
+# El 27-ago se reactivaron las 3 keywords de botas en General (aprobado por Connie,
+# msg 490) porque la cuenta llevaba 5 dias peor: 3,4 conv/dia vs 4,7 y CPA 3.084 vs 1.675.
+# Le PROMETI mirarlo 3-4 dias y volver con veredicto EN LOS DOS CASOS.
+# Esto no lo cubre la vigilancia de las 09:30: esa solo habla cuando algo esta mal,
+# asi que si la cuenta se recupera se queda callada y la promesa queda incumplida.
+0 10 31 8 * | [CRON] SUDTEC veredicto del revert de botas. Corre `python3 bin/vigilancia_cambios.py` y ademas pide por `bash bin/maton.sh "google-ads/v23/customers/9907217991/googleAds:search" -X POST -H "Content-Type: application/json" -d` la query: SELECT metrics.conversions, metrics.cost_micros, metrics.impressions FROM campaign WHERE segments.date BETWEEN '2026-08-28' AND '2026-08-30'. Compara conv/dia y CPA de esos 3 dias POST-revert contra la base (4,67 conv/dia y CPA 1.675 CLP). AVISALE A CONNIE EN LOS DOS CASOS con `bash bin/tg.sh send` en HTML y cifras: (1) si se recupero, era el ruteo y se cierra el tema; (2) si NO se recupero, la causa esta en los cambios del 19-ago -presentale como sospechosos 'accesorios bomberos' en concordancia de FRASE y las negativas 'reloj'/'relojes'- y proponle revertir esos, pero NO toques nada sin su OK. Ojo: el grupo de botas se llama 'Botas de Bomberos', NO 'Botas'. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 31 8"), commitea y pushea.
