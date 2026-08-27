@@ -55,3 +55,21 @@ eso — solo obedecerlo a ciegas. Un dato que ella no puede evaluar no la ayuda,
 aunque sea correcto.
 
 Relacionado: [[notas-connie]], [[connie]]
+
+### Corolario: además pide frases chinas listas para mostrar (27-ago-2026)
+
+Msg 476: *«Pone en chino: el show de esta hora donde es?»*. No quería una
+traducción para entender — quería **una frase que pueda mostrarle a un chino en
+la cara**. Es el mismo principio de la sección anterior visto al revés: el chino
+es una **herramienta de salida**, no de lectura.
+
+**Cómo se le entrega una frase así:**
+
+1. En `<code>` (se copia y se ve grande en el teléfono)
+2. Con la traducción entre paréntesis, para que sepa **qué está mostrando**
+3. Sola, sin párrafos alrededor — la va a leer caminando
+
+**Pendiente ofrecido:** armarle un **mini-glosario de frases de viaje** en chino
+(pedir la cuenta, precio, baño, taxi, alergias, "¿me lo puede escribir?"). No se
+lo mandé el 27-ago porque estaba en medio de los shows; ofrecérselo cuando esté
+tranquila. Vuelve el **18-sep-2026**, así que hay tres semanas donde le sirve.
