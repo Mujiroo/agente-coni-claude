@@ -93,6 +93,22 @@ furgoneta ida y vuelta por 20 ¥** (≈ $2.700); 大庸古城 está en 解放路
 gratis y abierto hasta tarde.
 **Queda preguntado**: cuántas noches se queda en Zhangjiajie, para adelantarle los
 panoramas sin que tenga que pedirlos.
+
+Después mandó una captura de **高德地图** preguntando «¿y esto qué es?»: era el
+**七十二奇楼** (<code>武陵山大道1号</code>), la **casa palafito 吊脚楼 más alta del
+mundo**, récord Guinness, **109,9 m**, arquitectura **tujia**. Abre **10:00–22:00**,
+sesión de noche desde **16:30**, entrada **88 ¥** ≈ **$12.000**, lo bueno después de
+las **19:00**, fogata (篝火晚会) hasta **22:45**. **Circula que de noche es gratis y
+NO lo es** — se lo advertí por si se lo ofrecen en la puerta.
+Le recomendé **este** por sobre el 天门狐仙 para esa noche: un tercio del precio, sin
+hora fija, y el 天门狐仙 se da **todas las noches hasta diciembre**, así que no se
+pierde. En su propia captura salían <code>灶灶土钵菜·三下锅 (72奇楼店)</code> (el plato
+típico, ahí mismo) y <code>茶颜悦色</code>, la marca de té con leche de Hunan.
+
+**Patrón del viaje que ya se repitió tres veces:** manda una foto o una dirección y
+espera que YO ubique el lugar, lo verifique y le diga si vale la pena — no que le
+describa la foto. Verificar con búsqueda antes de responder, porque dos veces lo que
+yo "sabía" estaba desactualizado (大庸古城 quebró en 2024 y reabrió en julio-2026).
 Se aplicaron las dos reglas del viaje: nombres en **caracteres chinos** para
 mostrarle al taxi, y precios en **¥ y CLP en la misma línea**.
 Regresa el **18-sep-2026**.
