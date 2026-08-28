@@ -148,3 +148,35 @@ atribuírselo entero habría sido falso. Se lo dije así.
 negocio. Está anotado en `memory/estado/alerta_ads_27ago.json`.
 
 **Estado: esperando su OK** (msg 489). No se tocó nada.
+
+**28-ago-2026 (11:46 en China)** — Mandó el mapa de **天门山 (Tianmen Shan)**
+preguntando **cuál es la opción para caminar menos**. Va de 20 semanas y el 24-ago
+tenía los pies muy hinchados, así que la pregunta es de fondo, no de comodidad.
+
+**El dato que estaba en su propio mapa y había que leer:** el título decía
+*«durante la suspensión del tramo alto del teleférico»*. **El teleférico ya no
+llega a la cumbre** — en obras desde el 6-nov-2025, ~1 año. Por eso las rutas del
+mapa se ven raras. Sin eso, cualquier consejo de «sube en teleférico» era falso.
+
+**Lo que le dije que importa de verdad, más que la línea:**
+
+1. **Pagar los dos ascensores dentro del cerro**: el de **5 niveles** hasta la cueva
+   天门洞 (**32 ¥** ≈ $4.400) — que evita los **999 escalones** — y el de **7
+   niveles** de la cueva a la cumbre. Con los dos, sube sentada.
+   *(El «32» anotado a mano en su mapa era justo ese precio.)*
+2. **Saltarse las pasarelas de vidrio**: 西线, 东线 y 鬼谷栈道 son **kilómetros** de
+   pasarela colgada. **Ahí está toda la caminata real**, y es opcional.
+
+**Ruta más corta:** la que sube por el **天门洞快线索道** (cable exprés directo a la
+cueva) = **línea C**, la única que la suspensión no afectó. Alternativa: **línea A**
+(teleférico a estación media + bus por las 99 curvas; el bus también es sentada).
+
+**Detalle que le marqué:** en el mapa había un **16:00** escrito a mano. Le dije que
+pregunte si es la hora del **último descenso** — enterarse de eso ya estando arriba
+sería un problema serio en su estado.
+
+Frase que le mandé aparte para la boletería:
+`我怀孕了，想走路最少。请问哪条线最轻松？我要坐扶梯，不爬999级台阶。最后一班下山几点？`
+
+**Lección:** el dato decisivo estaba **impreso en la foto que ella me mandó**, no en
+lo que yo sabía de Tianmen. Leer el material antes de responder desde la memoria.
