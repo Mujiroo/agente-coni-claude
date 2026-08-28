@@ -468,3 +468,55 @@ ningún momento — la primera petición tardó 2,0s regenerando y la siguiente 
 Campos `field_4` y `field_9` siguen en `type="text"`.
 
 **Cron borrado** (era de una vez).
+
+---
+
+## 27-ago-2026 · Se revirtió el ruteo de botas (Google Ads)
+
+**Qué pasó.** El cron de vigilancia de cambios (09:30) dio **HAY-QUE-AVISAR** por
+quinto día seguido. Cifras de los últimos 7 días contra la línea base (30 días
+previos al 19-ago):
+
+| | Ahora | Base | |
+|---|---|---|---|
+| Conversiones/día | **3,4** | 4,67 | **−27%** |
+| CPA | **$3.084** | $1.675 | **×1,84** |
+| Gasto 7d | **$74.012** | — | por **24** conversiones |
+| Grupo «Botas de Bomberos» | **63** impresiones · **1** conversión | — | no despegó |
+
+A la tasa anterior, esos $74.012 compraban **~44** conversiones en vez de 24.
+
+**Decisión.** Se le presentaron las cifras a Connie con propuesta explícita y sin
+tocar nada. Aprobó por chat (msg 490: *«si reactivemos entonces»*). Se
+**reactivaron a ENABLED** las 3 keywords de botas en el grupo **General**
+(`181820804074`), todas en concordancia **amplia**:
+
+- `297314270360` — botas bombero
+- `345382888741` — botas incendio
+- `2369517656523` — bota bomberos
+
+**Verificado con una relectura posterior**, no con el 200 del mutate. **Ningún
+presupuesto tocado.**
+
+### Dos cosas que conviene no perder
+
+**1. Esto no explica toda la caída.** La mala racha arranca el **23-ago** y el
+ruteo se cambió el **24-ago 20:10**: el deterioro **precede** al cambio. Los
+sospechosos que quedan son los cambios del **19-ago** — «accesorios bomberos»
+pasada a concordancia de **frase**, y las negativas **«reloj» / «relojes»**.
+Hay un cron el **31-ago** que da veredicto y avisa **en los dos casos** (la
+vigilancia diaria solo habla cuando algo está mal, así que una recuperación
+pasaría en silencio).
+
+**2. La regla automática que se había dejado para el 29-ago estaba rota por dos
+lados**, y por eso se borró:
+
+- Medía **solo impresiones** (umbral 20). El grupo llevaba **63 impresiones con 1
+  conversión**: habría caído en la rama «no revertir» pese a no producir negocio.
+  **Medir alcance en lugar de negocio da el veredicto contrario al correcto.**
+- Filtraba por `ad_group.name = 'Botas'`, pero el grupo se llama **«Botas de
+  Bomberos»**. Ese igual exacto no devolvía ninguna fila.
+
+**Sigue pendiente de Connie** (congelado por el viaje, vuelve el 18-sep): las 3
+negativas propuestas el 26-ago — «cotona ignífuga», «traje encapsulado» y «epp».
+Ver `memory/estado/negativos_pendientes.json`.
