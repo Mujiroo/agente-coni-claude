@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-08-28",
+  "origen": "cron vigilancia_cambios 09:30",
+  "salida": "HAY-QUE-AVISAR",
+  "estado": "avisado_sin_accion_por_diseno",
+  "avisado_msg": 511,
+  "cifras_7d": {
+    "conv_dia": 3.6,
+    "conv_dia_base": 4.67,
+    "cpa": 2894,
+    "cpa_base": 1675,
+    "costo": 72341,
+    "conversiones": 25,
+    "impresiones": 1106,
+    "botas_impresiones": 71,
+    "botas_conversiones": 1
+  },
+  "malos_seguidos": 6,
+  "delta_vs_27ago": "MEJORA leve en ambos: conv/dia 3,43 -> 3,6 y CPA 3.084 -> 2.894. La ventana de 7d gano 1 conversion y bajo el costo.",
+  "por_que_no_se_actuo": "El revert de las 3 keywords de botas se aplico el 27-ago ~09:35, asi que esta ventana de 7 dias tiene ~1 solo dia post-revert. La alerta NO es evidencia de que el revert fallo: es demasiado pronto. Actuar hoy seria encima del propio cambio de ayer.",
+  "grupo_botas": "71 impresiones y sigue con 1 sola conversion: coherente con que el ruteo hacia Botas no se estaba ganando su trafico, o sea el revert apunta bien.",
+  "siguiente_hito": "Cron del 31-ago (0 10 31 8) - veredicto con los 3 dias limpios post-revert (28 al 30) contra la base 4,67 conv/dia y CPA 1.675. Avisa a Connie en los DOS casos.",
+  "si_no_se_recupera": "La causa no seria el ruteo sino los cambios del 19-ago. Sospechosos: 'accesorios bomberos' en concordancia de FRASE y las negativas 'reloj'/'relojes'. Proponer revertir esos, sin tocar nada sin OK.",
+  "no_tocar": "No se modifico absolutamente nada hoy. Presupuestos intactos."
+}
