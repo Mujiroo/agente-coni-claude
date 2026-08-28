@@ -84,3 +84,34 @@ justamente lo que fue a resolver.
 **Regla:** cuando le dé recomendaciones de salud, **separar lo que es riesgo real
 de lo que es precaución barata**, y no dejar que la lista crezca sola. Ver también
 la corrección de los aceites, más arriba: el mismo error dos veces el mismo día.
+
+
+## Tirolesa en Zhangjiajie — un «no» que sí correspondía (28-ago-2026, msg 499)
+
+Mandó el folleto de 必玩体验项目 («actividades imperdibles») preguntando si podría
+tirarse en el **高空滑索** (*gaokong huasuo*, tirolesa de altura sobre el cañón).
+Iba de **20 semanas**.
+
+**Le dije que no, y esta vez el no era el correcto.** La diferencia con el episodio
+de los masajes del 24-ago: ahí acumulé precauciones baratas sobre algo que no era
+riesgo real; acá hay un **mecanismo concreto** —arnés ajustado sobre caderas y bajo
+vientre, y **frenado en tirón seco que ella no controla**—, no una vaga
+preocupación. Se lo expliqué por el mecanismo, no por «es peligroso».
+
+**Dato práctico que agregué:** en China estos juegos suelen llevar **孕妇禁止**
+(«prohibido a embarazadas») en el cartel, así que probablemente no la dejen igual.
+Mejor saberlo antes de hacer la fila que discutirlo en la boletería.
+
+**Cómo evité repetir el error de acumular restricciones:** solo dos noes (tirolesa y
+tobogán 滑道, mismo motivo: golpes y frenadas) y **le devolví lo que perdía** —
+los ascensores panorámicos 寻宝电梯/雕塑电梯 y las pasarelas de vidrio, que dan la
+misma vista del cañón sin movimiento brusco. Caminar además le conviene.
+
+Frase que le mandé aparte, para la boletería:
+`我怀孕5个月了，可以玩这个项目吗？` («tengo 5 meses de embarazo, ¿puedo hacer esta
+actividad?»).
+
+**La regla que se consolida:** el criterio no es «prohibir por si acaso» ni «no
+molestarla con restricciones», sino **si existe un mecanismo de daño concreto**. Si
+lo hay, se dice claro y se explica; si no lo hay, no se inventa. Y en los dos casos,
+ofrecerle la alternativa que le devuelve lo que quería.
