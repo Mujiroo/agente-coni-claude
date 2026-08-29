@@ -180,3 +180,41 @@ Frase que le mandé aparte para la boletería:
 
 **Lección:** el dato decisivo estaba **impreso en la foto que ella me mandó**, no en
 lo que yo sabía de Tianmen. Leer el material antes de responder desde la memoria.
+
+**29-ago-2026 (07:59 en China)** — Mandó el mapa del **张家界国家森林公园**
+(Zhangjiajie National Forest Park, distinto del Tianmen del día anterior)
+preguntando **cuánto se camina** y **dónde está el ascensor de las montañas de
+Avatar**.
+
+**El dato de la leyenda que resuelve la pregunta sola:** los números impresos
+sobre los senderos son **minutos de caminata** (徒步游道/分钟). Con eso ella puede
+estimar cualquier tramo sin preguntarme.
+
+**La respuesta corta:** el ascensor es el **百龙天梯 (Bailong Tianti)**, 326 m en
+menos de 2 minutos, de pie. Ruta con caminata casi nula: entrar por **武陵源门票站**
+(no por la entrada de abajo) → bus verde a la parada **百龙天梯** → ascensor → otro
+bus a **袁家界 (Yuanjiajie)**, que es donde están las montañas de Avatar.
+
+**Dónde está la caminata de verdad:** el circuito de miradores de Yuanjiajie, ~2 h
+plano y pavimentado. Versión corta ~1 h: solo **天下第一桥** y **哈利路亚山**,
+saltándose 后花园 y 迷魂台.
+
+**Lo que le dije que NO intentara el mismo día**, porque cada uno es otro cerro con
+su propio teleférico: 金鞭溪 (70 min de caminata), 黄石寨, 天子山, 杨家界.
+
+**Precaución con mecanismo concreto (no acumulé otras):** ir temprano, porque la
+fila del ascensor en temporada llega a una hora y **estar parada en la cola cansa
+más que caminar** a las 20 semanas.
+
+**Hora impresa en su mapa:** `pm 6:30 [最晚]`, último bus del parque a Wulingyuan.
+Le dije que preguntara igual por la última bajada del ascensor, que suele ser antes
+— mismo patrón que el 16:00 escrito a mano en el mapa de Tianmen.
+
+**Se repite la lección y ya van dos días seguidos:** el dato que ordena la respuesta
+estaba **impreso en la foto que ella mandó** (la leyenda de minutos, la hora del
+último bus), no en lo que yo sabía del parque. Leer el material primero.
+
+**Limitación del contenedor que apareció acá:** no hay **PIL, ImageMagick, ffmpeg ni
+pip**, así que **no puedo recortar ni ampliar una foto**. La herramienta Read la
+muestra completa y nada más. Si un detalle no se lee a resolución completa, hay que
+pedirle a ella una foto más cerca en vez de intentar procesarla.
