@@ -218,3 +218,23 @@ estaba **impreso en la foto que ella mandó** (la leyenda de minutos, la hora de
 pip**, así que **no puedo recortar ni ampliar una foto**. La herramienta Read la
 muestra completa y nada más. Si un detalle no se lee a resolución completa, hay que
 pedirle a ella una foto más cerca en vez de intentar procesarla.
+
+**29-ago-2026 (17:48 en China)** — Preguntó **«¿qué hay en la Plaza Zhongshan?»**
+estando en Zhangjiajie.
+
+**Verificado antes de responder: en 永定区 NO existe ninguna 中山广场.** La 中山广场
+famosa de China es la de **Dalian**, a 2.000+ km. Responder desde lo que "suena
+conocido" habría sido mandarla a un lugar que no está.
+
+**Lo que sí hay y se lee casi igual en español:** **中商广场** (*Zhōngshāng*, no
+Zhōngshān), el mall del centro en <code>解放路151号</code>, sábado hasta las **22:00**.
+Y la plaza peatonal que la gente sí camina: **人民广场**, 200 m entre 回龙路 y 解放路,
+entrada libre. Los dos a ~3 km de su hotel en 南庄坪 (~10 min en taxi).
+
+Le pedí que me diga **dónde lo vio** (mapa, cartel, recomendación) para ubicarlo
+exacto. **Pendiente de su respuesta.**
+
+**Lección nueva del viaje:** un nombre chino romanizado puede colisionar con otro
+casi idéntico (**山 shān** vs **商 shāng**). Cuando el lugar "no aparece", antes de
+decir que no existe conviene buscar el vecino fonético — acá el vecino era el
+destino real y probable.
