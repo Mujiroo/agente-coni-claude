@@ -366,3 +366,17 @@ encima de la cascada** — escaleras y losa **mojada** por la humedad del salto.
 **Lo que NO afirmé:** no pude confirmar que haya ascensor. En vez de suponerlo (como
 casi pasó en Tianmen), le di la frase para preguntarlo:
 <code>有没有电梯？我怀孕了，不能爬很多台阶</code>
+
+**Preguntó qué era ese carro + bote (msg 555), y al verificarlo apareció el dato
+bueno:** los **68 ¥** son el **transporte del recinto**, no un paseo extra. Se vende
+como <code>车进船出</code> (*entras en carro, sales en bote*): **环保车** desde la
+entrada hasta **荷花池广场**, recorrido a pie por el pueblo **pasando por detrás de la
+gran cascada** (穿过大瀑布), y salida en **bote** por el lago del **酉水**.
+
+**El argumento real para ella no es el paseo, es que el bote ES la salida** — sin eso
+hay que devolverse a pie por donde se subió. Ese tramo de vuelta era el problema.
+Frase: <code>我要环保车加游船的票，车进船出</code>
+
+**Y el paso detrás de la cascada tiene el suelo mojado siempre** — ahí es donde hay
+que cuidar el piso, no en la calle de losas.
+
