@@ -341,3 +341,28 @@ sobre temas distintos.
 **No consta quién es este Felipe.** El único Felipe en los archivos es *Felipe Salce*,
 gerente de marketing de MTS, y casi seguro **no** es él: el pedido es personal. No se
 lo pregunté porque no cambiaba nada del trabajo.
+
+**30-ago-2026 (07:23 en China)** — Llega a **芙蓉镇 (Furong Zhen)** y tiene **solo ese
+día**. Pidió qué hacer.
+
+**Lo que se puso primero, porque es lo que le arruina el día:** la entrada son
+**108 ¥** ≈ **$14.800** y se reserva por **mini-programa de WeChat**, con cupo que en
+temporada **se agota**. Si no la trae comprada, a la boletería temprano por los cupos
+liberados (<code>今天还有余票吗？</code>). Horario **07:30-23:00**.
+
+**Dato que cambia cómo arma el día:** la entrada **incluye los shows de día y de
+noche**, sin pago aparte — o sea conviene quedarse hasta la noche.
+
+**Lo imperdible:** el **米豆腐** (tofu de arroz) en un <code>刘晓庆米豆腐</code> junto
+al **牌坊** — el pueblo se llamaba 王村 y se renombró por la película de 1986, de ahí
+la fama del local. Más el mirador de la cascada (**60 × 40 m**, dos saltos),
+**五里长街** y el **土司行宫**.
+
+**La advertencia que importaba de verdad:** el pueblo está construido **sobre la roca,
+encima de la cascada** — escaleras y losa **mojada** por la humedad del salto. A las
+20 semanas eso pesa más que el precio. Le recomendé pagar el **carro eléctrico + bote,
+68 ¥** ≈ **$9.300**, que normalmente uno se salta: en su caso son piernas ahorradas.
+
+**Lo que NO afirmé:** no pude confirmar que haya ascensor. En vez de suponerlo (como
+casi pasó en Tianmen), le di la frase para preguntarlo:
+<code>有没有电梯？我怀孕了，不能爬很多台阶</code>
