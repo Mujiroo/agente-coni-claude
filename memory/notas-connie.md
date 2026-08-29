@@ -249,3 +249,23 @@ el `茶颜悦色` de Hunan que le había mostrado en el 72奇楼 — es la imita
 por competencia desleal a pagar **1,7 millones ¥**. Los dos se leen casi igual, igual
 que 中山/中商. **Segunda colisión de nombres del mismo día:** en China conviene
 comparar el carácter, no el sonido.
+
+**29-ago-2026 (20:02 en China)** — Mandó la foto del cartel de un puesto de comida
+preguntando **«¿qué es esto, el 14?»**.
+
+**El de 14 ¥ (≈ $1.900) es 牛肉卤粉** — fideos de **arroz** (米粉) en caldo con carne
+de vacuno estofada en 卤水, huevo y cebollín. El cartel lo marcaba <code>必点</code>
+(imprescindible) y <code>张家界美食</code>: es **el** plato típico de la ciudad. El
+local es **庸城巷子** (庸城 = 大庸, nombre antiguo de Zhangjiajie).
+
+**Lo que agregué y no estaba en la foto:** el plato va **麻辣** (picante + hormigueo
+de pimienta de Sichuan), y a 20 semanas eso es reflujo. Le pasé la frase
+<code>我要牛肉卤粉，微辣，谢谢</code>.
+
+**Precaución de embarazo, una sola:** el 粉 sale hirviendo y está bien; los **卤味
+fríos** del mostrador (orejas, menudencias a temperatura ambiente) mejor no. Regla
+corta que le di: **caliente sí, frío del mesón no.**
+
+**Lo que NO afirmé:** el plato de 12 ¥ del lado salía cortado en la foto. Le dije que
+empieza con 猪 (cerdo) y que *si* es 猪耳 es oreja — sin darlo por cierto. Mismo
+criterio que con la foto ampliada: no hay PIL ni ImageMagick para recortar.
