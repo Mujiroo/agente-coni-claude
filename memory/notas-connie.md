@@ -269,3 +269,14 @@ corta que le di: **caliente sí, frío del mesón no.**
 **Lo que NO afirmé:** el plato de 12 ¥ del lado salía cortado en la foto. Le dije que
 empieza con 猪 (cerdo) y que *si* es 猪耳 es oreja — sin darlo por cierto. Mismo
 criterio que con la foto ampliada: no hay PIL ni ImageMagick para recortar.
+
+**Mismo momento (41 s después)** — Pidió la frase en chino: *«¿puede no ser picante?
+Estoy embarazada»*. Estaba en el mesón, así que fue solo la frase, en bloque
+<code> y sin rodeos:
+<code>我怀孕了，可以做不辣的吗？不放辣椒和花椒，谢谢！</code>
+Más el plan B si el caldo ya viene picante (<code>那请不要另外加辣椒油</code>) y la
+de confirmar antes de recibirlo (<code>这个不辣吧？</code>).
+
+**Patrón que ya es regla:** cuando está frente a alguien, quiere **la frase lista
+para mostrar en pantalla**, no una explicación. Frase sola, en <code>, con la
+traducción en cursiva debajo — y anticipar la respuesta que le van a dar.
