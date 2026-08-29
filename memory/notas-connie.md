@@ -380,3 +380,26 @@ Frase: <code>我要环保车加游船的票，车进船出</code>
 **Y el paso detrás de la cascada tiene el suelo mojado siempre** — ahí es donde hay
 que cuidar el piso, no en la calle de losas.
 
+**Y después dijo dónde se aloja (msg 557), que cambió el plan:**
+<code>土王行宫·八部堂</code> (*Tuwang Palace · Eight Halls*), **dentro del 土王行宫** —
+o sea **duerme adentro de una de las atracciones** que le había listado. Teléfono
+**0743-5854999**.
+
+· **26 habitaciones** colgadas del acantilado sobre los dos saltos, mirando al 酉水.
+· Cada pieza con **balcón propio para ver la cascada**; las de **270°** son únicas.
+· **Ve la cascada iluminada desde su balcón**, sin caminar, y el paisaje nocturno
+  **no cobra entrada aparte**.
+· **Hace traslado a sus huéspedes**, a 6 min del terminal de buses — eso resolvía el
+  problema real, que era llegar con la maleta.
+
+**Le corregí lo del bote**: el argumento de «el bote es la salida» **ya no aplica**
+si duerme adentro del pueblo. Pasa a ser paseo opcional, y el carro solo sirve si el
+hotel no la va a buscar. Cambiaba una decisión de plata, así que se dijo explícito.
+
+**Mensaje que le pasé para el hotel** (traslado + ascensor + comprar la entrada ahí,
+que sale algo más barata que en línea). Y una sola advertencia: **pieza con vista a la
+cascada es pieza con ruido de cascada** — tapones, <code>请给我耳塞</code>.
+
+**Lección que se repite:** el dato de dónde se aloja reordenó medio consejo. Cuando
+hay un viaje en curso, **preguntar o esperar el alojamiento antes de armar el día**.
+
