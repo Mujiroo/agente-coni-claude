@@ -280,3 +280,21 @@ de confirmar antes de recibirlo (<code>这个不辣吧？</code>).
 **Patrón que ya es regla:** cuando está frente a alguien, quiere **la frase lista
 para mostrar en pantalla**, no una explicación. Frase sola, en <code>, con la
 traducción en cursiva debajo — y anticipar la respuesta que le van a dar.
+
+**29-ago-2026 (20:06 en China)** — Foto de una bebida en un quiosco: *«¿y eso qué es?»*.
+Era <code>统一 阿萨姆原味奶茶</code> — **Uni-President**, té con leche Assam, **500 ml**,
+de las bebidas más comunes de China.
+
+**Dato que estaba impreso y se pudo leer (sigue el patrón del viaje):** el código de
+la tapa decía fabricación **24-jun-2026** y vencimiento **23-mar-2027**.
+
+**Lo que le marqué como relevante y lo que NO:**
+· **Sí importa el azúcar** — 40-50 g por botella (~10 cucharaditas), 250-300 kcal.
+  Entre las **24 y 28 semanas** le toca el test de tolerancia a la glucosa.
+· **No importa tanto la cafeína** — tiene, por el té negro, pero muy poca frente al
+  límite de **200 mg/día** en embarazo. Dije eso en vez de alarmar por todo.
+· **Salida concreta:** la misma marca tiene versión **无糖** (sin azúcar), con la
+  frase <code>有无糖的吗？</code> para preguntarla.
+
+**Criterio que quiero repetir:** con ella, una sola precaución que de verdad mueva la
+aguja, y decir explícitamente qué **no** es problema. Una lista de miedos no sirve.
