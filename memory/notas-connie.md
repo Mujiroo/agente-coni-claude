@@ -323,3 +323,21 @@ días**. El presupuesto se gasta entero siempre; lo que varía es la conversión
 problema no es la inversión, es la tasa de conversión.**
 
 **No se tocó nada.** Propuesta: esperar el veredicto ya agendado del **31-ago**.
+
+**29-ago-2026 (19:20 Chile = 30-ago 07:20 en China)** — Pidió anotar en el calendario
+que el **1-sep es el cumpleaños de Felipe** y que **debe llamarlo**.
+
+Se hicieron **las dos cosas**, según la regla del 20-ago:
+· **Evento** en su Google Calendar, todo el día del 1-sep, **sin invitados** (id
+  `68iathf5k0f1vn40s6vcupqn44`). Sin invitados a propósito: así no le llega aviso a
+  ningún tercero.
+· **Cron** de Telegram a las **10:05 de Chile = 22:05 en China** (1-sep, Chile todavía
+  en UTC-4; el horario de verano parte el 6-sep). Verificado con `zoneinfo`.
+
+**Por qué 10:05 y no 10:00:** a las 10:00 del 1-sep ya corre el recordatorio del cobro
+de Google Workspace. Separarlos 5 minutos evita que le lleguen dos mensajes pegados
+sobre temas distintos.
+
+**No consta quién es este Felipe.** El único Felipe en los archivos es *Felipe Salce*,
+gerente de marketing de MTS, y casi seguro **no** es él: el pedido es personal. No se
+lo pregunté porque no cambiaba nada del trabajo.
