@@ -231,10 +231,21 @@ Zhōngshān), el mall del centro en <code>解放路151号</code>, sábado hasta 
 Y la plaza peatonal que la gente sí camina: **人民广场**, 200 m entre 回龙路 y 解放路,
 entrada libre. Los dos a ~3 km de su hotel en 南庄坪 (~10 min en taxi).
 
-Le pedí que me diga **dónde lo vio** (mapa, cartel, recomendación) para ubicarlo
-exacto. **Pendiente de su respuesta.**
+**Confirmó (msg 541) que era ese**, y preguntó qué hay adentro. Es el mall del
+centro: **46.000 m²** desde 2016, cinco sectores, sábado hasta las 22:00. Le
+destaqué **屈臣氏 Watsons** (farmacia-perfumería, lo más útil en su estado), los
+restaurantes del **F4** (`禾港餐厅`, `赣湘苑`) y el patio de comidas. Le dije la
+expectativa real sin adornar: **4,1 con 19 reseñas**, marcas normales de ciudad
+chica, sirve para comprar y comer bajo techo, **no es paseo turístico**. Y que lo
+puede juntar con **大庸府城** y el paseo **人民广场**, que quedan al lado.
 
 **Lección nueva del viaje:** un nombre chino romanizado puede colisionar con otro
 casi idéntico (**山 shān** vs **商 shāng**). Cuando el lugar "no aparece", antes de
 decir que no existe conviene buscar el vecino fonético — acá el vecino era el
 destino real y probable.
+
+**Trampa de marca que le advertí:** el local de té del F3 dice `茶颜观色` y **no es**
+el `茶颜悦色` de Hunan que le había mostrado en el 72奇楼 — es la imitación, condenada
+por competencia desleal a pagar **1,7 millones ¥**. Los dos se leen casi igual, igual
+que 中山/中商. **Segunda colisión de nombres del mismo día:** en China conviene
+comparar el carácter, no el sonido.
