@@ -298,3 +298,28 @@ la tapa decía fabricación **24-jun-2026** y vencimiento **23-mar-2027**.
 
 **Criterio que quiero repetir:** con ella, una sola precaución que de verdad mueva la
 aguja, y decir explícitamente qué **no** es problema. Una lista de miedos no sirve.
+
+**29-ago-2026, 09:30** — La vigilancia de cambios dio **HAY-QUE-AVISAR** por 7ª
+corrida seguida. Antes de reenviarle el texto del script, se desglosó día por día.
+
+**Dos cosas que hay que saber de ese script, para no leerlo mal:**
+1. `malos_seguidos: 7` **no son 7 días malos distintos** — son **7 corridas** en que
+   la ventana móvil de 7 días quedó bajo el umbral. Los mismos días malos se
+   recuentan cada día.
+2. `LAST_7_DAYS` de Google Ads **excluye hoy**, así que la ventana era **22-28 ago**.
+   Verificado cuadrando las cifras: 22 conversiones y 73.742 CLP dan exactamente el
+   3,14 conv/día y el CPA 3.352 que imprimió. **El día parcial de hoy no contamina.**
+
+**El desglose diario (20-29 ago), que es lo que el agregado escondía:**
+20:2 · 21:4 · 22:3 · 23:3 · **24:7** · 25:4 · 26:3 · **27:1** · **28:1** · 29:0 (en curso)
+
+**Lo que eso cambia:** los dos peores días de la racha son **27 y 28**, justo los de
+**después** del revert. O sea el revert **no levantó** — pero hay **un solo día
+completo** post-revert y el rango diario va de 1 a 7, así que concluir ahora sería
+falso. Se lo dije con ese matiz explícito.
+
+**Dato que nadie había mirado:** el gasto está **clavado en ~10.500 CLP/día todos los
+días**. El presupuesto se gasta entero siempre; lo que varía es la conversión. **El
+problema no es la inversión, es la tasa de conversión.**
+
+**No se tocó nada.** Propuesta: esperar el veredicto ya agendado del **31-ago**.
