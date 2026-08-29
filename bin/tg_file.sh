@@ -20,14 +20,25 @@ TOK=$(grep -m1 "^${TOKVAR}=" "$ENV_FILE" | cut -d= -f2- | sed 's/[[:space:]]*#.*
 # 27-ago-2026: con 30s se rendia y una llamada identica a 45s SI respondia, en plena
 # emergencia (Connie en la estacion de tren). getFile puede tardar >30s y responder bien:
 # se sube el techo a 60s y se reintenta 3 veces antes de declarar caida la API.
+# 28-ago-2026: fallaron los TRES intentos de 60s (Connie en el bus del parque) y una
+# llamada manual inmediata SI respondio, en 19s. Midiendo las dos caras:
+#   - cuando getFile falla, CUELGA hasta agotar el timeout completo (HTTP 000 exacto
+#     a los 50s, 60s y 90s). Un techo alto NO ayuda: solo quema el presupuesto.
+#   - cuando responde, responde rapido (19s hoy; el 27-ago fue >30s pero <45s).
+# Entonces conviene al reves de lo que parecia: MUCHOS intentos CORTOS primero, para
+# pillar la ventana buena, y un par largos al final por si toca una lenta de verdad.
+# Mismo techo de tiempo que antes, pero 5 oportunidades en vez de 3.
 RESP=""
-for INTENTO in 1 2 3; do
-  RESP=$(curl -s --max-time 60 "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" || true)
+for T in 20 20 45 45 75; do
+  RESP=$(curl -s --max-time "$T" "https://api.telegram.org/bot${TOK}/getFile?file_id=${FID}" || true)
   [ -n "$RESP" ] && break
-  [ "$INTENTO" -lt 3 ] && sleep 3
+  echo "getFile no respondio en ${T}s, reintento..." >&2
+  sleep 2
 done
 if [ -z "$RESP" ]; then
-  echo "ERROR-RED: getFile no respondio tras 3 intentos de 60s. La API puede estar caida solo para archivos; reintenta en unos minutos." >&2
+  echo "ERROR-RED: getFile no respondio tras 5 intentos (20/20/45/45/75s). OJO: proba \
+getMe antes de declarar caida la API -- si getMe responde 200, el servicio esta vivo y \
+es getFile el que cuelga; reintenta en un par de minutos y suele salir." >&2
   exit 2
 fi
 FP=$(printf '%s' "$RESP" | python3 -c 'import sys,json
