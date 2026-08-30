@@ -421,3 +421,35 @@ cuidar.
 té con leche. Repetirlo habría sido machacar, así que fue una línea liviana y en
 broma. **Una advertencia se da una vez.**
 
+**30-ago-2026 (13:43 en China)** — Mandó el cartel de programación de shows de
+芙蓉镇 y pidió **qué show ver y la rutina completa** del día.
+
+**El dato que ordenaba todo y no estaba en su pregunta: hoy es DOMINGO.** El cartel
+tiene filas condicionadas por día (周五 / 周六 / 周日至周四). El grande,
+**花开芙蓉·锦绣未央** (21:30, en las **跳岩**), **solo va sábado y domingo** — o sea
+justo hoy y mañana ya no. Eso definió la recomendación.
+
+**Lo que aparece leyendo el TÍTULO del festival:** es el **13º 摸泥狂欢季**, la
+«temporada del carnaval de **tocar barro**». Verificado: la gente se embarra con
+**barro de tres colores**, hay **guerras de pistolas de agua** y bailes en montón
+hasta las 24:00. Le dije que evite <code>芙蓉狂欢·情满泥水</code> y los **巡游**
+(pasacalles): barro + agua + multitud = piso resbaloso, y va en la semana 21. Los
+shows de escenario, todos; los de meterse al montón, no.
+
+**La rutina se armó alrededor de un bloque de descanso de 18:00 a 19:45 en el hotel**,
+aprovechando que duerme adentro del pueblo, y encadenando los shows con los lugares
+que ya iba a visitar (el 16:30 es en el **铜柱园**, que es donde está el **溪州铜柱**
+de su propio texto: show y visita en el mismo punto, cero caminata extra).
+
+**Se le dio permiso explícito de saltarse cosas:** «prefiero que veas uno bien a que
+llegues arrastrando a los dos». Con ella conviene decirlo, si no intenta hacer todo.
+
+**Lo que NO afirmé:** las dos últimas filas del cartel se contradicen en los días
+(21:30 vs 21:10). Le pasé la frase para confirmar en recepción en vez de elegir yo
+una hora.
+
+**Rareza del puente, anotada por si se repite:** el aviso de mensaje largo del msg 565
+salió encabezado como *«Sebastian mando un mensaje LARGO»*, pero el archivo
+`msgs/565.txt` decía **Constanza**. Se verificó en el archivo antes de responder. No
+era un chat ajeno, así que no correspondía `[TG-ALERT]`.
+
