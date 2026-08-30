@@ -115,3 +115,33 @@ actividad?»).
 molestarla con restricciones», sino **si existe un mecanismo de daño concreto**. Si
 lo hay, se dice claro y se explica; si no lo hay, no se inventa. Y en los dos casos,
 ofrecerle la alternativa que le devuelve lo que quería.
+
+## Acné hormonal: desapareció en China (30-ago-2026)
+
+Preguntó por qué desde que llegó a China (21-ago) **no le sale ninguna espinilla**,
+teniendo acné hormonal que le apareció recién con el embarazo.
+
+**La explicación principal es la menos entretenida: el calendario, no el país.** El
+acné del embarazo lo empujan los **andrógenos**: parte cerca de la **semana 6**, peor
+entre la **6 y la 12**, se arrastra al inicio del segundo trimestre y después
+progesterona y estrógeno se emparejan y calma solo. Ella va en la **semana 20-21**,
+justo en esa ventana, y el viaje coincidió.
+
+**El aviso que le di y que importa:** en el **tercer trimestre** los andrógenos vuelven
+a subir y a mucha gente **le reaparece**. Que no bote lo que le funcionaba.
+
+**Factores de China, por peso, con el bueno primero:**
+· **Agua.** Santiago tiene **300-700 ppm** de dureza; la OMS llama *extremadamente
+  dura* a >**180**. Se ducha con agua de **2 a 6 veces** ese umbral. Calcio y magnesio
+  sacan los aceites naturales, rompen la barrera y eso está documentado como granitos.
+· **Humedad** de Hunan en agosto vs Santiago seco.
+· **Lácteos**: la dieta china tiene mucho menos, y es el alimento con mejor evidencia
+  de asociarse al acné.
+· Menos estrés y algo de sol, de efecto corto.
+
+**Prueba que le propuse, para que el dato sirva después:** si al volver le reaparece en
+**2-3 semanas**, era agua o comida — y ahí un **filtro de ducha** es barato. Si no
+vuelve, era el embarazo. **Volver a preguntarle en octubre.**
+
+**Criterio:** se respondió con la evidencia y se dijo explícito que no es diagnóstico,
+sin convertirlo en una lista de advertencias.
