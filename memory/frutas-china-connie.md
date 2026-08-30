@@ -48,3 +48,39 @@ comiéndola). **La pulpa se come cruda; la semilla no.** Cuando una advertencia
 aplique a una parte de algo, nombrar la parte en la misma frase.
 
 Relacionado: [[embarazo-connie]], [[notas-connie]], [[connie]]
+
+## 蒿草粑 y 米豆腐 — carta de 芙蓉镇 (30-ago-2026, msg 581)
+
+Mandó la foto de una carta preguntando «qué es esto». El archivo se llama «frutas»
+pero **ella fotografía cualquier comida que no reconoce**, así que va acá igual.
+
+**蒿草粑** *(hāo cǎo bā)* — en el menú traducido como **«Wormwood Cakes», 3 ¥**.
+Queque de **arroz glutinoso con hojas de artemisa**, envuelto en hoja y al vapor.
+
+**El punto que resolvía la pregunta:** el inglés asusta y está mal calibrado. **蒿** es
+el género *Artemisia* entero, y el diccionario lo traduce por la peor. La que preocupa
+de verdad —el ajenjo de la absenta, con tuyona— es **苦艾**, y **no** es la de este
+dulce: se hace con **艾草**, la misma hoja del mochi verde japonés y del ssuk coreano,
+que se come muchísimo en China, embarazadas incluidas. Frase para confirmar en el
+puesto: <code>这个是艾草做的吗？</code>
+
+**El pero real no era la hierba sino el 糯米** (arroz glutinoso): pesado y de los que
+más suben el azúcar. Se le dijo «uno como gusto sí, almuerzo no» — **una línea, sin
+sermón**, respetando que la advertencia del azúcar ya está dada de otros días.
+
+**刘晓庆米豆腐** — es **LA especialidad de 芙蓉镇** y ella estaba parada justo ahí.
+**米豆腐** es «tofu» **de arroz, no de soya**: arroz molido cuajado en cubos, servido
+**frío** con ají, vinagre y maní. Se llama así por **刘晓庆**, la actriz de la película
+*芙蓉镇* (1986), cuyo personaje vivía de vender 米豆腐 en ese pueblo — la película hizo
+famoso al pueblo y hoy medio 芙蓉镇 lo vende con su nombre. **Ese dato es el que le
+gustó**: conecta lo que come con dónde está.
+
+Avisos prácticos que se le dieron: va frío y en Hunan lo cargan de ají → pedirlo
+<code>少辣</code> y en un puesto con rotación.
+
+**甜酒 — pendiente de confirmar.** En la foto se alcanzaba a ver un plato que empieza
+con **甜**. Si es **甜酒** (arroz fermentado), **lleva alcohol** — poco, pero lleva, y
+en Hunan es postre común. Se le avisó como condicional y se le pidió la foto completa,
+en vez de afirmar algo que la imagen no dejaba leer.
+
+Relacionado: [[embarazo-connie]], [[notas-connie]]
