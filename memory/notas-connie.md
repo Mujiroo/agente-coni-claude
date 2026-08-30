@@ -453,3 +453,16 @@ salió encabezado como *«Sebastian mando un mensaje LARGO»*, pero el archivo
 `msgs/565.txt` decía **Constanza**. Se verificó en el archivo antes de responder. No
 era un chat ajeno, así que no correspondía `[TG-ALERT]`.
 
+**Cierre del día de Furong:** confirmó que **se va a las 10:00** del lunes 31-ago. Con
+eso el show grande de las **21:30** entraba sin apretar (termina ~22:30, ~9 h de
+sueño), así que se le dio luz verde y quedó la noche cerrada: **18:40** 巫傩绝技 ·
+**19:30** la cascada iluminada desde su balcón · **20:00** fogata · **21:30**
+锦绣未央 en las 跳岩. Se le marcó **cuál es la que se salta** si anda cansada (la
+fogata), en vez de dejarla decidir con todo el cansancio encima.
+
+**Traslado:** terminal a 6 min, salir 9:30. Check-out en China suele ser 12:00, así que
+eso no la apura.
+
+**Le OFRECÍ un aviso a las 9:00 de mañana y no lo dejé puesto.** Ella no lo pidió;
+montar un cron no pedido es ruido. **Ofrecer y esperar el sí** — queda como criterio.
+
