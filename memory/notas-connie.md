@@ -466,3 +466,29 @@ eso no la apura.
 **Le OFRECÍ un aviso a las 9:00 de mañana y no lo dejé puesto.** Ella no lo pidió;
 montar un cron no pedido es ruido. **Ofrecer y esperar el sí** — queda como criterio.
 
+
+**30-ago-2026 (05:38 Chile / 17:38 en China)** — Mandó **la misma foto con dos
+ediciones** (sesión de 汉服 en 芙蓉镇, con 帷帽 —el sombrero de velo— rosa y blanco)
+y preguntó **cuál se veía más «estilo chino»**, más una descripción para abajo.
+
+**El criterio que resolvió la comparación:** la diferencia no estaba en ella sino en
+el **fondo**. La edición 1 tenía negros levantados y el verde lavado hacia el beige —
+el filtro «film» de Instagram, que se lee **europeo**. La edición 2 dejaba el follaje
+**verde profundo y oscuro**: eso es lo que construye el look 古风, porque replica el
+**verde mineral** (石绿) de la pintura sobre seda con la figura clara brillando encima.
+Se eligió la **segunda**.
+
+Argumentos concretos que se le dieron, en vez de «se ve mejor»: con más contraste el
+**rosa bordado se separa del blanco** (si no, todo se funde en un beige), **brillan
+las cuentas** del 帷帽, y su cara queda como el punto más luminoso. *«La primera te
+deja bonita pero plana; la segunda te deja dentro de la escena.»*
+
+**Descripción propuesta:** «Salí a caminar por 芙蓉镇 y volví de otra dinastía» +
+<code>一袭轻纱，半日千年</code> («un velo de gasa; medio día, mil años»), que es una
+frase de registro 古风 y se lee bien para ojo chino. Se le dieron **dos alternativas
+de tono** en vez de una sola opción, y los hashtags <code>#汉服 #古风 #芙蓉镇</code>
+con el porqué: la encuentra gente de allá, no solo sus contactos de Chile.
+
+**Lo que quedó como criterio:** cuando pida elegir entre dos ediciones, **nombrar la
+variable técnica que las diferencia** (contraste, saturación del fondo, temperatura)
+y no solo el veredicto. Así puede repetir el ajuste sola en la próxima foto.
