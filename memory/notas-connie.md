@@ -492,3 +492,15 @@ con el porqué: la encuentra gente de allá, no solo sus contactos de Chile.
 **Lo que quedó como criterio:** cuando pida elegir entre dos ediciones, **nombrar la
 variable técnica que las diferencia** (contraste, saturación del fondo, temperatura)
 y no solo el veredicto. Así puede repetir el ajuste sola en la próxima foto.
+
+**Mismo día, 05:40** — Eligió el caption «Salí a caminar…» y pidió **publicarlo en su
+Instagram**. Quedó arriba: <code>instagram.com/p/DcqN6UmlXK_/</code>, con la segunda
+edición, las dos líneas y los tres hashtags. La ruta técnica (Instagram no acepta
+archivos locales: hay que pasar por una URL pública) quedó documentada en
+[[instagram-publicar-ruta-drive]].
+
+**Cómo se resolvió el margen del pedido:** ella aprobó el texto pero no dijo nada de los
+hashtags, que yo había recomendado en el mensaje anterior. Se **publicaron incluidos** y
+se le informó **textualmente qué quedó**, avisándole que se editan desde la app si los
+quiere fuera. El criterio: los hashtags no son voz suya —no dicen nada en su nombre—,
+son ruteo; y hacerla repetir un pedido por eso habría costado más que el ajuste.
