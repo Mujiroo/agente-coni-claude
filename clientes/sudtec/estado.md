@@ -520,3 +520,30 @@ lados**, y por eso se borró:
 **Sigue pendiente de Connie** (congelado por el viaje, vuelve el 18-sep): las 3
 negativas propuestas el 26-ago — «cotona ignífuga», «traje encapsulado» y «epp».
 Ver `memory/estado/negativos_pendientes.json`.
+
+## 30-ago-2026 · La vigilancia descarta el ruteo como causa
+
+`vigilancia_cambios.py` dio **HAY-QUE-AVISAR**: **8 días seguidos** peor que antes de
+los cambios del 19-ago. **2,7 conv/día** contra **4,7** de base y **CPA 3.928** contra
+**1.675**. Ventana de 7 días: 19 conversiones, 74.640 CLP, 1.095 impresiones. Grupo
+Botas: 69 impresiones, 1 conversión.
+
+**El hallazgo no es que esté mal, es qué queda descartado.** El 27-ago se reactivaron
+las 3 keywords de botas en General suponiendo que la causa era el ruteo. Tres días
+después **no se recuperó y empeoró**: el 27 iba en 3,4 conv/día y CPA 3.084, hoy 2,7 y
+3.928. **El ruteo no era la causa.**
+
+Sospechosos que quedan, todos del 19-ago: **«accesorios bomberos» en concordancia de
+FRASE** y las negativas **«reloj» / «relojes»**.
+
+**Propuesto a Connie, no ejecutado:** revertir esos dos. **No se tocó nada** — la regla
+es que no se cambia sin su OK, y la vigilancia solo avisa.
+
+**Nota de criterio:** el aviso salió a las 09:30 de Chile = **21:30 en China**, justo a
+la hora del show que ella tenía planeado en 芙蓉镇. Se mandó igual —callarse no es
+opción— pero **diciéndole explícitamente que no corre y que lo vea mañana**. Un dato
+sin urgencia no debería robarle la noche.
+
+Mañana 31-ago 10:00 corre el cron del **veredicto formal** con la ventana 28–30, que le
+avisa pase lo que pase. Ya se le anticipó que lo va a recibir, para que no le llegue
+como repetición.
