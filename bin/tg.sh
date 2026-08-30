@@ -157,6 +157,15 @@ send_archivo() {
     | python3 -c "import sys,json;d=json.load(sys.stdin);print('archivo enviado ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
 }
 
+# Editar un mensaje YA enviado. Sirve para arreglar una errata sin mandarle otro
+# mensaje encima: Telegram no notifica de nuevo al editar, asi que corregir sale
+# gratis y disculparse en un mensaje aparte sale caro (le suena el telefono).
+send_editar() {
+  curl -s --max-time 20 -X POST "https://api.telegram.org/bot${TG}/editMessageText" \
+    -d chat_id=$CHAT -d message_id="$1" -d parse_mode=HTML --data-urlencode "text=$2" \
+    | python3 -c "import sys,json;d=json.load(sys.stdin);print('editado ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
+}
+
 case "$1" in
   ask)
     typing_off
@@ -198,6 +207,9 @@ case "$1" in
     mark_sent
     REPLY_TO="${3:-}" send_msg "$2"
     "$0" typing on >/dev/null 2>&1
+    ;;
+  editar)
+    send_editar "$2" "$3"
     ;;
   foto)
     mark_sent

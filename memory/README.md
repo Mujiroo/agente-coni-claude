@@ -8,3 +8,4 @@ reinicios; lo que queda solo en el chat, no.
 - [Gmail: sin scope para filtros](gmail-sin-scope-filtros.md) — no se pueden crear filtros nativos; la barrida horaria hace el trabajo.
 - [Publicar en Instagram desde un archivo local](instagram-publicar-ruta-drive.md) — el API no acepta archivos: se pasa por Drive público y se borra el temporal.
 - [Editar fotos](editar-fotos.md) — sí puedo: Pillow en vendor/ + bin/editar_foto.py; lo generativo no.
+- [凤凰古城](fenghuang-gucheng.md) — qué ver, el bote sí, los 跳岩 y el 血粑鸭 no.
