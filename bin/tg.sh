@@ -130,6 +130,28 @@ print(json.dumps(p))')
     | python3 -c "import sys,json;d=json.load(sys.stdin);print('preguntado ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
 }
 
+# --- Envio de imagenes (agregado 30-ago-2026) ---
+# Dos variantes a proposito, porque NO son intercambiables:
+#   foto    -> sendPhoto. Telegram RECOMPRIME. Comodo de ver en el chat, pero
+#              pierde calidad: no sirve si ella va a resubir la imagen.
+#   archivo -> sendDocument. Llega el JPEG EXACTO, byte por byte. Es el que se
+#              usa cuando el destino es Instagram o cualquier reposteo.
+THREAD_F=(); [ -n "$TOPIC" ] && THREAD_F=(-F "message_thread_id=$TOPIC")
+
+send_foto() {
+  curl -s --max-time 90 -X POST "https://api.telegram.org/bot${TG}/sendPhoto" \
+    -F chat_id=$CHAT "${THREAD_F[@]}" -F parse_mode=HTML \
+    -F "photo=@$1" -F "caption=${2:-}" \
+    | python3 -c "import sys,json;d=json.load(sys.stdin);print('foto enviada ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
+}
+
+send_archivo() {
+  curl -s --max-time 90 -X POST "https://api.telegram.org/bot${TG}/sendDocument" \
+    -F chat_id=$CHAT "${THREAD_F[@]}" -F parse_mode=HTML \
+    -F "document=@$1" -F "caption=${2:-}" \
+    | python3 -c "import sys,json;d=json.load(sys.stdin);print('archivo enviado ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
+}
+
 case "$1" in
   ask)
     typing_off
@@ -172,6 +194,16 @@ case "$1" in
     REPLY_TO="${3:-}" send_msg "$2"
     "$0" typing on >/dev/null 2>&1
     ;;
+  foto)
+    mark_sent
+    typing_off
+    send_foto "$2" "${3:-}"
+    ;;
+  archivo)
+    mark_sent
+    typing_off
+    send_archivo "$2" "${3:-}"
+    ;;
   *)
-    echo "uso: tg.sh typing on|off  |  tg.sh send '<markdown>'" >&2; exit 1;;
+    echo "uso: tg.sh typing on|off | send '<txt>' | reply <id> '<txt>' | foto <archivo> ['<caption>'] | archivo <archivo> ['<caption>']" >&2; exit 1;;
 esac
