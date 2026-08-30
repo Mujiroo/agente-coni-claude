@@ -51,3 +51,39 @@ El mensaje salió con un **carácter roto** (`血�p鸭`). Se arregló con
 `bash bin/tg.sh editar <msg_id> '<texto>'`, subcomando nuevo: **Telegram no vuelve a
 notificar al editar**, así que corregir en el mismo mensaje sale gratis, y mandarle una
 disculpa aparte le habría hecho sonar el teléfono por una errata.
+
+## La ruta de las dos noches (msg 595)
+
+Dijo **«me quedo dos noches»** y no la hora de llegada. **No se le preguntó**: salía de
+芙蓉镇 a las 10:00 y el viaje es de 1½-2 h, así que se armó sobre **llegada ~12:30** y
+se le dijo el supuesto para que corrigiera. Preguntar lo que ya está en mis notas es
+hacerla repetirse.
+
+**Estructura:** lunes blando (viene de viaje) · martes completo · miércoles salida.
+Cada día con **bloque de descanso explícito** —14:00-16:30 el lunes, 12:30-16:00 el
+martes— y justificado por lo que le compra («es la hora de más calor y la que te salva
+los pies para la noche»), no como relleno.
+
+**Las tres decisiones que valen:**
+
+1. **El amanecer (07:00-08:30) es la joya y casi nadie lo hace.** El 沱江 echa neblina y
+   el pueblo está vacío: las casas sobre pilotes **sin una persona en el encuadre**, luz
+   suave y fresco. Se le vendió como **la hora para su foto de hanfu**, que es lo que
+   ella hace ([[editar-fotos]]).
+2. **El bote va de TARDE (17:00), no de noche.** Subirse a un bote que se mueve es más
+   seguro con luz, y a esa hora hay hora dorada sobre el agua: **gana en foto y en
+   seguridad a la vez**. La versión nocturna es la famosa; se eligió la otra y se le
+   explicó por qué, en vez de callarlo.
+3. **Las casas-museo van a las 09:30 porque son bajo techo** y se camina poco. El orden
+   del día se ordenó por esfuerzo físico, no por cercanía.
+
+**Se le metió el cumpleaños de Felipe (1-sep, 22:00) DENTRO de la ruta**, avisando que
+igual le llega el recordatorio del cron. Un compromiso que cae ese día es parte del
+plan del día; dejarlo solo en el cron habría sido entregar media respuesta.
+
+**Descartados con nombre y motivo** —奇梁洞 (cueva húmeda con escaleras), 南方长城
+(subir cerro), aldeas miao (bus para ver lo mismo)— y de ahí salió un ahorro concreto:
+**no necesita el combinado de 226 ¥**.
+
+**Y se le marcó qué se salta si anda cansada** (la vuelta de la tarde del lunes), en vez
+de dejarla decidir con el cansancio encima. Mismo criterio que funcionó en Furong.
