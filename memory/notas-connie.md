@@ -403,3 +403,21 @@ cascada es pieza con ruido de cascada** — tapones, <code>请给我耳塞</code
 **Lección que se repite:** el dato de dónde se aloja reordenó medio consejo. Cuando
 hay un viaje en curso, **preguntar o esperar el alojamiento antes de armar el día**.
 
+**30-ago-2026 (11:28 en China)** — Foto de un dulce morado con láminas de almendra:
+*«¿qué son estos dulces de China?»*. Es **雪花酥** (*xuěhuā sū*, «crocante de nieve»),
+de origen **taiwanés**, viral en China hace unos años.
+
+**Composición:** marshmallow derretido + mantequilla + leche en polvo, mezclado con
+**galletas de soda saladas** y frutos secos, prensado y cortado. El contraste
+dulce-salado es la gracia. El **morado** es **紫薯** (camote morado) o **香芋** (taro)
+en polvo, que reemplaza parte de la leche en polvo — frase para preguntar cuál:
+<code>这是紫薯还是香芋味的？</code>
+
+**Lo relevante para ella:** **no tiene huevo crudo** (el marshmallow es gelatina y
+azúcar), la leche es en polvo y las galletas van horneadas. Todo cocido, nada que
+cuidar.
+
+**Criterio de tono:** el aviso del azúcar ya se lo había dado esa misma mañana con el
+té con leche. Repetirlo habría sido machacar, así que fue una línea liviana y en
+broma. **Una advertencia se da una vez.**
+
