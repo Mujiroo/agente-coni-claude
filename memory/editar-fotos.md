@@ -69,10 +69,41 @@ abro la imagen, la juzgo y corrijo. No es mandar números a ciegas.
 
 ## Dos cosas del camino
 
-- El primer `tg.sh foto` **falló con un JSON vacío** (curl no devolvió nada). No era
-  el script: la llamada cruda idéntica funcionó al tiro. **Fue un fallo pasajero de
-  red.** Antes de reescribir un script que parece roto, repetir la llamada.
+- **El bug del caption vacío, que diagnostiqué mal dos veces.** `tg.sh foto` devolvía
+  un JSON vacío y la llamada cruda con `caption=prueba` funcionaba, así que lo di por
+  **fallo pasajero de red**. No lo era, y volvió a pasar con `archivo`.
+
+  **La causa real:** en `curl`, un valor de `-F` que empieza con `<` (o `@`) significa
+  *«lee el contenido de este archivo»*. Todos mis captions empiezan con `<b>`, así que
+  curl buscaba un archivo llamado `b>Texto...`, no lo encontraba y devolvía **vacío**.
+  Por eso «prueba» funcionaba y `<b>prueba</b>` no. **La solución es `--form-string`**,
+  que nunca interpreta el valor.
+
+  **La lección que vale más que el bug:** la prueba que hice para descartar el script
+  —la llamada cruda— usaba un caption **sin tags**, o sea no reproducía el caso que
+  fallaba. Una prueba que cambia dos cosas a la vez no descarta nada. Y «fallo
+  pasajero» es la explicación más cómoda y la que hay que sospechar primero: si el
+  fallo se repite, nunca fue pasajero.
 - **Nunca depurar `tg.sh` con `bash -x`:** el trace imprime el **token del bot** en
   claro. Se usa un `echo` puntual del comando, no el trace completo.
 
 Relacionado: [[instagram-publicar-ruta-drive]], [[notas-connie]], [[canal-y-formato]]
+
+## Segundo encargo, mismo día: la foto del 土王行宫 (msg 589)
+
+Mandó una foto suya con 帷帽 frente al templo, de día nublado. **No se le aplicó el
+preset `guofeng`**, y ese fue el punto: ese preset hunde los negros, y en luz plana de
+nublado eso habría tapado todas las sombras. **El preset se elige por el problema de la
+foto, no por el estilo que uno quiere.**
+
+Ajuste usado: `--negros 8 --contraste 1.16 --saturacion 1.24 --nitidez 1.2 --verde 1.02
+--rojo-sombras 1.07 --gamma 0.98`. El `rojo-sombras` sobre 1 **calienta la madera y los
+faroles sin enrojecerle la cara**, porque el efecto se apaga hacia las luces.
+
+**El cielo estaba quemado a blanco puro y no se recupera** — se le dijo derecho, y
+además que en este estilo juega a favor: se lee como papel de arroz.
+
+**Se le agregó recorte al editor** (`--aspecto 4:5 --sesgo 0.3`) y se le mandaron **dos
+versiones**: completa y recortada. La 4:5 es la que más pantalla ocupa en el feed de
+Instagram; sacándole el suelo vacío de abajo ella queda más grande y las sillas
+distraen menos. **Se recomendó una de las dos**, no se le dejó la decisión entera.

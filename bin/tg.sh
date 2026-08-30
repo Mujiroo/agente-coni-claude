@@ -131,6 +131,11 @@ print(json.dumps(p))')
 }
 
 # --- Envio de imagenes (agregado 30-ago-2026) ---
+# OJO con el caption: va con --form-string y NO con -F. En curl, un valor -F que
+# empieza con '<' o '@' significa "leer el contenido de este archivo", y todos
+# nuestros captions empiezan con <b>. Con -F curl buscaba un archivo llamado
+# "b>Texto..." y devolvia RESPUESTA VACIA -- que parece un problema de red y no
+# lo es. Se perdio un rato diagnosticandolo mal.
 # Dos variantes a proposito, porque NO son intercambiables:
 #   foto    -> sendPhoto. Telegram RECOMPRIME. Comodo de ver en el chat, pero
 #              pierde calidad: no sirve si ella va a resubir la imagen.
@@ -141,14 +146,14 @@ THREAD_F=(); [ -n "$TOPIC" ] && THREAD_F=(-F "message_thread_id=$TOPIC")
 send_foto() {
   curl -s --max-time 90 -X POST "https://api.telegram.org/bot${TG}/sendPhoto" \
     -F chat_id=$CHAT "${THREAD_F[@]}" -F parse_mode=HTML \
-    -F "photo=@$1" -F "caption=${2:-}" \
+    -F "photo=@$1" --form-string "caption=${2:-}" \
     | python3 -c "import sys,json;d=json.load(sys.stdin);print('foto enviada ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
 }
 
 send_archivo() {
   curl -s --max-time 90 -X POST "https://api.telegram.org/bot${TG}/sendDocument" \
     -F chat_id=$CHAT "${THREAD_F[@]}" -F parse_mode=HTML \
-    -F "document=@$1" -F "caption=${2:-}" \
+    -F "document=@$1" --form-string "caption=${2:-}" \
     | python3 -c "import sys,json;d=json.load(sys.stdin);print('archivo enviado ok, msg_id',d['result']['message_id']) if d.get('ok') else print('ERROR',d)"
 }
 

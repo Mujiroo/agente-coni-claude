@@ -51,11 +51,36 @@ PRESETS = {
 }
 
 
+def recortar_a(im, aspecto, sesgo=0.5):
+    """Recorta al aspecto pedido ('4:5') sin deformar, quitando del lado largo.
+
+    `sesgo` reparte lo que se quita: 0 saca todo del final (abajo/derecha), 1 todo
+    del principio. El defecto 0.5 recorta parejo, que casi nunca es lo que se
+    quiere en un retrato: el suelo vacio suele estar abajo.
+    """
+    aw, ah = (float(x) for x in aspecto.split(":"))
+    objetivo = aw / ah
+    actual = im.width / im.height
+    if abs(actual - objetivo) < 1e-3:
+        return im
+    if actual > objetivo:          # sobra ancho
+        nuevo = round(im.height * objetivo)
+        izq = round((im.width - nuevo) * sesgo)
+        caja = (izq, 0, izq + nuevo, im.height)
+    else:                          # sobra alto
+        nuevo = round(im.width / objetivo)
+        arriba = round((im.height - nuevo) * sesgo)
+        caja = (0, arriba, im.width, arriba + nuevo)
+    return im.crop(caja)
+
+
 def editar(entrada, salida, negros=0, blancos=255, gamma=1.0, contraste=1.0,
            saturacion=1.0, brillo=1.0, nitidez=1.0, verde=1.0, rojo_sombras=1.0,
-           ancho=None, calidad=95):
+           ancho=None, calidad=95, aspecto=None, sesgo=0.5):
     im = Image.open(entrada)
     im = im.convert("RGB")
+    if aspecto:
+        im = recortar_a(im, aspecto, sesgo)
 
     base = lut_niveles(negros, blancos, gamma)
     # El verde se empuja aparte del resto: subir la saturacion global tambien
@@ -94,6 +119,9 @@ def main():
                    "verde", "rojo-sombras"):
         p.add_argument("--" + nombre, type=float, default=1.0)
     p.add_argument("--ancho", type=int)
+    p.add_argument("--aspecto", help="recorta a esta proporcion, ej 4:5 o 1:1")
+    p.add_argument("--sesgo", type=float, default=0.5,
+                   help="0..1: que parte de lo recortado sale de arriba/izquierda")
     p.add_argument("--calidad", type=int, default=95)
     a = p.parse_args()
 
@@ -108,7 +136,7 @@ def main():
             if v not in (1.0, 0, 255):
                 base[k] = v
         kw = base
-    kw.update(ancho=a.ancho, calidad=a.calidad)
+    kw.update(ancho=a.ancho, calidad=a.calidad, aspecto=a.aspecto, sesgo=a.sesgo)
 
     ruta, tam = editar(a.entrada, a.salida, **kw)
     print(f"OK {ruta} {tam[0]}x{tam[1]} {os.path.getsize(ruta)} bytes")
