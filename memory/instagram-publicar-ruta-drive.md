@@ -60,3 +60,19 @@ si el caption sale mal, se arregla desde la app.
 además ayuda al alcance. Va en el contenedor, no en el publish.
 
 Relacionado: [[notas-connie]], [[canal-y-formato]]
+
+## La música NO se puede poner desde acá (verificado 30-ago-2026)
+
+Connie reclamó «le faltó música» al post de 芙蓉镇. **No hay forma por API.** Se buscó
+con `COMPOSIO_SEARCH_TOOLS` (`search_strategy: tool_search`) por música/audio y por
+editar/borrar: **no existe herramienta para ninguna de las tres cosas**. Lo único
+audio-adyacente es `audio_name` en Reels, que solo **nombra** el audio original — no
+adjunta una canción del catálogo.
+
+O sea: **la música, editar un post y borrarlo son todos «desde la app»**. Conviene
+decírselo *antes* de publicar si la foto es de las que ella suele musicalizar.
+
+**Dato que le sirve y no es obvio:** su cuenta es **BUSINESS**, así que Instagram le
+muestra solo el **catálogo de uso comercial** — muchas canciones conocidas no aparecen
+y parece un error de ella. El truco: **buscar por instrumento, no por canción**
+(`guzheng`, `erhu`, `bamboo flute`, `chinese traditional`).
