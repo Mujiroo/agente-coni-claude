@@ -19,3 +19,4 @@
 - [Cómo se comunica Connie conmigo](canal-y-formato.md) — audios por whisper local; y todo carácter chino va con traducción y pronunciación entre paréntesis.
 - [Liberar espacio en Google Fotos](google-fotos-liberar-espacio.md) — 109 GB a liberar contra una cuenta de 15 GB casi vacía; verificar el supuesto antes de aprobar un botón irreversible.
 - [Frutas de China](frutas-china-connie.md) — qué le dije de cada fruta que fotografió; vuelve a preguntar por ellas
+- [Verificar el estado antes de ejecutar lo aprobado](memory/verificar-estado-antes-de-ejecutar-lo-aprobado.md) — su OK aprueba la intención, no el mecanismo que yo describí; releer la fuente.
