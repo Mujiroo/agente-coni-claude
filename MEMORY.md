@@ -20,3 +20,4 @@
 - [Liberar espacio en Google Fotos](google-fotos-liberar-espacio.md) — 109 GB a liberar contra una cuenta de 15 GB casi vacía; verificar el supuesto antes de aprobar un botón irreversible.
 - [Frutas de China](frutas-china-connie.md) — qué le dije de cada fruta que fotografió; vuelve a preguntar por ellas
 - [Verificar el estado antes de ejecutar lo aprobado](memory/verificar-estado-antes-de-ejecutar-lo-aprobado.md) — su OK aprueba la intención, no el mecanismo que yo describí; releer la fuente.
+- [La ocarina china](memory/ocarina-china.md) — el 陶笛 de 6 hoyos que se compró el 31-ago y cómo se lee su tabla de digitaciones.
