@@ -547,3 +547,28 @@ sin urgencia no debería robarle la noche.
 Mañana 31-ago 10:00 corre el cron del **veredicto formal** con la ventana 28–30, que le
 avisa pase lo que pase. Ya se le anticipó que lo va a recibir, para que no le llegue
 como repetición.
+
+## 31-ago-2026 · La caída llega a las cotizaciones (día 9)
+
+Las dos vigilancias dieron **HAY-QUE-AVISAR** el mismo día, y por primera vez el
+daño se ve en el **negocio**, no solo en la cuenta de Ads:
+
+- **Cotizaciones: 2 en 3 días** contra **6,4** esperadas para ese lapso (14 días: 30).
+- **9 días seguidos** peor que antes del 19-ago: **2,3 conv/día** contra **4,7** de
+  base, **CPA 4.263** contra **1.675**. Ventana 7 días: 16 conversiones, 68.207 CLP,
+  908 impresiones. Botas de Bomberos: 54 impresiones, 1 conversión.
+- **Gasto sano:** 278.927 CLP en el mes contra un límite de 300.000. El problema no
+  es que gaste de más, es que rinde menos.
+
+**La tendencia empeora, no se estabiliza:** el 27-ago iban 3,4 conv/día y CPA 3.084;
+el 30-ago 2,7 y 3.928; hoy **2,3 y 4.263**. Refuerza lo del 30-ago: el ruteo no era
+la causa.
+
+**Enviado en UN solo mensaje (msg 599), no dos.** Los dos crons (09:00 y 09:30)
+alertaron por separado, pero mandarle dos mensajes del mismo tema —y un tercero a
+las 10:00 con el veredicto— es el ruido que ella pidió evitar. Se consolidó, se le
+dijo que no corre para hoy (eran las **21:30 en China**) y se le anticipó que el
+veredicto formal venía en camino para que no lo leyera como repetición.
+
+**Propuesto, no ejecutado:** revertir «accesorios bomberos» de FRASE a amplia y sacar
+las negativas «reloj» / «relojes». **Nada tocado** — sigue esperando su OK.
