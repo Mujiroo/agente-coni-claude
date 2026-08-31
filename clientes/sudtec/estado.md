@@ -572,3 +572,49 @@ veredicto formal venía en camino para que no lo leyera como repetición.
 
 **Propuesto, no ejecutado:** revertir «accesorios bomberos» de FRASE a amplia y sacar
 las negativas «reloj» / «relojes». **Nada tocado** — sigue esperando su OK.
+
+## 31-ago-2026 · Revert de los cambios del 19-ago (aprobado y ejecutado)
+
+Connie aprobó por chat (msg 600, *«Dale nomad»* = dale nomás). Ejecutado y
+**verificado por relectura**, no por el 200 del mutate.
+
+### Lo que la lectura previa corrigió de mi propia propuesta
+
+Yo le había dicho que el 19-ago «accesorios bomberos» pasó a concordancia de
+**frase**. **Falso.** El `change_event` mostró que ese día se **pausaron amplia y
+frase**, dejando **solo la exacta** activa. O sea la restricción fue más dura de lo
+que yo tenía anotado. Se lo dije en el mismo mensaje en vez de dejarlo pasar.
+
+**Regla:** antes de ejecutar un cambio aprobado, releer el estado real. La
+aprobación era sobre la intención (volver a amplia), y esa se cumplió — pero el
+mecanismo no era el que yo había descrito.
+
+### Qué quedó hecho
+
+- **`accesorios bomberos`** (grupo General `181820804074`): reactivadas
+  **amplia** (`295755597536`) y **frase** (`452736550247`). Con la exacta
+  (`321680463358`) que ya estaba activa, quedan **las tres ENABLED** = estado
+  anterior al 19-ago.
+- **Negativas `reloj` (`22229250`) y `relojes` (`10251086`)**: eliminadas de las
+  **dos** campañas — `Campaña Sudtec` (`22490713380`) y `Competencias`
+  (`23598502728`). Se habían creado juntas el **20-ago 03:15**, misma tanda.
+  Relectura: **ninguna viva**.
+- **Presupuestos NO tocados**, verificado después: Sudtec **9.100** CLP/día,
+  Competencias **700**.
+
+### Lo que NO se tocó, a propósito
+
+La negativa de grupo **«relojes para bomberos»** (`1137551670671`, creada 19-ago
+15:58) sigue viva. Es del mismo lote pero ella nombró solo `reloj`/`relojes`, y es
+específica. Si el revert no levanta, es candidata.
+
+### El matiz que se le dijo, no se escondió
+
+De los dos cambios, **el que puede mover la aguja es la keyword amplia**. Las
+negativas de reloj eran **sospechoso débil**: si Sudtec no vende relojes,
+bloquearlas estaba bien. Se sacaron por venir en el paquete y porque reponerlas es
+trivial. **Prometer menos de lo que se espera es mejor que vender una recuperación
+que quizá no llegue.**
+
+Veredicto prometido para el **3-sep**, con cron propio que avisa **en los dos
+casos** (la vigilancia diaria solo habla cuando algo está mal).

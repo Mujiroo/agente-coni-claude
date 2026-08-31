@@ -109,4 +109,16 @@
 # Le PROMETI mirarlo 3-4 dias y volver con veredicto EN LOS DOS CASOS.
 # Esto no lo cubre la vigilancia de las 09:30: esa solo habla cuando algo esta mal,
 # asi que si la cuenta se recupera se queda callada y la promesa queda incumplida.
-0 10 31 8 * | [CRON] SUDTEC veredicto del revert de botas. Corre `python3 bin/vigilancia_cambios.py` y ademas pide por `bash bin/maton.sh "google-ads/v23/customers/9907217991/googleAds:search" -X POST -H "Content-Type: application/json" -d` la query: SELECT metrics.conversions, metrics.cost_micros, metrics.impressions FROM campaign WHERE segments.date BETWEEN '2026-08-28' AND '2026-08-30'. Compara conv/dia y CPA de esos 3 dias POST-revert contra la base (4,67 conv/dia y CPA 1.675 CLP). AVISALE A CONNIE EN LOS DOS CASOS con `bash bin/tg.sh send` en HTML y cifras: (1) si se recupero, era el ruteo y se cierra el tema; (2) si NO se recupero, la causa esta en los cambios del 19-ago -presentale como sospechosos 'accesorios bomberos' en concordancia de FRASE y las negativas 'reloj'/'relojes'- y proponle revertir esos, pero NO toques nada sin su OK. Ojo: el grupo de botas se llama 'Botas de Bomberos', NO 'Botas'. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 31 8"), commitea y pushea.
+
+# --- SUDTEC Ads: veredicto del revert del 19-ago (montado el 31-ago-2026) ---
+# El 31-ago Connie aprobo por chat (msg 600 "Dale nomad" = dale nomas) revertir los dos
+# cambios del 19-ago. Se hizo ese mismo dia 09:5x:
+#   - accesorios bomberos: se REACTIVARON amplia (295755597536) y frase (452736550247).
+#     OJO: el 19-ago NO se paso a frase, se dejo SOLO la exacta. Verificado en change_event.
+#   - se QUITARON las negativas de campana reloj (22229250) y relojes (10251086) de las
+#     DOS campanas: Campana Sudtec (22490713380) y Competencias (23598502728).
+# Presupuestos NO tocados (Sudtec 9.100 CLP/dia, Competencias 700).
+# Le PROMETI veredicto en 3-4 dias EN LOS DOS CASOS. La vigilancia de las 09:30 solo habla
+# cuando algo esta mal, asi que una recuperacion pasaria en silencio y la promesa quedaria
+# incumplida. Por eso este cron aparte.
+0 10 3 9 * | [CRON] SUDTEC veredicto del revert del 19-ago. Corre `python3 bin/vigilancia_cambios.py` y ademas pide por `bash bin/maton.sh "google-ads/v23/customers/9907217991/googleAds:search" -X POST -H "Content-Type: application/json" -d` la query: SELECT metrics.conversions, metrics.cost_micros, metrics.impressions FROM campaign WHERE segments.date BETWEEN '2026-08-31' AND '2026-09-02'. Compara conv/dia y CPA de esos 3 dias POST-revert contra la base (4,67 conv/dia y CPA 1.675 CLP) y contra el peor momento (2,3 conv/dia, CPA 4.263 del 31-ago). AVISALE A CONNIE EN LOS DOS CASOS con `bash bin/tg.sh send` en HTML y cifras: (1) si se recupero, el problema eran los cambios del 19-ago y se cierra el tema; (2) si NO se recupero, dilo derecho -el revert no era la causa- y NO propongas mas cambios sin su OK, que sigue de viaje. Recuerda que ella esta en China (+12 respecto de Chile): si el aviso no es urgente, dile que lo vea cuando pueda. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 3 9"), commitea y pushea.
