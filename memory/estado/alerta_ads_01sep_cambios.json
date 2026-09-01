@@ -1,0 +1,35 @@
+{
+  "fecha": "2026-09-01",
+  "origen": "cron vigilancia_cambios 09:30 (corrido al arranque)",
+  "salida": "HAY-QUE-AVISAR",
+  "estado": "avisado_propuesta_pendiente_de_ok",
+  "avisado_msg": 618,
+  "corrige_a_msg": 617,
+  "cifras_7d": {
+    "conv_dia": 1.4,
+    "conv_dia_base": 4.67,
+    "cpa": 6278,
+    "cpa_base": 1675,
+    "conversiones": 10.0,
+    "costo": 62776,
+    "impresiones": 740,
+    "botas_impresiones": 44,
+    "botas_conversiones": 0
+  },
+  "malos_seguidos": 10,
+  "hallazgos_nuevos_de_hoy": {
+    "budget_lost_is": "90% TODOS los dias del 22 al 31-ago, o sea la campana pierde 9 de cada 10 impresiones por presupuesto.",
+    "contradiccion_clave": "Con 90% de perdida por presupuesto igual gasto solo ~5.000 de 9.100 los dias 30 y 31-ago. Si de verdad estuviera solo limitada por plata, gastaria el presupuesto entero. Eso apunta a que la puja se auto-freno, no a que falte presupuesto.",
+    "impresiones_por_dia": "159, 241, 218, 224, 109, 89, 119, 95, 54, 50 (22-ago al 31-ago)",
+    "conversiones_por_dia": "3, 3, 7, 4, 3, 1, 1, 0, 0, 1",
+    "cpc": "subio de ~424 CLP (22-ago) a ~726 CLP (31-ago)",
+    "anuncios": "TODOS los ENABLED estan APPROVED, en las 3 campanas. Incluye el anuncio de Botas, que venia de REVIEW_IN_PROGRESS tras el 403 al robot: quedo aprobado. Cierra ese pendiente del 20-ago.",
+    "presupuestos": "intactos: Campana Sudtec 9.100 CLP/dia (budget 14514264126), Competencias 700 (15396548337). Nadie los movio.",
+    "estrategia": "las dos campanas en MAXIMIZE_CONVERSIONS"
+  },
+  "conclusion": "Con el ruteo de botas revertido (27-ago) Y los cambios del 19-ago revertidos (31-ago), la cuenta SIGUIO cayendo. La causa no eran esos cambios. Descartado tambien: anuncios rechazados y presupuesto alterado.",
+  "hipotesis_vigente": "Espiral de aprendizaje de MAXIMIZE_CONVERSIONS: sin conversiones el modelo puja menos, gana menos subastas, junta menos datos y se hunde solo. Encaja con impresiones cayendo, CPC subiendo y presupuesto sin gastarse.",
+  "propuesta_a_connie": "Pasar la puja de MAXIMIZE_CONVERSIONS a MAXIMIZE_CLICKS por una semana para recomprar trafico y recuperar senal. SIN tocar presupuesto.",
+  "no_tocar": "No se modifico absolutamente nada. Espera OK explicito de Connie, que sigue en China.",
+  "siguiente_hito": "Cron del 3-sep (0 10 3 9): veredicto del revert del 19-ago. Ojo - hoy ya quedo claro que ese revert no era la causa, asi que ese veredicto debe decirlo derecho y no proponer mas cambios sin OK."
+}
