@@ -39,7 +39,6 @@
 # antes de lo que ella pidio.
 #
 # Cada job se borra a si mismo despues de avisar, para no repetirse el ano que viene.
-0 10 1 9 * | [CRON] Recordatorio (10:00 Chile = 22:00 en China): revisar si le COBRARON GOOGLE WORKSPACE. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Esta tambien en su calendario, pero durante el viaje no lo revisa. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 1 9"), commitea y pushea.
 # --- CUMPLEANOS DE FELIPE (pedido por Connie 29-ago-2026, msg 551) ---
 # Ella pidio "anotame en el calendario". Se creo el evento (todo el dia 1-sep, sin
 # invitados, id 68iathf5k0f1vn40s6vcupqn44) Y este aviso, porque durante el viaje NO
