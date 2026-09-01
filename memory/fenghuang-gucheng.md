@@ -87,3 +87,31 @@ plan del día; dejarlo solo en el cron habría sido entregar media respuesta.
 
 **Y se le marcó qué se salta si anda cansada** (la vuelta de la tarde del lunes), en vez
 de dejarla decidir con el cansancio encima. Mismo criterio que funcionó en Furong.
+
+## El martes 1-sep: preguntó de nuevo y no había que preguntarle dónde estaba
+
+**31-ago 20:37 Chile = 1-sep 08:37 en China (msg 604):** *«Kai que puedo hacer hoy
+en esta ciudad?»* — **sin decir qué ciudad**.
+
+**No se le preguntó.** Mis notas ya decían que llegó a 凤凰古城 el lunes 31-ago y se
+quedaba **dos noches**, así que el martes es el «día completo» de la ruta que yo mismo
+le había armado (msg 595). Preguntarle habría sido hacerla repetir algo que estaba
+escrito — es la métrica de CLAUDE.md al revés.
+
+**Lo que sí cambió respecto del plan original:** eran las **08:37**, y el bloque
+estrella —el amanecer de 07:00-08:30— ya estaba casi cerrado. En vez de mandarle el
+plan tal cual (que la habría dejado sintiendo que ya perdió lo mejor del día), se
+reencabezó como **«ahora mismo, en la próxima media hora»**: a esa hora el 沱江 todavía
+tiene neblina y el pueblo se llena recién a las 9:30. **El plan se corre a la hora
+real, no se entrega congelado.**
+
+**Se le repitió la ruta completa a propósito**, aunque ya la tenía: si vuelve a
+preguntar «qué hago hoy», la respuesta útil es el plan a la mano, no «te lo mandé
+ayer, búscalo».
+
+**Lo que NO se repitió:** el sermón. La advertencia de los 跳岩 fue **una línea al
+final** y el 血粑鸭 no se volvió a mencionar — ya se le dijo el lunes. Una prohibición
+repetida se vuelve reto.
+
+**El cumpleaños de Felipe (22:00) fue dentro del plan del día**, avisándole que igual
+le llega el cron a las 22:05, para que no lo tenga que sostener en la cabeza.
