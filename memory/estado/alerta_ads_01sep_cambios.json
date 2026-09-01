@@ -55,5 +55,70 @@
     "propuesta_vigente": "Pausar las 2 keywords amplias (equipo de proteccion personal BROAD, equipos de bomberos BROAD). Sin tocar presupuesto ni estrategia de puja.",
     "avisado_msg": 623,
     "no_tocar": "Sigue sin modificarse NADA en la cuenta. Espera OK explicito de Connie."
+  },
+  "desenlace": {
+    "propuesta_RETIRADA": true,
+    "por_que": "Connie pregunto por el historico mensual (msg 627). Se consulto keyword_view por mes mar-ago 2026 y desarmo la propuesta.",
+    "equipos_de_bomberos_BROAD": {
+      "por_mes": {
+        "mar": [
+          31.6,
+          1663
+        ],
+        "abr": [
+          45.5,
+          1044
+        ],
+        "may": [
+          54.0,
+          1291
+        ],
+        "jun": [
+          13.2,
+          3386
+        ],
+        "jul": [
+          60.0,
+          1601
+        ],
+        "ago": [
+          43.5,
+          1975
+        ]
+      },
+      "veredicto": "NO PAUSAR. Es de las mejores de la cuenta. Los 7 dias con 0 conversiones eran ruido; en agosto completo trajo 43,5."
+    },
+    "equipo_proteccion_personal_BROAD": {
+      "por_mes": {
+        "mar": [
+          28.5,
+          1414
+        ],
+        "abr": [
+          34.0,
+          1415
+        ],
+        "may": [
+          37.8,
+          1827
+        ],
+        "jun": [
+          15.8,
+          3381
+        ],
+        "jul": [
+          21.5,
+          2348
+        ],
+        "ago": [
+          21.0,
+          4006
+        ]
+      },
+      "veredicto": "Deterioro REAL y sostenido (CPA 1.414 -> 4.006, y agosto su mes mas caro: 84.142 por 21 conv, vs mayo 69.127 por 37,8). Pero 21 conversiones no es basura: NO se pausa hoy. Reevaluar el 3-sep."
+    },
+    "leccion": "La ventana de 7 dias cayo en el peor momento de TODA la cuenta; se le atribuyo a dos keywords un deterioro general. Ver memory/ventana-corta-condena-keywords-buenas.md",
+    "avisado_msg": 628,
+    "estado_final": "NADA se modifico en la cuenta en todo el dia. Se vuelve al plan original: veredicto el 3-sep con dias limpios post-revert."
   }
 }
