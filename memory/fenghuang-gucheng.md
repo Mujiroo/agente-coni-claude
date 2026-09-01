@@ -115,3 +115,27 @@ repetida se vuelve reto.
 
 **El cumpleaños de Felipe (22:00) fue dentro del plan del día**, avisándole que igual
 le llega el cron a las 22:05, para que no lo tenga que sostener en la cabeza.
+
+## 南华山 y el ascensor (1-sep-2026, msg 615)
+
+Fotografió una entrada preguntando «¿qué es esto?»: era el **南华山** (*Nánhuá Shān* —
+«Monte Nanhua»), el cerro sobre el pueblo, zona **神凤文化景区** (*Shénfèng wénhuà
+jǐngqū* — «zona cultural del Fénix Divino»), 4A nacional.
+
+**El dato que cambiaba todo estaba en los carteles azules laterales, no en el arco:**
+**电梯上山观全景** — *«ascensor al cerro, vista panorámica»*. **Hay ascensor.**
+
+Eso importa porque en la ruta yo había **descartado 南方长城 por ser "subir cerro"**
+([[embarazo-connie]], 21 semanas). Con ascensor, la vista aérea del pueblo —la única
+que no se consigue ni desde la calle ni desde el río— **vuelve a estar disponible sin
+esfuerzo**. Se le dijo explícitamente que **buscara la entrada del ascensor antes de
+empezar a subir los peldaños** de la foto, que es la trampa obvia.
+
+**Precio: no se inventó.** Se le dijo que **preguntara dos precios por separado**
+—entrada y ascensor—, porque en China suelen ir divididos y el primer número que te
+dan no es el total. Mejor eso que dar una cifra que no tengo verificada.
+
+**Y se le protegió el día:** eran las **13:24** con calor, así que se le dijo que
+eligiera **entre el cerro y el bote de las 17:00**, no ambos, recordándole que la
+vista nocturna desde el 虹桥 es gratis y le queda al lado. Mismo criterio de siempre:
+marcarle qué se salta, en vez de dejarla decidir con el cansancio encima.
