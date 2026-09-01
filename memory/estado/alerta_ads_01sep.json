@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-09-01",
+  "origen": "cron vigilancia_ads 09:00 (corrido al arranque)",
+  "salida": "HAY-QUE-AVISAR",
+  "estado": "avisado_sin_accion_por_diseno",
+  "avisado_msg": 617,
+  "cifras": {
+    "cotizaciones_3d": 2,
+    "cotizaciones_3d_esperadas": 6.2,
+    "cotizaciones_14d": 29,
+    "gasto_ayer": 5081,
+    "mtd": 3624,
+    "proyeccion_cierre": 287824,
+    "limite": 300000
+  },
+  "por_que_no_se_actuo": "Los 3 dias medidos (29, 30 y 31-ago) son casi todos ANTERIORES al revert del 19-ago, que se aplico el 31-ago 09:5x. La alerta no es evidencia nueva: es la misma racha que arranca el 23-ago. Actuar hoy seria encima del propio cambio de anteayer.",
+  "siguiente_hito": "Cron del 3-sep (0 10 3 9) - veredicto con los 3 dias limpios post-revert (31-ago al 2-sep) contra la base 4,67 conv/dia y CPA 1.675, y contra el peor momento (2,29 conv/dia, CPA 4.263 del 31-ago). Avisa a Connie en los DOS casos.",
+  "no_tocar": "No se modifico nada. Presupuestos intactos (Sudtec 9.100, Competencias 700)."
+}
