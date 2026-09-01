@@ -31,5 +31,29 @@
   "hipotesis_vigente": "Espiral de aprendizaje de MAXIMIZE_CONVERSIONS: sin conversiones el modelo puja menos, gana menos subastas, junta menos datos y se hunde solo. Encaja con impresiones cayendo, CPC subiendo y presupuesto sin gastarse.",
   "propuesta_a_connie": "Pasar la puja de MAXIMIZE_CONVERSIONS a MAXIMIZE_CLICKS por una semana para recomprar trafico y recuperar senal. SIN tocar presupuesto.",
   "no_tocar": "No se modifico absolutamente nada. Espera OK explicito de Connie, que sigue en China.",
-  "siguiente_hito": "Cron del 3-sep (0 10 3 9): veredicto del revert del 19-ago. Ojo - hoy ya quedo claro que ese revert no era la causa, asi que ese veredicto debe decirlo derecho y no proponer mas cambios sin OK."
+  "siguiente_hito": "Cron del 3-sep (0 10 3 9): veredicto del revert del 19-ago. Ojo - hoy ya quedo claro que ese revert no era la causa, asi que ese veredicto debe decirlo derecho y no proponer mas cambios sin OK.",
+  "correccion_del_mismo_dia": {
+    "por_que": "Connie pregunto 'de donde sacaste esa solucion, en que te basas' (msg 621). Al ir a buscar la evidencia real, la hipotesis de la puja se cayo y aparecio la causa verdadera.",
+    "hallazgo_real": {
+      "keyword_culpable": "equipo de proteccion personal (BROAD, grupo General)",
+      "costo_7d": 28978,
+      "pct_del_gasto": 49,
+      "clics": 33,
+      "conversiones": 2,
+      "cpa": 14489,
+      "cpa_base": 1675,
+      "segunda": "equipos de bomberos (BROAD): 8.455 CLP, 16 clics, 0 conversiones",
+      "juntas": "37.433 CLP de 59.553 = 63% del gasto, con 2 conversiones"
+    },
+    "mecanismo": "El 19-ago se dejo 'accesorios bomberos' SOLO en exacta. Al apretarla, el presupuesto que consumia se redistribuyo hacia la amplia generica 'equipo de proteccion personal', que es mucho mas cara y trae trafico no-bomberil (mineria, construccion, industrial). Por eso el CPC paso de ~350 a ~950 CLP: con presupuesto fijo y clic al triple, un tercio de las visitas.",
+    "quiebre_confirmado": "El impression share se quiebra EXACTAMENTE el 19-ago: del 10 al 18-ago variaba natural (12,4 a 26,3%), y desde el 19-ago se clava en el piso y no vuelve.",
+    "errores_mios_corregidos_ante_connie": [
+      "La hipotesis 'la puja se apago sola' era falsa: el sistema no pujaba MENOS, pujaba MAS CARO por clic.",
+      "Lei searchImpressionShare=0.1 y searchBudgetLostImpressionShare=0.9 como mediciones exactas. NO lo son: Google CENSURA esos valores ('<10%' y '>90%') y la API devuelve 0.1 y 0.9 fijos. Clavarse en un redondo exacto 13 dias seguidos es la senal de censura, no de medicion. La 'contradiccion' que le vendi se apoyaba en eso.",
+      "Dije 'la causa no eran los cambios del 19-ago'. SI lo son, por la via indirecta de la redistribucion de presupuesto."
+    ],
+    "propuesta_vigente": "Pausar las 2 keywords amplias (equipo de proteccion personal BROAD, equipos de bomberos BROAD). Sin tocar presupuesto ni estrategia de puja.",
+    "avisado_msg": 623,
+    "no_tocar": "Sigue sin modificarse NADA en la cuenta. Espera OK explicito de Connie."
+  }
 }
