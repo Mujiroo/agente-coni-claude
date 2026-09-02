@@ -84,3 +84,28 @@ en Hunan es postre común. Se le avisó como condicional y se le pidió la foto 
 en vez de afirmar algo que la imagen no dejaba leer.
 
 Relacionado: [[embarazo-connie]], [[notas-connie]]
+
+## 沙棘汁 — jugo de espino amarillo / sea buckthorn (2-sep-2026, msg 635)
+
+Foto de una botella en un local de comida del noroeste, en Shenzhen. Marca **野山坡**
+(吕梁, Shanxi), 300 mL.
+
+- **Chino:** `沙棘` (*shājí*). Español **espino amarillo**; inglés *sea buckthorn*.
+- Baya naranja pequeña del norte de China, Mongolia y el Himalaya. Sabor **muy ácido**,
+  entre maracuyá y naranja agria.
+- **Por qué le sirve:** es de las frutas con más vitamina C del mundo — la baya trae del
+  orden de **10× la de una naranja**. Se le explicó **enganchando con las azufaifas 枣**
+  que ya le habían gustado: vitamina C → mejor absorción de hierro. El embarazo entra
+  otra vez como **razón para comer algo**, no como restricción.
+- **El pero real, leído en la etiqueta:** dice **饮料** (*bebida*), no **果汁** (*jugo
+  puro*). En China eso significa **diluida y con azúcar**. Se dijo en una línea, sin
+  sermón: la advertencia del azúcar ya estaba dada de otros días.
+
+**Distinción que se cuidó:** la precaución que circula sobre el espino amarillo es para
+**aceite y extractos concentrados**, no para el jugo de fruta. No se le mencionó, para
+no repetir el error de acumular precauciones anotado en [[embarazo-connie]].
+
+**Bonus del contexto:** por el menú que se veía al lado estaba en un local del
+**noroeste**; se le recomendó el `西北手工凉皮`, el plato estrella de esa cocina.
+
+Relacionado: [[embarazo-connie]], [[notas-connie]], [[shenzhen-connie]]
