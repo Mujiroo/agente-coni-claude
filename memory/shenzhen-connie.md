@@ -63,3 +63,28 @@ componentes **cierran 18:00-19:00**, así que no dejar Huaqiangbei para la tarde
 
 Relacionado: [[connie]], [[notas-connie]], [[telefono-chileno-en-roaming-china]],
 [[recordatorios-viaje-connie]]
+
+## Compras de ropa y accesorios (msg 639, 2-sep-2026)
+
+Pidió **«alguna feria donde no sea todo tecnología — ropa, accesorios»**. Le mandé
+(msg 640), ordenado por cercanía a su hotel en Huaqiangbei:
+
+1. **东门老街** *(Dongmen Laojie)* — calle peatonal, ropa y accesorios baratos, puro
+   local. Es lo más parecido a una feria. **Línea 1** desde `华强路` (al lado del
+   hotel), 3 paradas hasta `老街`, ~10 min.
+2. **罗湖商业城** *(Luohu Commercial City)* — 5 pisos **con aire**, ropa, carteras,
+   telas y **sastres que hacen a medida en 1-3 días**. Misma Línea 1 hasta `罗湖`.
+   Se le aclaró que **entrar al mall no es cruzar a Hong Kong**, porque está pegado
+   al paso fronterizo y el aviso de la visa se lo había dado yo mismo.
+3. **水贝** *(Shuibei)* — el barrio de joyería más grande de China; el oro va **por
+   peso** y la hechura aparte. Línea 3 → `水贝`.
+4. **南油服装批发市场** — mayorista en Nanshan; **descartado** por los 40 min y
+   porque muchos puestos no venden por unidad.
+
+**Prácticas que le di:** regatear partiendo en **un tercio** (polera 30-60 ¥ ≈ 4-8 mil
+CLP, vestido 80-150 ¥ ≈ 10-20 mil); **las tallas chinas corren chicas**, subir una o
+dos, y con la guata creciendo le rinde más lo suelto y los accesorios que lo entallado;
+todos cobran con WeChat/Alipay.
+
+**Se le dijo que la feria de diseño de OCT-LOFT es solo de fin de semana** y que si
+sus 3 días son miércoles a viernes no le toca — mejor decirlo que mandarla en vano.
