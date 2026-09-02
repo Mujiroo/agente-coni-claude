@@ -22,3 +22,4 @@
 - [Verificar el estado antes de ejecutar lo aprobado](memory/verificar-estado-antes-de-ejecutar-lo-aprobado.md) — su OK aprueba la intención, no el mecanismo que yo describí; releer la fuente.
 - [La ocarina china](memory/ocarina-china.md) — el 陶笛 de 6 hoyos que se compró el 31-ago y cómo se lee su tabla de digitaciones.
 - [Las pulseras de 鸡血藤](memory/jixueteng-pulseras.md) — puesta sí, tomada no por el embarazo; y el cartel de la tienda era marketing.
+- [Shenzhen](shenzhen-connie.md) — los 3 días de Connie en Shenzhen: qué le recomendé y el aviso de la visa de una sola entrada
