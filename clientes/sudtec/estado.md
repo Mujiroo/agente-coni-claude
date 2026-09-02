@@ -618,3 +618,57 @@ que quizá no llegue.**
 
 Veredicto prometido para el **3-sep**, con cron propio que avisa **en los dos
 casos** (la vigilancia diaria solo habla cuando algo está mal).
+
+## 2-sep-2026 · Día 11: se decide NO avisar, y por qué
+
+Las dos vigilancias dieron **HAY-QUE-AVISAR** otra vez (día 11). **No se le mandó
+nada a Connie**, y eso es una decisión, no un olvido.
+
+### Por qué no se avisó
+
+El cuadro es **el mismo del 1-sep**, ella ya lo conoce (msgs 618 · 623 · 628), el
+arco cerró con *«no se toca nada, veredicto el 3-sep»* y **ese veredicto es mañana**.
+Un tercer mensaje con la misma foto, un día antes de la respuesta prometida, es
+justo el ruido que ella pidió evitar. Nada nuevo se rompió: presupuestos intactos
+(**9.100** y **700**, releídos hoy), anuncios aprobados, gasto del mes proyectado en
+**285.027** contra un límite de **300.000**.
+
+### El número que parecía deterioro nuevo y no lo era
+
+La vigilancia mostró **1,0 conv/día** contra **1,4** de ayer y **CPA 9.047** contra
+**6.278** — un empeoramiento del 29% y del 44%. **Es falso.** La ventana es **móvil de
+7 días**: el 2-sep sale el **25-ago (4,3 conv)** y entra el **1-sep (1,0 conv)**.
+
+    (1,0 − 4,3) / 7 = −0,47 conv/día      ventana ayer 1,47 → hoy 1,00 = −0,47
+
+El delta se explica **entero** por el calendario. Deterioro nuevo: **cero**.
+**Comparar una ventana móvil contra la de ayer mide el calendario, no la cuenta.**
+
+### Lo que sí quedó verificado hoy (datos duros, no teoría)
+
+- **El CPC se triplicó**: ~**270 CLP** (3-17 ago) → ~**460** (18-25 ago) → ~**900**
+  (26-ago en adelante). Con presupuesto fijo, eso compra **un tercio de los clics**:
+  de ~30/día a ~12/día. Ahí está toda la caída de conversiones, sin misterio.
+- **El impression share está censurado**, como el 1-sep: clavado en **10,0** desde el
+  19-ago. Antes variaba natural (11 a 26%). No se puede leer como medición.
+- **Ambos grupos de botas existen** — `Botas` (22 impr) y `Botas de Bomberos` (0). El
+  igual exacto por `'botas'` en `vigilancia_cambios.py` **está bien**; se fue a
+  verificar creyendo que era el bug documentado del cron borrado, y no lo es.
+- **`equipo de protección personal`** (amplia): **58.217 CLP en 14 días = 45% del
+  gasto**, 8 conversiones, **CPA 7.277**. Su serie mensual propia sigue subiendo
+  (1.414 → 1.415 → 1.827 → 3.381 → 2.348 → 4.006 → **7.277**). Es el único sospechoso
+  que aguanta la prueba del histórico.
+- **Cotizaciones**: 2 el 1-sep, tras 0 el 31-ago y 0 el 28-ago. Sin recuperación aún,
+  pero el revert es del 31-ago y sólo hay **un día limpio**.
+
+### Lo que se arregló en las herramientas
+
+Las dos vigilancias **alertaban todos los días** mientras durara la racha. Ahora
+avisan **al empezar y como recordatorio cada 7 días**; las alertas duras (no puedo
+leer la cuenta, anuncio desaprobado, presupuesto movido) siguen saliendo **siempre**.
+Se descartó a propósito la regla «avisa si empeoró un 25%»: con ventana móvil habría
+disparado hoy por puro deslizamiento.
+
+**El cron del 3-sep se corrigió**: no llevaba escrita la promesa del 1-sep de
+reevaluar `equipo de protección personal`. Se le agregó, con la instrucción de
+juzgarla por **histórico mensual** y de **proponer, no ejecutar**.

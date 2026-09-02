@@ -136,13 +136,46 @@ def main():
     if cpa and cpa > BASE_CPA * SUBIDA_CPA:
         malo = True
     st["malos_seguidos"] = st.get("malos_seguidos", 0) + 1 if malo else 0
+    if not malo:
+        st.pop("ultimo_aviso", None)
 
+    # --- anti-repeticion (agregado el 2-sep-2026) --------------------------
+    # Esta rama avisaba TODOS los dias mientras durara la racha. El 2-sep eso le
+    # habria mandado a Connie el mismo cuadro que ya conocia del 1-sep, un dia
+    # antes del veredicto que yo mismo le habia prometido. PERSISTIR NO ES NOTICIA.
+    #
+    # Se DESCARTO la regla "avisa de nuevo si empeoro >=25%": la ventana es MOVIL
+    # de 7 dias, asi que el promedio cae solo porque sale un dia bueno. Verificado
+    # el 2-sep: de 1,47 a 1,00 conv/dia, y el delta -0,47 se explica ENTERO por el
+    # 25-ago (4,3 conv) saliendo y el 1-sep (1,0) entrando. Deterioro nuevo: cero.
+    # Comparar una ventana movil contra la de ayer mide el calendario, no la cuenta.
+    #
+    # Queda solo cadencia: el primer dia de la racha, y luego recordatorio cada 7.
+    # Las alertas duras (no pude leer la cuenta / anuncio desaprobado) NO pasan por
+    # aca: esas siguen saliendo siempre.
     if st["malos_seguidos"] >= DIAS_SEGUIDOS:
-        alertas.append(("🔴", "La cuenta lleva <b>%d días seguidos</b> peor que antes de los "
-                              "cambios: <b>%.1f</b> conversiones/día contra <b>%.1f</b> de "
-                              "base, y CPA <b>%s</b> contra <b>%d</b>."
-                        % (st["malos_seguidos"], conv_dia, BASE_CONV_DIA,
-                           ("%.0f" % cpa) if cpa else "s/d", BASE_CPA)))
+        _ult = st.get("ultimo_aviso") or {}
+        _dias = None
+        if _ult.get("fecha"):
+            try:
+                _dias = (datetime.date.today()
+                         - datetime.date.fromisoformat(_ult["fecha"])).days
+            except Exception:
+                _dias = 99
+        if _dias is None or _dias >= 7:
+            alertas.append(("🔴", "La cuenta lleva <b>%d días seguidos</b> peor que antes de los "
+                                  "cambios: <b>%.1f</b> conversiones/día contra <b>%.1f</b> de "
+                                  "base, y CPA <b>%s</b> contra <b>%d</b>."
+                            % (st["malos_seguidos"], conv_dia, BASE_CONV_DIA,
+                               ("%.0f" % cpa) if cpa else "s/d", BASE_CPA)))
+            st["ultimo_aviso"] = {"fecha": datetime.date.today().isoformat(),
+                                  "conv_dia": round(conv_dia, 2),
+                                  "cpa": round(cpa) if cpa else None}
+        else:
+            st["silenciado_hoy"] = {
+                "fecha": datetime.date.today().isoformat(),
+                "por": "mismo cuadro ya avisado el %s (hace %d dia/s)"
+                       % (_ult.get("fecha"), _dias)}
 
     os.makedirs(os.path.dirname(ESTADO), exist_ok=True)
     st["revisado"] = datetime.date.today().isoformat()

@@ -1,8 +1,18 @@
 {
- "malos_seguidos": 10,
+ "malos_seguidos": 11,
  "dias_botas_sin_nada": 0,
- "revisado": "2026-09-01",
- "conv_dia": 1.43,
- "cpa": 6278,
- "botas_imp_7d": 44.0
+ "revisado": "2026-09-02",
+ "conv_dia": 1.0,
+ "cpa": 9047,
+ "botas_imp_7d": 38.0,
+ "ultimo_aviso": {
+  "fecha": "2026-09-01",
+  "conv_dia": 1.4,
+  "cpa": 6278,
+  "nota": "sembrado a mano el 2-sep: el aviso real salio el 1-sep (msgs 618/623/628)"
+ },
+ "silenciado_hoy": {
+  "fecha": "2026-09-02",
+  "por": "mismo cuadro ya avisado el 2026-09-01 (hace 1 dia/s); la caida 1,47->1,00 conv/dia es deslizamiento de ventana, no deterioro nuevo"
+ }
 }

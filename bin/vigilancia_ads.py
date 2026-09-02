@@ -131,15 +131,30 @@ def main():
         return len(r.get("messages", []) or [])
     c3, c14 = correos(3), correos(14)
     base3 = (c14 / 14.0) * 3 if c14 else 0
+    # Anti-repeticion (2-sep-2026): una sequia de cotizaciones dura dias, y avisarla
+    # cada manana es el mismo mensaje tres veces. Se avisa al empezar y despues como
+    # recordatorio cada 7 dias. Ver el mismo criterio en vigilancia_cambios.py.
+    aviso_sol = prev.get("ultimo_aviso_solicitudes")
     if base3 >= 3 and c3 <= base3 * 0.4:
-        alertas.append(("⚠️", "<b>Cayeron las solicitudes.</b> En 3 días llegaron "
-                              "<b>%d</b> cotizaciones; lo normal para ese lapso son "
-                              "<b>%.1f</b>." % (c3, base3)))
+        _d = None
+        if aviso_sol:
+            try:
+                _d = (hoy - datetime.date.fromisoformat(aviso_sol)).days
+            except Exception:
+                _d = 99
+        if _d is None or _d >= 7:
+            alertas.append(("⚠️", "<b>Cayeron las solicitudes.</b> En 3 días llegaron "
+                                  "<b>%d</b> cotizaciones; lo normal para ese lapso son "
+                                  "<b>%.1f</b>." % (c3, base3)))
+            aviso_sol = hoy.isoformat()
+    else:
+        aviso_sol = None
 
     # ---- se guarda el estado para comparar manzana con manzana la proxima vez ----
     os.makedirs(os.path.dirname(ESTADO), exist_ok=True)
     json.dump({"presupuestos": presu, "revisado": hoy.isoformat(),
-               "gasto_ayer": gasto_ayer, "mtd": mtd, "correos_3d": c3},
+               "gasto_ayer": gasto_ayer, "mtd": mtd, "correos_3d": c3,
+               "ultimo_aviso_solicitudes": aviso_sol},
               open(ESTADO, "w"), indent=1, ensure_ascii=False)
 
     if not alertas and not forzar:
