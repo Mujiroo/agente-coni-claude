@@ -44,5 +44,22 @@ prohibiciones**. Lo mismo que funcionó con las azufaifas en [[frutas-china-conn
 **Quedó ofrecido:** las direcciones en chino para mostrar al taxista. Si dice que sí,
 mandárselas en `<code>` y anotarlas acá.
 
+## Dónde se aloja (msg 633, foto de su mapa AMAP)
+
+**Hotel Atour Huaqiangbei** (亚朵酒店), calle peatonal de 华强北, distrito **Futian**.
+Está **dentro** del barrio que le recomendé, lo que cambia el plan a mejor:
+
+· **华强电子世界** queda ~4 cuadras al sur · **SEG Plaza** (赛格广场) al lado
+· Metro `华强北` a un costado, `华强南` al otro
+· El tramo es **peatonal y plano** — el Día 1 no necesita transporte
+
+En su mapa también aparecen **曼哈商业广场** (Plaza Manha, con alimentos importados,
+por si echa de menos algo de casa) y marcaba **30°C a las 14:56**, que confirma el
+aviso del calor.
+
+**Dato que se le dio y no estaba en la recomendación original:** los mercados de
+componentes **cierran 18:00-19:00**, así que no dejar Huaqiangbei para la tarde del
+último día.
+
 Relacionado: [[connie]], [[notas-connie]], [[telefono-chileno-en-roaming-china]],
 [[recordatorios-viaje-connie]]
