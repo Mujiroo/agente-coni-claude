@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-03",
+  "estado": "PROPUESTO_ESPERANDO_OK",
+  "avisado_msg": 659,
+  "alcance": "negativas de FRASE en la campana 'Campana Sudtec' (22490713380) UNICAMENTE. No a nivel de cuenta.",
+  "objetivo": "rutear esas busquedas hacia la campana Competencias (23598502728), que ya las compra a proposito con presupuesto propio de 700/dia y convierte a CPA 1.885. NO es bloquear trafico.",
+  "recupera_clp_30d": 16908,
+  "grupo_A_tiendas_competencia": {
+    "apro": 1673, "kolff": 1431, "top safe": 1406,
+    "segurycel": 1320, "maryun": 1266, "chilesin": 948
+  },
+  "grupo_B_marcas_no_vendidas": {
+    "sicor": 2015, "holik": 1692, "3m": 1277, "holmatro": 1063,
+    "bullard": 965, "rosenbauer": 950, "scott": 903
+  },
+  "verificacion_catalogo": "Cada marca se busco en WooCommerce. Seis dan 0 productos. En '3m' el conteo decia 16 pero los NOMBRES eran Penkert/Swissguard/S-GARD: falso positivo del buscador. Control con palabra inventada 'zzqxwv' -> 0, o sea el buscador SI filtra y los ceros son reales. Control positivo: lytos 7, s-gard 18, lukas 20 (nombres verificados).",
+  "descartada_de_la_lista": {
+    "improfor store": "gasta 2.071 CLP sin convertir PERO entra por Competencias, no por la principal. La negativa habria sido inutil. Detectado al cruzar search_term_view con las keywords de cada campana."
+  },
+  "NO_bloquear_pese_a_cero_conversiones": {
+    "clp_30d": 10262,
+    "terminos": ["halligan", "hachas para bomberos", "guantes estructurales de bomberos",
+                 "chaqueta de bomberos de chile", "traje estructural de bombero",
+                 "cucarda bomberos", "material de rescate vehicular", "barra halligan precio"],
+    "razon": "56 conversiones repartidas en 1.135 terminos: el cero es aritmetica, no señal. Son el negocio de Sudtec. Mismo error que casi se comete con 'equipos de bomberos' el 1-sep."
+  },
+  "hallazgo_lateral": {
+    "termino": "halligan",
+    "gasto_30d": 2532,
+    "conversiones": 0,
+    "productos_en_catalogo": 0,
+    "lectura": "NO es candidata a negativa: es un HUECO DE CATALOGO. Sudtec tiene Pulasky, TNT multiproposito y tijeras LUKAS, pero no la barra Halligan, que es la herramienta mas clasica del bombero. Oportunidad comercial, se le dijo a Connie."
+  },
+  "acompana_a": "cambio de 'equipo de proteccion personal' de AMPLIA a FRASE",
+  "no_tocar": "NADA modificado. Espera OK explicito de Connie."
+}
