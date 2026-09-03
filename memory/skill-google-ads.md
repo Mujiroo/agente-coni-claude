@@ -48,3 +48,43 @@ informe de términos de búsqueda; **afirmar que una keyword existente desperdic
 plata, sí**.
 
 Relacionado: [[skill-seo-de-connie]], [[vigilancia-ads-429-transitorio]]
+
+## 3-sep-2026 · Las skills explican el desangre, y frenan el próximo cambio
+
+Connie preguntó por ellas (msg 662). Al releerlas contra el trabajo del día
+aparecieron tres cosas que valen para adelante:
+
+**1. La regla de la amplia** (`google-search-playbook.md`, línea 64), textual:
+*«Introduce Broad only after: 30+ conversions/month in the campaign, AND smart
+bidding live, AND a tight negative list. Broad without all three is a donation to
+Google.»*
+
+Sudtec cumplía **dos de tres**: 111 conversiones en 30 días ✅, smart bidding ✅,
+pero **la lista de negativas NO estaba apretada** — las 20 que existían estaban en
+concordancia **exacta** y no frenaban nada. **Esa era la pata que faltaba**, y
+explica por qué la amplia se abrió a 429 búsquedas. Ver
+[[negativa-frase-bota-la-familia]].
+
+**2. La disciplina de cambio** (`ads-auditoria/references/bidding-strategies.md`):
+antes de tocar la puja hay que *«confirmar que ningún cambio concurrente de
+presupuesto, conversión, segmentación, creativo o política enturbie la
+interpretación»*. **Hoy se cambió segmentación (10 negativas), así que cualquier
+cambio de estrategia de puja queda congelado** hasta leer el efecto. No se hacen
+dos cambios a la vez.
+
+**3. Se contradicen otra vez, y ahora en algo que importa.** La de **operar** da
+umbrales fijos (~15-30 conversiones/mes para smart bidding, 30+ para amplia). La de
+**auditar** dice explícitamente *«Do not apply fixed target multipliers, fixed
+minimum conversion counts, or a fixed adjustment cadence across accounts»*.
+
+**Cómo conciliarlas:** los umbrales de la de operar sirven como **semáforo de
+diseño** —¿esta campaña tiene volumen para sostener amplia?—, no como veredicto
+sobre una cuenta viva. Para juzgar la cuenta manda la evidencia propia, que es lo
+que pide la de auditar. **Cuando choquen en algo que cambie una decisión, decírselo
+a Connie y explicar cuál se siguió.**
+
+**Dato de consolidación pendiente:** `Competencias` lleva **7 conversiones** en 30
+días, muy por debajo del umbral. La skill de operar mandaría **fusionarla**. No se
+propone todavía: hoy esa campaña es justamente el destino al que se están ruteando
+las búsquedas de marca ajena, y hay que ver cómo queda antes de moverla.
+
