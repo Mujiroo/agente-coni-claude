@@ -127,3 +127,13 @@
 # Causa encontrada: 'equipo de proteccion personal' AMPLIA se lleva el 61,6% del gasto de
 # septiembre y ahoga a 'equipos de bomberos' (el motor: 43,5 conv en agosto, hoy 1 clic).
 # PROPUESTO pausar la amplia; NADA tocado, esperando su OK (msg 651).
+
+# --- SUDTEC: retomar al volver del viaje (pedido por Connie 3-sep-2026, msg 690) ---
+# Ella llega el 18-sep. El cron corre el 19 a las 10:00 de Chile (ya de vuelta, mismo
+# huso; el horario de verano del 6-sep no afecta porque ya no esta en China).
+# Va el 19 y no el 18 a proposito: el 18 llega de un vuelo largo y de 21+ semanas de
+# embarazo. Todo esto lleva 3 semanas parado, un dia mas no cambia nada.
+# El detalle completo esta en clientes/sudtec/PENDIENTE-VUELTA-18SEP.md; este cron solo
+# se lo recuerda, NO ejecuta nada de eso.
+0 10 19 9 * | [CRON] SUDTEC, Connie ya volvio del viaje. LEE PRIMERO clientes/sudtec/PENDIENTE-VUELTA-18SEP.md completo y tambien memory/romper-el-tag-apaga-la-entrega.md. Mandale con `bash bin/tg.sh send` en HTML un resumen CORTO (no el documento entero) recordandole las 3 cosas en orden: (1) el tag/GTM con el procedimiento de montar el nuevo SIN apagar el viejo y vigilar CLICS diarios, (2) la ventana de conversion de 1 dia, avisando de nuevo que al subirla las conversiones suben sin que el negocio cambie, (3) la decision de estructura: no se pueden tener las campanas nuevas Y General a la vez, ni por presupuesto -297.920 ya comprometidos de 300.000- ni por canibalizacion. NO EJECUTES NINGUNO de esos cambios: son todos de produccion y necesitan su OK explicito, y el del tag ademas se hace con ella presente. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 19 9"), commitea y pushea.
+
