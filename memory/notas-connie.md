@@ -504,3 +504,20 @@ hashtags, que yo había recomendado en el mensaje anterior. Se **publicaron incl
 se le informó **textualmente qué quedó**, avisándole que se editan desde la app si los
 quiere fuera. El criterio: los hashtags no son voz suya —no dicen nada en su nombre—,
 son ruteo; y hacerla repetir un pedido por eso habría costado más que el ajuste.
+
+**2-sep-2026 (19:58)** — Mandó la **cartola de su Visa Signature** en PDF y preguntó
+*«por qué debí tanto si ya he abonado»*. La respuesta era simple una vez cuadrada:
+**sí abonó 97 USD** (49 el 26-ago + 48 el 28-ago), pero **cargó 387,42** — 313,03 en
+compras y **74,39 en un AVANCE EN EFECTIVO** en Chongqing el 26-ago. Saldo **290,42
+USD**, con 2.712,56 de cupo libre.
+
+**Lo que valía la pena decirle y no preguntó:** ese avance es **el movimiento más
+grande de toda la cartola** y el **19%** de lo cargado, y a diferencia de una compra
+**paga interés desde el día uno más comisión fija**. Además se le avisó que la cartola
+dice **«no facturado»**: cuando llegue la factura vendrá **más alta**, porque ahí recién
+se suman ese interés y esa comisión.
+
+**Cómo se leyó el PDF:** no había con qué; se escribió `bin/pdf_texto.py`. Ver
+[[leer-pdf-sin-herramientas]] — incluye la regla de **cuadrar el parseo contra los
+totales impresos** antes de darle cifras.
+
