@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-09-03",
+  "estado": "PROPUESTO_ESPERANDO_OK",
+  "avisado_msg": 651,
+  "gatillo": "Connie pregunto 'Kai como van las campanas' (msg 650, 15:01 en China)",
+  "veredicto_revert_19ago": {
+    "resultado": "NO SE RECUPERO",
+    "post_revert_3d": {"conv_dia": 1.67, "cpa": 5235, "cpc": 770, "impr_dia": 93},
+    "base_pre_19ago": {"conv_dia": 4.67, "cpa": 1675, "cpc": 280, "impr_dia": 250},
+    "conclusion": "los cambios del 19-ago no eran la causa; revertirlos no basto"
+  },
+  "causa_encontrada": {
+    "keyword": "equipo de proteccion personal",
+    "match": "BROAD",
+    "pct_gasto_septiembre": 61.6,
+    "costo_sep_1y2": 11780,
+    "gasto_total_kw_sep": 19122,
+    "cpa_mensual": {"mar":1414,"abr":1416,"may":1827,"jun":3382,"jul":2349,"ago":4007},
+    "prueba_que_aguanta": "6 meses de deterioro parejo, no una ventana corta. Agosto fue su mes mas caro (84.142 CLP) por 21 conversiones; mayo gasto menos (69.127) y trajo 37,8.",
+    "efecto_colateral": "ahoga a 'equipos de bomberos' AMPLIA, el motor de la cuenta (43,5 conv en agosto). En septiembre esa lleva 3,3% del gasto y 1 solo clic. En agosto las dos gastaban casi igual (85.952 vs 84.142)."
+  },
+  "propuesta": "Pausar SOLO 'equipo de proteccion personal' en AMPLIA. No tocar presupuesto ni estrategia de puja.",
+  "caveat_dicho_a_connie": "Pausarla no garantiza que el presupuesto migre a la buena: con MAXIMIZE_CONVERSIONS Google reparte a su criterio y puede tardar dias. Es reversible.",
+  "no_tocar": "NADA modificado en la cuenta. Espera OK explicito.",
+  "keyword_absuelta": "equipos de bomberos AMPLIA: NO se toca, confirmado por historico el 1-sep y de nuevo hoy.",
+  "cron_borrado": "la linea '0 10 3 9' se elimino tras entregar el veredicto antes de hora, para no duplicar el aviso"
+}
