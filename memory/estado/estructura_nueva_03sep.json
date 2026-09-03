@@ -43,5 +43,77 @@
  },
  "validacion_textos": "script propio conto los caracteres: 15 titulares <=30 y 4 descripciones <=90 por anuncio. Pesco una descripcion de 91 caracteres que se corrigio antes de crear.",
  "plan_reproducible": "clientes/sudtec/estructura-nueva-03sep2026-plan.py",
- "no_tocado": "nada de Campana Sudtec ni Competencias"
+ "no_tocado": "nada de Campana Sudtec ni Competencias",
+ "ampliacion_audio_msg673": {
+  "pedido": "agregar a los grupos nuevos las keywords que SI convierten; todo pausado; a la vuelta decide si mantiene General y Competencias y activa el resto",
+  "ventana_usada": "3 meses (1-jun a 2-sep-2026), NO una semana: 263 keywords, 31 con conversiones",
+  "agregadas_11": {
+   "Mangueras": [
+    "manguera de bomberos (18,0 conv)"
+   ],
+   "Botas": [
+    "botas bombero (16,8)"
+   ],
+   "Herramientas de Rescate": [
+    "herramientas de bomberos (11,0)",
+    "herramientas de rescate para bomberos (3,7)",
+    "equipo de rescate (1,3)"
+   ],
+   "Cascos": [
+    "cascos de bomberos (3,0)",
+    "esclavina bomberos (1,0)"
+   ],
+   "Uniformes": [
+    "uniforme de bomberos (3,0)"
+   ],
+   "Guantes": [
+    "guantes de bomberos (3,0)"
+   ],
+   "Rescate Vehicular": [
+    "plataforma de rescate vehicular (2,0)",
+    "hi lift (2,0)"
+   ]
+  },
+  "duplicados_evitados": [
+   "herramientas de rescate",
+   "herramientas para bomberos"
+  ],
+  "grupo_NUEVO_por_hueco_detectado": {
+   "nombre": "Iluminación",
+   "campana": "Sudtec · Bomberos",
+   "url": "https://www.sudtec.cl/product-category/iluminacion/",
+   "motivo": "'linterna para bomberos' convierte 5,0 veces con CPA 1.487 (mejor que la base de 1.675) y NO tenia grupo. La tienda si tiene categoria Iluminacion.",
+   "keywords": [
+    "linterna para bomberos",
+    "linternas para bomberos",
+    "linternas para cascos"
+   ]
+  },
+  "NO_movidas_a_proposito": {
+   "genericas_se_quedan_en_General": [
+    "equipos de bomberos (116,8 conv)",
+    "equipo de proteccion personal (61,2)",
+    "articulos para bomberos (13)",
+    "accesorios bomberos (13)",
+    "tienda de bomberos",
+    "tienda de epp"
+   ],
+   "de_competencia_se_quedan_en_Competencias": [
+    "improfor",
+    "improfor chile",
+    "fireground",
+    "casco sicor",
+    "weber rescue"
+   ],
+   "razon": "no pertenecen a una categoria; y ella decide a la vuelta si mantiene General y Competencias"
+  },
+  "total_final": {
+   "grupos": 18,
+   "keywords": 73,
+   "anuncios": 18,
+   "campanas": 3,
+   "estado": "todas PAUSED, reverificado"
+  },
+  "RIESGO_ANOTADO": "varias keywords ahora existen en dos lados (General corriendo + grupos nuevos pausados). Pausadas no hay conflicto; si el 18-sep se activan las nuevas SIN pausar General, competirian entre si dentro de la misma cuenta."
+ }
 }
