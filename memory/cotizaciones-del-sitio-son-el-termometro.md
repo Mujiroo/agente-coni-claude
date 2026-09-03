@@ -62,3 +62,31 @@ que revertir. Eso es justo lo que le faltó la vez pasada.
   tipo de pedido, antes de usarlos como cifra.
 
 Va con [[contadores-no-son-envios]] y [[ads-hora-chile-woo-utc]].
+
+## Cómo se verificó la fuente (Connie preguntó, msg 686)
+
+Preguntó si las cotizaciones salían **directamente del sitio**. Sí, y así se sostiene:
+
+- **Fuente:** API de WooCommerce de `www.sudtec.cl` como `admin_sudtec` — la misma base
+  de datos del panel de WordPress. Endpoint `wc/v3/orders`, filtrado **solo por fecha**.
+- **No se filtró por estado**, y se comprobó que la consulta sin filtro devuelve lo
+  mismo que `status=any`.
+- **`wc/v3/reports/orders/totals` es la prueba definitiva:** la tienda tiene **3.656
+  pedidos y TODOS son `ywraq-new`**. Todos los demás estados están en **cero**. Ninguna
+  cotización pudo escaparse por haber cambiado de estado.
+- **Anti-caché:** el helper agrega `_nc` a cada GET porque LiteSpeed cachea `wp-json`
+  (ver [[litespeed-cachea-la-api-rest]]). Sin eso habría leído copias viejas.
+- **Paginación:** el primer intento pidió `per_page=40` y devolvió exactamente 40 —
+  truncado. Se paginó hasta que una página trajo menos del tope: agosto pasó de 40 a
+  **58**.
+
+**Cifra para que ella misma verifique:** agosto completo = **58** solicitudes de
+presupuesto en su panel.
+
+## El límite de lo que se puede afirmar
+
+Se cuentan **solicitudes de cotización, no ventas cerradas**. Lo demostrado es que
+**la demanda no cayó** (12-16 por semana). Si esas cotizaciones terminaron en venta
+está en el proceso comercial de Sudtec, **no es visible desde el sitio** — y se le dijo
+así, sin estirar la conclusión.
+
