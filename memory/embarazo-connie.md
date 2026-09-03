@@ -145,3 +145,31 @@ vuelve, era el embarazo. **Volver a preguntarle en octubre.**
 
 **Criterio:** se respondió con la evidencia y se dijo explícito que no es diagnóstico,
 sin convertirlo en una lista de advertencias.
+
+## 21 semanas y todavía no siente al bebé (3-sep-2026, msg 699)
+
+Preguntó, desde China: *«tengo 21 semanas de embarazo, aún no siento al bebé, ¿es
+normal?»*.
+
+**Le dije que sí, y lo es.** Los primeros movimientos van entre las **16 y 25
+semanas**; en un primer embarazo lo habitual es **18-22**, y hay quienes recién
+sienten a las **24-25**. Está en medio de la ventana.
+
+**Causa más común de sentirlo tarde: placenta anterior** — hace de amortiguador y
+tapa las pataditas varias semanas. Frecuente y sin importancia. Le pedí que en el
+próximo control **pregunte dónde tiene la placenta**: ese solo dato lo explica.
+
+**La distinción que le dejé clara**, que es la que de verdad importa:
+· **Todavía no empieza** → esperable, es su caso
+· **Empezó y después bajó o paró** → se consulta el mismo día
+
+Banderas rojas dichas en una sola línea (sin acumular, según la lección del 24-ago):
+sangrado, pérdida de líquido, dolor fuerte o fiebre → urgencia.
+
+**El aporte que ella no había pedido y sí servía:** la **eco morfológica** va entre
+las **20 y 24 semanas**. Vuelve el **18-sep** con ~**23 semanas**: alcanza, pero
+justo. Por eso el recordatorio del **14-sep** para pedir hora en Integramédica
+([[recordatorios-viaje-connie]]) **pasa a ser el que sostiene esa eco** — si se
+salta, se le puede cerrar la ventana. No dejar que ese cron falle en silencio.
+
+Le ofrecí averiguarle dónde atenderse en China por si acaso; quedó sin respuesta.

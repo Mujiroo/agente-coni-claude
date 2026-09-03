@@ -23,4 +23,4 @@
 - [La ocarina china](memory/ocarina-china.md) — el 陶笛 de 6 hoyos que se compró el 31-ago y cómo se lee su tabla de digitaciones.
 - [Las pulseras de 鸡血藤](memory/jixueteng-pulseras.md) — puesta sí, tomada no por el embarazo; y el cartel de la tienda era marketing.
 - [Shenzhen](shenzhen-connie.md) — los 3 días de Connie en Shenzhen: qué le recomendé y el aviso de la visa de una sola entrada
-- [Lewear HT30](memory/lewear-ht30-relojes.md) — la marca existe pero el reloj es white-label de Shenzhen; ¥568 contra US$15 por el mismo aparato.
+- [Lewear HT30 y los clones de Huaqiangbei](memory/lewear-ht30-relojes.md) — la marca existe pero el reloj es white-label; y los clones falsean las mediciones de salud.

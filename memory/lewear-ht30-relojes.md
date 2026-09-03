@@ -1,3 +1,10 @@
+---
+name: lewear-ht30-relojes
+description: Los relojes que miró Connie en China el 3-sep-2026; el Lewear HT30 a ¥568 es retail lleno y los clones de Huaqiangbei falsean las mediciones de salud.
+metadata:
+  type: project
+---
+
 # Lewear HT30 — el reloj que preguntó Connie en China (3-sep-2026, msg 692)
 
 Preguntó "sobre la marca de relojes Lewear ht30" estando en China.
@@ -56,3 +63,20 @@ pesa doble mientras ella esté embarazada. Ver [[frutas-china-connie]].
 
 Le advertí además que traer **varios iguales** se ve comercial y Aduana en Chile
 puede retener falsificaciones; uno para uso personal es riesgo bajo.
+
+## El criterio de la casa, aplicado (msg 701)
+
+Este hilo se responde con [[comprar-electronica-huaqiangbei]], que ya existía. Al
+revisarlo contra estos relojes:
+
+- **Criterio de la app: los dos pasan.** El **Lewear** está en la App Store de
+  EE.UU. y los **HK** usan **Wearfit Pro**, también internacional. Se bajan desde
+  Chile. O sea aquí el problema *no* es el de siempre.
+- **Lo que sí faltaba y le mandé:** que se lo **emparejen en el mostrador antes de
+  pagar**, y que exija el **cargador magnético** en la caja (es propietario de cada
+  modelo y no se reemplaza en Chile).
+- **Referencia de precio = Amazon EE.UU.**, tal como dice el criterio: de ahí salió
+  el rango US$15-30 con el que le armé la contraoferta de ¥150-250.
+
+**Nota para mí:** contesté las tres fotos antes de leer `comprar-electronica-huaqiangbei.md`.
+Salió consistente por suerte, no por método. **Leer memory/ antes de responder, no después.**
