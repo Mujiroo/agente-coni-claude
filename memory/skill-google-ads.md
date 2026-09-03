@@ -88,3 +88,13 @@ días, muy por debajo del umbral. La skill de operar mandaría **fusionarla**. N
 propone todavía: hoy esa campaña es justamente el destino al que se están ruteando
 las búsquedas de marca ajena, y hay que ver cómo queda antes de moverla.
 
+
+## Campo obligatorio nuevo al crear campañas (v23, 3-sep-2026)
+
+`containsEuPoliticalAdvertising` es **obligatorio** al crear una campaña en la v23.
+Sin él, el mutate falla con `fieldError: REQUIRED` apuntando a ese campo, lo que
+parece un error de permisos y no lo es. Valor usado para Sudtec:
+`DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING`.
+
+Otros dos campos que **no existen** y cuestan una llamada si se asumen:
+`campaign.start_date` y `customer_negative_criterion.keyword.text`.

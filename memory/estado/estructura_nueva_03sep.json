@@ -1,0 +1,47 @@
+{
+ "fecha": "2026-09-03",
+ "pedido": "Connie (msg 667 + audio msg 671): campanas con grupos por categoria, TODAS PAUSADAS hasta que vuelva el 18-sep. Audio: 'ponle presupuesto, recuerda que son 300.000 pesos mensuales, si haz un anuncio para cada grupo y todo dejalo pausado'.",
+ "creado": {
+  "campanas": 3,
+  "grupos": 17,
+  "anuncios": 17,
+  "keywords": 59
+ },
+ "campanas": {
+  "Bomberos": "customers/9907217991/campaigns/24216436315",
+  "Industrial": "customers/9907217991/campaigns/24216436318",
+  "Forestal": "customers/9907217991/campaigns/24216436441"
+ },
+ "presupuestos": {
+  "Bomberos": "customers/9907217991/campaignBudgets/15853676377",
+  "Industrial": "customers/9907217991/campaignBudgets/15853676380",
+  "Forestal": "customers/9907217991/campaignBudgets/15853676383"
+ },
+ "presupuesto_diario": {
+  "Bomberos": 6500,
+  "Industrial": 1200,
+  "Forestal": 800,
+  "suma": 8500
+ },
+ "verificacion": "por RELECTURA de la cuenta, no por el 200 del mutate: las 3 en PAUSED, 17 anuncios presentes, y las 17 URLs de destino comprobadas con HTTP 200 desde navegador",
+ "ALERTA_PRESUPUESTO": {
+  "limite_mensual_dicho_por_connie": 300000,
+  "gasto_actual_enabled": "9.800 CLP/dia = 297.920/mes (Campana Sudtec 9.100 + Competencias 700). YA ESTA EN EL TOPE.",
+  "si_se_activan_sin_ajustar": "9.800 + 8.500 = 18.300/dia = ~556.320/mes, casi el DOBLE del limite",
+  "decision_pendiente_de_connie": "al volver el 18-sep: o pausa 'Campana Sudtec' y deja las nuevas, o reparte. NO activar sin ese ajuste."
+ },
+ "decisiones_tecnicas": {
+  "match_type": "PHRASE en las 59. El playbook exige 30+ conv/mes + smart bidding + negativas apretadas ANTES de amplia; la cuenta fallaba la tercera.",
+  "socios_de_busqueda": "APAGADOS en las 3 nuevas (en Campana Sudtec estan ON y dieron 0 conversiones en 30 dias)",
+  "geo_idioma": "Chile (2152) + espanol (1003)",
+  "puja": "MAXIMIZE_CONVERSIONS, igual que el resto de la cuenta",
+  "grupos_ENABLED_dentro_de_campana_PAUSED": "correcto: la campana manda, no sirven ningun anuncio"
+ },
+ "por_que_ataca_la_auditoria": "G24 (experiencia de pagina BELOW_AVERAGE) y G03 (grupo General cajon de sastre): cada grupo apunta a SU categoria en vez de /lista-productos/.",
+ "campos_api_aprendidos": {
+  "containsEuPoliticalAdvertising": "OBLIGATORIO al crear campana en v23. Sin el: fieldError REQUIRED. Valor usado: DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING"
+ },
+ "validacion_textos": "script propio conto los caracteres: 15 titulares <=30 y 4 descripciones <=90 por anuncio. Pesco una descripcion de 91 caracteres que se corrigio antes de crear.",
+ "plan_reproducible": "clientes/sudtec/estructura-nueva-03sep2026-plan.py",
+ "no_tocado": "nada de Campana Sudtec ni Competencias"
+}
