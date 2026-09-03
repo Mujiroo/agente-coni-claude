@@ -672,3 +672,38 @@ disparado hoy por puro deslizamiento.
 **El cron del 3-sep se corrigió**: no llevaba escrita la promesa del 1-sep de
 reevaluar `equipo de protección personal`. Se le agregó, con la instrucción de
 juzgarla por **histórico mensual** y de **proponer, no ejecutar**.
+
+## 3-sep-2026 · Los anuncios están sanos (Connie preguntó, msg 652)
+
+Preguntó *«¿pero cómo van los anuncios? ¿están buenos?»* — el creativo, no las
+keywords. Se consultó `ad_group_ad` con métricas de 30 días. **Respuesta: sí, y eso
+es un dato de diagnóstico, no un halago.**
+
+| anuncio | grupo | fuerza | impr | clics | CTR | conv |
+|---|---|---|---|---|---|---|
+| `749580460058` | General | GOOD | 4.464 | 555 | **12,43%** | **96,5** |
+| `821206571976` | General | AVERAGE | 505 | 67 | 13,27% | 10,0 |
+| `798446896209` | Improfor | POOR | 304 | 30 | 9,87% | 6,0 |
+| `821602063409` | Botas | GOOD | 101 | 5 | **4,95%** | 1,0 |
+| `821323439891` | Improfor | POOR | 84 | 13 | 15,48% | 1,0 |
+
+**El anuncio principal solo trae el 84% de las conversiones de la cuenta** (96,5 de
+114,5) con el 81% de las impresiones. La cuenta promedia **12,24% de CTR**.
+
+**Por qué importa para el diagnóstico:** con un CTR así, el mensaje **no** es el
+problema. Refuerza que la causa está en **a qué búsquedas se aparece y a qué precio**
+—la keyword amplia cara—, no en el creativo. Se le dijo en esos términos.
+
+**Todos APPROVED**, ninguno rechazado. Eso **cierra el pendiente del 20-ago** del
+anuncio de Botas que había quedado en `REVIEW_IN_PROGRESS` tras el 403 al robot.
+
+**Los tres peros que se le señalaron, todos sin urgencia:**
+
+1. El anuncio de **Botas** rinde **4,95%** de CTR, menos de la mitad del resto.
+2. Dos de **Improfor** están en fuerza **POOR** — pero **con los 15 títulos puestos**,
+   así que no faltan recursos: los titulares se parecen demasiado entre sí. No
+   confundir «POOR» con «incompleto».
+3. **8 de 14 anuncios llevan 0 impresiones** en 30 días (Cámara Termal, Botas de
+   Bomberos ×2, Hi lift, `Grupo de anuncios 1`, y tres pausados).
+
+**Recomendación dada: no tocar los anuncios.** Lo que mueve la aguja es la keyword.
