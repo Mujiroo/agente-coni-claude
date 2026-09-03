@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-09-03",
+  "informe": "clientes/sudtec/auditoria-03sep2026.md",
+  "motor_puntaje": "clientes/sudtec/auditoria-03sep2026-score.py (reproducible)",
+  "avisado_msgs": [665, 666],
+  "salud": 24, "cobertura": 94,
+  "ventana": "30 dias, 3-ago a 2-sep-2026, America/Santiago, CLP",
+  "por_categoria": {"Anuncios":80,"Extensiones":40,"Medicion":36,"Puja":25,"Terminos":14,"Estructura":14,"Calidad":0},
+  "criticos": [
+    "G46 ventana de conversion de 1 DIA en 'Formulario de contacto - Enviar' (la otra primaria tiene 30)",
+    "G16 77% del gasto de la keyword principal en busquedas no bomberiles",
+    "G24 experiencia de pagina BELOW_AVERAGE en casi todo el gasto alto; ninguna keyword llega a ABOVE_AVERAGE"
+  ],
+  "altos": ["G14 negativas viejas en EXACTA", "G17 amplia sin negativas apretadas",
+            "G03 grupo General cajon de sastre", "G05 sin campana de marca",
+            "G08 una keyword con 61,6% del presupuesto", "G20 QS=1 en improfor",
+            "G39 presupuesto completo con CPA inflado"],
+  "hallazgo_nuevo_de_la_auditoria": "la lista de negativas A NIVEL DE CUENTA existe, esta ENABLED y aplicada, pero tiene member_count = 0. Parece configurada y no hace nada.",
+  "no_verificable_por_api": [
+    "G-CT1 doble conteo: 2 acciones primarias de categoria SUBMIT_LEAD_FORM; hay que mirar el disparo en el sitio",
+    "G-CT2 enlace con GA4"
+  ],
+  "mayor_palanca": "G24. La pagina de destino entra en el Nivel de calidad y el QS define el CPC, que se triplico (270->900). Casi todos los anuncios apuntan a /lista-productos/ generico; solo el de Botas apunta a una categoria real.",
+  "sano_no_romper": "Anuncios 80%: CTR de cuenta 12,24%, todos APPROVED, el principal trae el 84% de las conversiones.",
+  "campos_api_que_NO_existen": ["campaign.start_date", "customer_negative_criterion.keyword.text"],
+  "disciplina_respetada": "no se propone cambio de puja mientras corre el cambio de segmentacion de hoy (bidding-strategies.md)",
+  "no_tocar": "NADA de la auditoria ejecutado. Lo unico aplicado hoy: las 10 negativas aprobadas en msg 660.",
+  "siguiente_propuesto": "subir la ventana de conversion de 1 a 30 dias (reversible, es un campo)"
+}
