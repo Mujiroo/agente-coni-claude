@@ -707,3 +707,51 @@ anuncio de Botas que había quedado en `REVIEW_IN_PROGRESS` tras el 403 al robot
    Bomberos ×2, Hi lift, `Grupo de anuncios 1`, y tres pausados).
 
 **Recomendación dada: no tocar los anuncios.** Lo que mueve la aguja es la keyword.
+
+## 3-sep-2026 · ¿Sigue valiendo la pena el grupo Botas? (Connie, msg 675)
+
+**Respuesta: no se lo gana — pero la conclusión importante es la contraria a la
+obvia.**
+
+### Los números del grupo
+
+Desde su creación el 19-ago: **23 impresiones · 2 clics · 0 conversiones · 818 CLP.**
+
+### Dónde convierten las botas de verdad
+
+Se fue a verificar la premisa antes de opinar, y ahí estaba todo:
+
+| grupo | clics | conversiones | costo | CPA |
+|---|---|---|---|---|
+| **General** — `botas bombero` (amplia) | 132 | **16,8** | 36.835 | **2.191** |
+| `Botas` | 2 | 0 | 818 | — |
+| `Botas de Bomberos` | 0 | 0 | 0 | — |
+| `Grupo de anuncios 1` | 0 | 0 | 0 | — |
+
+**Las botas son de lo mejor de la cuenta. El 100% de sus conversiones sale de
+`General`.** El grupo dedicado no capta nada porque `General` tiene el historial y,
+con `MAXIMIZE_CONVERSIONS`, Google le manda la subasta al grupo que ya sabe que
+convierte.
+
+**Esto ya se intentó forzar y falló:** el 24-ago se pusieron negativas de botas en
+General para empujar el tráfico al grupo Botas; 5 días peor y se revirtió el 27-ago.
+**No repetirlo.**
+
+### Lo propuesto (no ejecutado)
+
+Pausar los **3 grupos dormidos** (`Botas`, `Botas de Bomberos`, y las keywords de
+botas de `Grupo de anuncios 1`) y **dejar `botas bombero` en General intacto**.
+
+**Se le dijo explícitamente que esto NO ahorra plata** —818 CLP en dos semanas— y que
+la ganancia es de orden: dejar de partir los datos de botas en cuatro lugares.
+Prometer un ahorro que no existe habría sido vender humo.
+
+**El reemplazo real ya existe:** el grupo `Botas` de la estructura nueva, con
+`/product-category/epp/botas/` como destino y `botas bombero` dentro.
+
+### Nota metodológica
+
+La consulta de 3 meses (`kw90.json`) **no pedía `metrics.impressions`**, así que el
+script imprimía "0 impresiones" junto a 132 clics — imposible. **Era artefacto de mi
+consulta, no dato.** Las impresiones reales se sacaron de la consulta de agosto que
+sí las pedía. No se le reportó ninguna cifra de impresiones que viniera de ahí.
