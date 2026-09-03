@@ -80,3 +80,35 @@ revisarlo contra estos relojes:
 
 **Nota para mí:** contesté las tres fotos antes de leer `comprar-electronica-huaqiangbei.md`.
 Salió consistente por suerte, no por método. **Leer memory/ antes de responder, no después.**
+
+## Quiso el mismo reloj más barato, estando en Shenzhen (3-sep, msg 704)
+
+Preguntó: *«¿aquí en China venden Sunsky o LightInTheBox? Quiero ese reloj pero más
+barato, estoy en Shenzhen»*.
+
+**El error de la pregunta, dicho con cuidado: ir a buscar esas tiendas es la vuelta
+larga.** Los US$15 que le cité **son** el precio de Huaqiangbei — Sunsky le compra a
+los mismos puestos que ella tiene abajo del hotel ([[shenzhen-connie]]).
+
+- **Sunsky sí existe en Shenzhen**, Futián, `八卦一路614栋8楼`. Pero es **bodega de
+  pedidos online**, no tienda para entrar a mirar.
+- **LightInTheBox** es exportador transfronterizo; no vende dentro de China.
+
+**Lo que sí sirve, y es lo que le mandé:**
+- **龙胜配件城** (*Lóngshèng pèijiàn chéng*) — el mejor dato: su fama es
+  **「批发价做零售」**, precio de mayorista vendiendo de a **una unidad**. Justo lo que
+  ella necesita, porque no va a comprar volumen.
+- **远望数码商城** (*Yuǎnwàng shùmǎ chéng*), `华强北路2014号`, **piso 3** — teléfonos y
+  relojes al por mayor.
+- Frases: `批发价多少钱？` · `一个也能批发价吗？` · `最低多少钱？`
+- **Objetivo:** HT30 a **¥100-150**; HK10 Pro-B a **¥100-120** (retail estaba ¥155).
+
+**Lo que le advertí para no sobrevender:** le van a dar precio de **mayorista**, no de
+**exportación**. Los US$15 de Sunsky son por volumen y del modelo más pelado.
+
+**Regla general que queda:** en Huaqiangbei, `特惠价格` (*tèhuì jiàgé*, "precio de
+oferta") en una tarjeta de mostrador = **precio de turista**. Lo barato está en los
+pisos de accesorios y mayoristas, no en la vitrina de la entrada.
+
+**Dato de horario que importó:** estos mercados **abren cerca de las 10** y cierran
+**18:00-19:00**. Ella preguntó a las 07:33 de China de su **último día** en Shenzhen.
