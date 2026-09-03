@@ -56,3 +56,43 @@ entre algo que funciona y un abanico que no. La acción correcta suele ser
 **Lo que vale para trabajar con ella:** sus objeciones son buenas. Ya van dos veces
 —el histórico mensual el 1-sep, esto el 3-sep— que una pregunta suya desarma una
 propuesta mía. **Cuando pregunte «¿y esto no…?», ir a buscar el dato, no defender.**
+
+## Segunda objeción de Connie, el mismo día (msg 656) — y también tenía razón
+
+Preguntó: *«pero si sale la competencia y hacen clic, es porque la persona sí está
+buscando algo de la competencia que vende lo mismo que Sudtec, ¿no?»*.
+
+**Correcto, y la cuenta YA lo hace a propósito.** Existe la campaña **`Competencias`**
+(`23598502728`) pujando por `improfor`, `fireground`, `maryun`, `cespal talca`,
+`garmendia`. En 30 días: **13.196 CLP → 7 conversiones, CPA 1.885**, cerca de la base
+de 1.675. **La estrategia es válida y rinde.**
+
+**Lo que está mal no es pujar por la competencia, es hacerlo dos veces y sin control:**
+
+| | Competencias | la amplia en la campaña principal |
+|---|---|---|
+| a quién apunta | competidores nombrados uno a uno | 432 términos al azar |
+| concordancia | exacta / frase | amplia |
+| presupuesto | **700**/día (usa el 63%) | **9.100**/día |
+| CPA | **1.885** | **6.841** |
+
+**El hallazgo que lo cierra: la amplia le roba el tráfico a la campaña propia.**
+`maryun` es keyword en `Competencias` y lleva **0 impresiones**, mientras la amplia
+gastó **2.907 CLP** en búsquedas de maryun con **0 conversiones**. La búsqueda que se
+decidió comprar barata y controlada se está comprando cara y a ciegas por el otro lado.
+
+**Verificado contra el catálogo antes de afirmar que son competencia:** Sudtec **no
+vende** Scott, Treck, Firecraft ni Maryun — **0 productos** de cada una. Control con
+marcas que sí vende: Lytos 7, S-GARD 18, Lukas 20. **Ojo: un primer conteo por grep
+dio «3M → 17 productos» y era FALSO POSITIVO**; al mirar los nombres reales no había
+ningún 3M (eran Penkert, Swissguard, S-GARD). Contar coincidencias no es contar
+productos — el mismo error de [[contadores-no-son-envios]].
+
+**Propuesta final, que es mejor que las dos anteriores gracias a sus dos objeciones:**
+negativas **solo en la campaña principal**, para **rutear** esas búsquedas hacia
+`Competencias` en vez de perderlas; más pasar la amplia a **frase**. Nada de bloquear
+tráfico que convierte.
+
+**La regla nueva:** antes de proponer una negativa por «es la competencia», preguntarse
+**si la cuenta ya tiene una campaña que la compra a propósito**. Una negativa global
+apaga una estrategia deliberada; una negativa por campaña **rutea**.
