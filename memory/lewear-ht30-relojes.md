@@ -169,3 +169,29 @@ el **cargador magnético** de cada uno.
 
 **Regla:** cuando pregunta por algo que ya trabajamos y no recuerda el nombre, el nombre
 lo pongo yo desde `memory/`. Devolverle la pregunta es hacerle perder el turno.
+
+## La vitrina que sí encontró: HK11 ULTRA3 / HK11 PRO (4-sep-2026, msg 748, foto)
+
+Antes de esto pidió dos veces frases sueltas en chino (msgs 744 y 746): primero para
+preguntar **dónde** venden relojes, y después, ya dentro del edificio, **en qué piso**.
+La segunda respuesta fue **una sola frase** (`请问，卖智能手表在几楼？` + `请写下来，谢谢。`):
+estando parada preguntándole a alguien, una tarjeta larga no se usa.
+
+La foto: cajas de **HK11 ULTRA3** y **HK11 PRO**, fábrica **华宏 HUAHONG**, marca
+**乔帮主** («el Jefe Jobs», ya identificada arriba), etiqueta **S11** — o sea imitan el
+Apple Watch **Series 11 / Ultra**. Misma familia que los HK10 de ayer, una generación
+más nueva.
+
+**Lo nuevo y útil que salió de esta foja, y que no estaba en el hilo del HK10:** los
+iconos de la caja prometen **AI 大模型**, **AI 翻译** y **responder WeChat**. Eso corre
+contra **servidores chinos** y **muere fuera de China** — es el mismo problema de app de
+[[comprar-electronica-huaqiangbei]] pero por el lado de las *funciones*, no de la
+descarga. Lo que sí le va a servir en Chile: llamada Bluetooth, notificaciones, pasos.
+La app base es **WearFit**, internacional, así que ahí no hay problema.
+
+**Precio que le di:** ancla en el HK10 Pro Max de vitrina (**¥158,8**); como el HK11 es
+más nuevo le van a pedir más. **Techo ¥200**, objetivo **¥130-160** llevando 6.
+
+**No se repitió** la advertencia de mediciones de salud falseadas ni la de Aduana — ya
+se las di el 3-sep. Se agregó solo lo operativo nuevo: que los 6 sean el mismo modelo
+(Ultra3 es la caja grande, Pro la chica).
