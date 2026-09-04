@@ -1,6 +1,6 @@
 ---
 name: coches-y-huevitos-bebe
-description: Lo que le dije a Connie sobre coches Maxi-Cosi, y la trampa de comprar el huevito en China — Chile no acredita la norma china.
+description: Qué coche de bebé le recomendé a Connie para comprar en Chile (Cybex Balios S Lux), con precios reales, y la trampa del huevito chino.
 metadata:
   type: project
 ---
@@ -40,3 +40,37 @@ en China puede ser el mismo con otro nombre.
 
 **Quedó preguntado** si es para comprar allá o encargar en Chile — cambia la
 recomendación. Si dice que compra allá, insistir en la etiqueta del huevito.
+
+## CORRECCIÓN: lo quiere comprar en CHILE, no en China (msg 710)
+
+A los 2 minutos aclaró: *«No no, quiero verlo en Chile, estoy viendo un coche bueno,
+resistente y que se doble fácil»*. **Todo el bloque de la norma china queda de fondo,
+no de consejo** — igual sirve si alguien le regala un huevito traído.
+
+**La tensión que le nombré de entrada:** *resistente* y *que se doble fácil* tiran para
+lados opuestos. Resistente = ruedas grandes y suspensión = pesa. Plegado en 3 segundos
+= liviano = flojo en vereda mala. Hay que elegir dónde ceder.
+
+**Criterio objetivo para "resistente": norma EN 1888** — certifica estructura, frenos y
+estabilidad. La cumplen Cybex, Maxi-Cosi, Nuna, Chicco, Stokke.
+
+**Lo que le recomendé (msg 711), con precios reales de Mini Nuts:**
+
+1. **Cybex Balios S Lux — $599.900** — *la recomendación*. Ruedas grandes y suspensión
+   para vereda chilena, pero se pliega compacto. Travel system.
+2. **Cybex Orfeo — $359.900** — si el plegado manda: **una mano, menos de 3 segundos**.
+3. **GB Qbit Plus All City — $149.900** — mejor precio con marca seria.
+   (Cybex Gazelle S $869.900 solo si piensa en un segundo hijo.)
+
+**Los dos consejos prácticos que más valen:**
+- **Probarlo con UNA mano en la tienda.** «Se dobla fácil» de verdad = cerrarlo con el
+  bebé en el otro brazo. Muchos necesitan dos manos y una rodilla.
+- **Baby Jogger City Mini GT2** es el rey del todoterreno con plegado de una mano, pero
+  en Chile entra por importadores, **sin distribuidor formal**: repuestos y garantía son
+  el problema. Por eso NO va primero.
+
+**Timing:** bebé para enero, no hay apuro. **CyberMonday (octubre)** y **Black Friday
+(noviembre)** bajan bastante estos precios. Si retoma el tema en octubre, recordárselo.
+
+**Quedó preguntado** si va a querer el huevito que se enchufa: si sí, hay que definir
+marca ahora porque chasis y huevito deben ser compatibles.
