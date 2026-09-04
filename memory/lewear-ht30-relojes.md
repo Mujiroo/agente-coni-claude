@@ -146,3 +146,26 @@ importante: `能不能先连接手机试一下？` — **probarlo conectado al t
 argumento**, solo una línea al final sugiriendo modelos o colores distintos. Ella escuchó
 el riesgo y decidió; recordárselo entero habría sido sermón. Ver la lección de no
 acumular precauciones en [[embarazo-connie]].
+
+## Volvió sin recordar el nombre del modelo (4-sep-2026, msg 742, nota de voz)
+
+A las **17:25 de China** (05:25 de Chile, ver [[hora-de-connie-no-la-mia]]) pidió el
+texto en chino para preguntar **si tienen «ese modelo de US$15-20» y a cuánto está al
+por mayor** — pero **no recordaba el nombre**.
+
+**Lo que resolvió el pedido fue la memoria, no una búsqueda:** los de ese rango son el
+**HT30** (US$15,5 en Sunsky) y el **HK10 PRO MAX** (US$12-25). Como no había forma de
+saber cuál de los dos tenía en la cabeza, **la tarjeta nombra los tres** (HT30, HK10 PRO
+MAX, HK10 PRO-B) en vez de preguntarle cuál era: estaba parada en el puesto con el
+mercado por cerrar, y preguntar le costaba un viaje de ida y vuelta.
+
+**Conversión que le sirvió más que el nombre:** US$15-20 = **¥110-145**. Se le dio como
+*precio objetivo*, así reconoce la cifra buena aunque el vendedor cambie el nombre del
+modelo.
+
+La tarjeta reusó lo del msg 721 (6 unidades · `批发价` · `马上付款` como palanca · nada de
+turista) y se le repitió solo lo operativo: probar los 6 conectados al teléfono y exigir
+el **cargador magnético** de cada uno.
+
+**Regla:** cuando pregunta por algo que ya trabajamos y no recuerda el nombre, el nombre
+lo pongo yo desde `memory/`. Devolverle la pregunta es hacerle perder el turno.
