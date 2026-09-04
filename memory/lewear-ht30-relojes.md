@@ -112,3 +112,37 @@ pisos de accesorios y mayoristas, no en la vitrina de la entrada.
 
 **Dato de horario que importó:** estos mercados **abren cerca de las 10** y cierran
 **18:00-19:00**. Ella preguntó a las 07:33 de China de su **último día** en Shenzhen.
+
+## Decidió comprar 6 y pidió el texto en chino (msg 720, nota de voz)
+
+**El audio salió malo** (whisper local, ver [[audios-solo-whisper-local]]): decía
+*«deja listo el texto en Tino… comprar relogias… los obo impresios… que me hagan
+presión por mayor»*. Se interpretó como **«texto en chino… comprar relojes… a bajos
+precios… que me hagan precio por mayor»** y **se le confirmó la interpretación en la
+primera línea** en vez de asumirla.
+
+**Lo que le mandé (msg 721):** una tarjeta para mostrar en el puesto —
+
+```
+你好，这款手表我要6个。
+请给批发价，多少钱一个？
+最低价是多少？
+价格合适我马上付款。
+```
+
+(«quiero 6 de este reloj · deme precio de mayorista, ¿cuánto por unidad? · ¿cuál es el
+mínimo? · si el precio está bien, pago al tiro»)
+
+Más dos frases de regateo (`太贵了，便宜一点我就买6个。` · `别的店更便宜。`) y la más
+importante: `能不能先连接手机试一下？` — **probarlo conectado al teléfono antes de pagar**.
+
+**Decisiones de redacción que valen para la próxima tarjeta:**
+- **Se sacó a propósito «me los llevo a Chile».** Decir que es turista **sube** el precio;
+  la carta que baja el precio es el volumen y el pago inmediato.
+- **«马上付款» (pago al tiro) es la mejor palanca** en Huaqiangbei, más que insistir.
+- Se le dijo **probar los 6, no uno**: en ese volumen sale una fallada y no hay reclamo.
+
+**Sobre la advertencia de Aduana:** ya se la había dado en el msg 698. **No se repitió el
+argumento**, solo una línea al final sugiriendo modelos o colores distintos. Ella escuchó
+el riesgo y decidió; recordárselo entero habría sido sermón. Ver la lección de no
+acumular precauciones en [[embarazo-connie]].
