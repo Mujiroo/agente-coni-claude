@@ -48,7 +48,6 @@
 # Van 10:05 y no 10:00 a proposito: a esa misma hora ya hay otro cron (el cobro de
 # Google Workspace) y asi no se le juntan los dos mensajes en el mismo instante.
 
-0 10 4 9 * | [CRON] Recordatorio (10:00 Chile = 22:00 en China): hoy le DEPOSITAN el deposito a plazo. Tiene que VOLVER A DEPOSITARLO, dejando 200.000 SIN depositar. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con esos dos datos bien claros (volver a depositar + dejar 200.000 fuera). Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 4 9"), commitea y pushea.
 0 11 11 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 11 9"), commitea y pushea.
 0 11 14 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 14 9"), commitea y pushea.
 
