@@ -10,3 +10,4 @@ reinicios; lo que queda solo en el chat, no.
 - [Editar fotos](editar-fotos.md) — sí puedo: Pillow en vendor/ + bin/editar_foto.py; lo generativo no.
 - [凤凰古城](fenghuang-gucheng.md) — qué ver, el bote sí, los 跳岩 y el 血粑鸭 no.
 - [Maletas en China](maletas-china.md) — marcas, precios y por qué el peso vacío manda.
+- [Hong Kong: Casetify y la ruta desde Shenzhen](hong-kong-connie.md) — 9 tiendas; Festival Walk es la que cae en su camino.
