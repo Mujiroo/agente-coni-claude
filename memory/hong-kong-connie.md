@@ -36,3 +36,24 @@ advirtió que para ese día no alcanzaba. Hong Kong está en **UTC+8, igual que 
 que la regla de [[hora-de-connie-no-la-mia]] (Chile +12) sigue valiendo igual.
 
 Fuentes: `casetify.com/visit-us/hk/*`.
+
+## Precios (msg 754, «¿a cuánto están?»)
+
+Rango oficial en HK: **HK$279 a HK$789** según modelo y diseño (**36-100 lucas**).
+Por tipo: **Impact Case HK$500-550** · **Bounce HK$620** · **Ultra Bounce HK$780**;
+las colaboraciones (Sanrio, Disney) van arriba del rango.
+
+**El sitio no se deja leer:** `casetify.com` devuelve **402** a WebFetch y por `curl` la
+página llega renderizada por JavaScript y **geolocalizada en USD** — las cookies de país
+no la cambian. Las cifras salieron de la **lista en USD** (Impact desde US$65, Bounce
+US$80, Ultra Bounce US$100) convertidas al **peg HK$7,8 por dólar**, y cuadran con el
+techo de HK$789 reportado por prensa de Hong Kong. **No perder tiempo scrapeando ese
+sitio la próxima vez.**
+
+**Lo que le dije, más allá del número:** en tienda **cuesta lo mismo que online**, así
+que lo que compra yendo es la **impresión personalizada en el local** y los **diseños
+exclusivos de Hong Kong**. En HK **no hay IVA**: la etiqueta es el precio final.
+
+**Y una línea de perspectiva**, porque venía de regatear relojes a ¥130-160: una carcasa
+le sale **más que tres** de esos relojes. No es un reproche —es su plata— pero el dato le
+sirve para decidir en el momento. Ver [[lewear-ht30-relojes]].
