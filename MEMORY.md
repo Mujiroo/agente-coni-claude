@@ -24,3 +24,4 @@
 - [Las pulseras de 鸡血藤](memory/jixueteng-pulseras.md) — puesta sí, tomada no por el embarazo; y el cartel de la tienda era marketing.
 - [Shenzhen](shenzhen-connie.md) — los 3 días de Connie en Shenzhen: qué le recomendé y el aviso de la visa de una sola entrada
 - [Lewear HT30 y los clones de Huaqiangbei](memory/lewear-ht30-relojes.md) — la marca existe pero el reloj es white-label; y los clones falsean las mediciones de salud.
+- [Coches y huevitos de bebé](memory/coches-y-huevitos-bebe.md) — Maxi-Cosi Lara² es el mejor valorado que se dobla; y el huevito chino (CCC) no se acredita en Chile.
