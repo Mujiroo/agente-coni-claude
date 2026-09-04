@@ -74,3 +74,34 @@ estabilidad. La cumplen Cybex, Maxi-Cosi, Nuna, Chicco, Stokke.
 
 **Quedó preguntado** si va a querer el huevito que se enchufa: si sí, hay que definir
 marca ahora porque chasis y huevito deben ser compatibles.
+
+## Sí quiere el huevito que se enchufa (msg 712) — el sistema completo
+
+Respondió *«Si que se enchufe el huevo»*, así que va por **travel system Cybex**.
+Lo que le armé (msg 713), con precios reales de Mini Nuts:
+
+**Recomendada — total aprox. $900.000**
+· Coche **Balios S Lux** $599.900 · Huevito **Aton G + base isofix** $299.900
+· **Adaptadores aparte**
+
+**Premium — total aprox. $1.220.000**
+· Mismo coche + **Cloud T + base T**, desde $619.900
+
+**La diferencia entre los dos huevitos, que es lo que decide:** el **Cloud T se reclina
+plano** fuera del auto y **gira** sobre la base. Importa en viajes largos — un recién
+nacido no debería pasar horas semi-sentado. Para ciudad, el **Aton G sobra**.
+
+### Los tres avisos que valen más que la lista
+
+1. **Comprar el pack armado, no las piezas.** El travel system (coche + huevito + base
+   + adaptadores) sale bastante menos que juntar cada cosa.
+2. **Los adaptadores se venden APARTE** — el olvido clásico; sin ellos el huevito no se
+   enchufa. Los del Balios sirven para Aton, Aton S2, Aton G, Cloud y Cloud Z2.
+3. **Hay que revisar si su auto tiene ISOFIX.** La base es lo que hace útil el sistema
+   (clic y sale). **Le pregunté qué auto tienen y quedó sin responder** — retomarlo.
+
+**Regla:** quedarse en una sola marca; huevito Cybex a chasis Cybex. Mezclar marcas es
+donde se cae el sistema. Todo lo anterior está **acreditado por CONASET**.
+
+**Pendiente:** qué auto tienen (ISOFIX), y recordarle en **octubre/noviembre** lo del
+CyberMonday/Black Friday antes de que compre a precio lista.
