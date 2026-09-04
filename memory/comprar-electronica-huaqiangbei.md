@@ -71,3 +71,29 @@ sospechosamente baratos, los deje. Se le preguntó cuánto le piden.
 
 **Argumento de venta que le sirvió a ella en particular:** son de oído abierto, así que
 **va a poder oír a la guagua** con los audífonos puestos ([[embarazo-connie]]).
+
+## El baby monitor con pantalla propia (4-sep-2026, msg 750, foto)
+
+Mandó la foto de un **WiFi Baby Monitor** — cámara con carita de oso + **pantalla
+dedicada de 5" 1080P**, app **Tuya** — preguntando *«este me sale 50 lucas, ¿vale la
+pena?»*.
+
+**Por qué la respuesta fue «el producto sí, el precio no»:**
+
+- **Cierra el reparo que yo mismo le había dado** con la CINMOORE C2LU (msg 638): esa no
+  tenía pantalla y moría si se caía el WiFi. Esta **sí tiene monitor propio**. Responder
+  esto sin acordarme de aquello habría sido incoherente — el hilo del cliente es uno solo.
+- **Tuya pasa el criterio de app** de esta carpeta con holgura: es internacional,
+  multilenguaje y se baja desde Chile sin trucos.
+- **El precio es lo que falla.** 50 lucas ≈ **¥350** ≈ US$50, y el equivalente de 5" en
+  **Amazon EE.UU. está en US$40-60**. Regla de la casa aplicada: si el precio de
+  Huaqiangbei empata con Amazon, no es precio de Huaqiangbei. Contraoferta **¥250**,
+  techo **¥300**.
+
+**La pregunta que le di y que vale para cualquier monitor con pantalla:**
+`不连WiFi，屏幕也能看吗？` — *si la pantalla necesita router, el aparato pierde justo la
+ventaja por la que se paga de más*. Muchos «monitores» Tuya son en realidad la cámara más
+una pantalla que también sale a internet.
+
+**Tipo de cambio que usé** (calibrado con el caso Shokz de arriba): **US$1 ≈ ¥7,1 ≈
+$1.000 CLP**.
