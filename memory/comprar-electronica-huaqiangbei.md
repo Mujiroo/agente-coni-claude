@@ -44,3 +44,30 @@ Los dos reparos que le di:
 
 **Alternativas que le nombré**, disponibles en el mismo mercado y con app
 internacional: **TP-Link Tapo C210 / C220** o **Imou**.
+
+## El caso inverso: cuando la marca SÍ es real (3-sep-2026, msg 738)
+
+Connie mandó la foto de un mostrador de **Shokz OpenDots Air** en Huaqiangbei. Es el
+**opuesto exacto** del hilo de los relojes ([[lewear-ht30-relojes]]) y por eso el consejo
+se invierte:
+
+- **Shokz (韶音, *Sháo yīn*) es marca real**: 深圳市韶音科技, de Shenzhen, desde **2011**,
+  líder mundial en audio de oído abierto. Es la marca que los demás copian.
+- **OpenDots Air**: 9 h de uso / 36 h con estuche · Bluetooth 6.1 · IP54 ·
+  **US$129,95** (~¥920 / ~130 mil CLP). TechRadar: «los mejores de clip para la mayoría».
+
+### La regla que se agrega al criterio de esta carpeta
+
+**Cuando el producto es genérico, lo barato es la oportunidad. Cuando la marca es real,
+lo barato es la alarma.**
+
+- Con los relojes HT30/HK10 no había nada original que copiar: comprar barato era ganar.
+- Con Shokz sí lo hay, y Huaqiangbei está lleno de falsos. **Muy por debajo de ¥900 =
+  falso.** Se compra en mostrador oficial y se verifica el modelo en `shokz.com.cn`.
+
+**Cómo se lo dije:** que si son originales y a precio, es **la mejor compra que había
+mirado en todo el día**, muy por encima de cualquier reloj; y que si están
+sospechosamente baratos, los deje. Se le preguntó cuánto le piden.
+
+**Argumento de venta que le sirvió a ella en particular:** son de oído abierto, así que
+**va a poder oír a la guagua** con los audífonos puestos ([[embarazo-connie]]).
