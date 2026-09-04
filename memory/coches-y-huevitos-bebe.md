@@ -105,3 +105,36 @@ donde se cae el sistema. Todo lo anterior está **acreditado por CONASET**.
 
 **Pendiente:** qué auto tienen (ISOFIX), y recordarle en **octubre/noviembre** lo del
 CyberMonday/Black Friday antes de que compre a precio lista.
+
+## El presupuesto real: $350.000 máximo (msg 714)
+
+Después de que le pasé el Cybex de ~$900.000 dijo: *«¿No hay algo más barato? Algo con
+350 lucas max»*. **Ese es su presupuesto de verdad para coche + huevito + base**, y es
+el dato que ordena todo lo anterior. La lista Cybex quedó fuera de rango.
+
+**Lo bueno: en ese tramo se vende justamente en pack** (coche + huevito + base), que es
+lo que ella necesita porque quiere que el huevito se enchufe.
+
+**Lo que le recomendé (msg 715), precios reales de Infanti Chile y Bebesit:**
+
+1. **Infanti New I-Giro 2G — $219.990** — *la recomendación*. **Base ISOFIX** y huevito
+   que **gira 360°**, la misma gracia que en Cybex cuesta $620.000. Le sobran $130.000.
+2. **Infanti Epic 6G** $279.990 · **Romanzo** $249.990 · **Bebesit Isofix Sunset
+   Premium** $197.990 · **Safety 1st Grow And Go Alloy** $179.990 (mismo grupo que
+   Maxi-Cosi) · **Infanti Pompeya** $139.990.
+3. **Se pasa poco y vale nombrarlo: Maxi-Cosi Eva 3 + CabrioFix i-Size — $399.990.**
+   $50.000 sobre el tope, pero es Maxi-Cosi real con huevito **i-Size**.
+
+**Las dos exigencias que le dejé, valgan lo que valgan:**
+- **Base ISOFIX incluida**, no solo el huevito. Sin base hay que amarrar con cinturón
+  cada vez, y eso es lo que hace que la gente deje de usarlo.
+- **Huevito en la lista de CONASET.** No negociable.
+
+**Y le dije derecho qué pierde**, sin maquillarlo: a ese precio se va la **resistencia**
+que ella misma pidió al principio — suspensión, ruedas y materiales más simples, se nota
+a los dos años. **La seguridad NO se va**: la garantiza la acreditación. Se acorta la
+vida útil del coche, no la protección del bebé.
+
+**Nota de método:** le pasé primero una lista de ~$900.000 sin haberle preguntado el
+presupuesto. Con el bebé para enero y un solo sueldo en juego, **preguntar el tope antes
+de recomendar** habría ahorrado dos vueltas. Vale para regalos, muebles y viajes también.
