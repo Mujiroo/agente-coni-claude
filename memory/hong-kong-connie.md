@@ -282,3 +282,25 @@ está despejado, porque la ficha dice **«no se admiten cancelaciones»** y mañ
 **Y una resta honesta:** el «consumo ilimitado de bebidas» que la oferta destaca **vale
 poco para ella**, porque la gracia de eso suele ser el alcohol. Al valorar una oferta,
 descontar los beneficios que en su caso no aplican.
+
+### Alipay le falla en Hong Kong (msg 786)
+
+**No era su cuenta: Hong Kong es otro circuito de pagos.** El Alipay del continente solo
+funciona en los comercios adheridos al esquema transfronterizo —cadenas grandes y poco
+más—, y **AlipayHK es una app aparte** que exige teléfono e identidad de Hong Kong. Además
+**Hong Kong no vive del pago con teléfono** como el continente.
+
+**Lo que sí sirve, y es lo que le mandé:**
+- **Octopus (八達通)** — metro, buses, Star Ferry, 7-Eleven, supermercados y muchos
+  restoranes. Se compra en el **mostrador de atención del metro**, que tiene **abajo de su
+  hotel** en Mong Kok East. **HK$150 = $50 de depósito reembolsable + $100 de saldo**; se
+  recarga en efectivo.
+- **Efectivo en HKD** para el Ladies Market, los puestos y muchos taxis, que son **solo
+  efectivo**. Visa/Mastercard para malls y restoranes.
+
+**Se le dijo que la sacara HOY antes de salir**, porque la necesitaba esa misma noche para
+el metro y el Star Ferry. **Una respuesta de pagos sin el «cuándo» habría llegado tarde.**
+
+**Regla general:** cuando algo que le funcionaba en el continente falla en Hong Kong, la
+causa por defecto es **que son dos sistemas distintos** (pagos, enchufes, moneda, SIM), no
+que su cuenta o su aparato estén malos. Ver el enchufe británico más arriba.
