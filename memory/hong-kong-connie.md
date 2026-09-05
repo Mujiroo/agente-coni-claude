@@ -219,3 +219,24 @@ la ofrecen.
 
 **Quedó preguntado si va a pasar por Shanghái** — si va, le preparo dirección y frases.
 No lo sé y no lo supuse.
+
+### Volvió a pedir el plan, ya con hotel conocido (msg 778, 16:06 de HK del sábado)
+
+Descartó Shanghái y pidió *«dime mejor qué hacer aquí»*. **No se le repitió el plan del
+msg 759:** ya eran las 16:06 del sábado y el plan genérico de dos días había dejado de
+servir. Se rehízo **con horas** y anclado en el hotel:
+
+- **Hoy sábado:** 18:00 metro a Tsim Sha Tsui · 19:00 **Star Ferry** al atardecer (HK$6) ·
+  20:00 **Symphony of Lights** · cena.
+- **Domingo:** temprano **Mercado de las Flores** y **Jardín de los Pájaros** a 8 min a pie
+  · si arrecia la lluvia, **M+** · tarde **Ladies Market** y **MOKO** bajo el hotel.
+- **Cerrar cada día en la piscina del piso 8**, por las piernas.
+
+**El criterio que ordenó el plan fue el pronóstico, no el gusto:** hoy despejado y mañana
+con chubascos, así que **lo de afuera va hoy** y lo bajo techo queda para el domingo.
+Decírselo con esa razón explícita vale más que la lista.
+
+**Regla:** un plan de viaje se arma sobre **la hora que es allá y lo que queda del día**,
+no sobre los días nominales. A las 16:06 el «día 1» ya no existe.
+
+Quedó ofrecido comprimirlo todo a esta noche si se va el domingo temprano.
