@@ -370,3 +370,43 @@ de la pieza.
 
 **Regla:** cuando fotografía algo del hotel y pregunta «¿por qué dice esto?», la respuesta
 completa incluye **qué NO hay que enchufar/hacer ahí**, no solo la explicación del cartel.
+
+### La noche del crucero, en vivo por el chat (msgs 800-811, 5-sep)
+
+**Fue una conversación de navegación en terreno, no de planificación**, y eso cambia el
+tipo de respuesta: mensajes cortos, la respuesta primero, y siempre una **referencia que
+ella pueda verificar sin mí**.
+
+Lo que preguntó, en orden, y lo que resultó útil:
+
+- **«¿Es aquí donde sale el crucero?»** con el mapa del **Star Ferry Terminal**. No era:
+  el crucero sale del **Muelle Público 3/4**, pegado al del Star Ferry. **Lo que sirvió
+  fue el truco de los números:** los muelles están numerados seguidos en el mismo paseo
+  —**1 y 2 = Star Ferry, 3 y 4 = público**—, así que «sigue los números» funciona sin
+  depender de mi sentido de orientación. Se le dio además la referencia de sobrepaso: si
+  llega al Centro Cultural, se pasó.
+- **«Estoy dentro de Mong Kok East, dónde está Hung Hom»** → 1 parada al sur. **El dato
+  que evitaba el error caro: tomar el andén de Admiralty (金鐘), NO el de Lo Wu / Lok Ma
+  Chau, que la devuelve hacia Shenzhen.** Después trasbordo a Tuen Ma Line dirección Tuen
+  Mun hasta East Tsim Sha Tsui.
+- **«En la L, ¿cuál? Hay de la 2 a la 6»** → **L6** (Star Ferry / Torre del Reloj), con
+  L5 como respaldo. **Y lo que de verdad la dejó tranquila: de la L4 a la L6 salen todas
+  al mismo sector, no hay forma de quedar lejos.** Cuando está apurada, decirle que el
+  error no le va a costar caro vale tanto como la respuesta exacta.
+- **«¿A qué hora cierra el metro?»** → ~**01:00**, últimos trenes 00:00-00:30, y el
+  letrero **«Last train»** del andén como fuente que no soy yo. Taxi como plan B.
+- **«Quiero volver al hotel ahora»** (21:02) → **se le recomendó taxi, no metro**: 22
+  semanas, todo el día de pie, HK$50-70. Se le pasó el nombre del hotel en chino para
+  mostrarle al chofer: `帝京酒店，太子道西193號` (*Royal Plaza Hotel, «dai ging jau dim»*).
+  El metro quedó como alternativa, con el detalle que más pesa de noche: llega **dentro
+  de la estación** y sube al hotel sin salir a la calle.
+
+**La corrección de ella, y la lección:** después de darle salida y ruta le dije «desde
+ahí el Star Ferry te queda al frente» y respondió **«no quiero Star Ferry, quiero el
+crucero»**. El Star Ferry era MI plan, de la noche anterior; ella ya lo había soltado.
+**Cuando está ejecutando, contestar exactamente lo que preguntó y no arrastrar el plan
+que yo armé antes.** Se corrigió sin insistir ni justificar.
+
+**Regla operativa que quedó:** en consultas de ruta en vivo, dar (1) la respuesta en la
+primera línea, (2) una seña física verificable —número de muelle, letrero, nombre en
+chino—, y (3) el margen de tiempo, para que sepa si puede caminar tranquila o apurarse.
