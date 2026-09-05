@@ -240,3 +240,25 @@ Decírselo con esa razón explícita vale más que la lista.
 no sobre los días nominales. A las 16:06 el «día 1» ya no existe.
 
 Quedó ofrecido comprimirlo todo a esta noche si se va el domingo temprano.
+
+### Se va el martes, no el domingo (msg 780) — y eso reabrió el Buda
+
+Dijo «me voy 2 días» pero en realidad tiene **hoy sábado, domingo, lunes y la mañana del
+martes**. **Preguntar la fecha de salida antes de planificar, no después:** dos mensajes
+de plan se armaron sobre un supuesto equivocado.
+
+**Consecuencia principal, y se le dijo como corrección explícita:** mi reparo al **Buda
+Grande** era que se comía uno de sus dos días. **Con el lunes libre ese reparo se cae**, y
+el Buda entra. Calza doble porque **el M+ cierra los lunes** (verificado: abre martes a
+domingo, 10:00-18:00), así que el lunes no servía para museo de todos modos.
+
+**El plan final:**
+- **Sábado:** Star Ferry al atardecer + Symphony of Lights. *Su noche más despejada.*
+- **Domingo (lluvia):** Mercado de las Flores temprano · **M+** a mediodía · Ladies Market.
+- **Lunes:** **Ngong Ping y el Buda**, día completo, teleférico reservado la noche antes.
+- **Martes:** el **Peak**, porque es el **único día despejado que le queda** y esa vista sin
+  cielo limpio no vale nada.
+
+**El criterio que ordenó los cuatro días fue el pronóstico cruzado con los días de cierre
+de cada lugar**, no el interés de los panoramas. Quedó preguntada **la hora de salida del
+martes** para saber si el Peak alcanza.
