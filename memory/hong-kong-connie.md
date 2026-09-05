@@ -262,3 +262,23 @@ domingo, 10:00-18:00), así que el lunes no servía para museo de todos modos.
 **El criterio que ordenó los cuatro días fue el pronóstico cruzado con los días de cierre
 de cada lugar**, no el interés de los panoramas. Quedó preguntada **la hora de salida del
 martes** para saber si el Peak alcanza.
+
+### Confundió el Star Ferry con un crucero turístico (msg 784, foto)
+
+Mandó la ficha de un **crucero Wing On** por la bahía, **US$15 (~14 lucas)**, preguntando
+si era ese. **No lo era:** el Star Ferry es el ferry verde y blanco de línea, **HK$6,5**
+(~$800), que cruza ahí hace más de 100 años.
+
+**Pero no se descartó el crucero, y esa fue la parte útil de la respuesta.** Si su salida
+es la de las **20:00**, ve el **Symphony of Lights desde el medio de la bahía y sentada**,
+en vez de parada y apretada en el malecón. Con sus piernas hinchadas
+([[embarazo-connie]]) eso **justifica las 14 lucas**. Se le dijo que hiciera **las dos
+cosas**.
+
+**Las tres verificaciones que se le pidieron antes de reservar:** que la salida sea la de
+las 20:00 y no un paseo diurno · de qué muelle sale · y que lo reserve para **hoy**, que
+está despejado, porque la ficha dice **«no se admiten cancelaciones»** y mañana llueve.
+
+**Y una resta honesta:** el «consumo ilimitado de bebidas» que la oferta destaca **vale
+poco para ella**, porque la gracia de eso suele ser el alcohol. Al valorar una oferta,
+descontar los beneficios que en su caso no aplican.
