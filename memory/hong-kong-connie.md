@@ -198,3 +198,24 @@ tomar el tren que dice **Lo Wu (羅湖)**, no el de **Lok Ma Chau**, que deja en
 y lejos del mall.
 
 Y como es su ruta de vuelta a Shenzhen igual, **no le cuesta ningún día de Hong Kong**.
+
+### ¿Hong Kong o Shanghái para réplicas? (msg 776)
+
+**Respuesta: Shanghái le gana a Hong Kong, pero ninguna le gana a Luohu.** El ranking que
+le di, con el motivo y no solo el orden:
+
+1. **Shenzhen (Luohu)** — **Guangdong es donde se fabrica**: compra en el origen.
+2. **Shanghái, AP Plaza** — bajo el metro de *Science & Technology Museum*,
+   `世纪大道2002号`, 10:00-20:00. Sigue siendo el más grande, **pero está de capa caída**:
+   lo bueno ya no está, quedó calidad más baja y los vendedores andan cautos por las
+   fiscalizaciones (verificado, dato de 2026 — no repetir la fama vieja del lugar).
+3. **Hong Kong** — poco y caro.
+
+**El dato que sirve en las tres y que ella no iba a saber:** *lo que está a la vista es lo
+malo*. La calidad buena está en otro piso o en una pieza atrás y **hay que pedirla**; no
+la ofrecen.
+
+**Regateo:** Shanghái abrir en **10%** y cerrar entre **25-40%**; Luohu, **20%**.
+
+**Quedó preguntado si va a pasar por Shanghái** — si va, le preparo dirección y frases.
+No lo sé y no lo supuse.
