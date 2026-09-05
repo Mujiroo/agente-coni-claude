@@ -51,6 +51,15 @@
 0 11 11 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que ENVIAR LA BOLETA DE SUDTEC. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Ofrecele ayuda si necesita algun dato del sitio o de los pedidos. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 11 9"), commitea y pushea.
 0 11 14 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy hay DOS cosas. (1) NICO tiene que ir a buscar el medicamento EUTIROX. (2) Ella tiene que PEDIR HORA para la ECO en Integramedica. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 14 9"), commitea y pushea.
 
+# --- DEPOSITOS DEL 17-SEP (pedido por Connie 5-sep-2026, msg 766) ---
+# Pidio recordatorio para DEPOSITAR EN RACIONAL y EN APV el 17.
+# HORA: 11:00 de Chile = 22:00 en China/Hong Kong (Chile ya en horario de verano desde
+# el 6-sep, UTC-3). Verificado con zoneinfo, no a ojo. Mismo criterio que los demas
+# recordatorios del viaje: le llega de noche a ella, cuando la jornada chilena abre.
+# Ella vuelve a Chile el 18-sep, asi que el 17 todavia esta afuera.
+# QUEDO PREGUNTADO si quiere que se repita todos los meses; hoy es de una sola vez.
+0 11 17 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que DEPOSITAR en RACIONAL y en el APV. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 17 9"), commitea y pushea.
+
 
 # --- VIGILANCIA DE LOS CAMBIOS DEL 19-AGO (autorizado por Connie, msg 187) ---
 # Ella viaja el 21-ago y no va a estar mirando. Autorizo explicitamente revertir:
