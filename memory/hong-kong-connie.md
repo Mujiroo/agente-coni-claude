@@ -113,3 +113,32 @@ de fin de semana, temprano, y que suba los escalones solo si el cuerpo se lo pid
 advertencia de los escalones, que era lo llamativo pero lo menos cierto, y el argumento
 de verdad —medio día de los dos que tiene— quedó en segundo plano. Ella repreguntó
 justamente por el pedazo débil.
+
+## Dónde se aloja: Royal Plaza Hotel, Mong Kok (msg 768, 5-sep-2026)
+
+**Royal Plaza Hotel, 193 Prince Edward Road West, Mong Kok.** Preguntó si estaban
+«arriba o al lado de un mall».
+
+**Arriba, y de dos cosas a la vez:** el hotel está **encima de MOKO** (+200 tiendas) y
+**encima de la estación Mong Kok East**, con acceso techado a ambos. Es de Sun Hung Kai,
+abrió en 1997.
+
+**El hallazgo que valía el mensaje:** la tienda **Casetify** que le pasé el 4-sep como
+«MOKO, Shop M22, piso MTR» **está en el mall de su propio hotel** — la dirección de esa
+tienda es literalmente **193 Prince Edward Rd W**, la misma del hotel. Le dije que se
+olvidara de Festival Walk. *Salió porque relacioné la dirección que ella mandó con la
+lista que yo mismo había armado el día anterior; si no releo mi propia respuesta, se
+pasa.*
+
+**Lo demás que se sigue de la ubicación:**
+- Su estación es de la **East Rail**, la misma línea del borde con Shenzhen, y
+  **Kowloon Tong está a una parada**.
+- **Mercado de las Flores** y **Jardín de los Pájaros** a ~8 min a pie, por Prince Edward
+  Road West, **sin escaleras**. **Ladies Market** a ~10 min. Tsim Sha Tsui a ~15 min en
+  metro.
+- **Piscina temperada de 40 m al aire libre en el piso 8** — se lo destaqué por encima
+  del resto: con los pies hinchados ([[embarazo-connie]]) flotar al final del día es lo
+  que mejor le va a hacer. **Buscar siempre el dato del hotel que sirva a su estado, no
+  el que luce.**
+
+Quedó ofrecido reordenarle los dos días saliendo desde el hotel.
