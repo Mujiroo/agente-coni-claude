@@ -161,3 +161,24 @@ conviene tenerla a mano: **el lugar barato para un genérico no es el lugar bara
 marca**.
 
 Se le sugirió ir cerca de las **18:00**: baja el calor y ya están todos los puestos.
+
+### Quería ropa de réplica (msg 772)
+
+**Hong Kong no es el lugar y se lo dije derecho:** en el Ladies Market hay algo, de mala
+calidad y caro, porque HK persigue la falsificación.
+
+**El lugar está en su camino de vuelta: 罗湖商业城 (Luohu Commercial City)** — 5 pisos de
+réplicas (ropa, carteras, relojes, zapatillas) **pegado al control de inmigración de
+Lo Wu**, del lado de Shenzhen. Lleva 30 años y es donde compra la propia gente de Hong
+Kong. Tiene **sastres que copian una prenda a medida**, y **hablan inglés**, así que ahí
+no necesita tarjetas en chino.
+
+**El detalle que hace que el dato sirva:** tiene que **volver cruzando por Lo Wu (罗湖)**,
+no por Futián ni Lok Ma Chau — el mall está pegado a ese paso y no a los otros. Un dato
+de compras sin la condición de ruta no habría servido de nada.
+
+**Regateo ahí: partir en el 20%**, bastante más agresivo que en HK.
+
+**Sobre Aduana:** solo **una línea** al final, sin repetir el argumento completo que ya se
+le dio el 3-sep por los relojes. Misma política de no acumular precauciones de
+[[lewear-ht30-relojes]].
