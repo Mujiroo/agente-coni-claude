@@ -182,3 +182,19 @@ de compras sin la condición de ruta no habría servido de nada.
 **Sobre Aduana:** solo **una línea** al final, sin repetir el argumento completo que ya se
 le dio el 3-sep por los relojes. Misma política de no acumular precauciones de
 [[lewear-ht30-relojes]].
+
+### Dónde queda exactamente Luohu Commercial City (msg 774)
+
+**Dirección:** `深圳市罗湖区和平路 罗湖商业城` — Heping Road, Luohu, **pegado al 罗湖口岸
+(paso de Lo Wu) y a la Estación de Tren de Shenzhen**. Se sale de inmigración y está al
+frente. Abre **10:00-22:00**; el paso fronterizo, hasta medianoche.
+
+**Lo que convirtió esto en una respuesta buena:** la estación que tiene **debajo del
+hotel**, Mong Kok East, es de la **East Rail Line**, y esa línea **termina en Lo Wu** —
+**~40 minutos directos, sin transbordos**, desde su propia puerta.
+
+**La advertencia que evita el error:** en **Sheung Shui la línea se divide**. Hay que
+tomar el tren que dice **Lo Wu (羅湖)**, no el de **Lok Ma Chau**, que deja en el otro paso
+y lejos del mall.
+
+Y como es su ruta de vuelta a Shenzhen igual, **no le cuesta ningún día de Hong Kong**.
