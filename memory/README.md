@@ -11,3 +11,4 @@ reinicios; lo que queda solo en el chat, no.
 - [凤凰古城](fenghuang-gucheng.md) — qué ver, el bote sí, los 跳岩 y el 血粑鸭 no.
 - [Maletas en China](maletas-china.md) — marcas, precios y por qué el peso vacío manda.
 - [Hong Kong: Casetify y la ruta desde Shenzhen](hong-kong-connie.md) — 9 tiendas; Festival Walk es la que cae en su camino.
+- [Depósito a plazo: ya está en Consorcio](deposito-a-plazo-connie.md) — es de los mejores; un día fuera cuesta más que un mes de diferencia de tasa.
