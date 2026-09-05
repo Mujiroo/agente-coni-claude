@@ -142,3 +142,22 @@ pasa.*
   el que luce.**
 
 Quedó ofrecido reordenarle los dos días saliendo desde el hotel.
+
+### Ferias baratas en Mong Kok (msg 770)
+
+Todo a pie desde el hotel: **Ladies Market** (Tung Choi St, 10 min, hasta 23:30) ·
+**Fa Yuen Street**, la de al lado y **más barata porque es la de los locales** ·
+**Sneaker Street** · **Temple Street**, nocturno, parte 18:00, dos paradas de metro.
+Regateo: **ofrecer el 40%**, efectivo, y caminar si dicen que no.
+
+**Lo que hacía falta decir, y es lo que da valor a la respuesta:** viene llegando de
+**Huaqiangbei**, así que estas ferias le venden **la misma mercadería china que acaba de
+ver, pero más cara** — allá estaba en la fábrica, aquí en la reventa. **En Hong Kong lo
+barato es lo opuesto al mercado callejero:** sin IVA, lo que conviene son las **marcas
+reales** (cosméticos en Sasa/Bonjour, farmacia en Mannings, electrónica original).
+
+Es la misma regla del caso Shokz de [[comprar-electronica-huaqiangbei]] leída al revés, y
+conviene tenerla a mano: **el lugar barato para un genérico no es el lugar barato para una
+marca**.
+
+Se le sugirió ir cerca de las **18:00**: baja el calor y ya están todos los puestos.
