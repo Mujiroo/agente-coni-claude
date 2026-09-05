@@ -51,3 +51,27 @@ descartaba el cambio.
   cifras salían ~7% altas: sirve para «¿me conviene?», no para cuadrar plata.
 
 Fuentes del ranking: chocale.cl (rankings de agosto 2026), rankia.cl.
+
+## ¿Pesos o UF? (msg 764, 5-sep-2026)
+
+**Respuesta: pesos**, y lo que decidió no fue la tasa sino **el plazo**.
+
+**Los números que se le dieron:**
+- **Pesos**: 0,39% mensual = **~4,8% anual**, fijo y conocido desde el día uno.
+- **UF**: paga inflación + tasa real. La UF subió **3,65%** en 12 meses
+  (**$39.440,03** el 5-sep-2025 → **$40.880,36** el 5-sep-2026).
+- **Van casi empatados**: en pesos gana ~**1,1% real**. Se le dio ese número como
+  **punto de equilibrio** — si el DAP en UF le ofrece una tasa real bajo 1,1% anual,
+  pierde. Así puede decidir sola frente a la pantalla sin volver a preguntarme.
+
+**El dato que zanjó la pregunta, verificado en la norma del Banco Central (Compendio de
+Normas Financieras III.B.1):** los depósitos **reajustables (UF) exigen mínimo 90 días
+corridos**; los **no reajustables, 7 días**. Ella renueva **mes a mes** y tiene **guagua
+en enero de 2027** ([[embarazo-connie]]): amarrar la plata 3 meses por centésimas no
+compensa.
+
+**Cuándo sí le convendría la UF, que se lo dejé dicho:** cuando deje plata quieta 6 meses
+o un año y no la necesite. Hoy la inflación está baja y la tasa en pesos ya la cubre.
+
+**Método que vale repetir:** la UF histórica se saca de `mindicador.cl/api/uf/DD-MM-AAAA`,
+así la inflación anual se **mide** en vez de citarla de memoria.
