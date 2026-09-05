@@ -88,3 +88,28 @@ no hay ninguno, que fue el caso: **sin señal de tifón**). La página `hko.gov.
 NO sirve: llega llena de CSS y no se puede leer.
 
 Quedó ofrecido reordenarle el plan por cercanía si dice dónde se aloja.
+
+### Repreguntó por los escalones del Buda (msg 760) — y tenía razón en repreguntar
+
+*«¿pero para el Buda hay que subir todos esos escalones?»*. **Mi advertencia estaba mal
+enfocada y se lo dije:** los **268 escalones** suben al **pódium**, pero el Buda mide
+**34 m** y se ve completo desde la explanada y el monasterio — **para verlo no hay que
+subir ninguno**. Además vienen **por tramos con descansos**, y a las 22 semanas subir
+escaleras no está prohibido: lo pesado es hacerlo al sol con 32° y humedad.
+
+**Dato verificado:** existe un camino de vehículos hasta un estacionamiento bajo el
+pódium, con rampa, **pero solo para vehículos autorizados — los taxis no entran**. No es
+una opción contratable, así que no sirve como plan B.
+
+**Lo que sí sostenía mi reparo, y es lo que le dije:** el problema no eran los escalones
+sino **el día completo** — metro a Tung Chung + teleférico de 25 min por lado + fila +
+vuelta. Con 2 días, el Buda **es uno de los dos días**.
+
+**Cómo se cerró, sin quitarle la decisión:** si le tinca igual, que vaya el **domingo**
+(que llueve y el plan de ciudad se cae), **reservando el teleférico online** por la fila
+de fin de semana, temprano, y que suba los escalones solo si el cuerpo se lo pide.
+
+**Lección para mí:** al desaconsejar algo, **decir cuál es el costo real**. Yo colgué la
+advertencia de los escalones, que era lo llamativo pero lo menos cierto, y el argumento
+de verdad —medio día de los dos que tiene— quedó en segundo plano. Ella repreguntó
+justamente por el pedazo débil.
