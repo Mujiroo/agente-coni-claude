@@ -304,3 +304,22 @@ el metro y el Star Ferry. **Una respuesta de pagos sin el «cuándo» habría ll
 **Regla general:** cuando algo que le funcionaba en el continente falla en Hong Kong, la
 causa por defecto es **que son dos sistemas distintos** (pagos, enchufes, moneda, SIM), no
 que su cuenta o su aparato estén malos. Ver el enchufe británico más arriba.
+
+### Cajero Hang Seng (msg 788, foto)
+
+Mandó la foto de un cajero de **恒生銀行 Hang Seng** en un mall preguntando si servía para
+sacar plata. **Sí:** Hang Seng es de los bancos grandes de Hong Kong, del grupo **HSBC**, y
+acepta tarjetas extranjeras. Ese entrega **HKD y RMB** — se le dijo que eligiera **HKD**.
+
+**Lo que se puso como titular, porque es donde de verdad pierde plata:** cuando el cajero
+ofrece **cobrar en pesos chilenos** o «conversión con tasa garantizada» (**DCC**), hay que
+decir **NO** y elegir **cobrar en HKD / sin conversión**. Aceptarla cuesta **3-8% extra**;
+que el banco de ella haga el cambio siempre sale más barato. **Esto vale para cualquier
+cajero en cualquier país** — no es un dato de Hong Kong.
+
+**Las otras dos:**
+- **Sacar harto de una vez:** su banco chileno cobra **cargo fijo por giro** (~US$5-7), así
+  que tres giros chicos cuestan el triple que uno grande. Los cajeros de Hong Kong no
+  suelen agregar comisión propia.
+- **Pedir un monto quebrado** (HK$1.500 en vez de HK$1.000) para no recibir todo en
+  billetes de $500 y $1.000, que en el Ladies Market son un problema.
