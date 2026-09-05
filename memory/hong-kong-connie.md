@@ -323,3 +323,27 @@ cajero en cualquier país** — no es un dato de Hong Kong.
   suelen agregar comisión propia.
 - **Pedir un monto quebrado** (HK$1.500 en vez de HK$1.000) para no recibir todo en
   billetes de $500 y $1.000, que en el Ladies Market son un problema.
+
+### La reserva del crucero, y una corrección mía (msgs 792-794)
+
+Ya lo tenía **reservado**: crucero **Wing On**, **sábado 5-sep**, **3 adultos, US$45**,
+**salida 20:10**, **Muelle Público N°3/4 de Tsim Sha Tsui**, no reembolsable. *Pidió la
+captura antes de inventar el muelle — de la primera foto no se veía, y había tres
+posibles.*
+
+**La corrección que valía el mensaje:** yo le había dicho que si zarpaba a las 20:00 vería
+el show **desde el agua**. **El show es 20:00-20:10** (verificado) y el barco sale
+**20:10**: no lo ve desde el agua. Se lo dije derecho, y con la parte buena — estará
+parada en el **mejor punto de tierra** justo mientras espera embarcar, y después navega
+con la bahía iluminada. **Corregir el supuesto propio antes de que lo descubra ella.**
+
+**El itinerario con horas que le mandé:** 18:30 salir · Mong Kok East → Hung Hom → East
+Tsim Sha Tsui · salir por letreros «Star Ferry», referencia la **Torre del Reloj** · 19:00
+Star Ferry ida y vuelta (HK$6,5) · 19:45 en el muelle · 20:00 el show · 20:10 a bordo.
+
+**Metro sin Octopus:** se le confirmó que el MTR acepta **tarjeta contactless directo en
+el torniquete** (misma tarjeta al entrar y salir) y **boleto con efectivo** en máquina.
+
+**Dato con fecha de vencimiento:** hay reportes de que el *Symphony of Lights* **se
+reemplaza durante 2026** por otros shows. Si alguien pregunta más adelante, **verificar
+antes de darlo por vigente**.
