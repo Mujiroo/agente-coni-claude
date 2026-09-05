@@ -347,3 +347,26 @@ el torniquete** (misma tarjeta al entrar y salir) y **boleto con efectivo** en m
 **Dato con fecha de vencimiento:** hay reportes de que el *Symphony of Lights* **se
 reemplaza durante 2026** por otros shows. Si alguien pregunta más adelante, **verificar
 antes de darlo por vigente**.
+
+### El enchufe «shavers only» del baño (msg 798, foto)
+
+**Mandó la foto de un enchufe del baño del hotel que dice «shavers only / 115V», con su
+cargador puesto, preguntando si había una razón.** La hay, y es de seguridad: es un
+**enchufe de afeitadora con transformador aislado** — lo que sale no está referido a
+tierra, así que si el aparato cae al agua o se toca con las manos mojadas **el circuito no
+se cierra por el cuerpo**. Es el **único** enchufe que la norma británica (heredada en
+Hong Kong) permite dentro de un baño; por eso ahí no hay otro. Mismo origen que el enchufe
+británico de 3 patas de más arriba.
+
+**Lo que se puso como advertencia, porque es donde la gente rompe algo:** el límite real
+son ~**20 W**. Afeitadora, cepillo eléctrico y cargador de teléfono, sí. **Secador de
+pelo (1.500 W), alisador o hervidor, no** — no es que anden mal, es que **le queman el
+fusible interno al enchufe y queda muerto**, y hay hoteles que lo cobran.
+
+**Su cargador estaba bien:** el «115V» del cartel es porque el enchufe entrega dos
+voltajes, y los cargadores modernos son `Input 100-240V`. La salvedad útil: **si es
+cargador rápido, ahí no da toda su potencia** — para cargar de noche, el enchufe normal
+de la pieza.
+
+**Regla:** cuando fotografía algo del hotel y pregunta «¿por qué dice esto?», la respuesta
+completa incluye **qué NO hay que enchufar/hacer ahí**, no solo la explicación del cartel.
