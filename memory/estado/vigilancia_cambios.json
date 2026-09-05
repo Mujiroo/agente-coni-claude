@@ -1,10 +1,10 @@
 {
- "malos_seguidos": 12,
+ "malos_seguidos": 13,
  "dias_botas_sin_nada": 0,
- "revisado": "2026-09-03",
- "conv_dia": 1.0,
- "cpa": 8989,
- "botas_imp_7d": 38.0,
+ "revisado": "2026-09-04",
+ "conv_dia": 1.29,
+ "cpa": 7088,
+ "botas_imp_7d": 29.0,
  "ultimo_aviso": {
   "fecha": "2026-09-01",
   "conv_dia": 1.4,
@@ -12,7 +12,7 @@
   "nota": "sembrado a mano el 2-sep: el aviso real salio el 1-sep (msgs 618/623/628)"
  },
  "silenciado_hoy": {
-  "fecha": "2026-09-03",
-  "por": "mismo cuadro ya avisado el 2026-09-01 (hace 2 dia/s)"
+  "fecha": "2026-09-04",
+  "por": "mismo cuadro ya avisado el 2026-09-01 (hace 3 dia/s)"
  }
 }

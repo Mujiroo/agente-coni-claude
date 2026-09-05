@@ -39,11 +39,13 @@
   "1a067bba868a2f1c",
   "1a0693f4ea29310b",
   "1a0693fdfdb5e8df",
-  "1a0697c62d0a99b9"
+  "1a0697c62d0a99b9",
+  "1a06cb4ae5ca2145",
+  "1a06cb81fe4ede04"
  ],
  "arranque": 1787014179,
  "no_antes_de": null,
- "ultima_corrida": 1788492620,
+ "ultima_corrida": 1788562822,
  "nota": "Seguro de hora levantado el 17-ago 23:35: Connie pidio enviar la primera de prueba antes de las 06:00. El sistema queda vivo desde aqui.",
  "marcados_sin_enviar": 5,
  "enviados": [
@@ -246,6 +248,18 @@
    "asunto": "[Solicitud de presupuesto]",
    "fecha_original": "Thu, 3 Sep 2026 22:55:45 +0000",
    "enviado_en": 1788476432
+  },
+  {
+   "id": "1a06cb4ae5ca2145",
+   "asunto": "[Solicitud de presupuesto]",
+   "fecha_original": "Fri, 4 Sep 2026 13:56:09 +0000",
+   "enviado_en": 1788548428
+  },
+  {
+   "id": "1a06cb81fe4ede04",
+   "asunto": "[Solicitud de presupuesto]",
+   "fecha_original": "Fri, 4 Sep 2026 13:59:50 +0000",
+   "enviado_en": 1788548431
   }
  ],
  "excluidos_a_proposito": {

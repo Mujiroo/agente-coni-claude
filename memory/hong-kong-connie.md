@@ -57,3 +57,34 @@ exclusivos de Hong Kong**. En HK **no hay IVA**: la etiqueta es el precio final.
 **Y una línea de perspectiva**, porque venía de regatear relojes a ¥130-160: una carcasa
 le sale **más que tres** de esos relojes. No es un reproche —es su plata— pero el dato le
 sirve para decidir en el momento. Ver [[lewear-ht30-relojes]].
+
+## Se va 2 días a Hong Kong y pidió plan (msg 758, 4-sep-2026)
+
+Confirmado: **sábado 5 y domingo 6 de septiembre**. Preguntó *«me voy por 2 días a Hong
+Kong, ¿qué puedo hacer allá?»* a las **09:55 de Hong Kong** del sábado.
+
+**El plan se armó alrededor del embarazo y del calor, no alrededor de los panoramas.**
+Va de **~22 semanas** ([[embarazo-connie]]) y el 24-ago tenía los pies muy hinchados;
+el pronóstico daba **27-32°C con humedad alta**. Por eso todo lo elegido es **sentado,
+corto o con aire acondicionado**, y el metro es la columna del recorrido.
+
+**El dato más práctico de todos, y el que nadie avisa:** en Hong Kong el enchufe es el
+**británico de 3 patas planas**, distinto al de China continental — **su cargador chino
+no entra**. Se le dijo que pidiera adaptador en el hotel al llegar.
+
+**Lo recomendado:** Octopus (八達通) · Star Ferry HK$6 · Peak Tram *con la advertencia de
+la fila al sol* · Tai Kwun · Symphony of Lights 20:00 · para el domingo lluvioso **M+**,
+K11 MUSEA y Harbour City · farmacias **Mannings/Watsons** (de cadena, no las 藥房 de calle)
+· dim sum sí, sashimi y mariscos crudos no.
+
+**Lo desaconsejado explícitamente:** Buda Grande de Lantau (medio día + 268 escalones),
+Dragon's Back y cerros; y no intentar isla + Kowloon + Lantau en 2 días.
+
+**Cómo se verificó el clima, que sirve para cualquier consulta futura de Hong Kong:** la
+API abierta del **Observatorio de Hong Kong**, sin clave —
+`data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en` para el
+pronóstico de 9 días y `dataType=warnsum` para los avisos vigentes (devuelve `{}` cuando
+no hay ninguno, que fue el caso: **sin señal de tifón**). La página `hko.gov.hk/textonly`
+NO sirve: llega llena de CSS y no se puede leer.
+
+Quedó ofrecido reordenarle el plan por cercanía si dice dónde se aloja.
