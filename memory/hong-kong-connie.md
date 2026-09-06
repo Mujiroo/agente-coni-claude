@@ -483,3 +483,27 @@ al mediodía**, así que hacerlo primero no era posible. Quedó: **G.O.D. en la 
 que los datos estuvieran malos: es que yo elegía por criterio de autenticidad y ella
 elige por lo que quiere hacer.** Dar los datos y dejar que arme, en vez de armar y
 defender.
+
+**Agregó Pottinger Street** <code>砵典乍街</code> al itinerario (msg 837). Encaja sin
+costo porque **las tres cosas de Central están sobre Queen's Road Central**, de oeste a
+este: **Lanes → Pottinger → D'Aguilar (G.O.D.)**, 3 minutos entre cada una y sin
+devolverse. Los puestos de linternas están en la **parte baja** de Pottinger, así que no
+hay que subir los escalones; se le advirtió que **las losas de piedra resbalan con
+lluvia**.
+
+**El itinerario final quedó con horas** —formato que ella sigue bien, igual que la noche
+del crucero—: 10:45 salir · 11:15 Lanes · 11:45 Pottinger · 12:15 G.O.D. · 13:00 almuerzo
+· 15:00 Ladies Market · **17:30 al hotel a descansar** · 18:45 Temple Street.
+**El descanso va escrito a propósito**: 22 semanas y piernas hinchadas
+([[embarazo-connie]]), y el hotel le queda al lado del Ladies Market.
+
+**Criterio de fondo: cruzar la bahía una sola vez y en la mañana**, antes de las tormentas
+de la tarde; todo el resto del día cae en su propio barrio.
+
+**Sobre la Lantern Street de Yuen Long** (msg 835): es un callejón del mercado **Tai Kiu**
+donde la tienda **冠香行** cuelga +1.000 linternas a mano, **08:00-20:00**, mejor después
+de las 19:00, desde ~HK$30. **Se descartó por distancia**: ~50 min por lado, 2 horas de
+viaje que le botaban medio itinerario. Y el dato que evitaba una decepción: **las
+linternas famosas son todas después de que se va** — Victoria Park 19-27 sep, Centro
+Cultural de TST desde el 17, Dragón de Fuego de Tai Hang 24-26; **Medio Otoño 2026 es el
+25 de septiembre**.
