@@ -450,3 +450,36 @@ hotel** — accesorio de acá, a cero desplazamiento.
 **El clima ordenó el día otra vez:** 26-31°, claros en la mañana y **tormentas eléctricas
 en la tarde**, sin avisos vigentes (API del Observatorio, `dataType=fnd` y `warnsum`).
 Por eso lo techado va después de mediodía.
+
+### El itinerario que ELLA eligió para el domingo 6-sep (msg 831)
+
+Después de descartar mis dos propuestas, lo armó ella y pidió anotarlo:
+**Ladies Market · G.O.D. · Temple Street de noche.**
+
+**Eligió el Ladies Market aunque yo le había dicho que es reventa del continente.** Es su
+decisión y no se volvió a discutir: se le dieron las direcciones completas y, en vez del
+reparo repetido, lo útil para ese lugar —**efectivo, partir ofreciendo la mitad, y que si
+no le bajan el precio camine, porque el mismo puesto está tres veces en la calle**.
+
+**Lo único que sí se corrigió fue el orden, y por un dato duro:** el **Ladies Market abre
+al mediodía**, así que hacerlo primero no era posible. Quedó: **G.O.D. en la mañana**
+(cruzar la bahía temprano, antes de las tormentas de la tarde, y Central es todo techado)
+· **Ladies Market en la tarde** · **Temple Street desde las 18:30**.
+
+**Las direcciones, para no rehacerlas:**
+- **G.O.D.** — 6 D'Aguilar St, Central, 10:00-20:00. Mong Kok East → East Rail dirección
+  **Admiralty** (3 paradas) → línea **roja** dirección **Central** (1 parada) → salida
+  **D2** → Queen's Road Central → D'Aguilar sube a la derecha. ~30 min, **HK$14**.
+  Las **Lanes** están a 2 min de esa salida y son planas: van antes de subir el cerro.
+- **Ladies Market** — Tung Choi St <code>通菜街</code>, Mong Kok. **A pie desde el hotel,
+  10-12 min**, plano: Prince Edward Rd West hacia el oeste hasta Tung Choi, doblar a la
+  izquierda; el mercado parte en Argyle St. **Seña de que va bien: si ve peceras, está en
+  la parte norte de la misma calle y tiene que seguir bajando.**
+- **Temple Street** — Jordan salida **A** (el arco) o Yau Ma Tei salida **C**. 2 paradas
+  desde Mong Kok, o 15 min a pie desde el final del Ladies Market, o taxi HK$40-50.
+  **Se prende 18:00-19:00.**
+
+**Nota mía:** en dos mensajes seguidos ella rehízo el plan que yo había armado. **No es
+que los datos estuvieran malos: es que yo elegía por criterio de autenticidad y ella
+elige por lo que quiere hacer.** Dar los datos y dejar que arme, en vez de armar y
+defender.
