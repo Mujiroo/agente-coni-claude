@@ -36,3 +36,25 @@ precio en HKD no le dice nada hasta que lo ve en su moneda.
 
 Relacionado: [[descuento-inflado-verificar]] (desconfiar del «antes/ahora» inflado) y
 [[canal-y-formato]] (todo carácter chino va con traducción y pronunciación).
+
+## YesStyle vs comprar en Hong Kong (msg 872, mismo día)
+
+Preguntó **«¿está más barato acá o en YesStyle?»** con la góndola al frente. La respuesta
+tuvo dos partes, y la primera resolvió sola la pregunta:
+
+1. **La línea <code>碳酸泡沫</code> (espuma carbonatada) de Curél no existe en YesStyle** —
+   búsqueda «curel mousse»: **0 resultados**. No hay comparación posible para esos dos.
+2. **En lo comparable, YesStyle sale más caro:** su limpiadora Curél más barata es un
+   **repuesto de 130 ml a US$29,43 = HK$229**, contra un **envase completo a HK$180**
+   (HK$135 con la oferta) en la tienda. El repuesto de allá cuesta más que el producto
+   entero de acá. Sumar además: envío gratis solo sobre **US$79**, 2-4 semanas, y aduana.
+
+**El argumento que cerró:** **YesStyle despacha desde Hong Kong.** Estando ella allá, es
+la misma mercadería sin flete ni espera — *«estás parada en la bodega»*.
+
+**Regla:** cuando pregunta «¿acá o en tal tienda online?» estando de viaje, revisar
+**primero si el producto exacto existe** en ese sitio. En la mitad de los casos la
+comparación no existe y eso es la respuesta, más rápida y más firme que cualquier tabla de
+precios. Y siempre mirar de **dónde despacha** la tienda online.
+
+Fuente: `yesstyle.com/en/list.html?q=curel` y `?q=curel+mousse`, 6-sep-2026.
