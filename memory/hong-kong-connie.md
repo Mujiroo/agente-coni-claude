@@ -410,3 +410,43 @@ que yo armé antes.** Se corrigió sin insistir ni justificar.
 **Regla operativa que quedó:** en consultas de ruta en vivo, dar (1) la respuesta en la
 primera línea, (2) una seña física verificable —número de muelle, letrero, nombre en
 chino—, y (3) el margen de tiempo, para que sepa si puede caminar tranquila o apurarse.
+
+### Compras del domingo: me equivoqué de tipo de panorama (msgs 823-825, 6-sep)
+
+Pidió *«comprar cosas más baratas y que sean de Hong Kong, no reventa de tecnología»*.
+**Le armé un plan de Mercado de las Flores, Jardín de los Pájaros, Calle de los Peces y
+Sham Shui Po (telas, cintas y botones)** — todo barato y todo genuinamente local. Y me
+respondió lo que correspondía: **«no voy a ir a comprar plantas po Kai, tampoco cintas ni
+botones ni telas»**.
+
+**El error:** traduje «barato + de Hong Kong» a **color local**, y le entregué un paseo
+antropológico en vez de un lugar donde comprar. Ella quería **accesorios y productos**
+—cosas que se meten en la maleta y se usan— no la experiencia del barrio.
+
+**Regla: cuando dice «comprar», el filtro es qué se lleva puesto o de regalo, no qué tan
+auténtico es el barrio.** Un mercado de flores es local y barato y no sirve para nada de
+lo que ella pidió.
+
+**Lo que sí correspondía, y quedó verificado el 6-sep:**
+
+- **Mercado de Jade** <code>玉器市場</code>, Kansu St, Yau Ma Tei — ~**400 puestos** de jade,
+  perlas, pulseras y aros. **Techado** (sirve con lluvia), a 1 parada de su hotel. **Muchos
+  puestos cierran 15:30-16:00**, así que es panorama de mañana. Advertencia dada: mucho
+  jade teñido o falso — **comprar como bisutería y pagar precio de bisutería**, ofreciendo
+  un tercio.
+- **Las Lanes de Central** <code>利源東街 / 利源西街</code> — dos callejones con toldos:
+  carteras, mochilas, cinturones, accesorios de pelo, pañuelos, bisutería, fundas.
+- **G.O.D.** <code>住好啲</code>, 6 D'Aguilar St, Central, 10:00-20:00 — **la marca de
+  diseño de Hong Kong**. Tienda, no feria, y más cara que un puesto, pero es lo más
+  «producto de Hong Kong» que existe.
+- **Jardine's Crescent** <code>渣甸坊</code>, Causeway Bay — el Ladies Market de los
+  locales: más barato y sin recargo turístico.
+
+**Lo que sí acerté y conviene repetir:** decirle que **el Ladies Market es reventa del
+continente**, la misma mercadería de Shenzhen más cara. Y el hallazgo de reusar lo ya
+sabido: **Casetify es marca de Hong Kong y su tienda está en MOKO, el mall de su propio
+hotel** — accesorio de acá, a cero desplazamiento.
+
+**El clima ordenó el día otra vez:** 26-31°, claros en la mañana y **tormentas eléctricas
+en la tarde**, sin avisos vigentes (API del Observatorio, `dataType=fnd` y `warnsum`).
+Por eso lo techado va después de mediodía.
