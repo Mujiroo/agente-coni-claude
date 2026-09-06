@@ -507,3 +507,22 @@ viaje que le botaban medio itinerario. Y el dato que evitaba una decepción: **l
 linternas famosas son todas después de que se va** — Victoria Park 19-27 sep, Centro
 Cultural de TST desde el 17, Dragón de Fuego de Tai Hang 24-26; **Medio Otoño 2026 es el
 25 de septiembre**.
+
+**«Lung Fung Mall» no es un mall** (msgs 839-841). Es <code>龍豐</code>, una **cadena de
+farmacia y belleza** de ~28 locales — cosméticos, skincare, remedios y suplementos. Si
+alguna vez lo vuelve a nombrar, ese es el dato que corrige la expectativa.
+
+**La sucursal útil cayó sola en el plan:** **Gala Place, 56 Dundas Street**, Mong Kok
+(salida E2 de la estación Mong Kok) — y **Dundas Street es donde termina el Ladies
+Market**, así que sale del mercado y está ahí. Se le advirtió que **no compre remedios,
+hierbas ni suplementos chinos** sin preguntarle al doctor, por el embarazo; cosméticos sin
+problema.
+
+**ITINERARIO FINAL DEL DOMINGO 6-SEP, como quedó:** 10:45 salir · 11:15 Lanes · 11:45
+Pottinger · 12:15 G.O.D. · 13:00 almuerzo en Central · 15:00 Ladies Market · 16:30 Lung
+Fung · 17:15 hotel a descansar · 18:45 Temple Street.
+
+**Lo que hizo que funcionara: encadenar por geografía, no por interés.** Central es una
+sola calle de oeste a este (Lanes → Pottinger → D'Aguilar); Ladies Market y Lung Fung son
+la misma calle de norte a sur (Tung Choi → Dundas); Temple Street queda a 2 paradas. **Una
+sola cruzada de bahía, en la mañana.**
