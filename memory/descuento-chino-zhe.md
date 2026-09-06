@@ -58,3 +58,24 @@ comparación no existe y eso es la respuesta, más rápida y más firme que cual
 precios. Y siempre mirar de **dónde despacha** la tienda online.
 
 Fuente: `yesstyle.com/en/list.html?q=curel` y `?q=curel+mousse`, 6-sep-2026.
+
+## <code>第2件半價</code> vs <code>買2件75折</code>: iguales en pares, distintos en mixto
+
+**Msg 874, otra tienda, mismos productos.** Preguntó *«¿acá está más caro que el
+anterior?»*. Respuesta: **no, exactamente igual** — HK$135 y HK$210 por unidad en las dos.
+
+- <code>第2件半價</code> = **la 2ª unidad a mitad de precio** → 180 + 90 = HK$270
+- <code>買2件 照價75折</code> = **25% sobre el par** → 360 × 0,75 = HK$270
+- Son idénticos porque **media unidad de dos es un cuarto del total**.
+- <code>單件價</code> = precio por unidad · <code>平均折實135/件</code> = **precio neto
+  promedio por unidad**, que el propio cartel imprime y **confirma la cuenta sin que yo la
+  haga** — buscar siempre esa línea antes de calcular.
+
+**Donde sí se separan, y es el dato que valía la foto:** llevando **una de cada producto**
+(precios distintos), <code>第2件半價</code> aplica la mitad al **más barato** → 280 + 90 =
+**HK$370**; el <code>75折</code> va sobre el total → **HK$345**. **HK$25 de diferencia a
+favor del 75折.**
+
+**Regla: dos promociones que dan igual en pares idénticos casi nunca dan igual en compras
+mixtas.** La comparación se hace sobre lo que ella realmente va a llevar, no sobre el
+cartel.
