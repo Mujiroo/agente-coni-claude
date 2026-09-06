@@ -153,5 +153,7 @@
 # criterio que los demas recordatorios del viaje: le llega de noche a ella, con la
 # jornada bancaria chilena recien abierta. El 9-sep cae miercoles, dia habil.
 # Ella vuelve a Chile el 18-sep, asi que el 9 todavia esta en Hong Kong.
-# QUEDO PREGUNTADO si quiere que se repita todos los meses; hoy es de una sola vez.
+# RESPONDIDO (msg 816, 27 s despues): "Solo esta vez porfa". NO se repite todos los
+# meses. Si alguna vez pide de nuevo el recordatorio de la tarjeta, es de una sola vez
+# salvo que ella diga lo contrario.
 0 11 9 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en Hong Kong): hoy tiene que PAGAR LA TARJETA DE CREDITO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 9 9"), commitea y pushea.
