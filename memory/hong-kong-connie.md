@@ -526,3 +526,18 @@ Fung · 17:15 hotel a descansar · 18:45 Temple Street.
 sola calle de oeste a este (Lanes → Pottinger → D'Aguilar); Ladies Market y Lung Fung son
 la misma calle de norte a sur (Tung Choi → Dundas); Temple Street queda a 2 paradas. **Una
 sola cruzada de bahía, en la mañana.**
+
+**Corrección de terreno (msg 852): Pottinger Street está al OESTE de las Lanes, no al
+este.** Yo le había dado el orden «Lanes → Pottinger → D'Aguilar, 3 min al este cada
+una». El orden real sobre Queen's Road Central, de **oeste a este**, es: **Mercado Central
+<code>中环街市</code> · Pottinger <code>砵典乍街</code> · Li Yuen West · Li Yuen East (las
+Lanes) · Pedder · Ice House · D'Aguilar (G.O.D.)**. Se lo dije apenas lo vi en la foto de
+su mapa, antes de que caminara de más: le costaba ~5 minutos extra, no más.
+
+**Cómo se detectó:** mandó una captura de Amap con su punto azul y ahí aparecían **中环街市
+arriba a la izquierda** y **中环利源东街25号铺** al lado suyo — o sea el Mercado Central,
+que está junto a Pottinger, quedaba al **oeste** de ella. **Su propia captura sirvió para
+corregirme; conviene mirarlas como fuente y no solo para ubicarla a ella.**
+
+**Buscar en Amap va en chino:** «The Lanes» es apodo de turista y no existe en el mapa; lo
+que funciona es pegar <code>利源東街</code>.
