@@ -583,3 +583,18 @@ descanso de las 17:15 del itinerario. Respuesta que se le dio:
 **Lo que se repitió a propósito:** respuesta en la primera línea, seña física verificable
 (el arco), margen de tiempo, y el nombre en chino para el chofer. Y no se le arrastró nada
 del plan anterior: preguntó ruta y hora, se le dio ruta y hora.
+
+**Volvió a preguntar la MISMA ruta 1h33 después** (msg 878, 19:10 de HK): *«para ir al
+temple street cómo lo hago desde el hotel»*. La respuesta ya se la había dado a las 17:37
+(msg 869) — pero entremedio pasaron **cinco mensajes de góndola** (Curél, YesStyle, la
+segunda tienda, Acnes) que la enterraron.
+
+**La lección, y no es que la respuesta estuviera mala:** una instrucción operativa dada
+**con anticipación se pierde** si el chat sigue moviéndose. Dos correcciones:
+(1) **re-enviarla en el momento de actuar** sin hacerla sentir que ya se la dije, y
+(2) cuando la vuelve a pedir, mandarla **más corta y en pasos numerados** —está de pie,
+en la puerta, no leyendo. La segunda versión fue 1-2-3 con el chino para el chofer y nada
+más.
+
+**Nunca decirle «te lo mandé antes».** Vuelve a preguntar porque necesita el dato ahora, y
+eso es información sobre mi formato, no sobre su atención.
