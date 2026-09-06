@@ -138,3 +138,30 @@ vida útil del coche, no la protección del bebé.
 **Nota de método:** le pasé primero una lista de ~$900.000 sin haberle preguntado el
 presupuesto. Con el bebé para enero y un solo sueldo en juego, **preguntar el tope antes
 de recomendar** habría ahorrado dos vueltas. Vale para regalos, muebles y viajes también.
+
+# Monitores de bebé (preguntado el 5-sep-2026, msg 818)
+
+Pidió *«bueno, bonito y barato»* y puso una restricción dura: **debe ser en Paris o
+Falabella**.
+
+**Precios verificados el 5-sep en la categoría de Falabella:**
+
+- **Bebesit**, cámara con pantalla **2,4"** y visión nocturna — **$49.990** (53 reseñas)
+- **Lubabycas ABM720S**, **5" 1080P con app** — **$62.990** (12 reseñas)
+- **SoyMomo Pro 2.0**, **5,5" HD** — **$149.990** (25 reseñas). Cámara que **gira 355°**
+  desde el monitor, sensor de temperatura, batería 10 h, **funciona sin internet**
+
+**El criterio con que se ordenaron no fue el precio sino si el monitor depende del
+wifi.** Bebesit y SoyMomo andan con **enlace propio**; el Lubabycas es por **app**. A las
+3 de la mañana pesa más que el aparato no se caiga junto con el wifi que los megapíxeles
+— ese es el argumento que justifica el salto de precio al SoyMomo.
+
+**Se le recomendó el Bebesit a $49.990** por su restricción de «barato», diciéndole
+derecho que el compromiso es la pantalla chica, y el SoyMomo si podía estirarse.
+
+**Paris no se pudo leer:** devuelve **403 al robot**, con WebFetch y con curl trayendo
+user-agent de navegador. **No está caído** — para ella abre normal. Se le dijo eso y que
+no le iba a dar por bueno un precio que no leí. Ver [[ads-403-robot-vs-navegador]].
+
+**Después preguntó si el descuento era real y no lo era:** ver
+[[descuento-inflado-verificar]].

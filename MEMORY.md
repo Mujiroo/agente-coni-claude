@@ -25,3 +25,4 @@
 - [Shenzhen](shenzhen-connie.md) — los 3 días de Connie en Shenzhen: qué le recomendé y el aviso de la visa de una sola entrada
 - [Lewear HT30 y los clones de Huaqiangbei](memory/lewear-ht30-relojes.md) — la marca existe pero el reloj es white-label; y los clones falsean las mediciones de salud.
 - [Coches y huevitos de bebé](memory/coches-y-huevitos-bebe.md) — Maxi-Cosi Lara² es el mejor valorado que se dobla; y el huevito chino (CCC) no se acredita en Chile.
+- [El descuento inflado del retail](descuento-inflado-verificar.md) — Connie desconfía de las ofertas y tiene razón; verificar contra el sitio de la marca y otro retailer.
