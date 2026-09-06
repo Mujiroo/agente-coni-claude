@@ -558,3 +558,28 @@ farmacéutico y producto claro — y con el recordatorio de que los remedios y s
 los vea **con su doctor a la vuelta**, no allá. Método que se le dio para decidir sola:
 elegir 2-3 productos concretos y comparar el precio de góndola, porque **la diferencia
 cambia según el producto, no según la tienda**.
+
+### Del hotel a Temple Street (msg 868, domingo 6-sep, 17:37 de HK)
+
+Preguntó **«cómo voy y a qué hora me conviene»** estando ya en el hotel, justo en el
+descanso de las 17:15 del itinerario. Respuesta que se le dio:
+
+- **Taxi**, ~10 min, **HK$40-50**, mostrando <code>廟街，佐敦道</code> (*Temple Street con
+  Jordan Road, «miu gaai, jo dun dou»*).
+- **El argumento que decidió el medio:** su estación de abajo (**Mong Kok East**) es East
+  Rail, y Temple Street está en la **línea roja** — o sea que en metro igual tiene que
+  caminar 8-10 min hasta **Mong Kok** (Nathan Rd) antes de subirse. El taxi no le ahorra
+  plata, le ahorra **esa caminata**, que a las 22 semanas y después de todo el día es el
+  costo real ([[embarazo-connie]]).
+- Metro como alternativa: Mong Kok → roja dirección Central → **2 paradas** → **Jordan
+  salida A**, que sale al arco. HK$5.
+- **Hora:** se prende **18:00-19:00**, encendida del todo a las **19:00**; salir **18:30**
+  para llegar 18:45 y verla prenderse. Puestos hasta las **23:00**.
+- **Recorrido:** partir en el **arco de Jordan** y caminar hacia el **norte**, así queda de
+  corrido y termina cerca de Yau Ma Tei sin devolverse.
+- Clima verificado en el momento (API del Observatorio, `warnsum` vacío y `rhrread`):
+  **30°, sin lluvia, sin avisos**. La tormenta de la tarde pronosticada **no llegó**.
+
+**Lo que se repitió a propósito:** respuesta en la primera línea, seña física verificable
+(el arco), margen de tiempo, y el nombre en chino para el chofer. Y no se le arrastró nada
+del plan anterior: preguntó ruta y hora, se le dio ruta y hora.
