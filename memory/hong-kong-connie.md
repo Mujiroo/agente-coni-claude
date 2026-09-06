@@ -613,7 +613,9 @@ al cruzar desde Shenzhen ([[shenzhen-connie]]).
 - **Es su única prueba de estar legal**, porque no hay timbre que la respalde. Quien
   incumple la condición o el plazo se expone a proceso penal.
 - **Si lo pierde no es drama:** la entrada quedó en el sistema y puede salir igual;
-  reposición **gratis** en **Immigration Tower, 7 Gloucester Rd, Wan Chai**.
+  reposición **gratis** en **Immigration Headquarters, 61 Po Yap Road, Tseung Kwan O**
+  (5/F Administration Tower). ⚠️ **La sede se mudó de WanChai en junio-2024** — yo di la
+  dirección vieja primero y la corregí al verificar en `immd.gov.hk`.
 - Después de salir de Hong Kong **no sirve para nada**.
 
 **Se cerró ofreciendo foto** por si el papel era otro (el billete duro de plástico del
@@ -621,3 +623,21 @@ metro): la pregunta admitía dos lecturas y ella tiene Octopus, así que lo prob
 de migración — pero se dijo cuál se estaba respondiendo en vez de elegir en silencio.
 
 Fuente: `immd.gov.hk/eng/useful_information/non-stamping-immigration-clearance.html`.
+
+**Y se perdió de verdad: era el de su mamá** (msg 883, 1 minuto después). Viaja con ella.
+Respuesta: **no hagan nada.** Inmigración dice textual que *«bajo circunstancias normales,
+la pérdida del landing slip no afecta los trámites de salida»* — el papel era su copia, no
+el registro.
+
+**Lo que decidió la recomendación fue el costo real, no el trámite:** la reposición es
+gratis, pero Tseung Kwan O queda en el extremo este y es media mañana de viaje en persona,
+día hábil. **Media mañana de sus últimos días por un papel que nadie le pide en el
+aeropuerto.** Solo valdría moverse si fuera a pedir extensión de estadía o a probar la
+estadía para un seguro.
+
+**Consejo preventivo que quedó dado:** que le saque **foto al suyo** y la guarde en el
+teléfono, así la fecha y el plazo no dependen del papel.
+
+**Regla: cuando pierde un documento, primero decir si tiene consecuencia real y recién
+después dónde se repone.** El orden inverso la manda a una oficina antes de saber que no
+necesita ir.
