@@ -145,3 +145,13 @@
 # se lo recuerda, NO ejecuta nada de eso.
 0 10 19 9 * | [CRON] SUDTEC, Connie ya volvio del viaje. LEE PRIMERO clientes/sudtec/PENDIENTE-VUELTA-18SEP.md completo y tambien memory/romper-el-tag-apaga-la-entrega.md. Mandale con `bash bin/tg.sh send` en HTML un resumen CORTO (no el documento entero) recordandole las 3 cosas en orden: (1) el tag/GTM con el procedimiento de montar el nuevo SIN apagar el viejo y vigilar CLICS diarios, (2) la ventana de conversion de 1 dia, avisando de nuevo que al subirla las conversiones suben sin que el negocio cambie, (3) la decision de estructura: no se pueden tener las campanas nuevas Y General a la vez, ni por presupuesto -297.920 ya comprometidos de 300.000- ni por canibalizacion. NO EJECUTES NINGUNO de esos cambios: son todos de produccion y necesitan su OK explicito, y el del tag ademas se hace con ella presente. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 10 19 9"), commitea y pushea.
 
+
+# --- TARJETA DE CREDITO, 9-SEP (pedido por Connie 5-sep-2026, msg 814) ---
+# Pidio "recordatorio de pagar mi tarjeta de credito el 9 de septiembre en chile".
+# HORA: 11:00 de Chile = 22:00 en Hong Kong. Verificado con zoneinfo (Chile ya en
+# horario de verano desde el 6-sep, UTC-3; HK UTC+8 -> 11 h de diferencia). Mismo
+# criterio que los demas recordatorios del viaje: le llega de noche a ella, con la
+# jornada bancaria chilena recien abierta. El 9-sep cae miercoles, dia habil.
+# Ella vuelve a Chile el 18-sep, asi que el 9 todavia esta en Hong Kong.
+# QUEDO PREGUNTADO si quiere que se repita todos los meses; hoy es de una sola vez.
+0 11 9 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en Hong Kong): hoy tiene que PAGAR LA TARJETA DE CREDITO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 9 9"), commitea y pushea.
