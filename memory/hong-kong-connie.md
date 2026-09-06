@@ -541,3 +541,20 @@ corregirme; conviene mirarlas como fuente y no solo para ubicarla a ella.**
 
 **Buscar en Amap va en chino:** «The Lanes» es apodo de turista y no existe en el mapa; lo
 que funciona es pegar <code>利源東街</code>.
+
+**Lung Fung también está en MOKO, el mall de su hotel** (msg 864): **Local 162, Nivel 1,
+193 Prince Edward Road West** — la misma dirección del Royal Plaza. La grande del grupo es
+la de **Gala Place, 56 Dundas St**, que es su tienda insignia y queda al final del Ladies
+Market: esa se elige solo si quiere variedad, porque los precios son de la misma cadena.
+
+**Van tres cosas que terminaron estando en MOKO: Casetify, Lung Fung y su propio hotel.**
+Regla que ya se repitió: **antes de mandarla a cruzar la ciudad, revisar si eso existe en
+Mong Kok o en su propio mall.**
+
+**Mannings vs Lung Fung** (msg 862), que preguntó estando en la calle: se le partió por
+categoría en vez de dar un ganador. **Cosméticos, skincare y maquillaje → Lung Fung**, que
+compite por precio. **Cualquier cosa que se tome → Mannings** <code>萬寧</code>, que tiene
+farmacéutico y producto claro — y con el recordatorio de que los remedios y suplementos
+los vea **con su doctor a la vuelta**, no allá. Método que se le dio para decidir sola:
+elegir 2-3 productos concretos y comparar el precio de góndola, porque **la diferencia
+cambia según el producto, no según la tienda**.
