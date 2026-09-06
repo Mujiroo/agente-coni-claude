@@ -598,3 +598,26 @@ más.
 
 **Nunca decirle «te lo mandé antes».** Vuelve a preguntar porque necesita el dato ahora, y
 eso es información sobre mi formato, no sobre su atención.
+
+### El «ticket» de la estación al entrar a Hong Kong (msg 881, 22:13 de HK del domingo)
+
+Preguntó *«¿para qué sirven los ticket que te pasan en la estación al entrar a Hong
+Kong?»*. Es el **landing slip** (<code>入境標籤</code>): **Hong Kong no timbra pasaportes
+desde 2013** y ese papelito reemplaza al timbre. Se lo dieron en migración de **Lo Wu**
+al cruzar desde Shenzhen ([[shenzhen-connie]]).
+
+- **Trae:** nombre, número de pasaporte, **fecha de entrada** y **hasta cuándo puede
+  quedarse**. Pasaporte chileno = **90 días** sin visa; vuelve el 18-sep, así que sobra.
+- **Se guarda dentro del pasaporte hasta salir de Hong Kong.** Al salir se lo pueden
+  pedir; no se lo quitan.
+- **Es su única prueba de estar legal**, porque no hay timbre que la respalde. Quien
+  incumple la condición o el plazo se expone a proceso penal.
+- **Si lo pierde no es drama:** la entrada quedó en el sistema y puede salir igual;
+  reposición **gratis** en **Immigration Tower, 7 Gloucester Rd, Wan Chai**.
+- Después de salir de Hong Kong **no sirve para nada**.
+
+**Se cerró ofreciendo foto** por si el papel era otro (el billete duro de plástico del
+metro): la pregunta admitía dos lecturas y ella tiene Octopus, así que lo probable era el
+de migración — pero se dijo cuál se estaba respondiendo en vez de elegir en silencio.
+
+Fuente: `immd.gov.hk/eng/useful_information/non-stamping-immigration-clearance.html`.
