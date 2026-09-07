@@ -872,3 +872,25 @@ norte-noreste y este). **Si en la cámara se ve la bahía, se ve desde arriba.**
 
 **Regla: darle una fuente que ella pueda consultar sola vale más que mi pronóstico**, sobre
 todo cuando la decisión es a horas de distancia y yo puedo no estar en línea justo entonces.
+
+**Nan Lian y Chi Lin están pegados (msg 905).** Un **puente peatonal** los une, 5 min entre
+uno y otro, **los dos gratis**. Saliendo por **C2** se llega **primero al Jardín Nan Lian** y
+desde ahí se cruza al monasterio.
+
+- **Chi Lin** <code>志蓮淨苑</code>: salas **09:00-16:30** · **Nan Lian** <code>南蓮園池</code>:
+  **07:00-21:00**. **El monasterio cierra mucho antes que el jardín** — se le avisó para que
+  no se le pasara la hora mirando el jardín.
+- El Chi Lin es de madera al estilo Tang y está **armado sin un solo clavo**: el dato que
+  justifica entrar en vez de mirarlo de afuera.
+- **Salida C2**, se cruza por dentro del mall **Plaza Hollywood** y se sale a Fung Tak Rd.
+  El almuerzo queda resuelto en ese mismo mall, que es por donde se entra.
+
+**⚠️ Corrección de mi propia ruta:** en el itinerario le dije *«línea verde desde Mong Kok,
+4 paradas»*. **Eran 6**, y además la obligaba a caminar 8-10 min hasta Mong Kok con 32°. La
+ruta buena sale **de la estación de abajo de su hotel**: **Mong Kok East → East Rail 1
+parada → Kowloon Tong → línea verde 3 paradas → Diamond Hill**, ~15 min y casi todo bajo
+techo.
+
+**Regla que ya se repitió dos veces en este viaje: partir del hotel, no de la estación
+famosa.** Su hotel está conectado a **Mong Kok East**, y planificar desde «Mong Kok» a secas
+le agrega una caminata al aire libre que no necesita ([[embarazo-connie]]).
