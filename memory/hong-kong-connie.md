@@ -980,3 +980,53 @@ gana al contestarla.**
 Fuentes: `royalplaza.com.hk/location-and-transportation/`, ficha del K5 del Airport Express
 (dos fuentes coincidentes en el paradero y el horario), Transport Department de HK para el
 recargo de maletas.
+
+### La hora del vuelo llegó por foto, y traía un tramo nuevo (msg 913, 19:26 de HK)
+
+Mandó captura del itinerario **1 minuto después** de que se le pidiera por cuarta vez,
+amarrada a un beneficio concreto. **La insistencia sirvió; la que no había servido era la
+pregunta pelada.**
+
+**El dato grande no era la hora: Hong Kong NO es el final del viaje.**
+
+- **Martes 8-sep · MU502 de China Eastern · HKG T1 12:50 → PVG Shanghái-Pudong T1 15:15**
+  (2 h 25). Clase turista.
+- O sea **se va a SHANGHÁI**, no a Chile. Vuelve a Chile el **18-sep**
+  ([[recordatorios-viaje-connie]]), así que son **~10 días en Shanghái, del 8 al 18**.
+  Hasta ahora yo tenía el viaje como Shenzhen → Hong Kong → Chile.
+
+**Regla: un dato pedido para una cosa puede contener otra más importante.** Se pidió la hora
+para calcular el taxi y lo que llegó fue una etapa entera del viaje que yo no sabía que
+existía. **Leer la foto completa, no solo el campo que se pidió.**
+
+**El plan de salida que se le dio:**
+
+**09:30** salen del hotel en taxi · **~10:15** en el aeropuerto · **10:20** abre el
+check-in · **12:05** cierra · **12:50** despegue.
+
+**⚠️ China Eastern en HKG cierra el check-in 45 MINUTOS antes, no 60**, y el mostrador es el
+**pasillo J**. Abre **2 h 30** antes, no 3 h. Se le dijo de salir 09:30 para llegar **justo
+cuando abre el mostrador**: sin cola, alcanzan a pedir asiento, y quedan 2 h 30 de margen.
+
+Se le avisó además que **la mañana no da para panorama** — por eso el Peak se puso el lunes
+de noche y quedó bien puesto. **Cuando se entrega un horario de salida, decir explícitamente
+qué NO cabe**, o igual se arma un plan que no calza.
+
+**✅ Se cerró el aviso de la visa que quedó abierto en Shenzhen** ([[shenzhen-connie]]): ahí
+se le advirtió que con visa de una sola entrada no la dejarían volver a entrar. **No aplica:
+Chile entra a China SIN VISA**, 30 días **por cada entrada**, y la medida —vigente desde el
+1-jun-2025— **quedó extendida hasta el 31-dic-2026**. Reentrar mañana no le cuesta nada, y
+los 10 días de Shanghái caben de sobra en los 30.
+
+**⚠️ Ojo con la fecha de corte:** la mayoría de las fuentes todavía dice *«hasta el
+31-may-2026»*, que ya pasó. **La prórroga a diciembre es de nov-2025 y hay que buscarla
+aparte.** Un dato vencido que sigue publicado se ve idéntico a uno vigente — se confirmó
+contra la embajada china (`hr.china-embassy.gov.cn`), no contra una guía.
+
+**Shanghái está en UTC+8, igual que Hong Kong y Shenzhen:** los crons de recordatorios del
+11, 14 y 17-sep siguen correctos sin tocar nada. Solo el comentario que dice «en Hong Kong»
+queda desactualizado desde el 8-sep, no la hora.
+
+**Quedó ofrecido armarle Shanghái.** Si dice que sí, va a `memory/shanghai-connie.md` con el
+mismo criterio que funcionó acá: partir del hotel y no de la estación famosa, plano y con
+sombra ([[embarazo-connie]]), y precio total multiplicado por **3 personas**.
