@@ -832,3 +832,28 @@ costar tiempo y rabia, decirle cuándo abandonarlo es parte de la respuesta.**
 **Regla: si dice que no encuentra algo en un sitio, primero verificar que el sitio sea el
 correcto.** Acá el problema no era ella: yo le había dado el dominio informativo y la
 tienda vive en un subdominio distinto.
+
+**Confirmó el producto y ahí se cayó mi precio (msg 901, captura del webstore).** Tenía
+seleccionado **«Tram Return Ticket»** — correcto — pero la tienda oficial mostraba
+**HK$116 por adulto**, no los **HK$88** que yo le había dado.
+
+**El HK$88 salió de guías de viaje (`thebettervacation`, `pelago`); el webstore oficial es
+la fuente y manda.** Se corrigió de inmediato y sin rodeos, antes de que pagara.
+Probablemente venga de que el Peak Tram **unificó tarifa para todos los días** —el
+diferencial semana/fin de semana HK$88/HK$108 ya no existe.
+
+**Precios reales del webstore (7-sep-2026):** adulto **HK$116** · niño (3-11) **HK$75** ·
+**senior 65+ HK$75**.
+
+**Su compra:** 2 adultos + 1 senior = **HK$307** (~US$39). **Ella misma encontró el
+descuento de senior**, que ahorra HK$41. Sigue siendo mejor que Trip (US$48 los tres por
+ida sola + plataforma).
+
+**El aviso que se agregó y no era obvio:** la **tarifa senior es 65+ y la pueden acreditar
+en el torniquete** — que su mamá lleve el pasaporte, y si no llega a los 65 que lo cambie
+**antes de pagar, no en la fila**.
+
+**Regla: para precios, una guía de viajes es una pista y la boletería oficial es el dato.**
+Citar guías está bien para orientar, pero **el número que ella va a pagar se toma de la
+tienda**. Y cuando su pantalla contradice mi cifra, **gana su pantalla** —igual que cuando
+su captura de Amap me corrigió el orden de Pottinger.
