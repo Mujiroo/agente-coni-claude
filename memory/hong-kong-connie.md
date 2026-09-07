@@ -894,3 +894,21 @@ techo.
 **Regla que ya se repitió dos veces en este viaje: partir del hotel, no de la estación
 famosa.** Su hotel está conectado a **Mong Kok East**, y planificar desde «Mong Kok» a secas
 le agrega una caminata al aire libre que no necesita ([[embarazo-connie]]).
+
+**Direcciones de Diamond Hill (msg 907, pedidas ya estando en el mall):**
+
+- **Jardín Nan Lian** — <code>南蓮園池，九龍鑽石山鳳德道60號</code> (*«naam lin yun chi»*,
+  60 Fung Tak Road)
+- **Monasterio Chi Lin** — <code>志蓮淨苑，九龍鑽石山志蓮道5號</code> (*«ji lin jeng yun»*,
+  5 Chi Lin Drive)
+
+**Orientación dentro del mall:** seguir los letreros de **salida C2** y, ya afuera, caminar
+**al este** por Fung Tak Rd, 5 min. **Dentro de Plaza Hollywood está señalizado como
+<code>南蓮園池</code> / «Nan Lian Garden»** — no hay que adivinar.
+
+**La seña física que se le dio para confirmar:** un **muro largo de piedra** y, asomando por
+encima, un **pabellón de madera con techo dorado** sobre un estanque. Y el recurso si se
+pierde: **mostrar <code>南蓮園池</code> a cualquiera del mall**.
+
+Sigue valiendo la regla de las consultas en vivo: **respuesta en la primera línea, seña
+física verificable, y el margen de tiempo** — acá el cierre del monasterio a las 16:30.
