@@ -857,3 +857,18 @@ en el torniquete** — que su mamá lleve el pasaporte, y si no llega a los 65 q
 Citar guías está bien para orientar, pero **el número que ella va a pagar se toma de la
 tienda**. Y cuando su pantalla contradice mi cifra, **gana su pantalla** —igual que cuando
 su captura de Amap me corrigió el orden de Pottinger.
+
+**«¿Cómo se ve hoy en la noche?» (msg 903).** Se le dio el estado real, no un veredicto:
+**visibilidad 25 km en Central y 30 en el este** (excelente para HK), **cero lluvia en toda
+la ciudad** y **ningún aviso vigente**; contra eso, el pronóstico traía **chubascos con
+tormenta «en algunas zonas» más tarde** y **PSR = media**. Se le tradujo lo que importaba:
+*«en algunas zonas» son dispersos y pasan; **un chubasco corto no arruina el Peak — lo que
+lo arruina es nube en la cumbre**.*
+
+**La herramienta que se le dejó para que no dependa de mí:**
+**`hko.gov.hk/en/wxinfo/ts/index_webcam.htm`** → cámara **«Victoria Peak»** (hay dos,
+norte-noreste y este). **Si en la cámara se ve la bahía, se ve desde arriba.** Mirarla a las
+**17:00**, antes de tomar el metro. Más el chequeo a ojo desde la calle en Central.
+
+**Regla: darle una fuente que ella pueda consultar sola vale más que mi pronóstico**, sobre
+todo cuando la decisión es a horas de distancia y yo puedo no estar en línea justo entonces.
