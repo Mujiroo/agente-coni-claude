@@ -770,3 +770,31 @@ mapa.
 
 Agregado práctico: **arriba corre viento y baja la temperatura** — manga larga aunque abajo
 haya 32°.
+
+### La oferta de Trip.com para el Peak: más cara que la boletería (msg 895)
+
+Mandó captura de **Trip.com** ofreciendo *«Teleférico solo ida + Plataforma 428»* a
+**US$15,95** con un **−14%** sobre US$18,62 tachado, y preguntó **qué era «plataforma»**.
+
+**Respuesta:** la <b>Plataforma 428 es el Sky Terrace 428</b>, el mirador **pagado** en la
+azotea de la Peak Tower a 428 m — justo el que ya se le había dicho que no pagara, porque
+la **azotea del Peak Galleria** cruzando la calle es **gratis** y se ve casi lo mismo.
+
+**Los tres reparos, en orden de utilidad:**
+
+1. **«Teleférico» es mala traducción de Trip.** El **Peak Tram no es un cable: es un
+   funicular**. Vale aclararlo porque ella venía de descartar el Ngong Ping *por* el
+   teleférico y podía creer que era lo mismo.
+2. **«Solo ida»** — baja pagando de nuevo o en bus.
+3. **Los números no le dan.** Precios oficiales verificados: tranvía **ida HK$62**, **ida y
+   vuelta HK$88**; Sky Pass **ida + Sky Terrace HK$122**, **ida y vuelta + Sky Terrace
+   HK$144**. La oferta de Trip son **HK$124 por lo que la boletería cobra HK$122**:
+   **más caro por menos viaje**, y el «−14%» es sobre un precio de referencia inventado
+   ([[descuento-inflado-verificar]]).
+
+**Recomendado:** tranvía **ida y vuelta HK$88** en la caja + azotea gratis. **Los 3:
+HK$264 contra HK$372** de Trip.
+
+**Regla: una oferta de agregador se compara contra la boletería oficial, no contra su
+propio precio tachado.** Y revisar siempre **qué recorta** el paquete barato —acá era la
+vuelta.
