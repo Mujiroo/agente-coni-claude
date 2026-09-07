@@ -672,3 +672,27 @@ guía de viajes desactualizada se ve igual de segura que la buena.**
 **Quedó pendiente su hora de vuelo del martes** — es el dato que define si el Peak alcanza.
 Ya se había preguntado antes (msg 780) y no llegó respuesta: **volver a pedirlo, no
 suponerlo.**
+
+### «¿El Victoria Peak vale la pena en la mañana?» (msg 887, 10:07 de HK del lunes)
+
+Sí, y el argumento fuerte **no es la vista sino la fila**: el costo real del Peak es la
+cola del tranvía —**1-2 horas en la tarde, cero a las 07:30-09:00**—, lo que lo vuelve el
+panorama ideal para la **mañana del martes antes del vuelo**, dejando el Buda para el
+lunes ([[hong-kong-connie]], mantención 8-18 sep).
+
+- **Gana:** sin cola · **la visibilidad más limpia del día** (se verificó en vivo:
+  <code>LTMV</code> del Observatorio marcaba **26 km en Central**) · sol del este, Kowloon
+  iluminado de lado.
+- **Pierde:** la postal nocturna con los edificios encendidos, que es lo que lo hizo famoso.
+- **⚠️ El riesgo, con chequeo gratis:** el Peak está a **552 m** y con 90% de humedad se
+  mete en una nube. **Mirar el cerro desde la calle en Central antes de subir** — si la
+  punta está tapada, no vale el viaje. *Una verificación que ella puede hacer sola, con los
+  ojos, vale más que un pronóstico mío.*
+- **Práctico:** tranvía desde **Garden Road**, primero **07:30**, ida y vuelta **HK$88**
+  día de semana.
+- **No pagar el Sky Terrace 428 (HK$149):** la azotea del **Peak Galleria** es gratis y la
+  postal real es **Lugard Road**, sendero **plano** de 15-20 min ([[embarazo-connie]]).
+
+**Sigue sin responder la hora del vuelo del martes** — pedida ya tres veces (msgs 780, 886,
+888). Es el único dato que falta para cerrarle el último día; **pedirlo cada vez, sin
+suponerlo y sin reprochárselo**.
