@@ -696,3 +696,29 @@ lunes ([[hong-kong-connie]], mantención 8-18 sep).
 **Sigue sin responder la hora del vuelo del martes** — pedida ya tres veces (msgs 780, 886,
 888). Es el único dato que falta para cerrarle el último día; **pedirlo cada vez, sin
 suponerlo y sin reprochárselo**.
+
+### Descartó el Buda por precio, y el precio no era el del Buda (msg 889)
+
+*«No iremos a ver al Buda, es demasiado caro para 3, casi 100 dólares»*. **Van 3
+personas** (ella, su mamá y una tercera) — dato nuevo que conviene arrastrar a cualquier
+cálculo futuro.
+
+**Su número estaba bien:** HK$270 × 3 = **HK$810 ≈ US$104**. No se discutió.
+
+**Lo que faltaba:** eso es **el teleférico**, no el Buda. **El Buda Tian Tan es gratis** —
+subir, los 268 escalones y el Monasterio Po Lin no cobran entrada. Llegando en **bus 23**
+desde Tung Chung (~HK$20 por persona por tramo) los tres van y vuelven por **~HK$120
+(US$16)**. **De US$104 a US$16 por el mismo Buda.**
+
+**Pero se le dieron los dos contras en la misma respuesta, sin venderle el ahorro:**
+- Son los **45 min de curvas de cerro** que yo mismo le había dicho que evitara. **No se
+  puede recomendar hoy lo que ayer se desaconsejó sin nombrar la contradicción.**
+- **El teleférico es la mitad del panorama** (25 min sobre el mar). En bus ve el Buda, no
+  hace el paseo.
+
+Y se cerró con **«si igual deciden no ir, no insisto»**, ofreciendo armarle el lunes libre.
+
+**Regla: cuando descarta algo por precio, revisar si el precio que tiene en la cabeza es el
+de la cosa o el del acceso.** Muchas veces la atracción es gratis y lo caro es el transporte
+—y ahí sí hay una decisión que tomar. Pero el dato se entrega **con sus contras**, no como
+argumento para darle vuelta la decisión ([[leer-estado-real-antes-de-proponer]]).
