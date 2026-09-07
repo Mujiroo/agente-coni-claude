@@ -722,3 +722,32 @@ Y se cerró con **«si igual deciden no ir, no insisto»**, ofreciendo armarle e
 de la cosa o el del acceso.** Muchas veces la atracción es gratis y lo caro es el transporte
 —y ahí sí hay una decisión que tomar. Pero el dato se entrega **con sus contras**, no como
 argumento para darle vuelta la decisión ([[leer-estado-real-antes-de-proponer]]).
+
+### ITINERARIO DEL LUNES 7-SEP (msg 891, pedido con el Peak incluido)
+
+Con el Buda descartado, pidió el día armado. Quedó:
+
+**11:00** salir · **11:30 Jardín Nan Lian + Monasterio Chi Lin** <code>南蓮園池</code>,
+Diamond Hill (línea verde, 4 paradas desde Mong Kok, sale en la estación) · **13:00**
+almuerzo en **Plaza Hollywood**, pegado a la estación · **14:30** metro a Central ·
+**15:15 Tai Kwun** <code>大館</code>, 10 Hollywood Rd · **17:00** tranvía en **Garden
+Road** · **18:00 Lugard Road** · **18:36 puesta de sol** (verificada), **19:00** ciudad
+encendida · **20:00** bajar.
+
+**Los criterios que lo ordenaron, y sirven para rearmarlo:**
+- **Todo gratis salvo transporte.** Venían de rechazar US$104: Nan Lian, Chi Lin, Tai
+  Kwun, Lugard Road y la azotea del Peak Galleria **no cobran entrada**. Total ~**US$50
+  los tres**, y se le dijo así — *«un tercio del teleférico»*.
+- **Plano y con sombra** en las horas de calor (32°, [[embarazo-connie]]).
+- **Tai Kwun es techado y con aire a propósito:** es el refugio si cae la tormenta de la
+  tarde, no un relleno.
+- **Subir 17:00 y no 18:00:** la cola del tranvía en la puesta de sol es la peor del día.
+- **Tranvía y no bus 15**, aunque el bus sea 5× más barato y sin cola: **7 min derecho vs
+  40 min de curvas**. Se le explicó la razón —*«por eso te lo pongo a ti»*— en vez de dar
+  solo el más barato.
+
+**Dato duro:** puesta de sol **18:36**, crepúsculo civil hasta **18:57**
+(`api.sunrise-sunset.org`). La ventana buena del Peak es **18:35-19:05**.
+
+**Sigue sin llegar la hora del vuelo del martes.** Por eso el Peak se puso **hoy**: es su
+última noche y de noche es cuando vale — no se dejó colgando de un dato que no tengo.
