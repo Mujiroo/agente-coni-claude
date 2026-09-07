@@ -931,3 +931,52 @@ estar en la fila 17:45.
 plan seguía esa noche **se le dejó armado el tramo siguiente en el mismo mensaje**, separado
 con una línea. Así no tiene que volver a preguntar a las 17:00 — y si el chat se mueve, la
 instrucción ya está donde la va a buscar.
+
+### «¿En el hotel me llevan al aeropuerto?» (msg 911, lunes 7-sep, 19:22 de HK)
+
+Preguntó por el traslado estando en la calle, la noche antes de volar. **La respuesta corta
+es no**, y lo que la vuelve útil no es el «no» sino el porqué y el reemplazo.
+
+- **El Royal Plaza NO tiene shuttle propio al aeropuerto.** Tiene **traslado privado en
+  auto**, pero el sitio oficial pide reservarlo **con 48 h de anticipación** al conserje
+  (`concierge@royalplaza.com.hk`). **Preguntando la noche antes, esa puerta ya está
+  cerrada** — decirlo así evita que pierda la mañana intentándolo.
+- **Lo que sí llega a su puerta: el bus K5 del Airport Express**, que **para en el Royal
+  Plaza**, **06:12-23:12, cada 20 min**. Pero **deja en Kowloon Station, no en el
+  aeropuerto**, y es gratis **solo con boleto del Airport Express**. Es un enlace al tren,
+  no un traslado.
+
+**Las tres opciones con su número real, para las 3 personas** (son 3, dato de msg 889):
+
+| | Costo los 3 | Tiempo |
+|---|---|---|
+| **Taxi rojo** puerta a puerta | **HK$300-350 el auto** + HK$6 por maleta al maletero | ~40 min |
+| **Airport Express** desde Kowloon | HK$105 c/u = **HK$315** | 21 min de tren + trasbordo |
+| **Bus A21** | HK$33-34,60 c/u = **~HK$100** | 45-70 min |
+
+**⚠️ El dato que da vuelta la comparación: el taxi se cobra POR AUTO, no por persona.**
+Siendo 3, el taxi (HK$300-350) sale **más barato que el Airport Express** (HK$315 + el
+trasbordo con maletas) y encima es puerta a puerta. Con el tren la comparación se hace sola
+si son 1 o 2 pasajeros, y se invierte a partir de 3.
+
+**Regla: en transporte, antes de recomendar el más barato por persona, multiplicar por
+cuántos van.** Tarifas por vehículo y tarifas por cabeza se cruzan, y el cruce cambia la
+recomendación. Acá además el taxi gana el criterio que manda ([[embarazo-connie]]): **cero
+metros caminando con maletas a 23 semanas**.
+
+Se le pasó el aeropuerto en chino para el chofer: <code>香港國際機場</code>
+(*«heung gong gwok jai gei cheung»*), mismo recurso que funcionó con el nombre del hotel.
+
+**Detalle guardado por si vuelve a servir:** el *in-town check-in* de Kowloon Station existe
+pero solo lo dan **Cathay Pacific, Hong Kong Airlines y Qantas**, 06:00-15:00. No se le
+ofreció porque no sé con qué aerolínea vuela y la recomendación era el taxi igual.
+
+**Sigue sin llegar la hora del vuelo del martes — es la CUARTA vez que se pide** (msgs 780,
+886, 888 y ahora 912). Se pidió otra vez amarrada a un beneficio concreto —*«es lo único que
+necesito para decirte a qué hora salir del hotel»*— en vez de repetir la pregunta pelada.
+**Cuando un dato se resiste, no insistir más fuerte: cambiar la pregunta por lo que ella
+gana al contestarla.**
+
+Fuentes: `royalplaza.com.hk/location-and-transportation/`, ficha del K5 del Airport Express
+(dos fuentes coincidentes en el paradero y el horario), Transport Department de HK para el
+recargo de maletas.
