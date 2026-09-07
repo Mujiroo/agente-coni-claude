@@ -816,3 +816,19 @@ Tres datos operativos verificados que cambian el rato allá:
 
 **Regla: distinguir siempre «fila de comprar» de «fila de subir».** Un ticket online
 resuelve una y no la otra, y prometer las dos arruina la hora de llegada calculada.
+
+**«No encuentro el ida y vuelta, me tratan de vender puros paquetes» (msg 899).** Tenía
+razón: `thepeak.com.hk` es la web informativa y **la tienda real es otra**:
+**`webstore.thepeak.com.hk/?lang=en_us`**. El producto se llama **«Peak Tram Return
+Ticket»** / <code>山頂纜車來回票</code> — **«Return» es ida y vuelta**, y el «Sky Pass» es
+el paquete con la plataforma. Alternativa más navegable: **Klook, actividad 765** («The
+Peak Tram Ticket»), eligiendo el paquete **«Peak Tram Round Trip»**, mismos **HK$88**.
+
+**Lo que importaba más que el link:** se le puso un **límite de tiempo explícito** —
+*«si en 5 minutos no aparece, cómpralo en la caja: son los mismos HK$88»*. Estaba
+frustrada peleando con una web a horas de salir. **Cuando el camino barato empieza a
+costar tiempo y rabia, decirle cuándo abandonarlo es parte de la respuesta.**
+
+**Regla: si dice que no encuentra algo en un sitio, primero verificar que el sitio sea el
+correcto.** Acá el problema no era ella: yo le había dado el dominio informativo y la
+tienda vive en un subdominio distinto.
