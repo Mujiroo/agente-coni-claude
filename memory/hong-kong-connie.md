@@ -798,3 +798,21 @@ HK$264 contra HK$372** de Trip.
 **Regla: una oferta de agregador se compara contra la boletería oficial, no contra su
 propio precio tachado.** Y revisar siempre **qué recorta** el paquete barato —acá era la
 vuelta.
+
+**Dónde comprar el tranvía ida y vuelta (msg 897):** la oficial es **`thepeak.com.hk`** —
+buscar **«Peak Tram Round Trip»**, **sin** Sky Terrace: **HK$88** adulto día de semana,
+**HK$264** los tres. **Klook** y **KKday** son revendedores autorizados y también la
+venden, pero se comparan contra los HK$88, no al revés.
+
+Tres datos operativos verificados que cambian el rato allá:
+
+- **Comprar online salta la fila de la BOLETERÍA** —que en tarde ocupada llega a **90
+  min**— **pero no la de EMBARQUE**. Distinguirlas evita prometerle que entra directo; por
+  eso las 17:45 siguen en pie.
+- **La Octopus NO abre el torniquete del Peak Tram.** Sirve para **pagar en la caja**
+  solamente. *Yo supuse lo contrario y lo verifiqué antes de decírselo* — si no compra
+  online, hace fila igual.
+- Elegir **fecha de hoy**: la opción «fecha flexible» cuesta más y no la necesita.
+
+**Regla: distinguir siempre «fila de comprar» de «fila de subir».** Un ticket online
+resuelve una y no la otra, y prometer las dos arruina la hora de llegada calculada.
