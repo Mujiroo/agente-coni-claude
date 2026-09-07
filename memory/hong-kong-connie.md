@@ -912,3 +912,22 @@ pierde: **mostrar <code>南蓮園池</code> a cualquiera del mall**.
 
 Sigue valiendo la regla de las consultas en vivo: **respuesta en la primera línea, seña
 física verificable, y el margen de tiempo** — acá el cierre del monasterio a las 16:30.
+
+**Vuelta de Diamond Hill al hotel (msg 909, 14:12 de HK).** **Diamond Hill → línea verde
+dirección Whampoa <code>黃埔</code>, 3 paradas → Kowloon Tong → East Rail, 1 parada → Mong
+Kok East**, y sale directo a MOKO **sin pisar la calle**. ~15 min, ~HK$10 con Octopus.
+
+**⚠️ El error caro se repite en este cruce:** en **Kowloon Tong** el andén correcto es el de
+**Admiralty <code>金鐘</code>**; el de **Lo Wu / Lok Ma Chau la devuelve hacia Shenzhen**. Es
+la segunda vez que aparece esta trampa en el viaje — **avisarla siempre que pase por Kowloon
+Tong o Mong Kok East**.
+
+**Y se le adelantó la ruta al Peak, que es la más simple del día:** del hotel al tranvía es
+**un solo tren sin cambios** — **Mong Kok East → East Rail dirección Admiralty → hasta el
+final (3 paradas) → salida B → 10 min a pie por Garden Road**. **Salir del hotel 17:05** para
+estar en la fila 17:45.
+
+**Lo que se hizo bien y conviene repetir:** ella pidió solo la vuelta al hotel, pero como el
+plan seguía esa noche **se le dejó armado el tramo siguiente en el mismo mensaje**, separado
+con una línea. Así no tiene que volver a preguntar a las 17:00 — y si el chat se mueve, la
+instrucción ya está donde la va a buscar.
