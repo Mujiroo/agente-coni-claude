@@ -751,3 +751,22 @@ encendida · **20:00** bajar.
 
 **Sigue sin llegar la hora del vuelo del martes.** Por eso el Peak se puso **hoy**: es su
 última noche y de noche es cuando vale — no se dejó colgando de un dato que no tengo.
+
+**Confirmó tranvía y de noche; preguntó la hora (msg 893).** Recomendado: **17:45 en la
+fila** → arriba 18:10 → **18:36** sol, **19:00** ciudad encendida, **19:30** noche cerrada.
+**El argumento: una sola cola y ve las tres luces desde el mismo punto**; subiendo a las
+20:00 se pierde dos. Alternativa si insisten en noche pura: **20:00 en la fila**, cola ya
+descargada, **último tranvía de bajada 23:00**.
+
+**⚠️ El ajuste que trajo el cambio a noche, y que yo mismo tuve que corregir:** en el plan
+de las 18:00 le había puesto **Lugard Road**, que de día es la mejor vista y es plano —
+pero **de noche tiene tramos sin luz** y no sirve para caminarlo embarazada. De noche la
+vista va desde la **azotea del Peak Galleria (gratis)**; el **Sky Terrace 428 (HK$149 c/u)**
+se mencionó como dato, no como recomendación.
+
+**Regla: cuando cambia la hora de un panorama, revisar qué partes del plan dependían de la
+luz.** Un sendero plano y gratis deja de ser buena idea a las 20:00 y eso no lo dice el
+mapa.
+
+Agregado práctico: **arriba corre viento y baja la temperatura** — manga larga aunque abajo
+haya 32°.
