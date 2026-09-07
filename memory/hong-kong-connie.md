@@ -641,3 +641,34 @@ teléfono, así la fecha y el plazo no dependen del papel.
 **Regla: cuando pierde un documento, primero decir si tiene consecuencia real y recién
 después dónde se repone.** El orden inverso la manda a una oficina antes de saber que no
 necesita ir.
+
+### Lunes 7-sep, 09:35 de HK: «¿Buda o Peak hoy?» — lo decidió una mantención
+
+Preguntó cuál de los dos hacer **hoy**. La respuesta no salió del gusto ni del clima:
+
+**⚠️ El Ngong Ping 360 entra en mantención programada del 8 al 18 de septiembre 2026.**
+El **7-sep era el último día operativo**, y ella vuela el **martes 8**. O sea: el Buda era
+hoy o nunca, y el Peak está abierto todos los días. **La pregunta «cuál de los dos» se
+respondió sola al mirar la disponibilidad, no la preferencia.**
+
+**Cómo se verificó, porque el primer dato no bastaba:** una guía decía «mantención
+típicamente en marzo» y otra «cerrado 8-18 sep». El sitio oficial `np360.com.hk`
+**confirmó que había banner de mantención de septiembre 2026** pero las fechas venían en
+imagen y no se leían. Recién con **dos fuentes coincidiendo en 8-18 sep** se dio por bueno.
+**Regla: un dato que cambia el día entero de alguien se confirma con dos fuentes, y una
+guía de viajes desactualizada se ve igual de segura que la buena.**
+
+**Lo que se le dio con eso:**
+- Ruta: **Mong Kok → roja a Tsuen Wan → Lai King → cruzar andén → línea Tung Chung → final**,
+  ~40 min, salida **B**. Horario semana **10:00-18:00**, ida y vuelta **HK$270** estándar;
+  comprar en línea **yendo en el metro** para saltar la fila.
+- **268 escalones** al Buda, que **se ve entero desde abajo**; el **Monasterio Po Lin es
+  plano** ([[embarazo-connie]]).
+- **El aviso que valía más:** hoy hay tormentas eléctricas en la tarde y **el teleférico se
+  suspende con rayos**. Quedar arriba obliga al **bus 23**, 50 min de curvas de cerro —
+  pésimo embarazada. Meta: estar abajo a las **16:00**.
+- El **Peak** queda para la noche o el martes temprano (tranvía desde **07:30**, sin fila).
+
+**Quedó pendiente su hora de vuelo del martes** — es el dato que define si el Peak alcanza.
+Ya se había preguntado antes (msg 780) y no llegó respuesta: **volver a pedirlo, no
+suponerlo.**
