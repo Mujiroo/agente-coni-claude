@@ -54,4 +54,37 @@ Stitch, el desfile e **ILLUMINATE!**—, que a 23 semanas **son el descanso, no 
 verificadas; el aviso oficial de embarazada por atracción **no se pudo leer del sitio
 oficial**, que es JS — la misma limitación que con las reglas de comida.
 
+## «¿Y qué tiene que acelere harto? ¿Es peligroso?» (msg 959, 1 min después)
+
+**Cuestionó la advertencia de Zootopia y tenía razón en cuestionarla: «acelera harto» era
+impreciso.** Al ir a verificar apareció el perfil real: **giros bruscos, frenadas secas y
+caídas pequeñas**, y **sí tiene altura mínima, 81 cm** — o sea la advertencia estaba bien
+pero el argumento estaba mal dicho.
+
+**Lo que se le explicó, y es lo que faltaba:**
+
+- **La velocidad no es el problema** — un avión va a 900 km/h. Lo que preocupa son los
+  **cambios bruscos de fuerza**: el frenazo, el sacudón, la caída.
+- **El mecanismo real se llama desprendimiento de placenta:** está pegada a la pared del
+  útero y un tirón violento podría despegarla. **Esa es la razón detrás de TODOS los
+  carteles**, no el mareo. Nombrarlo le sirve para juzgar sola cualquier atracción, en este
+  parque y en el próximo.
+- **Calibración honesta, sin inflar ni minimizar:** el riesgo en una atracción familiar es
+  **bajo** y los casos documentados son de montañas rusas grandes; **pero no es cero**, y por
+  eso existe la advertencia. **Zootopia no es TRON: está en la zona gris, no en la prohibida.**
+
+**El veredicto se dio igual —saltarla— pero con razones prácticas, no con miedo:** tiene
+altura mínima, así que **la pueden dar vuelta en la puerta después de hacer la fila**, y una
+frenada seca con panza de 23 semanas y una barra cruzada es incómoda aunque no pase nada.
+
+**Y se cerró devolviéndole la decisión:** *«es tu cuerpo y tu decisión»*, con la frase para
+preguntar en la entrada — <code>我怀孕了，可以坐吗？</code> (*«wo huai yun le, ke yi zuo
+ma?»*) — y diciéndole que **lo que le respondan ahí manda sobre mí**.
+
+**Regla: cuando ella pregunta «¿por qué?» a una advertencia mía, la respuesta correcta no es
+repetirla más fuerte ni retirarla.** Es dar el mecanismo, el tamaño real del riesgo y quién
+decide. Una advertencia sin mecanismo no se puede aplicar a la siguiente atracción; con
+mecanismo, ella queda capaz de juzgar sin preguntarme
+([[leer-estado-real-antes-de-proponer]]).
+
 Relacionado: [[shanghai-connie]], [[embarazo-connie]]
