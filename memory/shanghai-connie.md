@@ -256,5 +256,40 @@ no basta advertirlo — hay que decirle CUÁL pedazo se cae y por qué ese y no 
 responda lo que responda, la hora ya está. Y con el tren gana un desayuno de *xiaolongbao* en
 Nanxiang, que abre 8:30.
 
+## «¿Hay forma de ir en metro desde el aeropuerto?» (msg 936)
+
+Preguntó por el metro después de que se le recomendara taxi. **No se le repitió la
+recomendación: se le dieron los números y la trampa.**
+
+**⚠️ LA TRAMPA DEL ANDÉN, TERCERA VEZ EN ESTE VIAJE:** el tramo del aeropuerto de la
+**Línea 2 NO llega al centro de corrido**. En **广兰路 (Guanglan Road) se baja TODO el
+mundo** y hay que cambiarse al otro tren de la misma Línea 2. Son 3-5 min, mismo andén,
+misma línea. **Si nadie avisa, parece que la bajaron a mitad de camino o que se equivocó de
+tren.** Es la misma clase de error que la trampa de Lo Wu en Kowloon Tong
+([[hong-kong-connie]]): **un cambio obligatorio que no se ve en el mapa de líneas.**
+
+**Los números, para 3 personas:**
+
+| | Los 3 | Tiempo | Trasbordos |
+|---|---|---|---|
+| **Metro** | **¥24** | 75-90 min | 1 (Guanglan Rd) |
+| **Maglev + L2** | ¥162 | ~35 min | 1 |
+| **Taxi** | ¥180-260 el auto | ~70 min | 0 |
+
+**Se mantuvo la recomendación de taxi pero se cambió el argumento, y eso es lo importante:**
+en plata **el metro gana por 10 veces** y se dijo así, sin maquillarlo. Lo que lo descarta
+hoy es otra cosa: aterriza 15:15, sale de aduana ~16:15, y **ese tramo cae en hora punta** —
+90 min de pie con maletas a 23 semanas ([[embarazo-connie]]).
+
+**Regla: cuando ella cuestiona una recomendación, revisar si el argumento original sigue
+siendo el correcto.** Acá el veredicto no cambió pero **la razón sí**: ya no era el precio
+—donde el metro gana— sino la hora de llegada. Defender la conclusión con el argumento
+equivocado es peor que cambiar de opinión.
+
+Y se cerró con lo que sí cambia: **«hoy taxi, de mañana en adelante metro para todo»**,
+porque su hotel está sobre Nanjing Este, que tiene **L2 y L10** — que es justamente por qué
+el itinerario quedó con casi todo a 2 paradas. **Pagar con el QR de metro de Alipay**, no con
+boleto de máquina.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
