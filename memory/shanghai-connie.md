@@ -291,5 +291,38 @@ porque su hotel está sobre Nanjing Este, que tiene **L2 y L10** — que es just
 el itinerario quedó con casi todo a 2 paradas. **Pagar con el QR de metro de Alipay**, no con
 boleto de máquina.
 
+## «¿Y Didi?» (msg 938)
+
+**Sirve, y se le dio la vía que esquiva su problema de siempre:** entrar por **Alipay** y
+buscar el mini-programa <code>滴滴出行</code>, **no bajar la app de Didi**. Así va sobre su
+cuenta de Alipay —que ya tiene con tarjeta extranjera ([[notas-connie]])— y **no le piden
+móvil +86 ni registro aparte**.
+
+Precio: **¥130-180** del aeropuerto al hotel, contra ¥180-260 del taxi.
+
+**⚠️ Pero se aplicó la regla de [[telefono-chileno-en-roaming-china]]: preguntarse en qué
+paso va a pedir el +86 — o, acá, en qué paso depende del teléfono.** En Didi el paso frágil
+es que **el chofer llama**, y con número chileno en roaming eso es exactamente lo que falla;
+es el mismo muro que le apareció pidiendo comida al hotel el 28-ago. Encima **en Pudong la
+zona de recogida de Didi está aparte de la fila de taxis**, en el estacionamiento: si la
+llamada no entra y está en el punto equivocado, no se encuentran, con maletas y recién
+aterrizada.
+
+**Veredicto en dos tiempos, que es lo que lo hizo útil:**
+
+- **Hoy, llegando: taxi.** El aeropuerto es el peor lugar para estrenar Didi.
+- **Del miércoles en adelante: Didi mejor que taxi, y NO por el precio** — porque **el
+  destino va escrito en la app** y no tiene que explicarle nada al chofer en chino. **Esa es
+  la ventaja real para ella**, no los ¥50 de diferencia.
+
+Las dos condiciones que se le dieron para que funcione: **probarlo hoy desde el hotel con un
+viaje corto**, no a las 8 de la mañana camino a Disney; y **hablar por el chat de la app, que
+traduce solo y no depende de su señal**, en vez de por teléfono.
+
+**Regla: una herramienta nueva se estrena en el momento barato, no en el momento en que se
+necesita.** Y **cuando se recomienda una app china, la recomendación incluye por dónde
+entrar** (mini-programa de Alipay vs app propia): son productos distintos en requisitos
+aunque se llamen igual.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
