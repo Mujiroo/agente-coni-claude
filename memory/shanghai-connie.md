@@ -449,3 +449,32 @@ Access + shows sentados) y en el paso concreto que la hace funcionar.
 Fuentes: SCMP, Beijing News y prensa china de nov-dic 2024 sobre el cambio de regla; sitio
 oficial de Shanghai Disney Resort (la página de arriendo de sillas es JS y **no se pudo leer
 textual**, igual que la de reglas de comida).
+
+## «¿Qué es esto?» — foto de una carta de restaurante (msg 949, 19:44, hora de comer)
+
+Fotografió la carta de un restaurante apuntando al plato de la foto grande:
+**1115 · 特色八仙黑松露素包** (*«te se ba xian hei song lu su bao»*), **¥21** la porción —
+**pan al vapor relleno vegetariano con trufa negra**, cocido sobre hoja de loto.
+
+Se le contestó en tres capas, que es lo que sirve con una carta:
+
+1. **Qué es**, desarmando los caracteres: <code>素包</code> = pan relleno sin carne,
+   <code>黑松露</code> = trufa negra.
+2. **Si le sirve a ella:** al vapor, sin carne, nada crudo → **de lo más seguro de la carta**
+   con 23 semanas ([[embarazo-connie]]).
+3. **⚠️ El aviso que evita la decepción: a ¥21 la trufa es aceite aromatizado, no trufa.**
+   No es estafa —es un sabor de moda en China— pero **el perfume llega mucho más fuerte de
+   lo que espera**. **Regla: cuando un plato barato lleva nombre de ingrediente caro, decir
+   qué va a llegar de verdad al plato**, igual que con el descuento inflado
+   ([[descuento-inflado-verificar]]).
+
+**Y se leyó la página entera, no solo lo que preguntó** — ahí estaba lo mejor:
+**排骨年糕** (*«pai gu nian gao»*, ¥32), costilla frita con torta de arroz, **EL clásico
+callejero de Shanghái**. Se le dijo que si pide una sola cosa típica, pida esa.
+También **701 · 小吃三拼** (tabla de 3 fritos) y **711 · 串炸里脊肉** (¥38, 5 brochetas de
+lomo apanado).
+
+**Regla: en una foto de carta, la pregunta es por un plato pero el valor está en la página.**
+Ella ve fotos y precios; yo soy el único que lee los caracteres. Traducir solo lo señalado
+desperdicia la foto — **y ofrecer leerle el resto de la carta convierte una respuesta en un
+servicio**. Queda ofrecido que mande las demás páginas.
