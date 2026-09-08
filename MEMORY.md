@@ -29,3 +29,4 @@
 - [El descuento chino se lee al revés](descuento-chino-zhe.md) — 折 dice cuánto pagas: 75折 es 25% off, no 75%.
 - [Acnes y el acné en el embarazo](acne-y-embarazo-hk.md) — qué es cada rótulo del estante y qué ingrediente descarta el embarazo; los parches son lo único sin dudas.
 - [Shanghái](shanghai-connie.md) — los 5 días del 8 al 13-sep: compras ordenadas por clima, Disney embarazada y los Michelin baratos.
+- [El vigía mide la métrica rota](vigia-mide-la-metrica-rota.md) — vigilancia_cambios.py cuenta conversiones de Ads; cruzar con las cotizaciones del sitio antes de alarmar.
