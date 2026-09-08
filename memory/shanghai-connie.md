@@ -131,5 +131,60 @@ del todo: el paseo es real, lo que no sirve es hacerlo cargada.
 Dirección para el chofer: <code>南京东路步行街</code> (*Nanjing Road peatonal, «nan jing dong
 lu bu xing jie»*).
 
+## Los 4 lugares que mandó por captura (msgs 923-926, 46 s después del plan)
+
+Mandó cuatro videos de Instagram preguntando *«¿los agregas? ¿o quedan muy lejos? ¿valen la
+pena? dime lo que crees»*. **Pidió opinión, no una lista** — así que cada uno se contestó con
+un veredicto explícito y su porqué, no con una ficha.
+
+**1. Ren He Guan** <code>人和馆</code> ⭐ — **el hallazgo real de los cuatro.** El video decía
+«el estrellado más barato de Shanghái» y **era cierto**: **1 estrella Michelin en la guía
+2026** con promedio de **¥250 por persona**. Shanghainesa; el plato es el *hong shao rou*.
+
+**⚠️ La trampa que el video no dice y que fue lo que agregó valor: hay DOS Ren He Guan y solo
+uno tiene la estrella** — **Zhaojiabang Road 407, Xuhui** (<code>肇嘉浜路407号</code>). El de
+Jing'an es del mismo dueño y **no está estrellado**. Buscar el nombre en un mapa la puede
+mandar al equivocado. **Regla: cuando una recomendación viral nombra un local de cadena,
+verificar cuál sucursal tiene el premio — la guía premia direcciones, no marcas.**
+
+**2. Lai Lai Xiao Long** <code>来来小笼</code> — sí, y **el más fácil**: Bib Gourmand, ¥50-100,
+**Tianjin Road 506** al lado de People's Square, **1 parada o 15 min a pie de su hotel**.
+⚠️ **Cierra de 14:00 a 15:00** y para a las 20:00.
+
+**3. Zhujiajiao** <code>朱家角</code> — sí, pero **día entero**. L2 → Hongqiao Railway Station
+→ L17 hasta el final, **60-75 min por lado**, ¥7-9. **Entrar al pueblo es GRATIS**; solo se
+pagan las casas-museo (¥40-80, opcionales) — dato que corrige la idea de que es un parque de
+pago. ⚠️ Adoquín y puentes con escalones; **el paseo en bote se le vendió como la forma de
+ver el pueblo sentada**, no como turisteo ([[embarazo-connie]]).
+
+**4. Templo Longhua** <code>龙华寺</code> — sí, pero **cuarto en la fila, y se le dijo así**.
+El más antiguo de Shanghái, pagoda del **977**, plano, ¥10, L11/L12 estación Longhua.
+**Se le dijo derecho que se parece al Chi Lin que vio en Hong Kong hacía dos días** y que lo
+único que Longhua tiene y Chi Lin no es la pagoda. **Regla: cuando un panorama repite algo
+que ya hizo esta misma semana, decirlo — la novedad es parte del valor y yo soy el único que
+tiene las dos cosas a la vista.**
+
+## Cómo quedó la semana, y por qué en ese orden
+
+- **Jue 10** (53% lluvia) → techado y a 2 paradas: Han City → **Lai Lai Xiao Long** → Qipu
+  Road → Yuyuan de tarde (galerías cubiertas).
+- **Vie 11** (24%) → Pudong: AP Plaza (bajo tierra) + **EKA·Tianwu**.
+- **Sáb 12** (15%, el mejor día) → **Zhujiajiao completo**. Se le explicó el criterio: es
+  **el único panorama que depende de que no llueva**, así que se lleva el día seco.
+- **Dom 13** (14,7 mm) → **Ren He Guan** a almuerzo y nada al aire libre.
+
+**Longhua quedó fuera y se dijo por qué** (es al aire libre y el único hueco era el domingo
+lluvioso), **con la alternativa concreta** de cambiarlo por el Yuyuan del jueves. **Dejar algo
+fuera en silencio se lee como olvido; dejarlo fuera con el motivo y el canje es una decisión
+que ella puede revertir.**
+
+## Dos datos que le quedaron pedidos (msg 928)
+
+1. **La hora de salida del domingo** — define si el almuerzo en Ren He Guan alcanza.
+2. **Dónde está del 13 al 18** — los 5 días sin destino. **Se le pidió amarrado a una
+   consecuencia concreta, no como curiosidad:** los crons del 14 y 17-sep están calculados a
+   22:00 hora de China, y si esos días cambia de huso le llegan a la hora equivocada. Es la
+   misma técnica que destrabó la hora del vuelo en Hong Kong ([[hong-kong-connie]]).
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
