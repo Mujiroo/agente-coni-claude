@@ -186,5 +186,42 @@ que ella puede revertir.**
    22:00 hora de China, y si esos días cambia de huso le llegan a la hora equivocada. Es la
    misma técnica que destrabó la hora del vuelo en Hong Kong ([[hong-kong-connie]]).
 
+## El itinerario final, confirmado por ella (msg 929)
+
+Respondió tres cosas: **fuera Longhua**, **Ren He Guan solo el estrellado**, y **después de
+Shanghái se va a PEKÍN**. Con eso se le remandó el itinerario limpio, día por día
+(msgs 930-931).
+
+| Día | Clima | Qué |
+|---|---|---|
+| **Mar 8** | 39% | Llegada 15:15 + Bund de noche |
+| **Mié 9** | 0,5 mm | Disney |
+| **Jue 10** | 53% | Han City → **Lai Lai** (almuerzo) → Qipu Rd → **Ren He Guan ⭐** (cena) |
+| **Vie 11** | 0 mm | AP Plaza → **EKA·Tianwu** |
+| **Sáb 12** | 15% | **Zhujiajiao** completo |
+| **Dom 13** | **15 mm** | Yuyuan + **Nanxiang** de mañana → vuelo a Pekín |
+
+**Las dos decisiones de armado que conviene recordar:**
+
+1. **La estrella se puso el jueves, que es el día de lluvia**, y se le explicó por qué: *«una
+   cena larga sentada bajo techo es justo lo que corresponde»*. **Un restaurante caro no es
+   solo comida, es el panorama techado del día malo.**
+2. **El Yuyuan se movió al domingo**, el día de salida y de lluvia de verdad: está **a 1
+   parada del hotel y tiene galerías cubiertas**, así que es lo único que funciona con maleta
+   hecha y 15 mm cayendo. **El día de viaje se llena con lo que está más cerca, no con lo que
+   sobró.**
+
+**✅ SE RESOLVIÓ EL HUECO DEL 13 AL 18: se va a PEKÍN.** Y la consecuencia operativa es
+buena: **Pekín es UTC+8, el mismo huso que Shanghái y Hong Kong**, así que **los crons del 14
+y del 17-sep quedan correctos sin tocar nada**. Se le confirmó explícitamente, porque la
+pregunta se le había hecho justificada en eso.
+
+**Sigue faltando la hora de salida del domingo** — de eso depende si el Yuyuan de la mañana
+alcanza. Es el mismo dato que costó cuatro pedidos en Hong Kong ([[hong-kong-connie]]).
+
+**PENDIENTE PRÓXIMO: armarle PEKÍN**, del domingo 13 al 18. Aplicar lo que ya funcionó acá:
+ordenar por clima antes que por gusto, mirar milímetros y no porcentaje, partir del hotel,
+plano y con sombra ([[embarazo-connie]]), y multiplicar todo precio por **3 personas**.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
