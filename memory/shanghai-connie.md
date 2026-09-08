@@ -223,5 +223,38 @@ alcanza. Es el mismo dato que costó cuatro pedidos en Hong Kong ([[hong-kong-co
 ordenar por clima antes que por gusto, mirar milímetros y no porcentaje, partir del hotel,
 plano y con sombra ([[embarazo-connie]]), y multiplicar todo precio por **3 personas**.
 
+## El Yuyuan se movió al viernes de noche (msg 932: «nos vamos a las 11:50»)
+
+Dio la hora de salida del domingo y **el Yuyuan de la mañana se cayó solo**: el bazar **abre
+9:30** y ella tiene que estar saliendo del hotel entre **08:00 y 08:45**. Llegaría con todo
+cerrado.
+
+**Al ir a reacomodarlo apareció un horario que casi arruina el plan:**
+
+- **El Jardín Yu** (el jardín clásico, con entrada) **cierra 16:30 los JUEVES**, pero abre
+  **hasta las 21:50 viernes, sábado y domingo** (hasta el 31-oct-2026). **Cierra los lunes.**
+- **El bazar** va de 9:30 a 22:00 y **se ilumina desde las 18:00**.
+- **Nanxiang** sirve **8:30-21:00**.
+
+O sea: **el jueves era justo el peor día para el jardín**, que es donde lo tenía puesto en la
+primera versión. **Regla: «Yuyuan» son dos cosas con horarios distintos** —el jardín con
+entrada y el bazar de afuera— **y el jardín tiene un horario por día de la semana, no uno
+solo**. Mirarlo por el día concreto, no por el promedio.
+
+**Quedó viernes 18:30**, después de Pudong: bazar iluminado, cena en Nanxiang y el jardín
+abierto hasta las 21:50. **Mejor que el domingo, no un premio de consuelo** — y se le dijo
+así.
+
+**⚠️ Se le avisó que el viernes queda como el día más largo del viaje**, con la salida
+concreta: *«si a media tarde te pesa, corta AP Plaza — las falsificaciones ya las viste el
+jueves en Han City. El Yuyuan de noche no se repite.»* **Regla: cuando un día queda cargado,
+no basta advertirlo — hay que decirle CUÁL pedazo se cae y por qué ese y no otro**
+([[embarazo-connie]]).
+
+**Sigue faltando de dónde sale el domingo.** Se le dieron las tres ramas ya calculadas
+—Hongqiao 08:45, Pudong 08:00, tren bala 10:15— **para que no tenga que volver a preguntar**:
+responda lo que responda, la hora ya está. Y con el tren gana un desayuno de *xiaolongbao* en
+Nanxiang, que abre 8:30.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
