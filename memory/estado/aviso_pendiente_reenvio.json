@@ -1,0 +1,12 @@
+{
+  "motivo": "Reenvio de las 15:00 Chile cayo a las 02:00 de China; Connie dormia con alarma a las 5:30 para Disney.",
+  "fecha_corrida": "2026-09-08T15:00-03:00",
+  "reenviados": 2,
+  "asunto": "[Solicitud de presupuesto]",
+  "detalle": [
+    "Tue, 8 Sep 2026 14:24:32 +0000 | [Solicitud de presupuesto] | id=1a08168197508dbe",
+    "Tue, 8 Sep 2026 16:33:25 +0000 | [Solicitud de presupuesto] | id=1a081de14b680ee8"
+  ],
+  "estado": "ENVIADOS OK a bd@sudtec.cl; solo falta avisarle a ella",
+  "avisar_en": "2026-09-08T21:00-03:00 (08:00 de China, ya despierta y en el parque)"
+}
