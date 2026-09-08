@@ -375,3 +375,34 @@ la lista definitiva está en la app**, sin inflar la advertencia.
 
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
+
+## «¿Hay algún supermercado cerca del hotel?» (msg 945, 18:13 de Shanghái, su primer día)
+
+Preguntó la tarde de la llegada, **la víspera de Disney** — y eso es lo que decidió la
+respuesta: no era una consulta de logística suelta, era el abastecimiento para el parque.
+
+Los tres niveles que se le dieron, del más cercano al más barato:
+
+1. **Primer Almacén de Alimentos** <code>第一食品商店</code> (*«di yi shi pin shang dian»*) —
+   **Nanjing Este 720, sobre su propia calle peatonal**, abierto **9:30-22:00**
+   (tel. 021-63222777). No es un súper: son 4 pisos de pura comida, desde 1954.
+   **💡 El doble uso que lo hizo la primera opción: de acá salen los souvenirs comestibles
+   baratos** —dulces, té, frutos secos— que ella andaba buscando, así que resuelve dos
+   pedidos con una parada.
+2. **Conveniencias** — **Lawson** <code>罗森</code>, **FamilyMart** <code>全家</code> y
+   **7-Eleven** en cada cuadra de Nanjing Este, varias **24 h**.
+3. **Supermercado de verdad** (más barato, con verdura y fruta suelta) — **Lianhua**
+   <code>联华超市</code>, **Jiangxi Medio 131**, 10-12 min a pie bajando hacia Fuzhou Road.
+   Para fruta, la cadena **Pagoda** <code>百果园</code>.
+
+**⚠️ Lo que se le agregó sin que preguntara, y es lo que valía:** que comprara **hoy** los
+snacks secos y la fruta —lo que sí entra al parque ([[frutas-china-connie]])— pero **NO agua**,
+porque adentro hay 50+ bebederos gratis. **Es la misma jugada del msg 943: cuando pregunta
+dónde comprar, revisar qué NO le conviene comprar.**
+
+**Regla: una pregunta de la víspera se contesta mirando el día siguiente.** «¿Hay
+supermercado?» a las 18:00 del día antes de Disney no es una pregunta sobre supermercados.
+
+**Honestidad de fuente:** las direcciones de 第一食品 y Lianhua salieron de búsqueda
+verificada; **Pagoda se le dio como cadena que busque en el barrio, no como dirección
+confirmada**, y se redactó así a propósito.
