@@ -478,3 +478,33 @@ lomo apanado).
 Ella ve fotos y precios; yo soy el único que lee los caracteres. Traducir solo lo señalado
 desperdicia la foto — **y ofrecer leerle el resto de la carta convierte una respuesta en un
 servicio**. Queda ofrecido que mande las demás páginas.
+
+## «Desde el hotel, ¿cómo llegamos a Disney?» (msg 951, 19:46, la noche antes)
+
+Se le dio el plan cerrado, **con el criterio explícito de que ida y vuelta son problemas
+distintos**: <b>Didi de ida, metro de vuelta</b>.
+
+**🚕 IDA — Didi.** Mini-programa <code>滴滴出行</code> dentro de Alipay (nunca la app de Didi,
+ver arriba). Destino escrito: <code>上海迪士尼乐园</code>. **¥130-180** el auto los 3, ~45 min.
+**Salida del hotel 7:00**, con el parque abriendo normalmente 8:30 — y se le dijo que
+**confirme la hora exacta en la app**, porque cambia por día.
+
+**El argumento de por qué no metro de ida NO fue el tiempo, fueron sus piernas:** 50-60 min
+con **dos trasbordos** en hora punta. Y se le enganchó con lo del mensaje anterior: **las
+sillas de ruedas son por orden de llegada**, así que llegar antes de que abra es lo que se la
+asegura. **Dos consejos que se refuerzan valen más que dos consejos sueltos.**
+
+**🚇 VUELTA — metro.** <code>迪士尼</code> (L11) → <code>罗山路</code> Luoshan Rd →
+**L16, 1 parada** → <code>龙阳路</code> Longyang Rd → **L2** → <code>南京东路</code>.
+**¥7-8 por persona**, ~55 min, QR de Alipay. **⚠️ Último tren desde Disney: 22:30.**
+
+Por qué al revés que la ida: **después de los fuegos sale todo el parque junto** y la fila de
+taxis/Didi es inmanejable; el metro se llena pero avanza.
+
+**💡 El truco de salida, pensado para 23 semanas: ver los fuegos completos y sentarse 20-30
+min** en vez de meterse en la avalancha. Llega al metro igual y no de pie apretada
+([[embarazo-connie]]).
+
+**Se le aclaró que la trampa de Guanglan Road NO aplica** en este trayecto —es solo del ramal
+del aeropuerto y Longyang queda antes—. **Una advertencia que se le dio ayer puede asustarla
+hoy en un contexto donde no corre: desactivarla es parte de darla.**
