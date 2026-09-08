@@ -406,3 +406,46 @@ supermercado?» a las 18:00 del día antes de Disney no es una pregunta sobre su
 **Honestidad de fuente:** las direcciones de 第一食品 y Lianhua salieron de búsqueda
 verificada; **Pagoda se le dio como cadena que busque en el barrio, no como dirección
 confirmada**, y se redactó así a propósito.
+
+## «¿Existen los carritos automáticos tipo silla de ruedas?» (msg 947, 18:38, víspera de Disney)
+
+Preguntó por las **sillas eléctricas** (scooters) de Disney. **La respuesta fue que no, y lo
+que importa es el porqué: no es que no existan, es que ella no califica.**
+
+**Shanghai Disney endureció la regla el 10-dic-2024** — se le llenó el parque de gente sana
+arrendando sillas eléctricas para no caminar, hubo escándalo en la prensa china y se puso:
+
+- **Registro por teléfono 2 días antes** de la visita
+- **Certificado de discapacidad** (<code>残障证明</code>) mostrado en la entrada
+- Mínimo 3 ruedas, velocidad de paso, **máx. 6 km/h**
+
+**Ella iba al día siguiente y el embarazo no es certificado de discapacidad: fallan las dos
+condiciones.** No había forma de arreglarlo, y se dijo derecho en vez de dejarla averiguando
+en la puerta.
+
+**⚠️ Se le advirtió por adelantado de los arrendadores de afuera** (metro y estacionamiento,
+**¥120-300/día**): existen, pero **son justo lo que la regla persigue** — paga y la pueden
+rebotar en el ingreso. **Nombrar la tentación antes de que la vea es parte de la respuesta**;
+si no, iba a toparse con ellos y pensar que yo no sabía.
+
+**La alternativa real: la silla MANUAL del parque, ¥90 el día**, en el punto de la entrada,
+**por orden de llegada y son pocas** — se le dijo que la pida **apenas entre**, no a mediodía
+cuando ya no dé más. La empuja quien la acompaña (van 3).
+
+**💡 El paso concreto que agregó valor: que lleve el carnet de control o una eco en el
+teléfono.** Desde el escándalo pueden pedir algo que justifique la silla, y con 23 semanas
+más un papel no hay discusión.
+
+**⚠️ Corrige un matiz optimista del 8-sep:** ese día se le dijo *«arriendan sillas de ruedas
+en la entrada, úsala sin culpa»*. Sigue siendo cierto, pero **puede que le pidan justificar**,
+y eso no estaba dicho. **Declarado como incertidumbre honesta:** lo de la justificación para
+la manual viene de una declaración del servicio al cliente en 2024, **no del reglamento
+escrito** — puede que no le pidan nada, y llevar el carnet cuesta cero.
+
+**Regla: cuando la respuesta a «¿existe X?» es «existe pero no para ti», el trabajo no
+termina en el no.** Termina en la alternativa que sí pasa el filtro (silla manual + Premier
+Access + shows sentados) y en el paso concreto que la hace funcionar.
+
+Fuentes: SCMP, Beijing News y prensa china de nov-dic 2024 sobre el cambio de regla; sitio
+oficial de Shanghai Disney Resort (la página de arriendo de sillas es JS y **no se pudo leer
+textual**, igual que la de reglas de comida).
