@@ -348,5 +348,30 @@ ofrezca auto dentro del terminal — los truchos de PVG cobran el triple.
 del aeropuerto marca **¥210**. La **tarifa nocturna parte a las 23:00**, así que a las 16:16
 no le aplicaba.
 
+## «¿Puedo entrar agua y comida a Disney?» (msg 943)
+
+**Sí.** Shanghái es de los Disney que **sí permite comida y bebida de afuera** para consumo
+propio — lo cambiaron en **sept-2019** después de una demanda; antes estaba prohibido, y las
+guías viejas siguen diciendo que no.
+
+- **Entra:** bebidas **en botella de plástico**, snacks secos, **fruta**, comida de bebé.
+- **No entra:** alcohol, **latas y vidrio**, comidas completas o calientes, cualquier cosa
+  que haya que **calentar o refrigerar**, olores fuertes (**durián**, tofu apestoso) y
+  **sandía entera** —está escrito así de literal.
+
+**💡 El dato que valía más que la respuesta a la pregunta:** el parque tiene **50+ bebederos
+y 20+ dispensadores de AGUA CALIENTE, gratis**. Se le dijo **que no cargue agua desde el
+hotel** y lleve botella vacía o termo: con 29° y todo el día de pie, el peso es el enemigo
+([[embarazo-connie]]). El agua caliente además le sirve para té — es una costumbre china que
+en los parques está resuelta y en otros países no existe.
+
+**Regla: la pregunta era «¿me dejan entrar agua?» y la respuesta útil era «no la lleves».**
+Cuando pregunta por un permiso, revisar si el problema que hay detrás se resuelve mejor por
+otro lado.
+
+**⚠️ Honestidad de fuente:** la página oficial de reglas es una app JS y **no se pudo leer
+textual**; lo de arriba viene de fuentes concordantes de 2026. **Se le dijo en una línea que
+la lista definitiva está en la app**, sin inflar la advertencia.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
