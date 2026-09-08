@@ -508,3 +508,41 @@ min** en vez de meterse en la avalancha. Llega al metro igual y no de pie apreta
 **Se le aclaró que la trampa de Guanglan Road NO aplica** en este trayecto —es solo del ramal
 del aeropuerto y Longyang queda antes—. **Una advertencia que se le dio ayer puede asustarla
 hoy en un contexto donde no corre: desactivarla es parte de darla.**
+
+## «¿A qué hora son los fuegos? Y tenemos early entrance» (msg 953, 19:49)
+
+**Soltó un dato nuevo que invalidaba la respuesta de 3 minutos antes: tienen early entrance.**
+Se corrigió de inmediato y en la primera línea, sin rodeos.
+
+**🎆 Los fuegos — dos cosas, y la primera evita que busque mal:**
+
+- **El show hoy se llama <code>ILLUMINATE! A Nighttime Celebration</code>.** *Ignite the Dream*
+  (<code>点亮奇梦</code>) **cerró en 2021** y no existe; la versión actualizada de ILLUMINATE!
+  estrenó el **20-mar-2026** por los 10 años del parque. Media guía vieja de internet todavía
+  nombra el show viejo. **Regla: cuando el nombre de un espectáculo cambió, decirlo — buscar
+  el nombre muerto la deja creyendo que no hay show.**
+- **No tiene hora fija:** cae entre **20:00 y 21:30**, dura **~20 min**, y **la hora del día
+  sale en la app una vez dentro**. Se canceló si llueve fuerte. **Declarado como variable en
+  vez de inventarle una hora.**
+
+**🌅 Early entrance — entra 1 hora antes de la apertura.** Disney pide estar en la entrada
+principal **90 min antes de la apertura oficial** por el control de seguridad. Con apertura
+8:30 quedó: **7:00 en la puerta · 6:00 salen del hotel · Didi pedido 5:45.**
+
+**⚠️ La corrección explícita: le había dicho 7:00 de salida y pasó a 6:00.** Se marcó así,
+*«no las 7:00 que te dije antes»*, para que no se quede con la primera cifra.
+
+**⚠️ El aviso que no salía en ninguna guía y sí en la prensa: en junio-2026 hubo escándalo con
+el <code>早享卡</code>** — pagaron ¥199 por entrar 1 hora antes y **las atracciones estaban
+apagadas**; reclamo masivo y disculpa pública de Shanghai Disney. **Lo que la tarjeta garantiza
+es entrar antes, NO que haya algo funcionando.**
+
+**Por eso la hora temprana se le reorientó a lo que sí depende de ella:**
+
+1. **Arrendar la silla de ruedas apenas entre** — son por orden de llegada y a esa hora no hay
+   competencia. **Ese solo uso ya justifica el early entrance en su caso**, y se le dijo así.
+2. Caminar sin gentío hasta la atracción más lejana y esperar ahí la apertura.
+
+**Regla: cuando un beneficio pagado no garantiza lo que la gente cree, no basta advertirlo —
+hay que reasignarlo a un uso que sí se cumpla.** Si no, la advertencia solo la deja con la
+sensación de haber gastado mal.
