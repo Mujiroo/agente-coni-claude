@@ -324,5 +324,29 @@ necesita.** Y **cuando se recomienda una app china, la recomendación incluye po
 entrar** (mini-programa de Alipay vs app propia): son productos distintos en requisitos
 aunque se llamen igual.
 
+## Llegó, y mandó foto del cartel de tarifas del aeropuerto (msgs 940-941, 16:16 de Shanghái)
+
+Aterrizó y desde Pudong fotografió el **cartel oficial de tarifas de taxi** preguntando
+*«cuál queda cerca de nuestro hotel»*.
+
+**La respuesta estaba en el propio cartel: <code>南京路步行街</code> «Nanjing Road Walk Way»,
+47 km, ¥210 de día.** Es literalmente su calle.
+
+**Lo que convirtió el dato en respuesta útil: decirle que le muestre esa misma fila al
+chofer.** Estaba parada frente al cartel — **el papel que ya tiene en la mano vale más que
+una dirección que tenga que pronunciar.**
+
+Se le dieron las dos filas vecinas como confirmación del rango —*People's Square* ¥205 y
+*The Bund* ¥220— para que **pueda juzgar sola si el taxímetro terminó bien** (¥210-235) en
+vez de depender de mi número. **Regla: darle el rango y no solo la cifra la deja capaz de
+detectar el abuso sin preguntarme.**
+
+Advertencia agregada: **tomar la fila oficial** (<code>出租车</code>) y rechazar a quien
+ofrezca auto dentro del terminal — los truchos de PVG cobran el triple.
+
+**✅ La tarifa oficial validó la estimación previa:** se le había dicho ¥180-260 y el cartel
+del aeropuerto marca **¥210**. La **tarifa nocturna parte a las 23:00**, así que a las 16:16
+no le aplicaba.
+
 Fuentes: `open-meteo.com`, guía Michelin Shanghái 2026, SmartShanghai y Trip.com para los
 mercados, sitio oficial de Shanghai Disney Resort.
