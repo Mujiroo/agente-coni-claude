@@ -546,3 +546,42 @@ es entrar antes, NO que haya algo funcionando.**
 **Regla: cuando un beneficio pagado no garantiza lo que la gente cree, no basta advertirlo —
 hay que reasignarlo a un uso que sí se cumpla.** Si no, la advertencia solo la deja con la
 sensación de haber gastado mal.
+
+## El pronóstico cambió y la semana quedó seca (9-sep, al preguntar por el jueves)
+
+Preguntó *«mañana cuál era el itinerario?»* (msg 978, 19:49 de allá, volviendo de Disney).
+Antes de repetirle el plan **se volvió a pedir el pronóstico** —porque el clima fue el
+criterio que ordenó toda la semana— y **había cambiado fuerte**:
+
+| | Se planificó con | Real al 9-sep |
+|---|---|---|
+| **Jue 10** | 53% · 1,9 mm | 39% · **0,1 mm** |
+| **Vie 11** | 24% · 0 mm | 33% · 0 mm |
+| **Sáb 12** | 15% · 0 mm | 20% · 0 mm |
+| **Dom 13** | 45% · **14,7 mm** | 63% · **0 mm** |
+
+**El domingo era el único día que llovía de verdad y se cayó entero.** El jueves —que era «el
+día techado»— tampoco llueve.
+
+**Aun así no se movió nada, y se le dijo por qué:** Han City y Qipu Road son compras, y las
+compras rinden igual con sol. **Un plan ordenado por clima no se rehace porque el clima
+mejore: solo se rehace si algo del plan dependía de la lluvia.** Lo único que sí dependía era
+**Longhua**, que quedó fuera por ser al aire libre en día lluvioso — se le ofreció de vuelta
+**diciéndole derecho que no le veo hueco limpio**, en vez de encajarlo a la fuerza.
+
+**Regla: antes de repetir un plan viejo, revalidar el dato que lo ordenó.** Repetir el
+itinerario tal cual habría sido correcto de memoria y desactualizado en los hechos.
+
+## Ren He Guan: se adelantó la reserva sin que la pidiera
+
+Al mandarle el jueves se le agregó un aviso que no había pedido: **1 estrella Michelin a ¥250
+llena siempre**, y sin reserva son 1-2 h de pie **con 23 semanas** ([[embarazo-connie]]). La
+salida concreta que se le dio no fue «reserva» sino **cómo**: pedirle a la recepción del
+hotel que llame — reservar en China pide app china o teléfono local, que ella no tiene
+([[telefono-chileno-en-roaming-china]]).
+
+Y como queda en **Xuhui**, lejos del hotel y de noche, se le dijo **Didi y no metro**, con la
+dirección lista para pegar: `肇嘉浜路407号`.
+
+**Regla: un dato que hace bueno un panorama (barato + estrellado) es el mismo que lo hace
+difícil de conseguir. Si se recomienda, se recomienda con el paso que lo asegura.**
