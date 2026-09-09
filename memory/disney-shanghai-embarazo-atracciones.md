@@ -127,4 +127,38 @@ cambia pero la razón sí, hay que decir la razón nueva**, porque es la que ell
 contrastar con cómo se siente ese día. Mismo error que se corrigió con el metro del
 aeropuerto ([[shanghai-connie]]).
 
+## «¿El Roaring Rapids por qué no?» (msg 964) — la tercera consulta, y acá NO se cedió
+
+**Tercera atracción seguida que cuestiona, después de que le diera la razón en dos.** El
+riesgo era ceder por inercia. **Se sostuvo el no, y lo que lo hizo creíble fue empezar
+dándole lo que tenía a favor:** en adrenalina el <code>雷鸣山漂流</code> **es suave** —los
+reviews chinos dicen que no tiene ningún momento que acelere el corazón— y **se le dijo
+primero**.
+
+**Los tres motivos reales, ninguno de ellos «da miedo»:**
+
+1. **Los golpes son impredecibles, y esa es LA distinción.** Zootopia y Soaring van sobre un
+   recorrido **programado**: el vehículo sabe lo que hará y se mueve parejo. **La balsa
+   flota**: gira sola y **rebota contra las paredes en ángulos que nadie controla**. **No
+   puede afirmarse porque no sabe de dónde viene el golpe** — y eso, no la velocidad, es lo
+   que las advertencias de embarazo intentan evitar.
+2. **Se sube a una plataforma en movimiento.** Las balsas no se detienen del todo. **Con el
+   centro de gravedad corrido de 23 semanas, ese paso es el riesgo más concreto de toda la
+   atracción**, más que cualquier teoría sobre la placenta. Una caída ahí sí es un problema
+   real.
+3. **Sale empapada**, con 10 horas de parque por delante y aire acondicionado en todos lados.
+   Más 40+ min de fila de pie.
+
+**Regla: haber cedido dos veces no obliga a ceder la tercera, y tampoco autoriza a
+endurecerse.** Cada atracción se juzga por su mecánica. **Lo que dio credibilidad al no fue
+conceder primero lo cierto** (es suave) y recién después dar el motivo verdadero.
+
+**Y el criterio que quedó explicado para todo el resto del viaje: lo que importa no es cuán
+brusco se ve, sino si el movimiento es PREDECIBLE.** Programado = puede afirmarse. Flotando,
+rebotando o con embarque en movimiento = no puede. **Con eso ella juzga sola cualquier
+atracción de Pekín sin preguntarme.**
+
+Se cerró con una salida concreta y no con una prohibición seca: **el mismo cerro tiene vista
+caminando, y eso lo hace seca.**
+
 Relacionado: [[shanghai-connie]], [[embarazo-connie]]
