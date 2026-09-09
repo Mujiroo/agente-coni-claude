@@ -117,3 +117,31 @@ esta hora») vale más que siete prellenadas, porque no la obliga a elegir.
 (pedir la cuenta, precio, baño, taxi, alergias, "¿me lo puede escribir?"). No se
 lo mandé el 27-ago porque estaba en medio de los shows; ofrecérselo cuando esté
 tranquila. Vuelve el **18-sep-2026**, así que hay tres semanas donde le sirve.
+
+## «Solo manda lo de mañana, porque lo copiaré y pegaré a mi familia» (msg 986, 9-sep-2026)
+
+Justo después de mandarle **cuatro fichas repartidas en tres mensajes** —con la alerta de
+Han City, los links de foto y AP Plaza del viernes de referencia— pidió **un solo mensaje con
+lo de mañana**, y dio el motivo: **lo va a reenviar a la familia que viaja con ella.**
+
+**Un mensaje que ella reenvía tiene otro lector, y eso cambia el formato entero:**
+
+- **Autocontenido.** Nada de *«como te decía»*, *«te avisé»*, *«el que ya tienes el viernes»*.
+  El que lo recibe no vio la conversación.
+- **Un solo mensaje**, no tres. Se copia una vez.
+- **Solo el día pedido.** AP Plaza salió aunque acababa de explicarlo: es del viernes.
+- **Las direcciones en chino, visibles y en su propia línea** (`天津路506号`,
+  `肇嘉浜路407号`) — eso es lo que la familia le muestra al taxista, y es lo único que no
+  pueden resolver solos.
+- **Sin apuntarle a ella en segunda persona singular**: «llegar antes de las 13:30», no
+  «llega tú».
+- **Los links quedaron fuera:** al copiar de Telegram el hipervínculo se pierde y queda solo
+  el texto. Si el link importa, va como URL visible; si ya se mandó aparte, no se repite.
+
+**Regla: cuando el mensaje va a ser reenviado, el destinatario real no es Connie.** Se
+escribe para alguien que no tiene contexto, y todo lo que solo tiene sentido dentro de
+nuestra conversación se borra.
+
+**Y el aviso previo:** esto pasó porque le mandé tres mensajes cuando podía haber preguntado
+para qué los quería. **Es la misma flecha de las correcciones del 27-ago: cuando está en
+movimiento, más información es peor respuesta.**
