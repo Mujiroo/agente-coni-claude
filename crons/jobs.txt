@@ -158,9 +158,9 @@
 # salvo que ella diga lo contrario.
 0 11 9 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en Hong Kong): hoy tiene que PAGAR LA TARJETA DE CREDITO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 9 9"), commitea y pushea.
 
-# --- AVISO DIFERIDO DEL REENVIO DE LAS 15:00 (8-sep-2026) ---
-# La pasada de las 15:00 de Chile reenvio 2 cotizaciones, pero en China eran las 02:00
-# y Connie dormia con alarma a las 5:30 para Disney. El reenvio a bd@sudtec.cl YA SE HIZO;
-# lo unico pendiente es avisarle, y eso no justifica despertarla por algo que no requiere
-# ninguna accion suya. Se difiere a las 21:00 de Chile = 08:00 de China, ya en el parque.
-0 21 8 9 * | [CRON] Avisale a Connie con `bash bin/tg.sh send` en HTML, MUY breve, que en la pasada de las 15:00 (2 de la madrugada para ella) se reenviaron 2 cotizaciones a bd@sudtec.cl, las dos con asunto "Solicitud de presupuesto", sin errores; y que no se le aviso en el momento para no despertarla antes de Disney. El detalle esta en memory/estado/aviso_pendiente_reenvio.json. Despues borra ESE archivo, borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 8 9"), commitea y pushea.
+# --- AVISO DIFERIDO DEL REENVIO DE LAS 15:00 (8-sep-2026) — CUMPLIDO Y BORRADO ---
+# La pasada de las 15:00 reenvio 2 cotizaciones cuando en China eran las 02:00 y Connie
+# dormia con alarma a las 5:30 para Disney. El reenvio se hizo en el momento; el AVISO se
+# difirio a las 21:00 de Chile (08:00 alla) y se entrego (msg 961). Job borrado.
+# PRECEDENTE: un aviso de rutina que no requiere accion suya no la despierta de madrugada.
+# Se difiere con un cron de una sola vez, nunca se descarta.
