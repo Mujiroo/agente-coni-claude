@@ -634,3 +634,28 @@ misma información sin costo emocional.
 porque además confirma la estrella y la sucursal), TripAdvisor y SmartShanghai.** WebFetch
 choca con 403 en TripAdvisor y con contenido ofuscado en SmartShanghai, **pero los links le
 funcionan a ella en el teléfono**: no hay que descartarlos por no poder leerlos yo.
+
+## La caída de Han City movió qué se corta el viernes (msg 988)
+
+Preguntó por el viernes 4 minutos después. Se le mandó **en dos mensajes deliberadamente
+distintos**: el **plan reenviable** (AP Plaza → EKA·Tianwu → Yuyuan 18:30 + Nanxiang) y,
+aparte, **marcado *«esto es para ti, no para reenviar»***, la decisión que le toca a ella
+([[canal-y-formato]]).
+
+**Y ahí había que corregirse:** el 8-sep se le dijo *«si a media tarde te pesa, corta AP
+Plaza — las falsificaciones ya las viste el jueves en Han City»*. **Con Han City caído esa
+frase quedó al revés: AP Plaza pasó a ser el único mercado.** Se le dijo explícitamente que
+esa recomendación ya no aplicaba y por qué, en vez de mandar la nueva y dejar la vieja
+flotando.
+
+**El cortable ahora es EKA·Tianwu**, con las tres razones dichas: el más lejos (cambio de
+línea + 10-15 min a pie), **el único al aire libre**, y cae en el día de **31°**, el más
+caluroso de la semana.
+
+**Y se le dijo cuándo decidir, no solo qué:** *«decide EKA estando ahí, no ahora»*. El
+**Yuyuan se marcó como no negociable** — bazar iluminado + jardín hasta 21:50 solo coinciden
+vie/sáb/dom, y el domingo vuela a Pekín.
+
+**Regla: cuando se cae una pieza del plan, revisar qué OTRAS decisiones se apoyaban en ella.**
+Han City no solo era una parada: era el argumento que hacía prescindible a AP Plaza. Sacar la
+pieza sin revisar sus dependencias deja consejos viejos contradiciendo a los nuevos.
