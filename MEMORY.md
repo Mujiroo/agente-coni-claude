@@ -32,3 +32,4 @@
 - [El vigía mide la métrica rota](vigia-mide-la-metrica-rota.md) — vigilancia_cambios.py cuenta conversiones de Ads; cruzar con las cotizaciones del sitio antes de alarmar.
 - [Disney Shanghái embarazada: qué sí y qué no](disney-shanghai-embarazo-atracciones.md) — alturas mínimas verificadas y nombres en chino para leer los carteles.
 - [Lavar la mochila-peluche de Winnie](lavar-peluche-mochila-winnie.md) — nunca sumergir; limpieza por zonas y cepillado final.
+- [Por qué el ideal de piel blanca en China](piel-blanca-ideal-china.md) — es de clase y no de raza; y las bases chinas solo vienen en tonos claros.
