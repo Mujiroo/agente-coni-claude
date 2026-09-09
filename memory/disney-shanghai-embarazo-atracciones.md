@@ -87,4 +87,44 @@ decide. Una advertencia sin mecanismo no se puede aplicar a la siguiente atracci
 mecanismo, ella queda capaz de juzgar sin preguntarme
 ([[leer-estado-real-antes-de-proponer]]).
 
+## ⚠️ CORRECCIÓN EN TERRENO: se subió a Zootopia y «nada peligroso ni brusco» (msg 962)
+
+**Ella probó la atracción y volvió con el dato. Tenía razón y yo estaba sobre-marcando.**
+
+**La causa del error, y es estructural:** la lista roja se armó con **alturas mínimas**,
+porque la lista oficial de embarazadas de Shanghai Disney **no está publicada en ningún lado
+legible**. Esa heurística es *segura* pero **sobre-marca**: mete en el mismo saco una montaña
+rusa y una atracción suave. **Un criterio conservador no es un criterio correcto**, y cuando
+la realidad lo contradice se corrige, no se defiende.
+
+**La lista quedó re-ordenada por lo que el cuerpo siente, no por el cartel:**
+
+- 🔴 **Bruscas de verdad:** TRON, Rex's Racer, Siete Enanitos, Roaring Rapids, Jet Packs,
+  Camp Discovery.
+- 🟡 **Tienen cartel pero son suaves:** **Soaring** y **Zootopia** *(comprobado por ella)*.
+- 🟠 **Intermedia:** Piratas — tiene una caída y movimientos rápidos.
+
+## Soaring <code>翱翔·飞越地平线</code> — el análisis que pidió (msg 962)
+
+**Qué es físicamente:** banca que se **eleva ~10 m** frente a una pantalla curva gigante,
+**pies colgando**, «volando» sobre paisajes. **5 minutos.** Viento en la cara y **olores**
+—pasto, brisa de mar de Fiji, rosas de India—. **Planeo suave: sin caídas, sin frenazos, sin
+giros.** Altura mínima 102 cm.
+
+**El veredicto tuvo que cambiar de eje, y eso es lo importante:**
+
+- **El riesgo de tirón —el del desprendimiento de placenta— acá es prácticamente cero.** Es
+  **la más suave de toda la lista roja**, más que Zootopia.
+- **⚠️ Pero aparece un riesgo distinto: el mareo.** Pantalla enorme en movimiento con el
+  cuerpo quieto es la receta clásica de las náuseas, **y el embarazo lo amplifica**. Encima
+  **soplan olores a la cara**, que es justo lo que revuelve el estómago embarazada.
+- Se le dio el criterio para decidir sola: **sin náuseas en el viaje y tolera el cine 4D →
+  anda; estómago sensible o los olores le molestan → sáltala.**
+
+**Regla: dos atracciones pueden estar en la misma lista por razones incompatibles.** Soaring
+no es peligrosa por sacudones —no los tiene— sino incómoda por náuseas. **Si el veredicto no
+cambia pero la razón sí, hay que decir la razón nueva**, porque es la que ella puede
+contrastar con cómo se siente ese día. Mismo error que se corrigió con el metro del
+aeropuerto ([[shanghai-connie]]).
+
 Relacionado: [[shanghai-connie]], [[embarazo-connie]]
