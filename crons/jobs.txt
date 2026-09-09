@@ -156,7 +156,6 @@
 # RESPONDIDO (msg 816, 27 s despues): "Solo esta vez porfa". NO se repite todos los
 # meses. Si alguna vez pide de nuevo el recordatorio de la tarjeta, es de una sola vez
 # salvo que ella diga lo contrario.
-0 11 9 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en Hong Kong): hoy tiene que PAGAR LA TARJETA DE CREDITO. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 9 9"), commitea y pushea.
 
 # --- AVISO DIFERIDO DEL REENVIO DE LAS 15:00 (8-sep-2026) — CUMPLIDO Y BORRADO ---
 # La pasada de las 15:00 reenvio 2 cotizaciones cuando en China eran las 02:00 y Connie
