@@ -585,3 +585,52 @@ dirección lista para pegar: `肇嘉浜路407号`.
 
 **Regla: un dato que hace bueno un panorama (barato + estrellado) es el mismo que lo hace
 difícil de conseguir. Si se recomienda, se recomienda con el paso que lo asegura.**
+
+## 🔴 Han City se cayó, y lo pilló el pedido de fotos (msg 981)
+
+Pidió *«dime qué es cada lugar y qué se ve ahí, qué se puede hacer, y agrégame el link de
+alguna foto»*. **Al ir a buscar las fotos apareció que Han City probablemente ya no existe
+como mercado de falsificaciones:** el edificio de **Nanjing Oeste 580** figura hoy como
+`静安魔贸580商业广场`, un mall normal con Starbucks y locales de comida en el primer piso.
+Varios sitios lo marcan **permanently closed**.
+
+**Las guías turísticas en inglés lo siguen listando abierto** (una de ago-2026 le da hasta
+horario, 10:00-21:00) — **pero se copian entre ellas**. La fuente en chino sobre el edificio
+pesó más que tres guías en inglés de acuerdo entre sí.
+
+**No se pudo confirmar ni descartar del todo, y se le dijo exactamente así**, en vez de
+elegir una de las dos y sonar seguro.
+
+**La salida no fue quitarle algo, fue mostrarle que no perdía nada:** **AP Plaza** —que ya
+tenía el viernes— está **confirmado abierto en 2026** y es *el mercado de falsificaciones más
+grande de Shanghái hoy*. Han City era el chico y el redundante. Con eso el jueves quedó
+**Qipu Road (mañana) → Lai Lai (almuerzo) → tarde libre en Nanjing Road peatonal → Ren He
+Guan (cena)**, o sea **una tarde sin metro a 23 semanas** ([[embarazo-connie]]).
+
+**Regla: pedir fotos de un lugar es la ocasión de verificar que el lugar existe.** Un
+itinerario armado hace días envejece, y el chequeo barato es mirar la fuente local en su
+idioma, no la guía turística en inglés.
+
+**Regla: cuando hay que sacar algo del plan, sacarlo junto con la prueba de que no se pierde
+nada.** «Se cayó Han City» asusta; «se cayó el chico y el grande lo tienes el viernes» es la
+misma información sin costo emocional.
+
+## Los datos operativos de los lugares del jueves (verificados 9-sep)
+
+- **Qipu Road** `七浦路` — ~5 pisos, 100+ años, mayorista. **Abre ~9:00 y cierra ~18:00** →
+  es panorama de mañana, no de tarde. Entrada gratis, **precios no fijos**. L10 Tiantong Rd.
+- **Lai Lai Xiao Long** `来来小笼` — **Tianjin Rd 506**, Huangpu. **08:00-14:00 y 15:00-20:00**
+  (corta una hora al medio). ⚠️ **Se pide y se paga ANTES de entrar** y dan un número — dato
+  que evita que se siente a esperar carta. Lo que hay que pedir: `蟹粉小笼` (xiaolongbao de
+  hueva de cangrejo), wonton, chuleta frita, y el jengibre en vinagre.
+- **Ren He Guan** `人和馆` ⭐ — `肇嘉浜路407号`, Xuhui. Ambiente Shanghái años 20-30, a veces
+  música en vivo. `红烧肉` **¥27**, pescado ahumado ¥49, shengjianbao de cangrejo ¥99, arroz
+  con hueva de cangrejo ¥199. ⚠️ **Atienden solo en chino** — argumento extra para que
+  reserve la recepción del hotel.
+- **AP Plaza** — bajo tierra **dentro** de la estación L2 *Science and Technology Museum*.
+  ~10:00-20:00. Techado, plano, sin sol.
+
+**Para los links de foto sirvieron: la ficha oficial de `guide.michelin.com` (la mejor,
+porque además confirma la estrella y la sucursal), TripAdvisor y SmartShanghai.** WebFetch
+choca con 403 en TripAdvisor y con contenido ofuscado en SmartShanghai, **pero los links le
+funcionan a ella en el teléfono**: no hay que descartarlos por no poder leerlos yo.
