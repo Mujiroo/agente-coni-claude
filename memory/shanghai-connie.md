@@ -21,7 +21,7 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 |---|---|
 | **Jue 10** | Qipu Road (mañana) → **AP Plaza** y **EKA·Tianwu**, traídos del viernes en marcha → **Ren He Guan ⭐** (cena, Xuhui, en Didi) |
 | **Vie 11** | Mañana libre → **Yuyuan 15:00**: jardín hasta 16:30 → bazar → luces a las **18:00** → cena en **Nanxiang** |
-| **Sáb 12** | **Zhujiajiao** día completo (60-75 min por lado) · de noche, **el desfile del Shanghai Tourism Festival en el Bund** — ver la sección del final |
+| **Sáb 12** | **Zhujiajiao** día completo (60-75 min por lado) → salir **17:00** · **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30) |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
 
 **Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
@@ -886,12 +886,29 @@ chino a un costado. Es el **37º 上海旅游节**.
 - **Del 13-sep al 6-oct** los carros recorren diez distritos (Jing'an, Hongkou, Chongming…);
   cierre en **Guangfulin, Songjiang**, del 29-sep al 6-oct. **Ella ya no está para eso.**
 
-### Lo que NO se pudo verificar, y se dijo así
+### ✅ La hora, que al principio no salía: 19:30-21:00
 
-**La hora exacta del desfile.** Solo apareció «la noche del 12». Baidu cayó en captcha,
-Sogou y 360 en antispider, y WebSearch estaba caído del todo. **Se le entregó como no
-confirmado en vez de poner una hora plausible** — es exactamente el error del Jardín Yu dos
-días antes, y esta vez no se repitió. Quedó ofrecido perseguirla.
+Preguntó derecho *«dime la hora exacta»* (msg 1022, 2 min después). **Salió, y de fuente
+oficial:** `english.shanghai.gov.cn` → *from 7:30 to 9 pm on Sept 12*, en **金牛广场**
+(Bund Bull Square), Zhongshan Este Nº1. Gratis, en la calle, sin reserva. 21 comparsas y 21
+carros con delegaciones de **12 países**.
+
+**Cómo apareció, que es lo que hay que repetir:** Baidu cayó en captcha, Sogou y 360 en
+antispider, WebSearch estaba caído entero y `thepaper.cn` no dio nada. **Lo que funcionó fue
+el sitio del GOBIERNO en inglés** — `english.shanghai.gov.cn/en-Events/` —: se sacó primero
+el índice de eventos pidiendo **las URLs completas**, y después se fue directo al artículo.
+
+**Regla: cuando los buscadores chinos te cierran la puerta, el organizador sigue publicando.**
+Para un evento municipal, el sitio del gobierno es a la vez el más accesible desde acá y el
+más autorizado. Ir ahí antes que seguir peleando con buscadores.
+
+**Y en el intertanto se le dijo «no confirmada» en vez de poner una hora plausible** — que
+es el error del Jardín Yu dos días antes, esta vez no repetido
+([[memoria-larga-la-version-confirmada-esta-al-final]]).
+
+**Con la hora, el sábado dejó de ser un choque:** sale de Zhujiajiao **17:00**, hotel
+**18:15**, Bund **18:30**. Se le dio así, con la hora de estar allá y no solo la del evento:
+**para algo con gentío, la hora útil es la de llegar, no la de empezar.**
 
 **Tampoco se confirmó** el clásico medio-precio en atracciones del 旅游节, así que **no se
 mencionó**.
