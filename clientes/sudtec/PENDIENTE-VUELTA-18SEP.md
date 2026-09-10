@@ -48,6 +48,36 @@ grupo con su página de categoría.
 **Orden acordado:** medición primero, estructura después, puja al final. **Un cambio a
 la vez.**
 
+## 3b · 🔴 La keyword amplia que ahoga a la que convierte — PROPUESTA SIN RESPUESTA
+
+**Esto es lo que está costando plata AHORA, y es una decisión suya que lleva días abierta.**
+
+**El 3-sep se le propuso pausar `equipo de proteccion personal` en AMPLIA** y NO se tocó
+nada, esperando su OK (msg 651). **Nunca respondió** — quedó tapada por el viaje.
+
+**El hallazgo:** esa keyword se llevaba el **61,6% del gasto de septiembre** y ahoga a
+`equipos de bomberos`, que es el motor real de la cuenta (**43,5 conversiones en agosto**,
+y ese día llevaba **1 solo clic**).
+
+**Confirmado el 10-sep**, siete días después, por `bin/vigilancia_cambios.py`:
+
+| | Hoy | Base |
+|---|---|---|
+| Conversiones/día | **2,1** | 4,7 |
+| CPA | **5.417** | 1.675 |
+
+**No se recuperó solo.** La vigilancia diaria da `OK-SILENCIO` porque mide *empeoramiento*
+contra una ventana móvil, y esto ya no empeora: **se estabilizó en malo**, que es
+justamente lo que un vigía de cambios no ve ([[vigia-mide-la-metrica-rota]]).
+
+**⚠️ Por qué está escrito acá y no solo en el cron:** vivía únicamente en un comentario de
+`crons/jobs.txt` y en el chat. El cron del 19-sep lee ESTE archivo, así que se habría
+perdido. **Una propuesta esperando respuesta no es un pendiente hasta que está en el
+archivo del cliente.**
+
+**Qué preguntarle:** si autoriza pausar la amplia. Es un cambio de producción y necesita su
+OK explícito.
+
 ## 4 · Cosas chicas que quedaron pendientes
 
 - **Negativas del 26-ago:** aplicar `traje encapsulado` y `epp`.
