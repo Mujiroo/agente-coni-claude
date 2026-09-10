@@ -721,3 +721,24 @@ la cena. **Se lo dije yo, sin que preguntara**, con la alternativa dentro del mi
 **Regla: revisar el plan reordenado como plan nuevo.** Las piezas eran todas correctas por
 separado; el defecto apareció solo al mirarlas juntas, y es el tipo de cosa que ella nota
 recién sentada en la mesa.
+
+### Eligió la B, y el horario casi la arruina
+
+Contestó por audio: *«voy por algo cerca del hotel no más»* → **Da Hu Chun**. Al ir a armarle
+el día se verificó el horario **antes de mandarlo**, y ahí estaba la trampa: **Da Hu Chun
+cierra 19:30** — es de 1932 y vive de la cultura de desayuno shanghainesa (abre 6:30). **No es
+un restaurante de noche.**
+
+Con EKA·Tianwu en Jinqiao esa tarde, eso se traduce en **una hora concreta: salir de EKA a las
+17:45**. Se le dio así, como hora en el itinerario, no como advertencia suelta.
+
+**Regla: al reemplazar un lugar por otro, verificar el horario del reemplazo antes de
+mandarlo.** Se cambió un restaurante que cerraba 21:30 por uno que cierra 19:30 en un día que
+termina lejos del hotel — el cambio parecía neutro y no lo era.
+
+**El día quedó:** AP Plaza (mañana y mediodía, techado) → EKA·Tianwu (tarde, salir 17:45) →
+**Da Hu Chun** (cena, `四川中路136号`, 10 min a pie del hotel). **Viernes:** Qipu Road → Lai Lai
+→ Yuyuan de noche.
+
+**Pendiente menor:** hoy quedó **sin almuerzo asignado** —el cambio se hizo con ella ya en
+movimiento— y no se inventó uno: no había nada verificado cerca de AP Plaza.
