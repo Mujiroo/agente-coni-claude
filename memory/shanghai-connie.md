@@ -659,3 +659,65 @@ vie/sáb/dom, y el domingo vuela a Pekín.
 **Regla: cuando se cae una pieza del plan, revisar qué OTRAS decisiones se apoyaban en ella.**
 Han City no solo era una parada: era el argumento que hacía prescindible a AP Plaza. Sacar la
 pieza sin revisar sus dependencias deja consejos viejos contradiciendo a los nuevos.
+
+## El jueves 10 se dio vuelta entero, en marcha (msgs 992-997, 10:41-10:47 de allá)
+
+Escribió **saliendo del hotel**: *«dónde está el metro más cercano»*, después *«dame la
+dirección para pegarla»* y en la misma frase **«cambiamos los del día viernes para hoy»**.
+Todo el plan del jueves se rehízo con ella caminando.
+
+**Lo primero fue lo urgente, no lo importante:** un minuto antes se le había dicho *«Línea 10,
+1 parada a 天潼路»* para Qipu Road. Con el cambio eso quedó malo y **podía estar en el andén**,
+así que el mensaje partió con **«NO tomes la Línea 10»** y la ruta nueva (L2 directo a
+`上海科技馆`, sin trasbordo, el mercado dentro de la estación). **Regla: cuando un cambio
+invalida una instrucción que acabas de dar, corregirla va PRIMERO que explicar el plan nuevo.**
+
+**Datos del hotel que quedaron fijados:**
+- Metro: **`南京东路`** (L2 y L10), **sobre su propia calle peatonal** — se camina hacia el
+  Bund y las entradas están en la calle. Para pegar en mapa/Didi: `南京东路地铁站`.
+- **A 1 parada por L10 en cada sentido:** norte `天潼路` (Qipu Road), sur `豫园` (Yuyuan).
+
+### 🔴 El Yuyuan NO se pudo mover, y por qué
+
+Se **re-verificó en el momento** (no se confió en la memoria del 8-sep, después de lo de Han
+City) y estaba correcto: **hasta el 31-oct-2026 el Jardín Yu abre 9:00-21:50 mar/mié/vie/sáb/
+dom, pero los JUEVES cierra 16:30.** Lunes cerrado.
+
+O sea **traer el Yuyuan a hoy era justo perder lo que lo hacía bueno**. Se le dijo con la
+consecuencia concreta: *«si vas hoy a las 18:30 ves el bazar iluminado pero el jardín cerrado;
+mañana ves los dos»*.
+
+**Y el cambio se le vendió por lo que sí ganaba:** hoy **29°** contra **31°** mañana, y
+EKA·Tianwu es el único al aire libre. **Regla: cuando hay que negarle una parte de lo que
+pidió, entregar completo lo que sí se puede y nombrar la ganancia real del resto.**
+
+### Ren He Guan: no se pudo reservar, y no era el final
+
+Mandó un **audio** que whisper local transcribió cortado
+([[audios-solo-whisper-local]]). **No se actuó sobre la transcripción mala: se le devolvió la
+lectura en tres viñetas para que confirmara**, y en paralelo se buscó la salida — así la
+confirmación no costó tiempo.
+
+**Lo que se encontró y cambia el problema:** los jueves **la cena abre 17:00 (17:00-21:30) y
+se llena apenas abre**. Estando en la puerta a las 17:00 **se entra sin reserva**. ⚠️ Más
+tarde hay cola y **a veces sientan a compartir mesa** con desconocidos — normal ahí, pero se
+avisó para que no la pille de sorpresa.
+
+Se le dieron **dos caminos con su costo dicho**, y **recomendación explícita**: ir igual
+**cortando EKA·Tianwu** (que ya era el cortable) y pasar la tarde en AP Plaza, techado, con
+Didi directo desde ahí. La alternativa B fue **Da Hu Chun** `大壶春` (Bib Gourmand,
+`四川中路136号`, **10 min a pie del hotel**, sin reserva, *shengjianbao*).
+
+**Regla: «no se pudo reservar» no es «se cae». Antes de reemplazar un lugar, mirar cómo entra
+la gente sin reserva** — horario de apertura, cola, mesa compartida.
+
+### El viernes repetía plato y no lo había visto
+
+Al reordenar quedó **xiaolongbao dos veces el mismo día**: Lai Lai al almuerzo y Nanxiang en
+la cena. **Se lo dije yo, sin que preguntara**, con la alternativa dentro del mismo bazar:
+**Tan** `谭`, sichuanesa, nueva en la guía 2026. Y se le dejó la decisión sin cargarla:
+*«repetir el mejor xiaolongbao de Shanghái tampoco es mala vida»*.
+
+**Regla: revisar el plan reordenado como plan nuevo.** Las piezas eran todas correctas por
+separado; el defecto apareció solo al mirarlas juntas, y es el tipo de cosa que ella nota
+recién sentada en la mesa.
