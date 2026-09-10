@@ -755,3 +755,31 @@ La consulta de 3 meses (`kw90.json`) **no pedía `metrics.impressions`**, así q
 script imprimía "0 impresiones" junto a 132 clics — imposible. **Era artefacto de mi
 consulta, no dato.** Las impresiones reales se sacaron de la consulta de agosto que
 sí las pedía. No se le reportó ninguna cifra de impresiones que viniera de ahí.
+
+## 10-sep-2026 · Dos días sin cotizaciones — MIRADO, no avisado
+
+Las tres pasadas del reenvío de hoy (09:00, 15:00, 19:00) dieron *sin correos nuevos*.
+**La última cotización reenviada es del martes 8-sep.** Antes de darlo por normal se
+verificó contra el sitio.
+
+**No hay discrepancia entre el correo y el sitio:** la cotización más nueva es la
+**11643 del 8-sep**, y ese día entraron **5** (11639-11643). Los días **9 y 10 van en
+cero**. O sea el reenvío no está roto: no hay qué reenviar.
+
+**Y el caché no es la explicación:** `bin/sudtec_wp.py` agrega `_nc=<epoch_ms>` a todo
+GET desde el 21-ago ([[litespeed-cachea-la-api-rest]]), así que el listado es fresco.
+
+**Por qué NO se le avisó a Connie:** los días hábiles en cero son normales en esta
+cuenta —**7-sep, 2-sep y 31-ago** también fueron cero— y **el 10 todavía no terminaba**
+cuando se miró. Dos días seguidos sería nuevo, pero no alcanza para despertarla a las
+06:15 de China por algo que puede ser variación normal.
+
+**⚠️ Punto ciego encontrado en el vigía:** `vigilancia_ads.py` sí tiene regla de sequía
+(`base3 >= 3 and c3 <= base3*0.4`), pero mide con `newer_than:3d` de Gmail. **El lote de
+5 correos del 8-sep se queda dentro de esa ventana un día más**, así que el 11 todavía
+contaría ~5 y recién el **12-sep** caería a ~0 y dispararía. **La sequía se detecta con
+un día de atraso.** No se tocó el script: el atraso es de un día y cambiar un umbral sin
+mirar el histórico completo es cómo se rompen estos vigías.
+
+**Si el 11-sep también va en cero, eso ya es señal** y hay que mirar el formulario de
+cotización del sitio, no solo el correo.
