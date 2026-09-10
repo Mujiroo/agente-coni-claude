@@ -10,6 +10,26 @@ metadata:
 embarcar** (msg 916, 11:18 de allá), o sea con el avión encima: se le mandó un avance corto
 y el plan completo quedó listo **antes de que aterrizara**.
 
+## ⚠️ ESTADO VIGENTE — actualizado 10-sep-2026
+
+**Este archivo está escrito en capas por orden cronológico: de aquí para abajo hay
+versiones SUPERADAS del itinerario.** Este bloque es el estado real; si algo más abajo lo
+contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyuan el 10-sep:
+[[memoria-larga-la-version-confirmada-esta-al-final]].)
+
+| Día | Qué, hoy |
+|---|---|
+| **Jue 10** | Qipu Road (mañana) → **AP Plaza** y **EKA·Tianwu**, traídos del viernes en marcha → **Ren He Guan ⭐** (cena, Xuhui, en Didi) |
+| **Vie 11** | Mañana libre → **Yuyuan 15:00**: jardín hasta 16:30 → bazar → luces a las **18:00** → cena en **Nanxiang** |
+| **Sáb 12** | **Zhujiajiao** día completo (60-75 min por lado) · de noche, **el desfile del Shanghai Tourism Festival en el Bund** — ver la sección del final |
+| **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
+
+**Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
+lunes cerrado (no hay apertura nocturna). Bazar gratis hasta 22:00, iluminado desde 18:00.
+**Han City se cayó** (probablemente ya no existe). Metro del hotel: `南京东路` (L2 y L10).
+
+**Sigue pendiente: armarle PEKÍN**, del 13 al 18-sep.
+
 ## Los datos base
 
 - **Hotel: Tujia Homestay (Waitan Nanjing Road Pedestrian Street)** — sobre la calle
@@ -20,11 +40,11 @@ y el plan completo quedó listo **antes de que aterrizara**.
 - Pidió: **cosas baratas, souvenirs, ropa de marca falsa pero buena, y restaurantes
   Michelin**.
 
-**⚠️ PENDIENTE SIN RESOLVER: dice «hasta el domingo» (13-sep) pero vuelve a Chile el
-18-sep** ([[recordatorios-viaje-connie]]). Faltan **5 días sin destino conocido**. Importa
-de verdad porque **los crons del 14 y del 17-sep están calculados a «22:00 en China»
-(UTC+8)**: si esos días está en otro huso, los avisos le llegan a la hora equivocada. **Hay
-que preguntárselo antes del 14.** El del 11-sep no corre riesgo: ese día sigue en Shanghái.
+**✅ RESUELTO (msg 929) — NO se lo vuelvas a preguntar.** Estaba el hueco del 13 al 18-sep
+(«hasta el domingo» pero vuelve a Chile el 18) y **se va a PEKÍN**. Como **Pekín también es
+UTC+8**, los crons del **14 y del 17-sep** quedan correctos sin tocar nada
+([[recordatorios-viaje-connie]]). Se deja escrito porque **el 10-sep estuve a punto de
+volver a preguntárselo**: hacerla repetir un dato que ya dio es justo lo que no debe pasar.
 
 ## El criterio que ordenó el itinerario: el clima, no el gusto
 
@@ -164,7 +184,10 @@ El más antiguo de Shanghái, pagoda del **977**, plano, ¥10, L11/L12 estación
 que ya hizo esta misma semana, decirlo — la novedad es parte del valor y yo soy el único que
 tiene las dos cosas a la vista.**
 
-## Cómo quedó la semana, y por qué en ese orden
+## ⚠️ SUPERADA — Cómo quedó la semana, y por qué en ese orden
+
+**Esta tabla ya NO es el plan** (ver «ESTADO VIGENTE» arriba). Se deja por el criterio de
+armado, no por los días.
 
 - **Jue 10** (53% lluvia) → techado y a 2 paradas: Han City → **Lai Lai Xiao Long** → Qipu
   Road → Yuyuan de tarde (galerías cubiertas).
@@ -186,7 +209,12 @@ que ella puede revertir.**
    22:00 hora de China, y si esos días cambia de huso le llegan a la hora equivocada. Es la
    misma técnica que destrabó la hora del vuelo en Hong Kong ([[hong-kong-connie]]).
 
-## El itinerario final, confirmado por ella (msg 929)
+## ⚠️ SUPERADA — El itinerario final, confirmado por ella (msg 929)
+
+**Decía «final» y no lo era: cambió tres veces después** (msg 932 movió el Yuyuan al
+viernes, la caída de Han City rehízo el jueves, y el 10-sep se dio vuelta en marcha). **Es
+justo la sección que me hizo equivocarme el 10-sep**: el título convence. El plan real está
+en «ESTADO VIGENTE», arriba.
 
 Respondió tres cosas: **fuera Longhua**, **Ren He Guan solo el estrellado**, y **después de
 Shanghái se va a PEKÍN**. Con eso se le remandó el itinerario limpio, día por día
@@ -838,3 +866,45 @@ sola le deja un problema; la corrección con el plan nuevo le deja un día.
 - **Tan** `谭` — Bib Gourmand **2026**, sichuanesa, en la plaza del **Puente de los Nueve
   Recodos** (L1-2, 106 Songyunlou). *Horario no encontrado — se le dio sin horario en vez de
   inventarlo.*
+
+## «¿Qué es esto? ¿Cuándo es?» — foto del cartel del Tourism Festival (msg 1018, 10-sep)
+
+Mandó una foto de un cartel gigante: `SHANGHAI TOURISM FESTIVAL`, *in summer and fall*, con
+chino a un costado. Es el **37º 上海旅游节**.
+
+### Lo verificado
+
+- **Tema: `上海之约·美好相逢`.** Fue la confirmación de que el cartel era ese y no otro: el
+  `美好相逢` se lee en la propia foto. **Cuando una foto trae texto, ese texto es el que
+  cierra la identificación** — no basta con que el evento «calce».
+- **Va del 8-jul al 6-oct-2026**, en «一节两季» (un festival, dos temporadas): verano
+  8-jul a 31-ago, y la temporada clásica **desde el 1-sep** hasta el 6-oct. **Eso es lo que
+  significa el *in summer and fall* del cartel**, y explica por qué el cartel está puesto
+  aunque el evento grande no haya pasado.
+- **El gran desfile (`大巡游`): sábado 12-sep, de noche, en el Bund** — `中山东一路`, plaza
+  `金牛广场`. **21 carros alegóricos y 21 comparsas.**
+- **Del 13-sep al 6-oct** los carros recorren diez distritos (Jing'an, Hongkou, Chongming…);
+  cierre en **Guangfulin, Songjiang**, del 29-sep al 6-oct. **Ella ya no está para eso.**
+
+### Lo que NO se pudo verificar, y se dijo así
+
+**La hora exacta del desfile.** Solo apareció «la noche del 12». Baidu cayó en captcha,
+Sogou y 360 en antispider, y WebSearch estaba caído del todo. **Se le entregó como no
+confirmado en vez de poner una hora plausible** — es exactamente el error del Jardín Yu dos
+días antes, y esta vez no se repitió. Quedó ofrecido perseguirla.
+
+**Tampoco se confirmó** el clásico medio-precio en atracciones del 旅游节, así que **no se
+mencionó**.
+
+### Por qué le sirvió
+
+**Cae en su único hueco posible:** el Bund está a **10 min a pie** del hotel, el sábado es su
+**último día completo** y el domingo vuela a Pekín. **No hay canje**: o el sábado, o no lo ve.
+
+**El choque real era con Zhujiajiao**, que es día completo a 60-75 min por lado. Se resolvió
+con una hora concreta en vez de un «elige»: **salir de Zhujiajiao 16:30-17:00** y alcanza las
+dos cosas. **Regla: cuando un panorama nuevo choca con el plan, dar la hora de corte que hace
+que quepan los dos; «no te va a dar el tiempo» es abandonarla a mitad del problema.**
+
+Y se le agregó lo que no preguntó: **el Bund se llena muchísimo** para esto, así que con 23
+semanas conviene llegar temprano y quedarse en un borde ([[embarazo-connie]]).
