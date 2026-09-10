@@ -742,3 +742,35 @@ termina lejos del hotel — el cambio parecía neutro y no lo era.
 
 **Pendiente menor:** hoy quedó **sin almuerzo asignado** —el cambio se hizo con ella ya en
 movimiento— y no se inventó uno: no había nada verificado cerca de AP Plaza.
+
+### 🔴 EKA·Tianwu decepcionó, y la culpa fue de cómo lo describí
+
+Llegó y mandó un audio de una línea: ***«EKA es una tienda grande no más»***.
+
+**Lo era.** El 8-sep se lo vendí como *«casi un museo de artesanía»* — y esa descripción salió
+de **un video de Instagram que ella misma me mandó**, no de una fuente independiente. Un video
+promocional describe el lugar como quiere que se vea. **Lo repetí con más peso del que
+tenía.**
+
+**Se reconoció derecho y en la primera línea**, sin excusa y sin alargarlo: *«tienes razón, y
+te lo vendí más grande de lo que es»*.
+
+**Pero reconocer no es rendirse:** se le dio el dato que todavía podía servirle —**自然造物 es
+la tienda; EKA·天物 es el parque entero**, galpones, talleres y patios— *y de inmediato el
+permiso de irse*: **«si diste una vuelta y te pareció poco, es poco: no le des más rato»**. El
+riesgo de defender la recomendación es que se quede una hora más siendo infeliz para no
+contradecirme.
+
+**Regla: cuando la fuente de una recomendación es material promocional que ella misma mandó,
+decirlo al recomendar.** *«El video lo muestra así»* ≠ *«es así»*. Esto ya había fallado al
+revés con Ren He Guan, donde el video decía «el estrellado más barato» y **sí** era cierto —
+lo que confirma que **el video no es la prueba, es la hipótesis**.
+
+**Y se aprovechó que el día se soltó:** saliendo de EKA a las 15:15 en vez de 17:45, **Ren He
+Guan volvía a ser posible** (abre 17:00, sin cola a esa hora). Se le ofreció como opción B
+**nombrando por qué cambió la respuesta** —*«era complicada cuando salías a las 17:45;
+saliendo ahora se puede»*— y con salida explícita: *«si andas cansada, la A es la A y no pasa
+nada»*.
+
+**Regla: cuando el día se adelanta, revisar qué se había descartado POR HORA.** Lo que era
+imposible a las 17:45 puede ser fácil a las 15:15, y ella no va a rehacer ese cálculo sola.
