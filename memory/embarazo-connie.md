@@ -173,3 +173,24 @@ justo. Por eso el recordatorio del **14-sep** para pedir hora en Integramédica
 salta, se le puede cerrar la ventana. No dejar que ese cron falle en silencio.
 
 Le ofrecí averiguarle dónde atenderse en China por si acaso; quedó sin respuesta.
+
+## Comer en la calle en China con 23 semanas (10-sep-2026, msg 1026)
+
+Mandó la foto de una carta preguntando *«cuál puedo comer»*. **Lo que se le dio, y sirve
+para Pekín igual:**
+
+- **La regla manda sobre el plato: que salga recién hecho y caliente.** El riesgo real en
+  un local así no es el ingrediente sino la comida guisada que espera tibia (el `卤肉` del
+  *rou jia mo* se cocina antes y reposa en la olla). **Si sale humeando, está bien.**
+- **Vísceras, no:** `肥肠` (intestino de cerdo) depende demasiado de la limpieza, y es
+  grasa pura.
+- **Magro antes que graso** cuando la carta ofrece las dos: `纯瘦` sobre `肥瘦`.
+- **El picante** —`剁椒`, `油泼`— **no es peligro, es reflujo.** Decírselo así: ella decide
+  si lo aguanta.
+- **La apuesta segura de casi cualquier carta china:** `西红柿鸡蛋` (tomate y huevo) —
+  caliente, sin picante, huevo bien cocido.
+
+**Se le contestó con una sola regla y dos evitar, no con una lista** — justamente por la
+corrección del 24-ago sobre acumular precauciones ([[embarazo-connie]] más arriba). Y se
+abrió con *«puedes comer, tranquila»*, porque la pregunta traía miedo y la respuesta era
+que sí.

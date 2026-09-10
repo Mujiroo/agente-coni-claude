@@ -956,3 +956,16 @@ vez de al leer, y es peor porque queda con cara de verdad.
 Nanxiang, sábado Zhujiajiao y el desfile, domingo vuela 11:50. Se le dio con esa razón y con
 la salida por si andaba cansada (el bazar del Yuyuan, 1 parada, abierto hasta 22:00),
 **avisando que ahí repetiría la cena de mañana**.
+
+### Cómo terminó la cena: no fue a Ren He Guan
+
+**23 minutos después** (msg 1026, 20:06 de allá) mandó la foto de la carta de **un local de
+fideos y `潼关肉夹馍` abajo del hotel** preguntando *«cuál puedo comer»*. O sea **no cruzó a
+Xuhui**: eligió lo de al lado, después de un día que ya había incluido AP Plaza y EKA.
+
+**Ren He Guan ⭐ quedó perdido para este viaje** — el «hoy o nunca» era real y salió nunca.
+Y estuvo bien: a 23 semanas y a las 20:00, media hora de Didi por una estrella es
+exactamente el tipo de cosa que se ve razonable en el itinerario y no en el cuerpo.
+
+**Regla: cuando el panorama que recomiendo compite con «lo que hay abajo», la que decide es
+la energía que le queda, no el argumento.** Ofrecer el bueno sí; insistir, no.
