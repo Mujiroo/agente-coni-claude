@@ -19,7 +19,7 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 
 | Día | Qué, hoy |
 |---|---|
-| **Jue 10** | Qipu Road (mañana) → **AP Plaza** y **EKA·Tianwu**, traídos del viernes en marcha → **Ren He Guan ⭐** (cena, Xuhui, en Didi) |
+| **Jue 10** | AP Plaza → **EKA·Tianwu** (decepcionó, salió 15:15) → cena: **quedó ABIERTA entre A y B**; a las 19:44 **Da Hu Chun cerró (19:30)** y quedó solo **Ren He Guan ⭐** (hasta 21:30, Xuhui, Didi) |
 | **Vie 11** | Mañana libre → **Yuyuan 15:00**: jardín hasta 16:30 → bazar → luces a las **18:00** → cena en **Nanxiang** |
 | **Sáb 12** | **Zhujiajiao** día completo (60-75 min por lado) → salir **17:00** · **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30) |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
@@ -925,3 +925,34 @@ que quepan los dos; «no te va a dar el tiempo» es abandonarla a mitad del prob
 
 Y se le agregó lo que no preguntó: **el Bund se llena muchísimo** para esto, así que con 23
 semanas conviene llegar temprano y quedarse en un borde ([[embarazo-connie]]).
+
+
+## «¿Dónde cenábamos hoy?» (msg 1024, 19:43 de allá) — la respuesta era «no estaba decidido»
+
+Preguntó por la cena **del día en curso**. La respuesta honesta no era un lugar: **la había
+dejado a su elección entre A (Da Hu Chun, cerca del hotel) y B (Ren He Guan ⭐, Xuhui), y
+nunca contestó cuál.**
+
+**Lo que resolvió la pregunta no fue la memoria, fue el reloj.** En Shanghái eran las
+**19:44** y **Da Hu Chun cierra 19:30**: la opción A ya no existía. Se le dijo así —*«la hora
+decidió por ti»*— en vez de devolverle las dos y hacerla elegir con hambre.
+
+**Regla: cuando pregunta por algo del día en curso, lo primero que hay que mirar es la hora
+de allá, no el archivo.** Un plan escrito ayer puede estar vencido por el reloj, y en un
+mensaje de comida el dato que manda es qué sigue abierto ahora.
+
+### El defecto que esto destapó en mi propio bloque de ESTADO VIGENTE
+
+El bloque que escribí esa misma mañana ponía **«Ren He Guan (cena)»** como si estuviera
+resuelto. **No lo estaba: era una de dos y ella no había respondido.** Convertí una decisión
+abierta en un hecho al resumir.
+
+**Regla: un bloque de estado tiene que decir qué está ABIERTO, no solo qué está decidido.**
+Un resumen que aplana las opciones en una sola línea es el mismo error que leer una capa
+vieja —[[memoria-larga-la-version-confirmada-esta-al-final]]—, pero cometido al escribir en
+vez de al leer, y es peor porque queda con cara de verdad.
+
+**Y por qué se recomendó B con ganas:** era **la última noche posible**. Viernes cena en
+Nanxiang, sábado Zhujiajiao y el desfile, domingo vuela 11:50. Se le dio con esa razón y con
+la salida por si andaba cansada (el bazar del Yuyuan, 1 parada, abierto hasta 22:00),
+**avisando que ahí repetiría la cena de mañana**.
