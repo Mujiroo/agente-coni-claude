@@ -231,8 +231,10 @@ cerrado.
 
 **Al ir a reacomodarlo apareció un horario que casi arruina el plan:**
 
-- **El Jardín Yu** (el jardín clásico, con entrada) **cierra 16:30 los JUEVES**, pero abre
-  **hasta las 21:50 viernes, sábado y domingo** (hasta el 31-oct-2026). **Cierra los lunes.**
+- **El Jardín Yu** (el jardín clásico, con entrada) — ⚠️ **DATO CORREGIDO EL 10-SEP, ver la
+  sección «El horario del Jardín Yu era falso» al final: cierra 16:30 TODOS los días.** Lo que
+  decía esta línea (abierto hasta 21:50 vie/sáb/dom) **es falso** y se dejó tachado a
+  propósito, porque explica dos decisiones que se tomaron con él.
 - **El bazar** va de 9:30 a 22:00 y **se ilumina desde las 18:00**.
 - **Nanxiang** sirve **8:30-21:00**.
 
@@ -774,3 +776,65 @@ nada»*.
 
 **Regla: cuando el día se adelanta, revisar qué se había descartado POR HORA.** Lo que era
 imposible a las 17:45 puede ser fácil a las 15:15, y ella no va a rehacer ese cálculo sola.
+
+## 🔴 El horario del Jardín Yu era falso, y yo mismo lo «verifiqué» mal
+
+Preguntó *«mañana qué hay»* (msg 1015, 16:28 de allá). Al armar el viernes se volvió a mirar
+el Yuyuan **con una pregunta abierta**, y el dato se cayó:
+
+**El Jardín Yu cierra 16:30 TODOS los días** (última entrada 16:00, cerrado los lunes,
+**¥40** en septiembre). **No hay apertura nocturna regular.** Las visitas de noche del Yuyuan
+existen pero son **eventos con entrada aparte**, tipo el Festival de Faroles (¥80). Lo que sí
+queda abierto e iluminado hasta las **22:00** es el **bazar**, que es gratis.
+
+### Cómo me equivoqué: le pregunté al buscador lo que quería oír
+
+El 8-sep entró como *«cierra 16:30 los jueves, abre hasta 21:50 vie/sáb/dom»*. El 10-sep,
+**antes de mover el Yuyuan al jueves, lo "re-verifiqué"** — y la búsqueda que usé fue:
+
+> `Yu Garden opening hours 2026 Thursday closes 16:30 night opening Friday Saturday Sunday 21:50`
+
+**La query ya contenía la respuesta.** El buscador devolvió páginas que la repetían y lo di
+por confirmado. Recién al preguntarlo limpio —y al ir directo a `travelchinaguide.com`—
+apareció **9:00-16:30, todos los días, sin excepción**.
+
+**Regla dura: una verificación que nombra el resultado esperado no es una verificación.** Se
+pregunta *«cuál es el horario»*, nunca *«confirma que el horario es X»*. Y cuando el dato
+sostiene una decisión, **ir a una fuente directa**, no al resumen del buscador.
+
+**Regla: dos fuentes que coinciden pueden ser la misma fuente.** Las guías turísticas en
+inglés se copian entre ellas — es exactamente lo que ya había pasado con Han City el día
+anterior. **Dos veces en dos días el mismo error de fondo.**
+
+### Lo que arrastró el dato falso
+
+1. **El 8-sep** movió el Yuyuan del jueves al viernes *«porque el jueves era el peor día para
+   el jardín»*. El motivo era falso; **el resultado igual sirve**, por otras razones.
+2. **El 9-sep** se usó para negarle traer el Yuyuan a hoy: *«si vas hoy a las 18:30 ves el
+   bazar iluminado pero el jardín cerrado»*. **Eso habría pasado cualquier día**, incluido el
+   viernes con el plan que yo mismo le había armado a las 18:30.
+
+**O sea: le tenía armado un viernes que NO incluía el jardín, creyendo que sí.**
+
+### Cómo se le dijo, y cómo se arregló
+
+Se le dijo **primero la corrección y con el porqué del error** —*«lo verifiqué haciendo una
+búsqueda que ya traía la respuesta metida en la pregunta»*— y recién después el plan. **Nada
+de deslizar el horario nuevo dentro del itinerario esperando que no lo note.**
+
+**Y el arreglo dejó el día mejor que antes:** en vez de llegar al Yuyuan 18:30, llega **15:00**
+→ jardín hasta 16:30 → bazar con calma → **18:00 se encienden las luces** → cena ahí. **Ve las
+dos cosas el mismo día**, que era lo que yo creía estar consiguiendo, y termina más temprano.
+
+**Regla: al corregir un error propio, traer el arreglo en el mismo mensaje.** La corrección
+sola le deja un problema; la corrección con el plan nuevo le deja un día.
+
+### Datos verificados del Yuyuan (10-sep, fuente directa)
+
+- **Jardín Yu:** 9:00-16:30, última entrada 16:00, cerrado lunes. **¥40** (sep-nov); ¥30 en
+  jul-ago y dic-mar. Fundado en **1559**.
+- **Bazar:** gratis, hasta las **22:00**, **iluminado desde las 18:00**.
+- **Nanxiang** `南翔馒头店` — `豫园路85号`, **7:30-21:00**.
+- **Tan** `谭` — Bib Gourmand **2026**, sichuanesa, en la plaza del **Puente de los Nueve
+  Recodos** (L1-2, 106 Songyunlou). *Horario no encontrado — se le dio sin horario en vez de
+  inventarlo.*
