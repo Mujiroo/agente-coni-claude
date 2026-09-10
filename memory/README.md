@@ -14,3 +14,4 @@ reinicios; lo que queda solo en el chat, no.
 - [Depósito a plazo: ya está en Consorcio](deposito-a-plazo-connie.md) — es de los mejores; un día fuera cuesta más que un mes de diferencia de tasa.
 - [«Ya hay un puente activo» puede ser mentira](puente-activo-verificar-el-pid.md) — el candado sobrevive al reinicio y el pid huérfano coincide con otro proceso: verifica con ps o quedas sordo en silencio.
 - [En un archivo largo, la versión vigente está al final](memoria-larga-la-version-confirmada-esta-al-final.md) — aconsejé sobre una capa superada del itinerario, y la corrección salió mal por lo mismo; el arreglo es un bloque de ESTADO VIGENTE arriba.
+- [Mooncakes y el Medio Otoño](mooncakes-y-medio-otono.md) — 25-sep-2026; los 净素 le evitan la yema salada, y para traerlos a Chile: envasados y declarados en el SAG.
