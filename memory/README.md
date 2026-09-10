@@ -12,3 +12,4 @@ reinicios; lo que queda solo en el chat, no.
 - [Maletas en China](maletas-china.md) — marcas, precios y por qué el peso vacío manda.
 - [Hong Kong: Casetify y la ruta desde Shenzhen](hong-kong-connie.md) — 9 tiendas; Festival Walk es la que cae en su camino.
 - [Depósito a plazo: ya está en Consorcio](deposito-a-plazo-connie.md) — es de los mejores; un día fuera cuesta más que un mes de diferencia de tasa.
+- [«Ya hay un puente activo» puede ser mentira](puente-activo-verificar-el-pid.md) — el candado sobrevive al reinicio y el pid huérfano coincide con otro proceso: verifica con ps o quedas sordo en silencio.
