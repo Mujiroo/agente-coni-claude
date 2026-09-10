@@ -521,3 +521,21 @@ se suman ese interés y esa comisión.
 [[leer-pdf-sin-herramientas]] — incluye la regla de **cuadrar el parseo contra los
 totales impresos** antes de darle cifras.
 
+
+**10-sep-2026** — Mandó un correo de **Isapre Colmena** preguntando por qué le llegaba.
+Era informativo: su cotización de **mayo 2026 ($32.322)** se había pagado por error a
+**Cruz Blanca** —su isapre anterior— y Colmena la recuperó, por instrucción de la
+Superintendencia de Salud. No pedía nada ni cobraba nada.
+
+**El dato que importa y no era obvio:** en el cuadro, el **RUT del empleador es el de ella
+misma**, no el de Cheil. O sea **paga sus cotizaciones de salud bajo su propio RUT**
+(boletas / independiente), y por eso el error se originó de su lado, no de su empleador.
+
+**Queda abierto:** confirmar que **de junio-2026 en adelante** las cotizaciones quedaron en
+Colmena y no en Cruz Blanca — se le dijo, no lo ha respondido. Importa más de lo normal
+porque con el embarazo las cotizaciones bien imputadas son las que sostienen la cobertura y
+después la licencia ([[embarazo-connie]]). **No se montó cron: no lo pidió.** Si vuelve a
+salir el tema, ofrecérselo.
+
+*(No se guarda su RUT acá a propósito: el dato útil es que paga bajo su propio RUT, no el
+número. Está en el correo si alguna vez hace falta.)*
