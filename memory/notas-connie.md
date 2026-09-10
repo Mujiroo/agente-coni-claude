@@ -527,15 +527,28 @@ Era informativo: su cotización de **mayo 2026 ($32.322)** se había pagado por 
 **Cruz Blanca** —su isapre anterior— y Colmena la recuperó, por instrucción de la
 Superintendencia de Salud. No pedía nada ni cobraba nada.
 
-**El dato que importa y no era obvio:** en el cuadro, el **RUT del empleador es el de ella
-misma**, no el de Cheil. O sea **paga sus cotizaciones de salud bajo su propio RUT**
-(boletas / independiente), y por eso el error se originó de su lado, no de su empleador.
+**🔴 Me equivoqué leyendo ese correo, y ella me corrigió al minuto** (msg 1034: *«yo no he
+pagado ninguna cotización, lo hace mi empleador»*). Vi que el **RUT Empleador del cuadro era
+igual al de ella** y concluí que pagaba sus cotizaciones bajo su propio RUT. **Falso: es
+empleada y paga Cheil.**
 
-**Queda abierto:** confirmar que **de junio-2026 en adelante** las cotizaciones quedaron en
-Colmena y no en Cruz Blanca — se le dijo, no lo ha respondido. Importa más de lo normal
-porque con el embarazo las cotizaciones bien imputadas son las que sostienen la cobertura y
-después la licencia ([[embarazo-connie]]). **No se montó cron: no lo pidió.** Si vuelve a
-salir el tema, ofrecérselo.
+**La pista que se me pasó estaba en la casilla de al lado: «Razón Social» venía EN BLANCO.**
+Si Colmena tuviera identificado al empleador, ahí iría el nombre. Cuando ese dato no llega
+en el traspaso desde la otra isapre, el sistema **rellena la casilla con el RUT del
+afiliado**. Era un artefacto del formulario, no un hecho.
+
+**Regla: en un formulario, un campo repetido junto a otro vacío es señal de relleno
+automático, no de dato.** Antes de construir una conclusión sobre un valor, mirar si los
+campos vecinos la sostienen. Acá el vacío desmentía al lleno y yo miré solo el lleno.
+
+**Lo que de verdad pasó:** su empleador declaró la cotización de mayo a **Cruz Blanca**,
+la isapre anterior, porque el cambio no alcanzó a actualizarse en la planilla.
+
+**Queda abierto:** confirmar que **de junio-2026 en adelante** están pagando a Colmena.
+**Es del lado del empleador**, no de ella: preguntarle a **RRHH de Cheil**, o mirarlo en la
+sucursal virtual de Colmena. Importa más de lo normal porque con el embarazo las
+cotizaciones bien imputadas sostienen la cobertura y después la licencia
+([[embarazo-connie]]). **Se le ofreció recordatorio para la vuelta; no ha contestado.**
 
 *(No se guarda su RUT acá a propósito: el dato útil es que paga bajo su propio RUT, no el
 número. Está en el correo si alguna vez hace falta.)*
