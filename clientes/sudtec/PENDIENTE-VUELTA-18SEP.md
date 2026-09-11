@@ -97,7 +97,27 @@ convierten — ese es el argumento, no el ahorro.
 **`botas bombero` NO se toca todavía** (8.389 y 0 conv este mes): trae **16,8 conversiones
 históricas**. Se mira una semana más. **Dejar fuera algo con su motivo dicho, no en silencio.**
 
-**NADA ejecutado. Espera su OK explícito.**
+### ✅ EJECUTADO el 10-sep 21:2x — solo una de las dos
+
+**Connie aprobó UNA** (msg 1038: *«Pausa arnes de seguridad para alturas»*). Se pausó **esa
+y nada más**.
+
+- `arnes de seguridad para alturas` (AMPLIA, grupo **General**, Campaña Sudtec) → **PAUSED**.
+  Recurso `181820804074~356656668865`. `validateOnly` primero, después el mutate, y
+  **verificado por relectura** — el 200 no es prueba ([[verificar-estado-antes-de-ejecutar-lo-aprobado]]).
+- `articulos para bomberos` **sigue ENABLED**: no la aprobó. **Sigue propuesta.**
+- `botas bombero` sin tocar, por las 16,8 conversiones históricas.
+
+**⚠️ Dos hallazgos del chequeo previo, que valen para la próxima:**
+
+1. **Buscar por `LIKE '%arnes%'` devuelve DOS keywords**: la aprobada y `arnes de rescate`
+   (frase, campaña *Sudtec · Bomberos*, que está pausada). **Un pause por coincidencia de
+   texto habría tocado las dos.** Siempre resolver al `resource_name` exacto antes del mutate.
+2. **Hay DOS criterios `articulos para bomberos`** en la cuenta. Si ella la aprueba, son
+   **dos pausas**, no una — y un script que asuma una sola dejaría la mitad viva.
+
+**Pendiente de medir:** con `MAXIMIZE_CONVERSIONS` los 3.270 **no se ahorran, se
+redistribuyen**. Revisar en unos días si el CPA se movió, y decírselo pase lo que pase.
 
 ## 4 · Cosas chicas que quedaron pendientes
 
