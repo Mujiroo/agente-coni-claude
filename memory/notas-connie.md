@@ -575,3 +575,24 @@ en vez de escucharla— y **no hablar mal de su familia**: ella sigue en esa rel
 yo no la conozco, y no me toca. Se nombró lo que la acción comunicó, sin juzgar a la persona.
 
 **Queda ofrecido:** ayudarla a ordenar cómo decírselo, si algún día quiere.
+
+**11-sep-2026 (seguimiento, msg 1070)** — Tomó la oferta y pidió el guion. Agregó un dato
+que cambia el enfoque: **su mamá le dice recurrentemente que «le tiene envidia a su
+hermano»**, y ella misma medio acepta la etiqueta (*«cómo no hacerlo si siempre hace este
+tipo de cosas»*).
+
+**El eje del guion que se le armó:** esa etiqueta **convierte lo que ella plantea en un
+defecto suyo**, y mientras la conversación sea sobre si es envidiosa, nunca va a ser sobre lo
+que pasó. Por eso el guion **casi no menciona al hermano** y entra por las dos cosas que no
+se pueden reetiquetar: **que no le respondió** y **que fue a escondidas**.
+
+Se le dio en 5 pasos (abrir sin pelear · su pedido sin respuesta · el secreto, que es el
+corazón · una frase para cuando aparezca la palabra envidia, dicha **una sola vez** · cerrar
+pidiendo algo chico: que le respondan aunque sea que no). Más dos cosas prácticas: **por voz
+o en persona, no por escrito**, y **no con la pena encima** — puede esperar a que vuelva.
+
+También se le separó una cosa de la otra: **sentir una punzada cuando a un hermano le va
+mejor es humano y no la hace mala persona**, pero *eso* no es lo que está planteando y no
+tiene por qué aceptar que se lo mezclen.
+
+**Quedó ofrecido ajustar el guion** si cuenta cómo reacciona su mamá cuando se lo plantea.
