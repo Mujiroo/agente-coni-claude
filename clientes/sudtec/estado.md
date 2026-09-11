@@ -783,3 +783,27 @@ mirar el histórico completo es cómo se rompen estos vigías.
 
 **Si el 11-sep también va en cero, eso ya es señal** y hay que mirar el formulario de
 cotización del sitio, no solo el correo.
+
+### 10-sep 23:30 · El 10 cerró en cero — pero el canal está SANO (verificado)
+
+Cuarta pasada del día sin correos. **El 9 y el 10 cerraron los dos en cero**; la cotización
+más nueva sigue siendo la **11643 del 8-sep 16:33**.
+
+**Se comprobó que no esté roto, que era la duda real:**
+
+| Qué | Resultado |
+|---|---|
+| Sitio en pie | **HTTP 200**, 0,44 s |
+| Botón de cotizar en ficha de producto | **presente** (`add-request-quote`, `yith-ywraq-add-to-quote`) |
+| Botón en la home | **presente** (`ywraq-add-button`) |
+| Listado de cotizaciones | fresco (rompe-caché activo) |
+
+**Conclusión: no hay falla técnica.** No llegan correos porque **no hay cotizaciones nuevas**,
+no porque el aviso se haya cortado. Un canal roto y una demanda quieta se ven idénticos desde
+el correo — **por eso se miró la página pública como la ve un cliente**, no solo la API.
+
+**Trigger actualizado:** ya no hace falta «mirar el formulario» si el 11 va en cero — eso ya
+está mirado. **Si el 11-sep también cierra en cero son 3 días hábiles seguidos, y eso sí se
+le cuenta a Connie** como dato de negocio (no como falla), contrastado contra el gasto de Ads
+de esos mismos días: si la campaña gastó normal y no entró ninguna solicitud, el problema
+está entre el clic y el formulario.
