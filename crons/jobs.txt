@@ -163,12 +163,14 @@
 # PRECEDENTE: un aviso de rutina que no requiere accion suya no la despierta de madrugada.
 # Se difiere con un cron de una sola vez, nunca se descarta.
 
-# --- SUDTEC: veredicto de los 3 dias habiles sin cotizaciones (montado 11-sep-2026) ---
-# El 9 y el 10 cerraron en CERO. El trigger que yo mismo deje (commit bc3b661) dice que si el
-# 11 tambien cierra en cero son 3 dias habiles y se le cuenta a Connie como DATO DE NEGOCIO
-# -no como falla-, contrastado con el gasto de Ads de esos dias. El canal ya se verifico sano
-# el 10 (sitio 200, boton de cotizar presente): no hay nada tecnico que arreglar.
+# --- SUDTEC: aviso diferido del reenvio + se corto la racha de ceros (11-sep-2026) ---
+# REESCRITO a las 15:00: la pasada de las 15:00 reenvio 3 cotizaciones DE HOY, o sea el 11 NO
+# cerro en cero y el veredicto de racha ya no aplica. Queda solo el aviso del reenvio, que el
+# cron de las 15:00 manda dar 'si reenvio 1 o mas' -- pero en China eran las 02:00 y dormia.
+# PRECEDENTE (8-sep, msg 961): un aviso de rutina que no requiere accion suya no la despierta
+# de madrugada; se difiere con un cron de una sola vez, nunca se descarta.
 # HORA: 21:00 de Chile = 08:00 del 12-sep en China. Va a esa hora a proposito: el dia chileno
 # ya cerro, y a ella le llega en el desayuno y NO encima del desfile del Bund (18:30-21:00 alla).
+# El trigger de la racha (commit bc3b661) queda CUMPLIDO y cerrado: no aplica.
 # Este job se borra solo despues de avisar.
-0 21 11 9 * | [CRON] SUDTEC cotizaciones: corre `python3 bin/sudtec_wp.py cotizaciones` en /home/agent/workspace y mira si HOY 11-sep entro alguna. Si entro 1 o mas, NO le escribas nada a Connie: la racha se corto. Si el 11 cerro en CERO, son 3 dias habiles seguidos (9, 10 y 11) contra una base historica de 1,8/dia: avisale con `bash bin/tg.sh send` en HTML, CORTO y como dato de negocio, NO como emergencia. Incluye el gasto de Ads de esos mismos dias (sacalo de `python3 bin/vigilancia_ads.py`) para que vea si esta pagando clics sin cotizaciones. Recuerdale en una linea que el canal ya se verifico sano el 10 y que el contador de conversiones de Ads esta roto, asi que las cotizaciones son el termometro. Ella esta de viaje: NO le propongas tocar nada de produccion. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 11 9"), commitea y pushea.
+0 21 11 9 * | [CRON] AVISO DIFERIDO a Connie (21:00 Chile = 08:00 del 12-sep en China, su desayuno). Mandale con `bash bin/tg.sh send` en HTML, CORTO y en tono de buena noticia: hoy 11-sep entraron 3 solicitudes de presupuesto y las 3 ya se reenviaron a bd@sudtec.cl (09:07, 12:51 y 14:42 de Chile). Con eso se CORTA la racha: el 9 y el 10 habian cerrado en cero, y 3 en un dia deja el mes de vuelta en su promedio historico de 1,8/dia, asi que NO hay nada que revisar. El reenvio se hizo en el momento; lo unico que se difirio fue el aviso, porque a esa hora en China eran las 02:00. NO le propongas tocar nada: esta de viaje. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 11 9"), commitea y pushea.
