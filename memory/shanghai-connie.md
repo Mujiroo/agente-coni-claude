@@ -10,7 +10,7 @@ metadata:
 embarcar** (msg 916, 11:18 de allá), o sea con el avión encima: se le mandó un avance corto
 y el plan completo quedó listo **antes de que aterrizara**.
 
-## ⚠️ ESTADO VIGENTE — actualizado 11-sep-2026 (18:16 de China)
+## ⚠️ ESTADO VIGENTE — actualizado 11-sep-2026 (18:40 de China)
 
 **Este archivo está escrito en capas por orden cronológico: de aquí para abajo hay
 versiones SUPERADAS del itinerario.** Este bloque es el estado real; si algo más abajo lo
@@ -21,7 +21,7 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 |---|---|
 | **Jue 10** | AP Plaza → **EKA·Tianwu** (decepcionó, salió 15:15) → cena: **quedó ABIERTA entre A y B**; a las 19:44 **Da Hu Chun cerró (19:30)** y quedó solo **Ren He Guan ⭐** (hasta 21:30, Xuhui, Didi) |
 | **Vie 11** | ⚠️ *CAMBIÓ SOBRE LA MARCHA (msg 1074, 18:16 allá).* Volvieron al hotel y salieron al **bazar de noche** (`豫园商城`, luces desde 18:00, gratis hasta 22:00). **El jardín NO se hizo**: lo pasaron a la **mañana del sábado**. Cena sugerida ahí mismo: **Nanxiang** (hasta 21:00). **Hoy: boleta Sudtec** |
-| **Sáb 12** | ⚠️ *AHORA APRETADO.* Ella movió el **jardín Yu** (`豫园`, ¥40, abre 9:00) a la mañana del sábado, encima de **Zhujiajiao** día completo (60-75 min por lado) y del **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30). *(**0 mm · 0%**, confirmado 11-sep.)* **Se le ofreció reordenarlo (msg 1075) y está sin responder.** |
+| **Sáb 12** | ✅ *RESUELTO por ella (msg 1078).* **Zhujiajiao SE SACÓ** — se le recomendó dejarlo y aceptó. Queda: **jardín Yu** `豫园` 9:00 (¥40, 1h30) → almuerzo **Lai Lai Xiao Long** `来来小笼` (⚠️ cierra 14:00-15:00) → **tarde por definir**, 3 opciones dadas (msg 1080) → **desfile, Bund, `金牛广场`, estar 18:30**. *(0 mm · 0%.)* |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
 
 **Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
@@ -34,6 +34,32 @@ lunes cerrado (no hay apertura nocturna). Bazar gratis hasta 22:00, iluminado de
 marcha y no quedó registrado si pasó por ahí antes del cambio. **Se le preguntó al
 proponerle la mañana del viernes, en vez de darlo por hecho en cualquiera de los dos
 sentidos.** Cuando conteste, corregir esta línea.
+
+### La tarde del sábado: las 3 opciones que se le dieron (11-sep, msg 1080)
+
+**Todas verificadas ese día, no de memoria:**
+
+1. **Qipu Road** `七浦路` — ropa barata bajo techo, 1 parada, cierra 18:00. **Se le marcó como
+   la favorita** porque es lo único de su pedido original (*ropa de marca falsa pero buena*)
+   que quedaría sin hacer, y el domingo vuela. **Sigue sin confirmar si fue el jueves** — se
+   le volvió a preguntar dentro del mismo mensaje, no como pregunta suelta.
+2. **Museo de Shanghái** `上海博物馆` (People's Square) — **gratis**, **9:00-17:00, última
+   entrada 16:00**, cerrado los lunes. **Desde el 1-sep-2025 YA NO pide reserva** para
+   visitante individual: se entra con **pasaporte por la puerta sur**. Las muestras especiales
+   sí cobran ¥135. Techado, plano y con bancas: es la opción «llegar descansada a estar de pie
+   en la noche».
+3. **Crucero por el Huangpu** `浦江游览` — sale del Bund, 1 h, **¥115** (temporada alta,
+   26-feb a 25-nov), salidas hasta las **16:30**. Se ve todo **sentada** y la deja caminando
+   donde es el desfile.
+
+**Dato mejorado del desfile:** el punto exacto es **`金牛广场` (Jinniu), en Zhongshan East 1**,
+con **21 carros y 21 grupos**. Salió del sitio del gobierno (`whlyj.sh.gov.cn`) después de que
+el portal de noticias devolviera **HTTP 412** — otra vez la regla: *cuando los buscadores
+chinos cierran la puerta, el organizador sigue publicando*.
+
+⚠️ **El «时间地点可能有变» que aparece en las fuentes es de los desfiles por distritos del
+13-sep al 6-oct, NO del principal del 12.** No confundirlos y asustarla con un cambio que no
+la toca.
 
 ## Los datos base
 
