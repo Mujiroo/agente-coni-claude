@@ -167,3 +167,20 @@ contarle**. Una nota que me evita a mí un error le evita a ella una confusión.
 
 **Y se asumió la causa en la primera línea** (*«la confusión te la causé yo»*) en vez de
 explicar el dato como si la pregunta fuera ingenua.
+
+## `tg.sh editar` existe — un typo se corrige, no se parcha con otro mensaje (11-sep-2026)
+
+La tabla de `CLAUDE.md` **no lo lista**, pero `bin/tg.sh` acepta
+`bash bin/tg.sh editar <msg_id> '<texto nuevo>'` (además de `ask`, `typing`, `foto` y
+`archivo`, que tampoco están todos en la tabla).
+
+**Para qué sirve de verdad:** si un mensaje sale con un error de tipeo o un dato malo,
+se **edita en su lugar**. Mandar un segundo mensaje diciendo «*perdón, quise decir...*»
+le suma ruido al teléfono por algo que no cambia nada para ella.
+
+Se usó la primera vez con el msg 1077 (recomendación sobre Zhujiajiao): salió
+`paradaen` pegado y se arregló sin que ella tuviera que leer una corrección.
+
+⚠️ **El límite:** editar sirve para el typo y para el dato recién corregido. Si ella
+**ya actuó** sobre lo que decía el mensaje viejo, editar lo esconde en vez de avisarle —
+ahí va mensaje nuevo, diciendo qué cambió.
