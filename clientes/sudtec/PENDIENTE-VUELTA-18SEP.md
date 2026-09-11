@@ -48,35 +48,56 @@ grupo con su página de categoría.
 **Orden acordado:** medición primero, estructura después, puja al final. **Un cambio a
 la vez.**
 
-## 3b · 🔴 La keyword amplia que ahoga a la que convierte — PROPUESTA SIN RESPUESTA
+## 3b · ⚠️ RETIRADA la propuesta de pausar la keyword amplia (revisado 10-sep)
 
-**Esto es lo que está costando plata AHORA, y es una decisión suya que lleva días abierta.**
+**La propuesta del 3-sep —pausar `equipo de proteccion personal` en AMPLIA— QUEDA SIN
+EFECTO. Habría sido un error.**
 
-**El 3-sep se le propuso pausar `equipo de proteccion personal` en AMPLIA** y NO se tocó
-nada, esperando su OK (msg 651). **Nunca respondió** — quedó tapada por el viaje.
+El 3-sep el argumento era que esa keyword se llevaba el **61,6%** del gasto y ahogaba a
+`equipos de bomberos`, que ese día iba con **1 solo clic**. **Al releer la cuenta el
+10-sep, con el mes en curso, eso ya no se sostiene:**
 
-**El hallazgo:** esa keyword se llevaba el **61,6% del gasto de septiembre** y ahoga a
-`equipos de bomberos`, que es el motor real de la cuenta (**43,5 conversiones en agosto**,
-y ese día llevaba **1 solo clic**).
+| Keyword | Tipo | Gasto mes | Conv |
+|---|---|---|---|
+| `equipo de proteccion personal` | AMPLIA | 42.209 | **7,5** ← la que más convierte |
+| `equipos de bomberos` | AMPLIA | 18.127 | 2,5 |
+| `improfor` | EXACTA | 5.278 | 3,0 ← la más eficiente (CPA 1.759) |
 
-**Confirmado el 10-sep**, siete días después, por `bin/vigilancia_cambios.py`:
+**La amplia no es el problema: es el mayor convertidor de la cuenta**, y `equipos de
+bomberos` ya no está ahogada (18.127 de gasto, no 1 clic). Pausarla habría borrado 7,5 de
+las 19 conversiones del mes.
 
-| | Hoy | Base |
+**Se le dijo a Connie con todas las letras que me corregía** (msg 1037), en vez de dejar
+morir la propuesta en silencio.
+
+**Por qué pasó:** la propuesta se hizo con datos de 3 días y se dejó reposar una semana sin
+revalidar. **Una propuesta que espera aprobación envejece**; antes de ejecutar algo aprobado
+—o de insistir en algo no respondido— hay que releer el estado ([[leer-estado-real-antes-de-proponer]],
+[[verificar-estado-antes-de-ejecutar-lo-aprobado]]).
+
+## 3c · PROPUESTA VIGENTE (10-sep) — esperando su OK
+
+**El problema real es el CPA, no el presupuesto.**
+
+- **Presupuesto: falsa alarma.** El vigía proyectó cierre en **304.145** contra el tope de
+  300.000, pero esa proyección es **lineal** y no considera el tope propio de Google
+  (**presupuesto diario × 30,4 = 297.920/mes**). No se pasa. Va caliente y sin margen, eso sí.
+- **CPA: 19 conversiones por 108.145 = ~5.700 cada una**, contra **1.675** de base en agosto.
+
+**Propuesto: pausar las dos keywords con CERO conversiones este mes**
+
+| Keyword | Gasto mes | Conv |
 |---|---|---|
-| Conversiones/día | **2,1** | 4,7 |
-| CPA | **5.417** | 1.675 |
+| `articulos para bomberos` (frase) | 3.823 | 0 |
+| `arnes de seguridad para alturas` (amplia) | 3.270 | 0 |
 
-**No se recuperó solo.** La vigilancia diaria da `OK-SILENCIO` porque mide *empeoramiento*
-contra una ventana móvil, y esto ya no empeora: **se estabilizó en malo**, que es
-justamente lo que un vigía de cambios no ve ([[vigia-mide-la-metrica-rota]]).
+Con **máximo de conversiones** la plata **no se ahorra, se redistribuye** a las que sí
+convierten — ese es el argumento, no el ahorro.
 
-**⚠️ Por qué está escrito acá y no solo en el cron:** vivía únicamente en un comentario de
-`crons/jobs.txt` y en el chat. El cron del 19-sep lee ESTE archivo, así que se habría
-perdido. **Una propuesta esperando respuesta no es un pendiente hasta que está en el
-archivo del cliente.**
+**`botas bombero` NO se toca todavía** (8.389 y 0 conv este mes): trae **16,8 conversiones
+históricas**. Se mira una semana más. **Dejar fuera algo con su motivo dicho, no en silencio.**
 
-**Qué preguntarle:** si autoriza pausar la amplia. Es un cambio de producción y necesita su
-OK explícito.
+**NADA ejecutado. Espera su OK explícito.**
 
 ## 4 · Cosas chicas que quedaron pendientes
 
