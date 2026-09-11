@@ -596,3 +596,26 @@ mejor es humano y no la hace mala persona**, pero *eso* no es lo que está plant
 tiene por qué aceptar que se lo mezclen.
 
 **Quedó ofrecido ajustar el guion** si cuenta cómo reacciona su mamá cuando se lo plantea.
+
+**11-sep-2026 (contexto que ella dio después, msg 1072)** — Describió a su mamá:
+personalidad fuerte, **minimiza lo que Connie siente como norma**, fue carabinera muchos
+años, **no tienen conversaciones profundas**, y según ella **siempre ha preferido a su
+hermano** y **siempre ha sido machista**.
+
+**Con eso se le CAMBIÓ el objetivo, no el guion** — y se le dijo explícitamente que era
+mejor saberlo antes de usarlo. Con un patrón largo así, entrar esperando ser entendida la
+expone a **dolerle dos veces**: por lo original y porque la conversación no llegue a nada,
+que duele más porque confirma.
+
+**El objetivo realista que se le propuso: decirlo una vez, claro, y dejar de cargarlo sola.**
+Eso depende solo de ella. El guion se **acortó a dos frases** (con alguien que no hace
+conversaciones largas, un discurso da más superficie para desestimar), se le **predijo la
+reacción probable** para que no la descoloque, y se le dio una salida que no es pelear:
+*«Ya está. Solo quería que lo supieras.»*
+
+**También se le dijo que NO tener la conversación es una opción válida** —no cobardía— y que
+lo único desaconsejable es la tercera vía: no decirlo y seguir tragándolo.
+
+**Cuidados que se mantuvieron:** no diagnosticar a la madre, no decirle que se aleje de su
+familia, no prometerle un resultado. Y se nombró que **esto es más grande que el episodio y
+merece más espacio que un chat**, sin usar eso para sacársela de encima.
