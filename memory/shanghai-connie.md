@@ -20,8 +20,8 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 | Día | Qué, hoy |
 |---|---|
 | **Jue 10** | AP Plaza → **EKA·Tianwu** (decepcionó, salió 15:15) → cena: **quedó ABIERTA entre A y B**; a las 19:44 **Da Hu Chun cerró (19:30)** y quedó solo **Ren He Guan ⭐** (hasta 21:30, Xuhui, Didi) |
-| **Vie 11** | Mañana libre → **Yuyuan 15:00**: jardín hasta 16:30 → bazar → luces a las **18:00** → cena en **Nanxiang** |
-| **Sáb 12** | **Zhujiajiao** día completo (60-75 min por lado) → salir **17:00** · **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30) |
+| **Vie 11** | *(73% · **1,9 mm** — chubascos, con paraguas)* Mañana libre → **Qipu Road** propuesto (techado, 1 parada, cierra 18:00) → **Yuyuan 15:00**: última entrada jardín **16:00** → bazar → luces **18:00** → cena **Nanxiang** (hasta 21:00). **Hoy: boleta Sudtec** |
+| **Sáb 12** | ✅ *(**0 mm · 0%**, confirmado 11-sep)* **Zhujiajiao** día completo (60-75 min por lado) → salir **17:00** · **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30) |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
 
 **Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
@@ -29,6 +29,11 @@ lunes cerrado (no hay apertura nocturna). Bazar gratis hasta 22:00, iluminado de
 **Han City se cayó** (probablemente ya no existe). Metro del hotel: `南京东路` (L2 y L10).
 
 **Sigue pendiente: armarle PEKÍN**, del 13 al 18-sep.
+
+**❓ Sin confirmar: si alcanzó a ir a Qipu Road el jueves.** El jueves se dio vuelta en
+marcha y no quedó registrado si pasó por ahí antes del cambio. **Se le preguntó al
+proponerle la mañana del viernes, en vez de darlo por hecho en cualquiera de los dos
+sentidos.** Cuando conteste, corregir esta línea.
 
 ## Los datos base
 
