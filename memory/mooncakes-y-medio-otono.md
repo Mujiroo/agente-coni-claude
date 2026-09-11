@@ -51,3 +51,35 @@ dos.** Se le dijo así, sin convertirlo en una restricción.
    NO está verificado — si va a comprar cantidad, verificarlo en el SAG antes del 18-sep.*
 
 Relacionado: [[precios-y-etiquetas-china]] (¥1 ≈ 137 CLP), [[shanghai-connie]].
+
+## La etiqueta que decide si un dulce chino viaja o no (11-sep-2026)
+
+Mandó tres fotos seguidas de la vitrina del **第一食品商店** (Nanjing Este 72, la tienda de
+comida histórica de su propia calle). **El campo que hay que leer siempre es el mismo:**
+
+- <code>保质期</code> = **vida útil**. Si dice <b>1天</b> (1 día), es para comer ese día y
+  **no sirve de regalo**. Se lo dije antes de que comprara pensando en llevarlo.
+- <code>现制现售</code> = **hecho y vendido en el local**. Bonito, y justamente lo que no viaja.
+- <code>制作日期</code> = fecha y **hora** de fabricación. Venían hechos esa misma mañana.
+
+**La regla en una línea, que ya se le dio así: lo recién hecho se come allá, lo sellado se
+trae.** Misma lógica que los mooncakes 现烤 vs los envasados en caja.
+
+## Los dos dulces que preguntó
+
+| | Qué es | Precio |
+|---|---|---|
+| <code>赤豆糕</code> | Arroz glutinoso al vapor **con los porotos rojos enteros** en la masa, azúcar morena. Rústico y más dulce. | ¥15 / 300 g ≈ $2.100 |
+| <code>上海桂花条头糕</code> | Barra de arroz glutinoso que **envuelve** pasta de poroto rojo, perfumada con <code>桂花</code> (**osmanto**). Más blando y delicado. | ¥20 / 220 g ≈ $2.700 |
+
+**Se le recomendó el 条头糕 por una razón de temporada, no de gusto:** el **osmanto florece
+en septiembre-octubre** en Jiangnan, así que es propio del mes en que está. **Cuando dos
+opciones son parecidas, el desempate útil es cuál no puede repetir en otro momento.**
+
+Ingredientes del 条头糕 (leídos de la etiqueta): harina de arroz glutinoso, agua, pasta de
+poroto rojo, azúcar, aceite vegetal, sal y <code>山梨酸钾</code> (sorbato de potasio,
+conservante corriente, sin problema en el embarazo).
+
+**⚠️ La tercera foto era el MISMO producto que la segunda, más de cerca. Se le dijo así.**
+La tentación es inventar una diferencia para que la respuesta parezca útil; lo útil fue
+leerle los ingredientes, que en esa toma recién se veían.
