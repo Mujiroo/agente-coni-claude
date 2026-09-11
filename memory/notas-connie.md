@@ -552,3 +552,26 @@ cotizaciones bien imputadas sostienen la cobertura y después la licencia
 
 *(No se guarda su RUT acá a propósito: el dato útil es que paga bajo su propio RUT, no el
 número. Está en el correo si alguna vez hace falta.)*
+
+**11-sep-2026** — Escribió desde Shanghái pidiendo ayuda para **«canalizar lo que siento»**
+por algo de familia: una diferencia entre un regalo que su mamá le hizo a su hermano y algo
+mucho más barato que ella había querido, sobre lo que no recibió respuesta. Quedó con pena.
+
+**Qué pidió y qué NO pidió.** Pidió que la ayudara a **poner en palabras** lo que sentía. No
+pidió consejo, ni un plan, ni qué hacer con su mamá — y no se le dio nada de eso.
+
+**Lo que sirvió fue nombrarlo, no resolverlo:** que no era la plata (lo que ella quería
+costaba menos de la mitad), sino tres cosas distintas — el **silencio** en vez de un «no», el
+**secreto**, y lo que el secreto implica. Y decirle explícitamente que **no lo estaba
+inflando**.
+
+**Preferencia que vale para siempre, no solo para esto:** cuando pide ayuda para *canalizar*
+o *entender* algo que siente, **quiere ser escuchada y ayudada a nombrarlo — no aconsejada**.
+Ofrecer el paso siguiente («si quieres te ayudo a ordenar cómo se lo dirías») y **dejarlo
+abierto**, sin empujar.
+
+**Cuidado con dos cosas:** no atribuirle el sentimiento al embarazo —eso sería explicárselo
+en vez de escucharla— y **no hablar mal de su familia**: ella sigue en esa relación mañana,
+yo no la conozco, y no me toca. Se nombró lo que la acción comunicó, sin juzgar a la persona.
+
+**Queda ofrecido:** ayudarla a ordenar cómo decírselo, si algún día quiere.
