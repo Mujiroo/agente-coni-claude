@@ -10,7 +10,7 @@ metadata:
 embarcar** (msg 916, 11:18 de allá), o sea con el avión encima: se le mandó un avance corto
 y el plan completo quedó listo **antes de que aterrizara**.
 
-## ⚠️ ESTADO VIGENTE — actualizado 10-sep-2026
+## ⚠️ ESTADO VIGENTE — actualizado 11-sep-2026 (18:16 de China)
 
 **Este archivo está escrito en capas por orden cronológico: de aquí para abajo hay
 versiones SUPERADAS del itinerario.** Este bloque es el estado real; si algo más abajo lo
@@ -20,8 +20,8 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 | Día | Qué, hoy |
 |---|---|
 | **Jue 10** | AP Plaza → **EKA·Tianwu** (decepcionó, salió 15:15) → cena: **quedó ABIERTA entre A y B**; a las 19:44 **Da Hu Chun cerró (19:30)** y quedó solo **Ren He Guan ⭐** (hasta 21:30, Xuhui, Didi) |
-| **Vie 11** | *(73% · **1,9 mm** — chubascos, con paraguas)* Mañana libre → **Qipu Road** propuesto (techado, 1 parada, cierra 18:00) → **Yuyuan 15:00**: última entrada jardín **16:00** → bazar → luces **18:00** → cena **Nanxiang** (hasta 21:00). **Hoy: boleta Sudtec** |
-| **Sáb 12** | ✅ *(**0 mm · 0%**, confirmado 11-sep)* **Zhujiajiao** día completo (60-75 min por lado) → salir **17:00** · **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30) |
+| **Vie 11** | ⚠️ *CAMBIÓ SOBRE LA MARCHA (msg 1074, 18:16 allá).* Volvieron al hotel y salieron al **bazar de noche** (`豫园商城`, luces desde 18:00, gratis hasta 22:00). **El jardín NO se hizo**: lo pasaron a la **mañana del sábado**. Cena sugerida ahí mismo: **Nanxiang** (hasta 21:00). **Hoy: boleta Sudtec** |
+| **Sáb 12** | ⚠️ *AHORA APRETADO.* Ella movió el **jardín Yu** (`豫园`, ¥40, abre 9:00) a la mañana del sábado, encima de **Zhujiajiao** día completo (60-75 min por lado) y del **desfile del Tourism Festival, Bund, 19:30-21:00** (estar allá 18:30). *(**0 mm · 0%**, confirmado 11-sep.)* **Se le ofreció reordenarlo (msg 1075) y está sin responder.** |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
 
 **Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
