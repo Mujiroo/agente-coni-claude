@@ -145,3 +145,25 @@ nuestra conversación se borra.
 **Y el aviso previo:** esto pasó porque le mandé tres mensajes cuando podía haber preguntado
 para qué los quería. **Es la misma flecha de las correcciones del 27-ago: cuando está en
 movimiento, más información es peor respuesta.**
+
+## Un nombre para dos cosas la confunde (11-sep-2026, msg 1042)
+
+Preguntó *«¿qué es Yuyuan? ¿y el jardín Yu?»* **saliendo del hotel**, justo antes de ir.
+Y tenía toda la razón en preguntar: yo venía usando **los dos nombres alternadamente**
+—«Yuyuan», «el Jardín Yu», «el bazar»— como si ella supiera que son cosas distintas.
+
+**Lo peor es que la distinción la tenía escrita desde el 8-sep** en
+[[shanghai-connie]]: *«Yuyuan son dos cosas con horarios distintos»*. **La documenté para
+mí y nunca se la enseñé a ella.** 豫园 significa literalmente *Jardín Yu*: la zona gratis
+abierta hasta las 22:00, y el jardín amurallado de ¥40 que cierra 16:30, comparten nombre.
+
+**Regla: si un lugar tiene un nombre que cubre dos cosas con precios y horarios distintos,
+separarlas explícitamente LA PRIMERA VEZ que lo nombro**, con una línea. Alternar los
+nombres sin explicarlos le deja armar sola una distinción que yo ya tenía hecha.
+
+**Señal de alerta:** cuando una regla de mi memoria empieza con *«son dos cosas»* o
+*«ojo que X no es Y»*, esa regla **no es solo mía — es justamente lo que hay que
+contarle**. Una nota que me evita a mí un error le evita a ella una confusión.
+
+**Y se asumió la causa en la primera línea** (*«la confusión te la causé yo»*) en vez de
+explicar el dato como si la pregunta fuera ingenua.
