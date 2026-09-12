@@ -163,7 +163,8 @@
 # PRECEDENTE: un aviso de rutina que no requiere accion suya no la despierta de madrugada.
 # Se difiere con un cron de una sola vez, nunca se descarta.
 
-# --- SUDTEC: aviso diferido del reenvio + se corto la racha de ceros (11-sep-2026) ---
+# --- SUDTEC: aviso diferido del reenvio + se corto la racha de ceros (11-sep-2026) — CUMPLIDO Y BORRADO ---
+# ENTREGADO el 11-sep 21:00 Chile (08:00 del 12 en China, su desayuno), msg 1085. Job borrado.
 # REESCRITO a las 15:00 y otra vez a las 19:00 (3 cotizaciones + 2 mas = 5 en el dia). El 11 NO
 # cerro en cero y el veredicto de racha ya no aplica. Queda solo el aviso del reenvio, que el
 # cron de las 15:00 manda dar 'si reenvio 1 o mas' -- pero en China eran las 02:00 y dormia.
@@ -173,4 +174,3 @@
 # ya cerro, y a ella le llega en el desayuno y NO encima del desfile del Bund (18:30-21:00 alla).
 # El trigger de la racha (commit bc3b661) queda CUMPLIDO y cerrado: no aplica.
 # Este job se borra solo despues de avisar.
-0 21 11 9 * | [CRON] AVISO DIFERIDO a Connie (21:00 Chile = 08:00 del 12-sep en China, su desayuno). Mandale con `bash bin/tg.sh send` en HTML, CORTO y en tono de buena noticia: el viernes 11 entraron 5 solicitudes de presupuesto y las 5 ya se reenviaron a bd@sudtec.cl (09:07, 12:51, 14:42, 16:30 y 17:43 de Chile). Contexto que le da sentido: el 9 y el 10 habian cerrado en CERO y la base historica es 1,8/dia, asi que 5 en un dia no solo corta la racha sino que es el mejor dia del mes -- la quietud de esos dos dias era demanda, no un canal roto, y eso queda confirmado. NO hay nada que revisar ni que tocar: esta de viaje. El reenvio se hizo en el momento; lo unico que se difirio fue el aviso, porque las pasadas caian a las 02:00 y 06:00 de China. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 21 11 9"), commitea y pushea.
