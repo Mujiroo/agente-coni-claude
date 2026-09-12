@@ -28,7 +28,7 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 lunes cerrado (no hay apertura nocturna). Bazar gratis hasta 22:00, iluminado desde 18:00.
 **Han City se cayó** (probablemente ya no existe). Metro del hotel: `南京东路` (L2 y L10).
 
-**Sigue pendiente: armarle PEKÍN**, del 13 al 18-sep.
+**Sigue pendiente: armarle PEKÍN**, del 13 al 18-sep. **Ya hay archivo propio: [[pekin-connie]]** — arrancó el 12-sep con lo de Fiestas Patrias, y ahí está el dato de que la ventana real es **13 al 17** (el 18 vuela).
 
 **❓ Sin confirmar: si alcanzó a ir a Qipu Road el jueves.** El jueves se dio vuelta en
 marcha y no quedó registrado si pasó por ahí antes del cambio. **Se le preguntó al
