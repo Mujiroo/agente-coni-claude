@@ -14,8 +14,8 @@ preguntó el 12-sep (msg 1093): decide si alcanza o no a cualquier cosa del 18.
 
 **Ventana real en Pekín: 13 al 17.** Contar con el 18 es un error.
 
-**Sigue pendiente armarle el itinerario**, con las reglas que ya funcionaron en
-Shanghái: nombres en **caracteres chinos** para mostrarle al taxi, **precios en ¥ y
+**Itinerario ENTREGADO el 12-sep** (msgs 1099 y 1100) — ver más abajo. Se armó con las
+reglas que ya funcionaron en Shanghái: nombres en **caracteres chinos** para mostrarle al taxi, **precios en ¥ y
 CLP en la misma línea**, y a **23-24 semanas de embarazo** ([[embarazo-connie]]) —
 poco metro, techado, con dónde sentarse.
 
@@ -68,3 +68,58 @@ la embajada**: es un tercero y eso se confirma antes ([[canal-y-formato]]).
 **El 18-sep-2026 cae viernes** y ella vuela ese día. Si la embajada celebra el 18
 mismo, **se la pierde por horas**. Por eso la pregunta por el horario del vuelo no
 es un trámite: es lo que decide la respuesta.
+
+
+## Hotel y entradas — confirmado por ella el 12-sep (msgs 1096 y 1098)
+
+- **Hotel: East Sacred Hotel**, junto a **Wangfujing** `王府井` y Tiananmen (Dongcheng).
+  Es lo más céntrico posible: la Ciudad Prohibida le queda **caminando**, y casi todas
+  las tardes salen sin metro.
+- **Ya tiene entradas para todo** (Muralla, Templo del Cielo, Ciudad Prohibida).
+  **No volver a ofrecerle reservar.**
+
+### ⚠️ Se le mandó una alerta que no correspondía
+
+Se le mandó el aviso urgente de reservar la Ciudad Prohibida (msg 1097) **en el mismo
+minuto** en que ella escribía que ya tenía todo. No fue un error de dato —la regla de
+2026 es real: reserva online 7 días antes a las 20:00, con pasaporte, nada en puerta—
+pero **se le preguntó por el hotel y las entradas y no se esperó la respuesta**.
+
+**La regla:** cuando se le hace una pregunta cuya respuesta cambia el mensaje, **esperar
+esa respuesta antes de mandar el mensaje**, salvo que de verdad no admita espera.
+
+## El itinerario que se le dio (13 al 18-sep)
+
+| Día | Mañana | Tarde |
+|---|---|---|
+| **Dom 13** | Llega ~14:00 | `王府井` Wangfujing peatonal, en su puerta |
+| **Lun 14** | Liviano a propósito: `雍和宫` Templo de los Lamas (abre lunes) | `南锣鼓巷` Nanluoguxiang |
+| **Mar 15** | **Muralla en `慕田峪` Mutianyu** | Hotel + `前门大街`/`大栅栏` Qianmen, *con permiso explícito de cortarlo* |
+| **Mié 16** | **`天坛` Templo del Cielo**, temprano | **`红桥市场` Mercado Hongqiao, cruzando la puerta este** |
+| **Jue 17** | **Ciudad Prohibida**, sale por `神武门` | **`北海公园` Beihai**, plano y con botes |
+| **Vie 18** | Vuelo a Chile | — |
+
+**Por qué Mutianyu y no Badaling:** Badaling recibe 30.000-80.000 personas al día,
+Mutianyu 8.000-12.000. Teleférico **cerrado** ida y vuelta ¥140 (~19.600 CLP), entrada
+¥45 (~6.300 CLP), y hay **ascensor** hasta la estación baja del teleférico (esquina NE
+del estacionamiento). Subir a pie son 40 min. 1h30 de auto por lado.
+
+**Por qué Hongqiao:** `红桥市场` está **cruzando la calle de la puerta este del Templo
+del Cielo** — cero traslado. Techado, 10:00-19:00, gratis, perlas + electrónica +
+**marcas copiadas**. Es el AP Plaza de Pekín, y ella ya mostró que ese es su panorama.
+
+**Se le dijo que se SALTARA `景山公园` Jingshan**, el mirador famoso frente a la puerta
+norte: son escaleras cerro arriba y está de 24 semanas. El canje es Beihai, que es plano.
+
+**Datos verificados el 12-sep:** Ciudad Prohibida cerrada los lunes, 798 cerrado los
+lunes (por eso el lunes quedó sin museos). Templo del Cielo: parque 6:00-21:00,
+edificios 8:00-17:30, combinado ¥34. Beihai ¥10, hasta 21:00 en septiembre.
+
+**Cambio usado: ¥1 = 139,5 CLP** (12-sep-2026, er-api). Se le redondeó a 140.
+
+## Pendiente de ella
+
+- **La hora del vuelo del viernes 18.** Preguntada dos veces, sin respuesta aún. Decide
+  si el jueves en la noche le alcanza para algo más.
+- **Si quiere que se le pregunte a la embajada** por la celebración del 18: si cae el 16
+  o el 17, todavía llega.
