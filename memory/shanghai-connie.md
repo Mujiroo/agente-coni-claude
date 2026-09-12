@@ -21,7 +21,7 @@ contradice, manda este. (Por leer una capa vieja le di mal el sábado y el Yuyua
 |---|---|
 | **Jue 10** | AP Plaza → **EKA·Tianwu** (decepcionó, salió 15:15) → cena: **quedó ABIERTA entre A y B**; a las 19:44 **Da Hu Chun cerró (19:30)** y quedó solo **Ren He Guan ⭐** (hasta 21:30, Xuhui, Didi) |
 | **Vie 11** | ⚠️ *CAMBIÓ SOBRE LA MARCHA (msg 1074, 18:16 allá).* Volvieron al hotel y salieron al **bazar de noche** (`豫园商城`, luces desde 18:00, gratis hasta 22:00). **El jardín NO se hizo**: lo pasaron a la **mañana del sábado**. Cena sugerida ahí mismo: **Nanxiang** (hasta 21:00). **Hoy: boleta Sudtec** |
-| **Sáb 12** | ✅ *RESUELTO por ella (msg 1078).* **Zhujiajiao SE SACÓ** — se le recomendó dejarlo y aceptó. Queda: **jardín Yu** `豫园` 9:00 (¥40, 1h30) → almuerzo **Lai Lai Xiao Long** `来来小笼` (⚠️ cierra 14:00-15:00) → **tarde por definir**, 3 opciones dadas (msg 1080) → **desfile, Bund, `金牛广场`, estar 18:30**. *(0 mm · 0%.)* |
+| **Sáb 12** | ✅ *RESUELTO por ella (msg 1078).* **Zhujiajiao SE SACÓ** — se le recomendó dejarlo y aceptó. Queda: **jardín Yu** `豫园` 9:00 (¥40, 1h30) → almuerzo **Lai Lai Xiao Long** `来来小笼` (⚠️ cierra 14:00-15:00) → **tarde por definir**, 3 opciones dadas (msg 1080) → **desfile, Bund, `金牛广场`, estar 18:30**. *(0 mm · 0%.)* ⚠️ *18:02 allá (msg 1090) preguntó «qué evento es el de la tarde»* — no tenía presente cuál era, a 28 min de la hora de llegar. Se le respondió (msg 1091) con qué es, dónde, 19:30-21:00, el `金牛广场` para el taxi y el metro `南京东路`. **No quedó registrado qué hizo en la tarde** de las 3 opciones. |
 | **Dom 13** | Vuelo a **Pekín 11:50**; sale del hotel **08:00-08:45**. No hay panorama. |
 
 **Datos duros que ya no se re-discuten:** Jardín Yu **9:00-16:30 todos los días**, ¥40,
