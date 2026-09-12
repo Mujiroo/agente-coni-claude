@@ -1,12 +1,22 @@
 {
   "fecha": "2026-09-03",
-  "estado": "PROPUESTO_ESPERANDO_OK",
+  "estado": "RETIRADA_HABRIA_SIDO_UN_ERROR",
   "avisado_msg": 651,
   "gatillo": "Connie pregunto 'Kai como van las campanas' (msg 650, 15:01 en China)",
   "veredicto_revert_19ago": {
     "resultado": "NO SE RECUPERO",
-    "post_revert_3d": {"conv_dia": 1.67, "cpa": 5235, "cpc": 770, "impr_dia": 93},
-    "base_pre_19ago": {"conv_dia": 4.67, "cpa": 1675, "cpc": 280, "impr_dia": 250},
+    "post_revert_3d": {
+      "conv_dia": 1.67,
+      "cpa": 5235,
+      "cpc": 770,
+      "impr_dia": 93
+    },
+    "base_pre_19ago": {
+      "conv_dia": 4.67,
+      "cpa": 1675,
+      "cpc": 280,
+      "impr_dia": 250
+    },
     "conclusion": "los cambios del 19-ago no eran la causa; revertirlos no basto"
   },
   "causa_encontrada": {
@@ -15,7 +25,14 @@
     "pct_gasto_septiembre": 61.6,
     "costo_sep_1y2": 11780,
     "gasto_total_kw_sep": 19122,
-    "cpa_mensual": {"mar":1414,"abr":1416,"may":1827,"jun":3382,"jul":2349,"ago":4007},
+    "cpa_mensual": {
+      "mar": 1414,
+      "abr": 1416,
+      "may": 1827,
+      "jun": 3382,
+      "jul": 2349,
+      "ago": 4007
+    },
     "prueba_que_aguanta": "6 meses de deterioro parejo, no una ventana corta. Agosto fue su mes mas caro (84.142 CLP) por 21 conversiones; mayo gasto menos (69.127) y trajo 37,8.",
     "efecto_colateral": "ahoga a 'equipos de bomberos' AMPLIA, el motor de la cuenta (43,5 conv en agosto). En septiembre esa lleva 3,3% del gasto y 1 solo clic. En agosto las dos gastaban casi igual (85.952 vs 84.142)."
   },
@@ -23,5 +40,14 @@
   "caveat_dicho_a_connie": "Pausarla no garantiza que el presupuesto migre a la buena: con MAXIMIZE_CONVERSIONS Google reparte a su criterio y puede tardar dias. Es reversible.",
   "no_tocar": "NADA modificado en la cuenta. Espera OK explicito.",
   "keyword_absuelta": "equipos de bomberos AMPLIA: NO se toca, confirmado por historico el 1-sep y de nuevo hoy.",
-  "cron_borrado": "la linea '0 10 3 9' se elimino tras entregar el veredicto antes de hora, para no duplicar el aviso"
+  "cron_borrado": "la linea '0 10 3 9' se elimino tras entregar el veredicto antes de hora, para no duplicar el aviso",
+  "retirada": {
+    "fecha": "2026-09-10",
+    "avisado_msg": 1037,
+    "por_que": "Al releer la cuenta el 10-sep con el mes en curso, la premisa del 3-sep ya no se sostenia. 'equipo de proteccion personal' AMPLIA es LA QUE MAS CONVIERTE: 42.209 de gasto y 7,5 conversiones de las 19 del mes. Y 'equipos de bomberos' ya NO estaba ahogada (18.127 de gasto, no 1 clic). Pausarla habria borrado 7,5 conversiones.",
+    "leccion": "La propuesta se hizo con datos de 3 dias y reposo una semana sin revalidar. UNA PROPUESTA QUE ESPERA APROBACION ENVEJECE: antes de insistir en algo no respondido -o de ejecutar algo aprobado- hay que releer el estado.",
+    "se_le_dijo": "Si. Se le dijo con todas las letras que me corregia, en vez de dejarla morir en silencio."
+  },
+  "NO_REPROPONER": "NO volver a proponer pausar 'equipo de proteccion personal'. Si alguna sesion futura ve el CPA alto y llega otra vez a esta keyword, leer primero clientes/sudtec/PENDIENTE-VUELTA-18SEP.md seccion 3b.",
+  "propuesta_vigente_ahora": "Ver PENDIENTE-VUELTA-18SEP.md seccion 3c. Del 10-sep quedo pausada 'arnes de seguridad para alturas' (aprobada, msg 1038) y sigue PROPUESTA sin responder 'articulos para bomberos'."
 }
