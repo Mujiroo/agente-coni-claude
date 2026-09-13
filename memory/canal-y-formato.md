@@ -184,3 +184,14 @@ Se usó la primera vez con el msg 1077 (recomendación sobre Zhujiajiao): salió
 ⚠️ **El límite:** editar sirve para el typo y para el dato recién corregido. Si ella
 **ya actuó** sobre lo que decía el mensaje viejo, editar lo esconde en vez de avisarle —
 ahí va mensaje nuevo, diciendo qué cambió.
+
+## «Sácale el bienvenidos a Pekín, escribe lo importante» (msg 1116, 13-sep-2026)
+
+Estaba en el estacionamiento P3 de `北京南站` esperando un DiDi y pidió un mensaje en chino
+para el chofer. Le mandé uno que incluía un punto de referencia de la foto (el letrero
+«北京欢迎您») y además la traducción y un plan B. Me corrigió en un minuto.
+
+**La regla:** un mensaje para un chofer (DiDi, taxi) es **una sola línea en chino con lo que
+necesita para llegar**: lugar exacto + nivel/sector + «con maletas, recójanos aquí». Sin
+letreros ni adornos, sin versión alternativa. La traducción, corta y en cursiva debajo, basta.
+Ella lo está copiando de pie, con la maleta al lado.
