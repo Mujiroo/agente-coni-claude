@@ -22,4 +22,13 @@ consultar. Lo que **sí funcionó** fue OpenStreetMap:
 existe algo más cerca. Cerrar siempre con: **búscalo en Amap** (ella usa Amap), que ordena
 por distancia desde donde está.
 
+**Para mandarle un punto en Amap hay que convertir coordenadas.** OSM está en **WGS84** y
+Amap en **GCJ-02**: en Pekín la diferencia es de ~500 m (lon −0,006 / lat −0,0014). Convertir
+con la fórmula estándar WGS→GCJ y armar el link
+`https://uri.amap.com/marker?position=LON,LAT&name=...&coordinate=gaode`. (Usado el 13-sep
+con el FamilyMart de `大纱帽胡同`, msg 1134.)
+
+**Y el reverse geocoding antes de decir «en tu calle»:** dije que el FamilyMart estaba en
+`东单三条` y en realidad estaba en el hutong de al lado. Hubo que corregirlo en el mensaje siguiente.
+
 Relacionado: [[pekin-connie]], [[direccion-china-por-pinyin]]
