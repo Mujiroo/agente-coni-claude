@@ -168,6 +168,14 @@ Pidió: *«mañana me gustaría ir de compras, no quiero templos»*. **Se sacó 
 - **Se le avisó el solapamiento:** Hongqiao (miércoles tarde) es parecido a Silk Street; si
   el lunes la dejó satisfecha, esa tarde se cambia.
 
+**Actualización msg 1121:** pidió **volver a agregar `雍和宫`** y preguntó si Silk Street queda
+cerca → **no** (~8 km, ~25 min DiDi). Plan vigente del lunes (msg 1122): **Lamas 9:00 →
+Silk Street mediodía/tarde → Taikoo Li noche y cena.** Nanluoguxiang sigue fuera.
+Lamas verificado 13-sep: **¥25**, 9:00-17:00 (última entrada 16:30), **sin venta en
+puerta**: reserva real-name por WeChat `雍和宫游客信众服务`, servicio **06:00-21:00**. No
+verificado si acepta pasaporte → se le dijo que si falla, recepción del hotel. **No se sabe
+si alcanzó a reservar**: si pregunta por el templo, empezar por ahí.
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
