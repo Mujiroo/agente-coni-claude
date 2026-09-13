@@ -176,6 +176,17 @@ puerta**: reserva real-name por WeChat `雍和宫游客信众服务`, servicio *
 verificado si acepta pasaporte → se le dijo que si falla, recepción del hotel. **No se sabe
 si alcanzó a reservar**: si pregunta por el templo, empezar por ahí.
 
+**Sanlitun explicado (msg 1124):** barrio moderno y de embajadas; Taikoo Li con marcas
+originales, **no barato**. Se le dejó como opcional para la noche.
+
+**Panjiayuan `潘家园旧货市场` (msg 1125, idea de ChatGPT):** verificado 13-sep. **El
+mercado de pulgas grande es solo sábado y domingo** (04:30-18:00). **Lunes a viernes,
+08:30-18:00**, abren solo las tiendas, los galpones 1 y 2 y los puestos del lado oeste. Ella está
+lun-jue, así que no le toca el completo. Lo «antiguo» es casi todo réplica. **Propuesto (msg 1126):
+reemplazar Hongqiao del miércoles 16 en la tarde por Panjiayuan.** Mercado nocturno
+mié/vie 10:00-23:00 anunciado en **abr-2025**; no está confirmado para 2026 y se le dijo así.
+**Esperando su sí/no.**
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
