@@ -119,9 +119,8 @@ edificios 8:00-17:30, combinado ¥34. Beihai ¥10, hasta 21:00 en septiembre.
 
 ## ✈️ El vuelo de vuelta — RESPONDIDO el 13-sep (msg 1107)
 
-**Viernes 18-sep, 01:45 hora de Pekín.** En Chile ese instante es el **jueves 17 a las
-14:45**. *(Se asumió que las 01:45 son hora de Pekín, porque es lo que dice el pasaje, y
-se le pidió confirmarlo.)*
+**Viernes 18-sep, 01:45 hora de Pekín — CONFIRMADO por ella** (msg 1109: *«Es hora
+pekin»*). En Chile ese instante es el **jueves 17 a las 14:45**.
 
 **Consecuencia para el itinerario, que ya se le dijo:** sale del hotel cerca de las
 **22:30 del jueves**. La tarde de Beihai sigue en pie, pero **la noche del jueves es
@@ -138,9 +137,14 @@ aviso NO va a esa hora: se le propuso ponérsela **el miércoles 16 antes de dor
 es lo más cerca del punto estando despierta, y queda **por encima** de las 24 h, nunca por
 debajo.
 
+**La hora final la eligió ella** (msg 1109): *«dime el miercoles a laas 23 hrs»*. Se le
+había propuesto 20:00 y prefirió 23:00. **Manda la de ella.** A esa hora quedan **26,8 h**
+para el vuelo: por encima de las 24, que es el lado correcto para equivocarse.
+
 **Dos crons montados**, los dos se borran solos:
-- `0 9 16 9` → miércoles 16, **20:00 de Pekín**. El principal.
+- `0 12 16 9` → miércoles 16, **23:00 de Pekín**. El principal, hora pedida por ella.
 - `0 22 16 9` → jueves 17, **09:00 de Pekín**. Red de seguridad por si no alcanzó.
+  *Se le ofreció sacarlo si le sobra; no ha dicho nada.*
 
 Van dos a propósito: es médico y **un solo aviso que le llegue dormida no sirve**.
 Todo calculado con `zoneinfo`, no a ojo ([[hora-de-connie-no-la-mia]]).
@@ -150,7 +154,8 @@ cálculo.** No se opina de la indicación médica: se ejecuta la que le dieron.
 
 ## Pendiente de ella
 
-- **Confirmar que las 01:45 son hora de Pekín** y no de Chile. Si fuera de Chile, los dos
-  crons de la inyección quedan mal y hay que recalcularlos.
+- **Si quiere que se le pregunte a la embajada** por la celebración del 18: como vuela
+  esa madrugada, solo le sirve si la celebración cae el 16 o el 17. Preguntado, sin
+  respuesta.
 - **Si quiere que se le pregunte a la embajada** por la celebración del 18: si cae el 16
   o el 17, todavía llega.
