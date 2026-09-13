@@ -152,6 +152,26 @@ Todo calculado con `zoneinfo`, no a ojo ([[hora-de-connie-no-la-mia]]).
 **Se le dijo explícitamente que si su matrona indicó otra hora, manda esa y no mi
 cálculo.** No se opina de la indicación médica: se ejecuta la que le dieron.
 
+## 🛍️ Lunes 14 CAMBIADO a compras (msg 1118, 13-sep)
+
+Pidió: *«mañana me gustaría ir de compras, no quiero templos»*. **Se sacó `雍和宫` y
+`南锣鼓巷`** y se le propuso (msg 1120), verificado ese día:
+
+- **Mañana: Silk Street `秀水街`** — mall de 5 pisos, techado, **9:30-21:00** (fuentes
+  2026). ⚠️ **Las marcas copiadas ya no están a la vista: se piden al vendedor.** Se le
+  dijo así, sin venderlo más grande (lección EKA, [[shanghai-connie]]). Regateo: partir en
+  20-30%.
+- **Tarde: Sanlitun Taikoo Li `三里屯太古里`** — marcas originales, al aire libre,
+  **10:00-22:00**, ~10 min en DiDi desde Silk Street. Cena ahí.
+- **Yashow `雅秀` (Sanlitun) está CERRADO** — solo restoranes del primer piso. Sale en guías
+  viejas: no mandarla.
+- **Se le avisó el solapamiento:** Hongqiao (miércoles tarde) es parecido a Silk Street; si
+  el lunes la dejó satisfecha, esa tarde se cambia.
+
+**Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
+([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
+condición que cambie el plan del lunes** — revisar al llegar su respuesta.
+
 ## Pendiente de ella
 
 - **Si quiere que se le pregunte a la embajada** por la celebración del 18: como vuela
