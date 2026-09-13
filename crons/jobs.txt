@@ -174,3 +174,24 @@
 # ya cerro, y a ella le llega en el desayuno y NO encima del desfile del Bund (18:30-21:00 alla).
 # El trigger de la racha (commit bc3b661) queda CUMPLIDO y cerrado: no aplica.
 # Este job se borra solo despues de avisar.
+
+# --- INYECCION ANTITROMBOSIS ANTES DEL VUELO DE VUELTA (pedido por Connie 13-sep-2026, msg 1107) ---
+# "recuerdame el dia anterior del vuelo (que es el viernes a la 1:45 am) que tengo q
+#  inyectarme, deben ser 24 hrs antes (es para evitar trombosis)".
+# Es MEDICO y va con embarazo de ~24 semanas + vuelo largo: no se deja pasar.
+#
+# EL VUELO: viernes 18-sep 01:45 hora de PEKIN (asi lo dice el pasaje; se le pidio
+# confirmar por chat que no fuera hora de Chile). En Chile ese instante es el
+# jueves 17 a las 14:45.
+#
+# EL PUNTO EXACTO DE 24 h: jueves 17-sep 01:45 en Pekin = miercoles 16 14:45 en Chile.
+# OJO: esa hora ella esta DURMIENDO. Por eso el aviso NO va a esa hora: va antes, para
+# que alcance a inyectarse despierta la noche del miercoles, lo mas cerca posible del
+# punto. Todo calculado con zoneinfo, no a ojo.
+#
+# Van DOS avisos a proposito -- es medico y un solo aviso que le llegue dormida no sirve:
+#   A) miercoles 16, 20:00 de Pekin = 09:00 de Chile  -> el principal
+#   B) jueves 17, 09:00 de Pekin    = 22:00 del 16 en Chile -> red de seguridad
+# Cada uno se borra a si mismo despues de avisar.
+0 9 16 9 * | [CRON] INYECCION ANTITROMBOSIS (20:00 en Pekin, miercoles). Avisale a Connie con `bash bin/tg.sh send` en HTML, corto y claro: manana viernes 18 a las 01:45 sale su vuelo, y las 24 horas antes caen HOY a las 01:45 de la madrugada del jueves, cuando va a estar durmiendo. Diselo asi: que se la ponga ESTA NOCHE antes de dormir, que es lo mas cerca del punto que puede estar despierta. Recuerdale que es la de la trombosis. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 9 16 9"), commitea y pushea.
+0 22 16 9 * | [CRON] INYECCION ANTITROMBOSIS, red de seguridad (09:00 en Pekin, jueves; el vuelo sale esa madrugada 01:45 del viernes). Avisale a Connie con `bash bin/tg.sh send` en HTML, MUY corto: preguntale si anoche alcanzo a ponerse la inyeccion de la trombosis, y si no, que se la ponga hoy -- todavia alcanza, aunque queden menos de 24 h. No la retes ni le repitas la explicacion entera. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 22 16 9"), commitea y pushea.

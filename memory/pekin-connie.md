@@ -117,9 +117,40 @@ edificios 8:00-17:30, combinado ¥34. Beihai ¥10, hasta 21:00 en septiembre.
 
 **Cambio usado: ¥1 = 139,5 CLP** (12-sep-2026, er-api). Se le redondeó a 140.
 
+## ✈️ El vuelo de vuelta — RESPONDIDO el 13-sep (msg 1107)
+
+**Viernes 18-sep, 01:45 hora de Pekín.** En Chile ese instante es el **jueves 17 a las
+14:45**. *(Se asumió que las 01:45 son hora de Pekín, porque es lo que dice el pasaje, y
+se le pidió confirmarlo.)*
+
+**Consecuencia para el itinerario, que ya se le dijo:** sale del hotel cerca de las
+**22:30 del jueves**. La tarde de Beihai sigue en pie, pero **la noche del jueves es
+aeropuerto**, no panorama. Se le dijo que pidiera **late checkout** o dejara las maletas.
+
+## 💉 Inyección antitrombosis — recordatorio montado (msg 1107)
+
+Pidió: *«recuérdame el día anterior del vuelo que tengo q inyectarme, deben ser 24 hrs
+antes (es para evitar trombosis)»*. Es **médico**, con embarazo de ~24 semanas y vuelo
+largo.
+
+**El punto exacto de 24 h cae el jueves 17 a las 01:45 de Pekín — durmiendo.** Por eso el
+aviso NO va a esa hora: se le propuso ponérsela **el miércoles 16 antes de dormir**, que
+es lo más cerca del punto estando despierta, y queda **por encima** de las 24 h, nunca por
+debajo.
+
+**Dos crons montados**, los dos se borran solos:
+- `0 9 16 9` → miércoles 16, **20:00 de Pekín**. El principal.
+- `0 22 16 9` → jueves 17, **09:00 de Pekín**. Red de seguridad por si no alcanzó.
+
+Van dos a propósito: es médico y **un solo aviso que le llegue dormida no sirve**.
+Todo calculado con `zoneinfo`, no a ojo ([[hora-de-connie-no-la-mia]]).
+
+**Se le dijo explícitamente que si su matrona indicó otra hora, manda esa y no mi
+cálculo.** No se opina de la indicación médica: se ejecuta la que le dieron.
+
 ## Pendiente de ella
 
-- **La hora del vuelo del viernes 18.** Preguntada dos veces, sin respuesta aún. Decide
-  si el jueves en la noche le alcanza para algo más.
+- **Confirmar que las 01:45 son hora de Pekín** y no de Chile. Si fuera de Chile, los dos
+  crons de la inyección quedan mal y hay que recalcularlos.
 - **Si quiere que se le pregunte a la embajada** por la celebración del 18: si cae el 16
   o el 17, todavía llega.
