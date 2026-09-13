@@ -187,6 +187,22 @@ reemplazar Hongqiao del miércoles 16 en la tarde por Panjiayuan.** Mercado noct
 mié/vie 10:00-23:00 anunciado en **abr-2025**; no está confirmado para 2026 y se le dijo así.
 **Esperando su sí/no.**
 
+## 🛒 Supermercado cerca del hotel (msg 1129, 13-sep ~20:45 Pekín)
+
+Buscaba un **súper normal**: llegó a un «supermarket» que era **un mercado de puestos** y no le
+sirvió. **Hotel verificado:** East Sacred, `东单三条33号甲` (Dongdan 3rd Alley 33A), a 3-5 min
+del metro Wangfujing.
+
+- **Hema `盒马鲜生(崇文门新世界店)`** — `东城区东打磨厂街7号新活馆F2`, ~2 km. **Vivo según
+  el listado del gobierno de Pekín del 9-ene-2026.** Horario **NO verificado** → se le dijo
+  que lo mirara en Amap antes de salir.
+- Para esa noche: 7-Eleven / 罗森 / 便利蜂.
+- **Tip entregado:** buscar por cadena en Amap (`盒马` `物美` `华润万家` `永辉`), no por
+  «supermarket».
+- **Descartados por no verificar:** 物美品超市 en `王府井大街301号` (artículo sin fecha, el
+  certificado del sitio estaba vencido) y el 华润超市 de 东方新天地 (dato viejo).
+- **Ella usa Amap** (la captura del 13-sep era de AMAP).
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
