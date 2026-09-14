@@ -250,3 +250,8 @@ condición que cambie el plan del lunes** — revisar al llegar su respuesta.
   respuesta.
 - **Si quiere que se le pregunte a la embajada** por la celebración del 18: si cae el 16
   o el 17, todavía llega.
+
+**Lun 14-sep 20:15 Pekín (msg 1163):** preguntó a qué hora llegar a la Muralla. Horario
+verificado (sitio oficial, desde 1-sep): **lun-vie 7:30-18:00**, venta hasta 17:00; fin de
+semana hasta 18:30. Se le dijo **llegar 8:00, salir del hotel 6:30** (1h30 + taco), y que si
+su entrada trae franja horaria, manda esa.
