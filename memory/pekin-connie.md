@@ -215,6 +215,12 @@ equivocaron → ya iba a Silk Street. Se le mandaron las señas para confirmar (
 con letrero `秀水街`, `建国门外大街8号`, salida A del metro `永安里` (línea 1), y que mande foto del
 letrero o ubicación de Amap si no calza. **Confirmado (msgs 1144-1145):** su captura de Amap la puso sobre `秀水街大厦`, junto a `永安里` en Dongdaqiao Road — estaban bien.
 
+**Colgante para la guagua (msgs 1146-1147, Silk Street):** foto de colgantes con borlas y una
+placa para escribir (la muestra decía `易卜拉欣` = Ibrahim transliterado). Opciones que se le dieron:
+nombre del bebé en caracteres (**se ofreció transliterarlo si da el nombre**) o un deseo de 4 caracteres:
+`平安喜乐` (recomendado), `健康成长`, `长命百岁`, `聪明伶俐`. No se sabe nombre ni sexo del bebé:
+no asumir.
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
