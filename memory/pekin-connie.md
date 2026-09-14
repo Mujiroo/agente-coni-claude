@@ -255,3 +255,5 @@ condición que cambie el plan del lunes** — revisar al llegar su respuesta.
 verificado (sitio oficial, desde 1-sep): **lun-vie 7:30-18:00**, venta hasta 17:00; fin de
 semana hasta 18:30. Se le dijo **llegar 8:00, salir del hotel 6:30** (1h30 + taco), y que si
 su entrada trae franja horaria, manda esa.
+Msg 1165: pidió la dirección en chino → `慕田峪长城` / `北京市怀柔区渤海镇慕田峪村`, destino
+游客中心; advertida la vuelta (pocos DiDi allá: chofer que espere).
