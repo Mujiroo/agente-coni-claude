@@ -210,6 +210,11 @@ fiesta verificada. Opciones (msg 1136): **Sanlitun** (la apuesta; ella ya lo ten
 semana flojas, así que hay que revisar en 大众点评/Xiaohongshu. Se agregó la advertencia de la
 **estafa de las chicas que invitan a un bar**. Viaja con **el hermano** (dato nuevo).
 
+**Lun 14-sep ~13:15 Pekín (msgs 1139/1142):** preguntó si estaban «en el silk road» o se
+equivocaron → ya iba a Silk Street. Se le mandaron las señas para confirmar (msg 1143): edificio de 5 pisos
+con letrero `秀水街`, `建国门外大街8号`, salida A del metro `永安里` (línea 1), y que mande foto del
+letrero o ubicación de Amap si no calza. **Esperando si confirma.**
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
