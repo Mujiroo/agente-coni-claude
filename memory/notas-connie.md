@@ -642,3 +642,8 @@ de no facturados internacionales al 14-sep: **cupo utilizado USD 274,94**, cupo 
 cupo. Facturación 22-sep. Resumen + PDF a Connie (msgs 1174-1175), con borrador de respuesta a
 Kriss pidiendo aclarar la diferencia. **Pendiente: su OK antes de responderle.** Cron de
 vigilancia borrado.
+**15-sep 07:26 Pekín (msg 1176, audio):** pidió responder a Kriss: en la app de su mamá no se
+ve el detalle de ninguna tarjeta (ni la adicional ni la de Nelly, que está bloqueada), tampoco
+en la web; llevan 4-5 días sin reflejarse nada. Borrador exacto mostrado con botones (msg 1177):
+completo / sin el párrafo de USD 535 / cambiar. Responder en el MISMO hilo (`1a09f72f7b5d9431`,
+In-Reply-To al msg de Kriss). Pendiente su elección.
