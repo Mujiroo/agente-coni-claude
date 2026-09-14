@@ -627,5 +627,9 @@ Msgs 1158-1159 (audio). En la app del banco no se ven bien los movimientos de la
 muestra **US$89**, así que no sabe el total a pagar. Pidió un correo para **Chris, su
 ejecutiva de cuenta**. Borrador enviado (msg 1160).
 
-**Pendiente:** el correo de Chris (no está en su Gmail) y qué banco es. Enviar solo con
-su OK y el texto que ella vio.
+**Enviado el 14-sep 07:25** (Gmail id `1a09f72f7b5d9431`) a **Kriss** (no «Chris»),
+`kpoblete@bancochile.cl`, ejecutiva en **Banco de Chile**. Tarjeta: **Mastercard Black
+adicional ••••2418**, con captura de la app adjunta (Utilizado USD 89, facturación 22-sep).
+Connie dio la dirección y pidió adjuntar la foto (msg 1161).
+
+**Pendiente:** avisarle cuando Kriss responda.
