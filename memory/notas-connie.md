@@ -619,3 +619,13 @@ lo único desaconsejable es la tercera vía: no decirlo y seguir tragándolo.
 **Cuidados que se mantuvieron:** no diagnosticar a la madre, no decirle que se aleje de su
 familia, no prometerle un resultado. Y se nombró que **esto es más grande que el episodio y
 merece más espacio que un chat**, sin usar eso para sacársela de encima.
+
+## Tarjeta adicional de la mamá: gastos no se reflejan (14-sep-2026)
+
+Msgs 1158-1159 (audio). En la app del banco no se ven bien los movimientos de la
+**tarjeta de crédito adicional de su mamá**: van **más de US$400** gastados y la app
+muestra **US$89**, así que no sabe el total a pagar. Pidió un correo para **Chris, su
+ejecutiva de cuenta**. Borrador enviado (msg 1160).
+
+**Pendiente:** el correo de Chris (no está en su Gmail) y qué banco es. Enviar solo con
+su OK y el texto que ella vio.
