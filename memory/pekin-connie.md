@@ -257,3 +257,8 @@ semana hasta 18:30. Se le dijo **llegar 8:00, salir del hotel 6:30** (1h30 + tac
 su entrada trae franja horaria, manda esa.
 Msg 1165: pidió la dirección en chino → `慕田峪长城` / `北京市怀柔区渤海镇慕田峪村`, destino
 游客中心; advertida la vuelta (pocos DiDi allá: chofer que espere).
+Msg 1167 (lun 14 21:28 Pekín): «para entrar a tianmen necesito ticket» → leído como **Plaza de
+Tiananmen**. Gratis, reserva previa en WeChat `天安门广场预约参观` con pasaporte (hasta 7 días antes;
+el mismo día no es fiable), SMS puede fallar con número extranjero, pasaporte físico, control 20-30
+min, independiente de la Ciudad Prohibida. Sugerido jue 17 temprano o mié tarde. Se le confirmó
+que no fuera Tiantan (ya tiene esa entrada).
