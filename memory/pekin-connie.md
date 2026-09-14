@@ -233,6 +233,12 @@ también huele a pelo. Whisper transcribió «seda» como «se da».
 si es por nuez o por par, y que la cáscara mancha. **No se le recomendó comprar.** El lugar de la foto
 no parecía Silk Street (puestos al aire libre, muebles rojos): no se sabe dónde estaba.
 
+**Noche del lunes 14 (msg 1156 → 1157):** preguntó a dónde ir. Propuesto: cena de **pato laqueado en
+`四季民福`** (locales `灯市口店`/Ciudad Prohibida, cerca del hotel; fila, llegar 17:30-18:00, **horario del
+día NO verificado** → Amap), luego **Sanlitun**: Taikoo Li + **Speak Low** (speakeasy de la cabina, citado en
+guías 2026, no verificado que abra el lunes) para el hermano. Plan B: **Houhai**. Primera vez que sale el
+pato en la conversación.
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
