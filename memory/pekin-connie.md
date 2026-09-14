@@ -203,6 +203,13 @@ del metro Wangfujing.
   certificado del sitio estaba vencido) y el 华润超市 de 东方新天地 (dato viejo).
 - **Ella usa Amap** (la captura del 13-sep era de AMAP).
 
+**Fiesta lunes/martes para el hermano (msg 1135, lun 14-sep 11:22 Pekín):** en Shanghái no
+vio gente saliendo un jueves. Se le dijo derecho que lun/mar es tranquilo en todos lados, sin
+fiesta verificada. Opciones (msg 1136): **Sanlitun** (la apuesta; ella ya lo tenía esa noche),
+**Houhai** con música en vivo todas las noches (turístico), y **Gongti**, las discotecas: entre
+semana flojas, así que hay que revisar en 大众点评/Xiaohongshu. Se agregó la advertencia de la
+**estafa de las chicas que invitan a un bar**. Viaja con **el hermano** (dato nuevo).
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
