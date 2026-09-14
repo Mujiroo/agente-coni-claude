@@ -222,6 +222,11 @@ nombre del bebé en caracteres (**se ofreció transliterarlo si da el nombre**) 
 **Noah es el nombre que eligió para el colgante** — no confirmó que sea el nombre del bebé ni el sexo:
 no asumir sin que lo diga.
 
+**Prueba de seda en Silk Street (audio msg 1150 → msg 1151):** le quemaron un hilo y olía a pelo
+quemado. Se le dijo que es buena señal (fibra proteica), cómo distinguirlo del sintético (se derrite,
+bolita dura, olor a plástico), y las trampas: que el hilo salga de la misma pieza, y que la lana
+también huele a pelo. Whisper transcribió «seda» como «se da».
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
