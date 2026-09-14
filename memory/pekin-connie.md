@@ -262,3 +262,4 @@ Tiananmen**. Gratis, reserva previa en WeChat `天安门广场预约参观` con 
 el mismo día no es fiable), SMS puede fallar con número extranjero, pasaporte físico, control 20-30
 min, independiente de la Ciudad Prohibida. Sugerido jue 17 temprano o mié tarde. Se le confirmó
 que no fuera Tiantan (ya tiene esa entrada).
+Msg 1169: la reserva de Tiananmen pide SMS → probar selector de país +56; si solo +86, recepción del hotel con texto en chino (msg 1170). Resultado pendiente.
