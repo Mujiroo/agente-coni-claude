@@ -632,4 +632,13 @@ ejecutiva de cuenta**. Borrador enviado (msg 1160).
 adicional ••••2418**, con captura de la app adjunta (Utilizado USD 89, facturación 22-sep).
 Connie dio la dirección y pidió adjuntar la foto (msg 1161).
 
-**Pendiente:** avisarle cuando Kriss responda.
+**Kriss respondió el 14-sep 14:06 Chile** (Gmail `1a0a0e26d7e6aa00`, mismo hilo). Dice: los
+movimientos demoran en la app; la titular es **Nelly Julia De la Sotta Franco** (su mamá) y
+Connie tiene la **adicional**, así que el detalle completo se ve en la app de Nelly. Adjuntó PDF
+de no facturados internacionales al 14-sep: **cupo utilizado USD 274,94**, cupo total USD 10.000.
+
+**Ojo que detecté:** los 46 movimientos del PDF (6 al 14-sep, HK/Shanghái/Disney/Pekín) suman
+**USD 809,94**, no 274,94. Diferencia **USD 535,00 exactos** → probable abono ya descontado del
+cupo. Facturación 22-sep. Resumen + PDF a Connie (msgs 1174-1175), con borrador de respuesta a
+Kriss pidiendo aclarar la diferencia. **Pendiente: su OK antes de responderle.** Cron de
+vigilancia borrado.
