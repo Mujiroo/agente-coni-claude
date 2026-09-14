@@ -20,7 +20,7 @@ una por chat el 19-ago (msg 153):
   depositarlo**, dejando **200.000 sin depositar**.
 - **11-sep-2026** — **Enviar la boleta de Sudtec.**
 - **14-sep-2026** — Dos cosas: **Nico** va a buscar el medicamento **Eutirox**, y
-  ella **pide hora para la eco** en Integramédica.
+  ella **pide hora para la eco** en Integramédica. **Avisado el 14-sep 11:00** (cron borrado). Se le hizo notar que ya tiene en **INDISA Providencia, lun 21-sep: 17:45 Estudio fetal 21-24 sem** (piso 7 Torre C) y **19:00 Gineco Dr. Betancourt** (piso 2) — puede que la eco ya esté cubierta; pendiente que confirme.
 
 **La hora, que es donde me equivoqué y vale la pena tenerlo claro:**
 
