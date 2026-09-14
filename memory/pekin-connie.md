@@ -263,3 +263,4 @@ el mismo día no es fiable), SMS puede fallar con número extranjero, pasaporte 
 min, independiente de la Ciudad Prohibida. Sugerido jue 17 temprano o mié tarde. Se le confirmó
 que no fuera Tiantan (ya tiene esa entrada).
 Msg 1169: la reserva de Tiananmen pide SMS → probar selector de país +56; si solo +86, recepción del hotel con texto en chino (msg 1170). Resultado pendiente.
+Msg 1171: dividir cuenta en Alipay → con tarjeta extranjera no hay P2P ni AA收款; pagar por separado en caja (我们分开付), o uno paga y se arreglan con 账单. Comisión 3% sobre ¥200.
