@@ -227,6 +227,12 @@ quemado. Se le dijo que es buena señal (fibra proteica), cómo distinguirlo del
 bolita dura, olor a plástico), y las trampas: que el hilo salga de la misma pieza, y que la lana
 también huele a pelo. Whisper transcribió «seda» como «se da».
 
+**Nueces de coleccionista (msg 1154 → 1155, lun 14-sep ~13:30 Pekín):** foto de puesto con
+`文玩核桃` en cáscara verde (`赌青皮`, apuesta), carteles `青皮三棱`, `狮子头`, `蛤蟆头`, precios
+¥300-2000. Se le explicó que no son comestibles, que es apuesta, precios en CLP (×140), preguntar
+si es por nuez o por par, y que la cáscara mancha. **No se le recomendó comprar.** El lugar de la foto
+no parecía Silk Street (puestos al aire libre, muebles rojos): no se sabe dónde estaba.
+
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
 condición que cambie el plan del lunes** — revisar al llegar su respuesta.
