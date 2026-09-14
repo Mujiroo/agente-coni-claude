@@ -218,8 +218,9 @@ letrero o ubicación de Amap si no calza. **Confirmado (msgs 1144-1145):** su ca
 **Colgante para la guagua (msgs 1146-1147, Silk Street):** foto de colgantes con borlas y una
 placa para escribir (la muestra decía `易卜拉欣` = Ibrahim transliterado). Opciones que se le dieron:
 nombre del bebé en caracteres (**se ofreció transliterarlo si da el nombre**) o un deseo de 4 caracteres:
-`平安喜乐` (recomendado), `健康成长`, `长命百岁`, `聪明伶俐`. No se sabe nombre ni sexo del bebé:
-no asumir.
+`平安喜乐` (recomendado), `健康成长`, `长命百岁`, `聪明伶俐`. **Msg 1148: pidió «Noah» en chino** → `诺亚` *Nuò yà* (msg 1149), con `请写：诺亚` para el vendedor.
+**Noah es el nombre que eligió para el colgante** — no confirmó que sea el nombre del bebé ni el sexo:
+no asumir sin que lo diga.
 
 **Audio msg 1119** (1 min después del pedido) salió ilegible por whisper local
 ([[audios-solo-whisper-local]]). Se le pidió que lo escribiera. **Puede traer una
