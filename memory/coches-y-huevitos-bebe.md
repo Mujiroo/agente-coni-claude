@@ -165,3 +165,13 @@ no le iba a dar por bueno un precio que no leí. Ver [[ads-403-robot-vs-navegado
 
 **Después preguntó si el descuento era real y no lo era:** ver
 [[descuento-inflado-verificar]].
+
+## Monitor de bebé · SoyMomo Baby Monitor Lite (15-sep-2026, msg 1190 → 1191)
+
+Mandó captura de soymomo.cl (llegó desde un anuncio de Instagram): **$89.990** «antes $155.990, 42% OFF».
+Verificado ese día: **Lider $89.990**, Knasta $84.990, Forevermom $99.990 (sin stock) → **$89.990 es
+el precio normal; el tachado está inflado**. Specs: 4,3", sin WiFi/app (FHSS 2,4 GHz), **cámara fija
+75°** sin giro ni zoom, 50 m interior, 2.300 mAh, sensor de temperatura, VOX, 8 canciones, hasta 2
+cámaras, USB-C, 12 meses de garantía.
+Opinión que se le dio: buena compra para usar en casa y con privacidad. Si quiere girar la cámara o
+ver desde el celular, otro modelo (se ofreció buscar). **Sin decisión todavía.**
