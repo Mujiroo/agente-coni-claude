@@ -143,3 +143,12 @@ redistribuyen**. Revisar en unos días si el CPA se movió, y decírselo pase lo
 - **Grupo `Botas` viejo pausado** (2 clics, 0 conversiones). `botas bombero` sigue
   intacta en `General`: ahí están sus 16,8 conversiones.
 - **Estructura nueva creada y pausada**, con destinos verificados HTTP 200.
+
+---
+
+## Cloudflare — lunes 21-sep (agregado 15-sep, msg 1202)
+
+Connie lo dejó para cuando esté en Chile. Plan y DNS actual en `estado.md` («Cloudflare: plan
+propuesto»). Cron de recordatorio el 21 a las 10:00. Snippet anti-bots **no instalado** (borrador en
+`snippet-filtros-bots.md`); vigía `bin/vigia_sitio_sudtec.sh` cada 30 min hasta que Cloudflare ande.
+Pendiente también: probar desde celular filtrar categoría + marca (la regla del `.htaccess` lo bloquea).
