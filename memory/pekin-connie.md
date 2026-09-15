@@ -264,3 +264,4 @@ min, independiente de la Ciudad Prohibida. Sugerido jue 17 temprano o mié tarde
 que no fuera Tiantan (ya tiene esa entrada).
 Msg 1169: la reserva de Tiananmen pide SMS → probar selector de país +56; si solo +86, recepción del hotel con texto en chino (msg 1170). Resultado pendiente.
 Msg 1171: dividir cuenta en Alipay → con tarjeta extranjera no hay P2P ni AA收款; pagar por separado en caja (我们分开付), o uno paga y se arreglan con 账单. Comisión 3% sobre ¥200.
+Msg 1178 (mar 15 10:04 Pekín, ya en la Muralla): pidió la historia de la Gran Muralla → resumen por dinastías + Mutianyu (msg 1179). Recordado el OK pendiente de Kriss.
