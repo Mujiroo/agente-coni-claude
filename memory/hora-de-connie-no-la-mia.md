@@ -42,3 +42,13 @@ Vuelve el **18-sep-2026**; después de eso vuelven a compartir zona horaria y es
 regla se apaga sola.
 
 Relacionado: [[recordatorios-viaje-connie]], [[ads-hora-chile-woo-utc]], [[connie]]
+
+## 15-sep-2026: dos crons mal puestos el mismo día, por calcular a ojo
+
+Aun con esta memoria cargada, **dos veces** puse un cron sumando de cabeza: uno a las 17:30 Chile
+«pensando en su tarde» (eran las **04:30** en Pekín) y otro a las 18:50 creyendo que eran las 07:50
+(eran las **05:50**). Los dos se cazaron **solo porque corrí `date` después de escribirlos**.
+
+**Regla:** antes de commitear un cron que le escribe a Connie, correr
+`TZ=Asia/Shanghai date -d "2026-MM-DD HH:MM -03"` con la hora del cron y leer el resultado.
+Si no se corrió eso, el cron no está verificado.
