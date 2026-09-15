@@ -20,3 +20,10 @@ no podían cotizar.
 - Reactivar solo esas dos campañas, no las tres que ya estaban pausadas antes.
 
 Relacionado: [[congelar-cambios-viaje-china]], [[vigia-mide-la-metrica-rota]], [[bloqueo-bots-htaccess-sudtec]]
+
+**`vigilancia_cambios.py` también se rompe con la pausa (15-sep, msg 1189):** su consulta filtra
+`campaign.status = 'ENABLED'`, así que con todo pausado lee **0 conversiones, 0 CLP, 0 impresiones
+en 7 días** y dispara 🔴 «24 días seguidos peor». Es artefacto del filtro, no dato. Se le mandó
+**con la corrección al lado** y se le propuso no reenviarle esa alerta mientras dure la pausa
+(sin tocar el script). **Esperando su respuesta**; hasta entonces, si vuelve a disparar igual,
+basta una línea o nada — no repetir el 🔴.
