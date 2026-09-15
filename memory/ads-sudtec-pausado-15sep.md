@@ -1,31 +1,24 @@
 ---
 name: ads-sudtec-pausado-15sep
-description: Desde el 15-sep-2026 09:24 Chile las 2 campañas de Sudtec están PAUSADAS por orden de Connie (sitio con PHP saturado); las alertas de gasto cero y sequía del vigía son esperables.
+description: Ads de Sudtec estuvo pausado el 15-sep-2026 de 09:24 a 10:31 Chile por el sitio saturado; ya está REACTIVADO. Queda verificar el 16-sep que vuelvan las cotizaciones.
 metadata:
   type: project
 ---
 
-**15-sep-2026, 09:24 Chile.** Connie ordenó *«Pausa ads por el momento»* (msg 1187) después
-de la alerta de sequía + sitio lento (msg 1186). Pausadas **Campaña Sudtec** `22490713380` y
-**Competencias** `23598502728`. Detalle en `clientes/sudtec/estado.md`.
+**15-sep-2026.** Sitio con PHP saturado (~50 s) por bots en URLs de filtro YITH → 0 cotizaciones
+desde el vie 11. Connie ordenó pausar (msg 1187, 09:24 Chile): **Campaña Sudtec** `22490713380` y
+**Competencias** `23598502728`. Su novio arregló el `.htaccess` (msg 1196), el sitio volvió a ~2 s, y
+Connie pidió reactivar (msg 1198). **Reactivadas 10:31 Chile, verificado por relectura: ENABLED/SERVING.**
+Bomberos, Industrial y Forestal siguen pausadas como antes (no se tocaron).
 
-**Why:** el formulario de cotización pasaba por un PHP que tardaba ~50 s; se pagaban clics que
-no podían cotizar.
+**Why:** que no quede nadie creyendo que sigue pausado, ni el vigía disparando por eso.
 
 **How to apply:**
-- Mientras siga pausado, `vigilancia_ads.py` va a dar **HAY-QUE-AVISAR por gasto de ayer en
-  cero** (y probablemente sequía). **Es la pausa, no una falla**: no reenviarlo como alarma.
-  Si hay que decirle algo, una línea recordando que está pausado a pedido suyo, y cómo va el sitio.
-- **No reactivar sin su «reactiva ads»**, y antes de reactivar verificar que PHP responda.
-- Reactivar solo esas dos campañas, no las tres que ya estaban pausadas antes.
+- Si `vigilancia_ads.py` o `vigilancia_cambios.py` del 16-sep muestran gasto bajo del 15 o cero
+  campañas en la ventana, es por esa hora de pausa: no alarmar.
+- **El 16-sep revisar en WooCommerce que hayan vuelto las cotizaciones** (última antes del incidente:
+  11648, vie 11-sep 17:43 Chile) y contárselo, como se le prometió en msg 1199. Si siguen en cero con
+  el sitio rápido, mirar la regla del `.htaccess` que bloquea `product_cat`+`filter_marca`.
 
-Relacionado: [[congelar-cambios-viaje-china]], [[vigia-mide-la-metrica-rota]], [[bloqueo-bots-htaccess-sudtec]]
-
-**`vigilancia_cambios.py` también se rompe con la pausa (15-sep, msg 1189):** su consulta filtra
-`campaign.status = 'ENABLED'`, así que con todo pausado lee **0 conversiones, 0 CLP, 0 impresiones
-en 7 días** y dispara 🔴 «24 días seguidos peor». Es artefacto del filtro, no dato. Se le mandó
-**con la corrección al lado** y se le propuso no reenviarle esa alerta mientras dure la pausa
-(sin tocar el script). **Esperando su respuesta**; hasta entonces, si vuelve a disparar igual,
-basta una línea o nada — no repetir el 🔴.
-
-**10:30 Chile:** el sitio volvió (reglas nuevas en `.htaccess`, PHP ~2 s). Se le preguntó si reactivar Ads hoy (msg 1197). **Sigue pausado hasta que diga que sí.**
+Detalle en `clientes/sudtec/estado.md`. Relacionado: [[bloqueo-bots-htaccess-sudtec]],
+[[vigia-mide-la-metrica-rota]], [[cotizaciones-del-sitio-son-el-termometro]]

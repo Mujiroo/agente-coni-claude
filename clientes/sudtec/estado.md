@@ -864,3 +864,5 @@ Pruebas con UA Chrome + referer interno sobre `/product-category/epp/`: solo `fi
 
 **Riesgo avisado:** la regla categoría+marca bloquea también a humanos si el widget ofrece esa combinación → se pidió probar desde el celular. Bots con UA falso y un solo filtro siguen pasando → el snippet (borrador en `snippet-filtros-bots.md`) queda como segunda capa, no urgente. Cloudflare sigue recomendado.
 **Preguntado:** si reactivar Ads hoy (recomendado). Sin respuesta aún.
+
+**10:31 Chile · Ads REACTIVADO** (msg 1198, «Si activalo denuevo porfa»): validateOnly → mutate → relectura: Campaña Sudtec y Competencias ENABLED/SERVING. Prometido: el 16-sep contarle si volvieron las cotizaciones.

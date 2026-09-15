@@ -18,4 +18,4 @@ reinicios; lo que queda solo en el chat, no.
 - [La agenda del viaje no está en el calendario](agenda-del-viaje-no-esta-en-el-calendario.md) — los panoramas viven en shanghai-connie.md; un calendario vacío no significa día libre.
 - [Pekín: 13 al 18-sep](pekin-connie.md) — la ventana real es 13-17; no hay restaurante chileno y la fonda de la embajada no se publica en la web, se pregunta.
 - [Tiendas cercanas en China vía OpenStreetMap](buscar-tiendas-cercanas-osm.md) — la web no sirve; Overpass sí, con cobertura incompleta: cerrar con «búscalo en Amap».
-- [ads-sudtec-pausado-15sep.md](ads-sudtec-pausado-15sep.md) — Ads de Sudtec pausado desde el 15-sep por orden de Connie; las alertas de gasto cero son esperables
+- [ads-sudtec-pausado-15sep.md](ads-sudtec-pausado-15sep.md) — Ads de Sudtec pausado 1 h el 15-sep por sitio caído, ya reactivado; revisar cotizaciones el 16-sep
