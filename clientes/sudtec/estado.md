@@ -807,3 +807,26 @@ está mirado. **Si el 11-sep también cierra en cero son 3 días hábiles seguid
 le cuenta a Connie** como dato de negocio (no como falla), contrastado contra el gasto de Ads
 de esos mismos días: si la campaña gastó normal y no entró ninguna solicitud, el problema
 está entre el clic y el formulario.
+
+### 15-sep 09:00 Chile · Sequía de 3 días + sitio lento en PHP → AVISADO (msg 1186)
+
+Cron `vigilancia_ads.py` dio **HAY-QUE-AVISAR**: 0 cotizaciones en 3 días (normal 4,5); gasto ayer 11.887 CLP, mes 152.936, proyección 299.936 / límite 300.000.
+
+**Cruzado con WooCommerce:** última cotización **11648 del vie 11-sep 20:43 UTC (17:43 Chile)**. Sáb 12, dom 13, lun 14 y el mar 15 hasta las 09:00 en **cero**. Es la racha más larga vista en cinco meses (3 días), y cae un lunes (4% de los lunes cierran en cero).
+
+**Esta vez el canal NO está sano (a diferencia del 10-sep):**
+
+| Qué | Resultado 15-sep ~09:00 Chile |
+|---|---|
+| Home cacheada | 200 en 0,4 s |
+| Home con `?nc=` (sin caché, PHP) | **timeout a los 40 s** |
+| `wp-json/` | **timeout a los 40 s** |
+| `admin-ajax.php` POST | 200 en **49,7 s** |
+| `sudtec_wp.py estado` | tardó **1m53s** |
+| `robots.txt` (estático) | 200 en 0,2 s |
+
+→ LiteSpeed sirve la caché y **PHP está saturado**. El envío del formulario de cotización pasa por PHP. Hipótesis: otro ataque de bots como el de agosto ([[bloqueo-bots-htaccess-sudtec]]). **No verificado desde cuándo.**
+
+Propuesto a Connie: avisar al hosting de Sudtec y, opcionalmente, pausar Ads mientras tanto. **Nada tocado, esperando su OK.**
+
+Trampa propia: `pkill -f "<patrón>"` mató mi propio shell porque el patrón aparecía en la línea de comando. Usar `pgrep` y matar por pid.
