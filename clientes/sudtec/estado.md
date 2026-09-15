@@ -866,3 +866,15 @@ Pruebas con UA Chrome + referer interno sobre `/product-category/epp/`: solo `fi
 **Preguntado:** si reactivar Ads hoy (recomendado). Sin respuesta aún.
 
 **10:31 Chile · Ads REACTIVADO** (msg 1198, «Si activalo denuevo porfa»): validateOnly → mutate → relectura: Campaña Sudtec y Competencias ENABLED/SERVING. Prometido: el 16-sep contarle si volvieron las cotizaciones.
+
+### 15-sep 10:35 Chile · Cloudflare: plan propuesto (msg 1200 → 1201)
+
+Connie preguntó si puedo hacer Cloudflare. **DNS actual (dns.google, 15-sep):**
+- NS: `ns01.v2nets.com`, `ns02.v2nets.com` (hosting v2nets, LiteSpeed)
+- A `sudtec.cl` y `www` → `216.185.51.20`
+- **MX Google Workspace:** `ASPMX.L.GOOGLE.COM` (1), `ALT1`/`ALT2` (5), `ALT3`/`ALT4` (10)
+- TXT SPF: `v=spf1 +a +mx +ip4:207.210.102.221 +include:relay.mailchannels.net +_spf.google.com ~all`
+- Faltan por revisar: DKIM (`google._domainkey`), subdominios de cPanel (mail, webmail, autodiscover, cpanel), `_dmarc`.
+
+**Dicho:** ellos crean la cuenta (de Sudtec) y cambian NS en NIC Chile; yo, con un token de API limitado a la zona guardado por `/env` (nombre sugerido `CLOUDFLARE_API_TOKEN`), reviso y copio los registros, SSL Full (strict), reglas WAF a medida (challenge en URLs de filtro + rate limit por IP) y verifico sitio, cotizador y AdsBot. **Bot Fight Mode free no admite excepciones** y podría bloquear `sudtec_wp.py` → mejor partir con reglas a medida. Cambio de NS **al final**. Sin apuro: el `.htaccess` ya tiene el sitio andando.
+**Preguntado:** quién tiene acceso a NIC Chile y si el novio crea la cuenta. Esperando.
