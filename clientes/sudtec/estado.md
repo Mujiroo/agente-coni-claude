@@ -842,3 +842,15 @@ Gasto del 15-sep antes de pausar: 2.326 CLP, 3 clics.
 
 **Para reactivar:** cuando diga «reactiva ads», primero verificar que PHP responda (home con `?nc=`, `admin-ajax`) y después poner ENABLED **solo esas dos**.
 Hosting: sigue pendiente que alguien le avise; se le recordó.
+
+### 15-sep 10:21-10:40 Chile · Causa confirmada por Connie: bots en URLs de filtro YITH (msgs 1192-1195)
+
+Audio (msg 1192) + captura de un análisis de otro agente (msg 1193): **segunda vez** que los bots saturan el sitio generando URLs basura con el filtro. Se bloqueó `product_cat`, pasaron a `filter_marca`; se bloqueó ese, ahora combinan. El análisis propone: 1) Cloudflare con Bot Fight Mode, 2) pedirle al hosting ModSecurity/Imunify360 + rate limiting, 3) atacar YITH (POST en vez de GET, limitar combinaciones, noindex).
+
+Connie preguntó si yo puedo hacer el **3** con un plugin/código. Verificado:
+- YITH Ajax Product Filter: `query_param=yith_wcan`, `change_browser_url=1`, `ajax_filters=1`, `instant_filters=1` (visto en el HTML de `/product-category/epp/botas/`).
+- `robots.txt` ya tiene `Disallow` para `yith_wcan`, `product_cat`, `filter_`, `min_price`, `max_price`, `orderby`: los bots malos lo ignoran.
+- Code Snippets funciona por REST (`code-snippets/v1/snippets`). `wp/v2/plugins` devuelve **403**.
+- Categorías: meta robots `follow, index` (Rank Math).
+
+**Propuesto (msg 1195), esperando OK:** un snippet con 3 reglas: (a) URL de filtro sin referer interno y sin login → 302 a la categoría limpia antes de la consulta de WooCommerce; (b) más de 2 filtros → lo mismo; (c) noindex en páginas filtradas. Se le dijo el límite: baja el costo por visita pero no la frena; Cloudflare sigue siendo lo de fondo. Ofrecido además el texto equivalente para `.htaccess` (cero PHP), que pega ella.
