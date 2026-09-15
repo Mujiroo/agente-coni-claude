@@ -267,3 +267,4 @@ Msg 1171: dividir cuenta en Alipay → con tarjeta extranjera no hay P2P ni AA�
 Msg 1178 (mar 15 10:04 Pekín, ya en la Muralla): pidió la historia de la Gran Muralla → resumen por dinastías + Mutianyu (msg 1179). Recordado el OK pendiente de Kriss.
 Msg 1180: ¿la muralla es maravilla antigua o nueva? → nueva (New7Wonders 2007), explicado cómo funcionan ambas listas (msg 1181).
 Msg 1182 (mar 15 ~14:03 Pekín): foto de menú → 老北京打卤面 explicado (msg 1183).
+Msg 1184 (mar 15 17:22 Pekín): a qué hora ir mañana al Templo del Cielo, tiene entradas en la mañana → msg 1185: llegar **8:00** (edificios 8:00-17:30, parque 6:00, datos del 12-sep), salir del hotel 7:30, DiDi a `天坛公园东门`, pasaporte físico, corredor largo con abuelos antes de las 9, ruta 祈年殿 → Muro del Eco → Altar Circular (~2 h, plano). Si la entrada trae franja horaria, manda esa. Hongqiao (10:00) queda saliendo por la puerta este; lo de Panjiayuan sigue sin respuesta.
