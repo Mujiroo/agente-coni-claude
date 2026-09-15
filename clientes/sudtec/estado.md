@@ -878,3 +878,8 @@ Connie preguntó si puedo hacer Cloudflare. **DNS actual (dns.google, 15-sep):**
 
 **Dicho:** ellos crean la cuenta (de Sudtec) y cambian NS en NIC Chile; yo, con un token de API limitado a la zona guardado por `/env` (nombre sugerido `CLOUDFLARE_API_TOKEN`), reviso y copio los registros, SSL Full (strict), reglas WAF a medida (challenge en URLs de filtro + rate limit por IP) y verifico sitio, cotizador y AdsBot. **Bot Fight Mode free no admite excepciones** y podría bloquear `sudtec_wp.py` → mejor partir con reglas a medida. Cambio de NS **al final**. Sin apuro: el `.htaccess` ya tiene el sitio andando.
 **Preguntado:** quién tiene acceso a NIC Chile y si el novio crea la cuenta. Esperando.
+
+### 15-sep 15:00 Chile · VOLVIERON las cotizaciones tras el arreglo
+
+Reenvío de las 15:00: **2 envíos reales** a bd@ (`[Solicitud de presupuesto]`). En Woo: **11649** (15:47 UTC = 12:47 Chile) y **11650** (16:45 UTC = 13:45 Chile). Son las primeras desde la 11648 del vie 11. **Confirma que el formulario funciona** con el `.htaccess` nuevo y Ads reactivado (10:31).
+Aviso a Connie **diferido a las 07:50 de Pekín** (cron `50 18 15 9`): a las 15:00 Chile eran las 02:00 para ella, y la noticia es buena y no requiere acción.
