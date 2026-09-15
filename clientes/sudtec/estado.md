@@ -854,3 +854,13 @@ Connie preguntó si yo puedo hacer el **3** con un plugin/código. Verificado:
 - Categorías: meta robots `follow, index` (Rank Math).
 
 **Propuesto (msg 1195), esperando OK:** un snippet con 3 reglas: (a) URL de filtro sin referer interno y sin login → 302 a la categoría limpia antes de la consulta de WooCommerce; (b) más de 2 filtros → lo mismo; (c) noindex en páginas filtradas. Se le dijo el límite: baja el costo por visita pero no la frena; Cloudflare sigue siendo lo de fondo. Ofrecido además el texto equivalente para `.htaccess` (cero PHP), que pega ella.
+
+### 15-sep 10:27 Chile · Sitio RECUPERADO con reglas nuevas en .htaccess (msg 1196 → 1197)
+
+El novio de Connie agregó en `.htaccess` el bloque `BLOQUEO DE BOTS AGRESIVOS`: 403 si el query trae 3+ comas; 403 si trae `filter_marca=` **y** `product_cat=`; 403 a UAs de scrapers (incluye ClaudeBot, babbar, BLEXBot, ZoominfoBot, serpstatbot); 403 a MSIE 5-9; 403 a filtros (`yith_wcan|filter_|min_price|max_price`) sin UA de navegador.
+
+**Verificado 10:30:** home sin caché, `wp-json` y `admin-ajax` en **~2,2-2,7 s** (antes 40-50 s). Botón de cotizar presente.
+Pruebas con UA Chrome + referer interno sobre `/product-category/epp/`: solo `filter_marca` → 200; `product_cat`+`filter_marca` → **403**; 4 valores con comas → 403.
+
+**Riesgo avisado:** la regla categoría+marca bloquea también a humanos si el widget ofrece esa combinación → se pidió probar desde el celular. Bots con UA falso y un solo filtro siguen pasando → el snippet (borrador en `snippet-filtros-bots.md`) queda como segunda capa, no urgente. Cloudflare sigue recomendado.
+**Preguntado:** si reactivar Ads hoy (recomendado). Sin respuesta aún.

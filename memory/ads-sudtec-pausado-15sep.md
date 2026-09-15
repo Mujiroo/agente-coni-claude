@@ -27,3 +27,5 @@ en 7 días** y dispara 🔴 «24 días seguidos peor». Es artefacto del filtro,
 **con la corrección al lado** y se le propuso no reenviarle esa alerta mientras dure la pausa
 (sin tocar el script). **Esperando su respuesta**; hasta entonces, si vuelve a disparar igual,
 basta una línea o nada — no repetir el 🔴.
+
+**10:30 Chile:** el sitio volvió (reglas nuevas en `.htaccess`, PHP ~2 s). Se le preguntó si reactivar Ads hoy (msg 1197). **Sigue pausado hasta que diga que sí.**
