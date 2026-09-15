@@ -882,4 +882,4 @@ Connie preguntó si puedo hacer Cloudflare. **DNS actual (dns.google, 15-sep):**
 ### 15-sep 15:00 Chile · VOLVIERON las cotizaciones tras el arreglo
 
 Reenvío de las 15:00: **2 envíos reales** a bd@ (`[Solicitud de presupuesto]`). En Woo: **11649** (15:47 UTC = 12:47 Chile) y **11650** (16:45 UTC = 13:45 Chile). Son las primeras desde la 11648 del vie 11. **Confirma que el formulario funciona** con el `.htaccess` nuevo y Ads reactivado (10:31).
-Aviso a Connie **diferido a las 07:50 de Pekín** (cron `50 18 15 9`): a las 15:00 Chile eran las 02:00 para ella, y la noticia es buena y no requiere acción.
+Aviso a Connie **diferido a las 07:50 de Pekín** (cron `50 20 15 9`): a las 15:00 Chile eran las 02:00 para ella, y la noticia es buena y no requiere acción.
