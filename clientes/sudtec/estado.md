@@ -883,3 +883,5 @@ Connie preguntó si puedo hacer Cloudflare. **DNS actual (dns.google, 15-sep):**
 
 Reenvío de las 15:00: **2 envíos reales** a bd@ (`[Solicitud de presupuesto]`). En Woo: **11649** (15:47 UTC = 12:47 Chile) y **11650** (16:45 UTC = 13:45 Chile). Son las primeras desde la 11648 del vie 11. **Confirma que el formulario funciona** con el `.htaccess` nuevo y Ads reactivado (10:31).
 Aviso a Connie **diferido a las 07:50 de Pekín** (cron `50 20 15 9`): a las 15:00 Chile eran las 02:00 para ella, y la noticia es buena y no requiere acción.
+
+**16-sep 07:50 Pekín (20:50 Chile 15-sep):** enviado el aviso diferido (msg 1204): 2 cotizaciones el 15-sep (11649 12:47, 11650 13:45 Chile) reenviadas a bd@, y sitio en 2,4 s. Cron `50 20 15 9` borrado. Una medición del vigía marcó 5,6 s (resto ~2,2 s): dentro del umbral, vigilar.
