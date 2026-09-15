@@ -830,3 +830,15 @@ Cron `vigilancia_ads.py` dio **HAY-QUE-AVISAR**: 0 cotizaciones en 3 días (norm
 Propuesto a Connie: avisar al hosting de Sudtec y, opcionalmente, pausar Ads mientras tanto. **Nada tocado, esperando su OK.**
 
 Trampa propia: `pkill -f "<patrón>"` mató mi propio shell porque el patrón aparecía en la línea de comando. Usar `pgrep` y matar por pid.
+
+### 15-sep 09:24 Chile · ADS PAUSADO por orden de Connie (msg 1187 → 1188)
+
+*«Pausa ads por el momento».* Pausadas vía Maton `campaigns:mutate` (validateOnly `{}` → aplicado → **verificado por relectura**):
+- `22490713380` **Campaña Sudtec** → PAUSED
+- `23598502728` **Competencias** → PAUSED
+
+Ya estaban pausadas antes y NO se tocaron: `24216436315` Bomberos, `24216436318` Industrial, `24216436441` Forestal.
+Gasto del 15-sep antes de pausar: 2.326 CLP, 3 clics.
+
+**Para reactivar:** cuando diga «reactiva ads», primero verificar que PHP responda (home con `?nc=`, `admin-ajax`) y después poner ENABLED **solo esas dos**.
+Hosting: sigue pendiente que alguien le avise; se le recordó.
