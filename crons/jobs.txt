@@ -220,3 +220,16 @@
 # Ventana 08:00-22:00 de Chile para no despertarla. Ella vuelve el 18-sep y desde
 # ahí comparte huso con el contenedor; el 16 y 17 todavía está en China.
 50 8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * * | [CRON] VIGIA YESSTYLE: corre `bash bin/vigia_yesstyle.sh` en /home/agent/workspace. Si empieza con OK-SILENCIO o SIN-DATO, NO escribas a Connie ni hagas NADA mas. Si dice HAY-QUE-AVISAR: el Glow Up Giveaway se abrio. Confirmalo TU MISMO abriendo https://www.yesstyle.com/en/glow-up-giveaway.html y mira que producto hay; recien entonces avisale con `bash bin/tg.sh send` en HTML MUY corto: que se abrio, que producto es y el link, y que es por orden de llegada. Si al confirmarlo ves que en realidad sigue cerrado o la pagina cambio de diseño, NO le escribas: corrige bin/vigia_yesstyle.sh y commitea.
+
+# --- AVISO DIFERIDO DEL REENVIO DE LAS 15:00 (16-sep-2026) ---
+# La pasada de las 15:00 de Chile reenvio 1 cotizacion a bd@sudtec.cl, pero en Pekin
+# eran las 02:00 de la madrugada del jueves y Connie ademas VUELA esa misma noche
+# (vuelo vie 18, 01:45 hora de Pekin). El reenvio se hizo en el momento; solo el AVISO
+# se difiere.
+# PRECEDENTE (8-sep msg 961 y 11-sep msg 1085): un aviso de rutina que no requiere
+# accion suya NO la despierta de madrugada; se difiere con un cron de una sola vez,
+# NUNCA se descarta.
+# HORA: 22:30 de Chile = 09:30 del jueves 17 en Pekin. Verificado con zoneinfo, no a ojo.
+# Van 22:30 y no 22:00 a proposito: a las 22:00 va el aviso de la inyeccion
+# antitrombosis, que es medico y tiene que llegarle limpio, sin otro mensaje encima.
+30 22 16 9 * | [CRON] Aviso diferido: en la pasada de las 15:00 de Chile se reenvio 1 cotizacion a bd@sudtec.cl, asunto "[Solicitud de presupuesto]" (entro 14:41 de Chile). Avisale a Connie con `bash bin/tg.sh send` en HTML, MUY corto, y aclarale que se reenvio en el momento y que el aviso se guardo para no despertarla de madrugada. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "30 22 16 9"), commitea y pushea.
