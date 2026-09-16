@@ -647,3 +647,15 @@ ve el detalle de ninguna tarjeta (ni la adicional ni la de Nelly, que está bloq
 en la web; llevan 4-5 días sin reflejarse nada. Borrador exacto mostrado con botones (msg 1177):
 completo / sin el párrafo de USD 535 / cambiar. Responder en el MISMO hilo (`1a09f72f7b5d9431`,
 In-Reply-To al msg de Kriss). Pendiente su elección.
+
+## Reuniones de trabajo del 23 y 24-sep-2026 (msgs 1221-1224)
+
+Mandó capturas de su **Outlook** (calendario de Microsoft Teams, su trabajo) mostrando el jueves 24
+en **hora de Pekín**, porque el teléfono está en esa zona. Convertidas con `zoneinfo`:
+
+- **H1 ANDEAN Search Review** — jue 24, 00:00 Pekín = **mié 23-sep, 13:00 Chile** (¡cae un día antes!)
+- **IFO Search Campaigns** — jue 24, 23:00 Pekín = **jue 24-sep, 12:00 Chile**
+
+Al llegar a Chile el 18 el teléfono se reajusta solo. Su trabajo usa **Outlook/Teams**, no Google
+Calendar: esas reuniones **no se ven por Maton**. Relacionado:
+[[hora-de-connie-no-la-mia]], [[agenda-del-viaje-no-esta-en-el-calendario]]
