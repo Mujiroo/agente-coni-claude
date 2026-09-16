@@ -885,3 +885,39 @@ Reenvío de las 15:00: **2 envíos reales** a bd@ (`[Solicitud de presupuesto]`)
 Aviso a Connie **diferido a las 07:50 de Pekín** (cron `50 20 15 9`): a las 15:00 Chile eran las 02:00 para ella, y la noticia es buena y no requiere acción.
 
 **16-sep 07:50 Pekín (20:50 Chile 15-sep):** enviado el aviso diferido (msg 1204): 2 cotizaciones el 15-sep (11649 12:47, 11650 13:45 Chile) reenviadas a bd@, y sitio en 2,4 s. Cron `50 20 15 9` borrado. Una medición del vigía marcó 5,6 s (resto ~2,2 s): dentro del umbral, vigilar.
+
+## 16-sep-2026 — Seguimiento post-caída: las cotizaciones volvieron
+
+Cron prometido a Connie en msg 1199. Avisado en msg 1236.
+
+**Resultado: 2 cotizaciones nuevas** después de la 11648, las dos el mismo martes
+15 en que se arregló el sitio (volvió ~10:30 Chile):
+
+| Pedido | N° | Fecha (Chile) |
+|---|---|---|
+| 11649 | 10105 | mar 15-sep 12:47 |
+| 11650 | 10106 | mar 15-sep 13:45 |
+
+La última antes del incidente fue la **11648 (vie 11-sep 17:43)**. O sea hubo
+**3 días en cero** —sáb 12 a lun 14, más la mañana del 15— que calzan exactamente
+con la ventana en que el sitio estaba saturado, y **la racha se cortó apenas se
+arregló**. No hizo falta revisar la regla `product_cat`+`filter_marca`: el
+`.htaccess` está funcionando.
+
+**Velocidad, medida sin caché:** home **2,2–2,3 s**, `wp-json` **3,0 s**. Contra los
+~50 s de la semana del 11. El vigía (`bin/vigia_sitio_sudtec.sh`, cada 30 min) venía
+dando `OK-SILENCIO` toda la mañana.
+
+**Al 16-sep 10:00 no hay ninguna del día**, pero es temprano: el patrón histórico
+las pone entre mediodía y las 17:40.
+
+### Ojo con la API: el WAF del hosting devuelve 403 si `_fields` incluye `status`
+
+Buscando estos datos, `wc/v3/orders?...&_fields=id,number,status,date_created_gmt`
+devolvió **HTTP 403** con una página HTML genérica del servidor. **No era la
+credencial** —`estado` daba administrator con `manage_woocommerce` y `diagnostico`
+daba las 3 respuestas distintas— ni la regla de bots del `.htaccess`, que solo
+golpea URLs con `filter_`/`yith_wcan=`.
+
+Aislado probando parámetro por parámetro: **el disparador es la palabra `status`
+dentro de `_fields`**. Detalle en `memory/sudtec-403-status-en-fields.md`.
