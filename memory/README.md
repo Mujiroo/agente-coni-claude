@@ -19,6 +19,7 @@ reinicios; lo que queda solo en el chat, no.
 - [Pekín: 13 al 18-sep](pekin-connie.md) — la ventana real es 13-17; no hay restaurante chileno y la fonda de la embajada no se publica en la web, se pregunta.
 - [Tiendas cercanas en China vía OpenStreetMap](buscar-tiendas-cercanas-osm.md) — la web no sirve; Overpass sí, con cobertura incompleta: cerrar con «búscalo en Amap».
 - [Sudtec: 403 si `status` va en `_fields`](sudtec-403-status-en-fields.md) — es el WAF del hosting, no la credencial; la firma es un HTML de 1591 bytes.
+- [Embarazo: FPP 11-12 de enero, prenatal 30-nov](embarazo-connie.md) — fecha confirmada por ella, ya no estimada; el prenatal son 6 semanas antes.
 - [Giveaway de YesStyle: vigía montado](giveaway-yesstyle-vigia.md) — se mira la página pública cada hora; no pide ser influencer, pero sí compra mínima de US$ 29.
 - [Nunca importar agent_cron.py](no-importar-agent-cron.md) — levanta un segundo scheduler y duplica TODOS los crons; los campos tampoco aceptan rangos.
 - [Vuelo de vuelta: LATAM, reserva GERWLM](vuelo-de-vuelta-latam-gerwlm.md) — no es Qatar; check-in abierto desde el 16-sep, vuela el 18 a las 01:45 de Pekín.

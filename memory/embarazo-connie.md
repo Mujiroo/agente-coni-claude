@@ -1,14 +1,34 @@
 ---
 name: embarazo-connie
-description: Connie está embarazada; cumple 5 meses el 25-ago-2026 y viaja por China durante el segundo trimestre.
+description: Connie está embarazada; fecha probable de parto 11-12 de enero de 2027 (dato suyo) y su prenatal parte el 30-nov / 1-dic-2026.
 metadata:
   type: user
 ---
 
+## ESTADO VIGENTE — fechas confirmadas (16-sep-2026)
+
+**Fecha probable de parto: 11 o 12 de enero de 2027.** Dato de ELLA (msg 1237),
+ya no una estimación mía. Calza con lo anterior: al 16-sep va de **23+2 semanas**.
+
+**Su prenatal** son **6 semanas antes** de la FPP —art. 195 del Código del
+Trabajo—, o sea:
+
+| Si el parto es… | El prenatal parte… |
+|---|---|
+| lun 11-ene-2027 | **lun 30-nov-2026** |
+| mar 12-ene-2027 | **mar 1-dic-2026** |
+
+Después vienen **12 semanas** de postnatal y **12** de postnatal parental, pero
+esas se cuentan **del parto real**, no de la fecha estimada.
+
+**Dos avisos que ya se le dieron (msg 1238):** la licencia **la emite su médico**,
+y si en una eco le **corren la FPP**, el prenatal se mueve con ella. Se le sugirió
+dejarlo conversado en el control del **lun 21-sep con el Dr. Betancourt**.
+
+---
+
 **Connie me lo contó el 24-ago-2026** (msg 323), estando en Chongqing: está
-embarazada y **cumple 5 meses el 25-ago-2026**, o sea unas **20 semanas**. La
-fecha de parto cae por ahí en **enero de 2027** (estimación mía a partir de los
-5 meses, no un dato que ella me haya dado).
+embarazada y **cumplió 5 meses el 25-ago-2026**, o sea unas **20 semanas**.
 
 **No hay que hacérselo repetir.** Me lo contó al pasar porque necesitaba una
 respuesta práctica, no para que fuera tema.
