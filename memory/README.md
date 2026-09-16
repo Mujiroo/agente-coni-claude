@@ -18,6 +18,7 @@ reinicios; lo que queda solo en el chat, no.
 - [La agenda del viaje no está en el calendario](agenda-del-viaje-no-esta-en-el-calendario.md) — los panoramas viven en shanghai-connie.md; un calendario vacío no significa día libre.
 - [Pekín: 13 al 18-sep](pekin-connie.md) — la ventana real es 13-17; no hay restaurante chileno y la fonda de la embajada no se publica en la web, se pregunta.
 - [Tiendas cercanas en China vía OpenStreetMap](buscar-tiendas-cercanas-osm.md) — la web no sirve; Overpass sí, con cobertura incompleta: cerrar con «búscalo en Amap».
+- [Puntos Apprecio y el monitor del bebé](puntos-apprecio-connie.md) — el aguinaldo le llega en puntos; Ripley es la única gift card confirmada que además vende monitores.
 - [Sudtec: 403 si `status` va en `_fields`](sudtec-403-status-en-fields.md) — es el WAF del hosting, no la credencial; la firma es un HTML de 1591 bytes.
 - [Embarazo: FPP 11-12 de enero, prenatal 30-nov](embarazo-connie.md) — fecha confirmada por ella, ya no estimada; el prenatal son 6 semanas antes.
 - [Giveaway de YesStyle: vigía montado](giveaway-yesstyle-vigia.md) — se mira la página pública cada hora; no pide ser influencer, pero sí compra mínima de US$ 29.
