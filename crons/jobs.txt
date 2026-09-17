@@ -242,3 +242,9 @@
 # contesta, ACTUALIZAR el texto de abajo con el dato concreto antes del domingo.
 # 10:00 de Chile, ya de vuelta en el pais. Borrar esta linea despues de avisar.
 0 10 20 9 * | [CRON] Recordatorio de pago: mandale a Connie con `bash bin/tg.sh send` en HTML, corto: que el jueves desde Pekin te pidio que le recordaras hacer un pago hoy domingo. Si en memory/ o en el chat quedo registrado QUE pago era, nombralo; si no, dilo derecho: que el audio no se entendio y no quisiste inventar cual. Despues BORRA esta linea de crons/jobs.txt y commitea.
+
+# --- UNICA VEZ: depositos Racional + APV, movidos al 21-sep-2026 (pedido msg 1301) ---
+# Estaban para el 17-sep (11:00 Chile = 22:00 en China) y ella pidio correrlos al 21.
+# El 21 es LUNES y ella ya esta en Chile, asi que 11:00 es hora chilena normal de
+# jornada, no hay que convertir nada. Borrar esta linea despues de avisar.
+0 11 21 9 * | [CRON] Recordatorio: hoy tiene que DEPOSITAR en RACIONAL y en el APV. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues BORRA esta linea de crons/jobs.txt, commitea y pushea.
