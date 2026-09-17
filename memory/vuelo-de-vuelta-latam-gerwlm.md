@@ -35,3 +35,22 @@ pierde, ella tiene que ir a buscarlo al correo con el teléfono en roaming.
   link esté roto. Decírselo así en vez de callarlo.
 
 Relacionado: [[notas-connie]], [[hora-de-connie-no-la-mia]], [[recordatorios-viaje-connie]]
+
+## Franquicia de equipaje: 2 abajo por persona (aclarado el 17-sep, msgs 1292-1293)
+
+Al recomendarle comprar una maleta en Pekín se le dijo *«van 3 pasajeros con 6 maletas de
+bodega, cuenta las que llevan — una séptima se paga»*. **Ella lo leyó como que llevaba una
+sola** y respondió molesta: *«¿de dónde sacaste eso? mi pasaje dice dos maletas abajo y una
+de mano»*.
+
+**Los dos datos coincidían**: 6 maletas ÷ 3 pasajeros = **2 de bodega por persona**, más el
+equipaje de mano. Y son de **23 kg**, no 22,5 (ella recordaba medio kilo menos).
+
+**Why:** la cifra agregada («6 entre los tres») se lee como un límite personal y suena a que
+le están recortando algo suyo.
+
+**How to apply:** cuando el dato de la reserva venga por total, **dárselo siempre per cápita**
+—«2 maletas tuyas de 23 kg»— y recién después el total del grupo si hace falta. El número
+agregado es correcto y aun así comunica lo contrario de lo que dice.
+
+Relacionado: [[maletas-china]], [[canal-y-formato]]
