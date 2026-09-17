@@ -1,8 +1,20 @@
 ---
 name: giveaway-yesstyle-vigia
-description: Connie pidió que le avise cuando se abra el Glow Up Giveaway de YesStyle; se vigila la página pública, porque por correo no se anuncia nunca.
+description: El vigía del Glow Up Giveaway de YesStyle está DESACTIVADO desde el 17-sep-2026 por orden de Connie; el script queda listo para revivirlo.
 metadata:
   type: project
+---
+
+## DESACTIVADO — 17-sep-2026 (msg 1262)
+
+Connie: «**deja de revisar la página de yesstyle hasta nuevo aviso**». El cron quedó
+**comentado**, no borrado, en `crons/jobs.txt`: para revivirlo se le quita el `#` a la
+línea que empieza con `50 8,9,10`. `bin/vigia_yesstyle.sh` queda intacto y probado.
+
+Lo pidió el día después de que el vigía le avisara del giveaway (msg 1248). **No
+volver a levantarlo por iniciativa propia** — dijo «hasta nuevo aviso», y eso lo
+decide ella.
+
 ---
 
 **16-sep-2026 (msg 1231).** Connie mandó la captura de la app de YesStyle

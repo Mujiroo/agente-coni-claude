@@ -21,7 +21,7 @@ reinicios; lo que queda solo en el chat, no.
 - [Puntos Apprecio y el monitor del bebé](puntos-apprecio-connie.md) — el aguinaldo le llega en puntos; Ripley es la única gift card confirmada que además vende monitores.
 - [Sudtec: 403 si `status` va en `_fields`](sudtec-403-status-en-fields.md) — es el WAF del hosting, no la credencial; la firma es un HTML de 1591 bytes.
 - [Embarazo: FPP 11-12 de enero, prenatal 30-nov](embarazo-connie.md) — fecha confirmada por ella, ya no estimada; el prenatal son 6 semanas antes.
-- [Giveaway de YesStyle: vigía montado](giveaway-yesstyle-vigia.md) — vigía que ya disparó bien el 16-sep; detecta por evidencia positiva, no por ausencia del «Coming Soon».
+- [Giveaway de YesStyle: vigía montado](giveaway-yesstyle-vigia.md) — DESACTIVADO el 17-sep por orden suya; el cron está comentado y el script listo para revivir.
 - [Nunca importar agent_cron.py](no-importar-agent-cron.md) — levanta un segundo scheduler y duplica TODOS los crons; los campos tampoco aceptan rangos.
 - [Vuelo de vuelta: LATAM, reserva GERWLM](vuelo-de-vuelta-latam-gerwlm.md) — no es Qatar; check-in abierto desde el 16-sep, vuela el 18 a las 01:45 de Pekín.
 - [ads-sudtec-pausado-15sep.md](ads-sudtec-pausado-15sep.md) — Ads de Sudtec pausado 1 h el 15-sep por sitio caído, ya reactivado; revisar cotizaciones el 16-sep
