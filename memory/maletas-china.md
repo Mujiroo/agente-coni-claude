@@ -77,3 +77,18 @@ la marca), buscar `ALLOY` o `乐几` en **Amap**, y preguntar en el `服务台` 
 **Regla:** «no encontré información» sobre una marca china casi nunca es cierto — es que se
 buscó en inglés. Con el nombre en chino (`乐几`) y fuentes chinas (sohu, chinapp, baike)
 aparece todo: empresa, premios, gramos y precio.
+
+### Msg 1288 (jue 17-sep, 18:00 Pekín): la encontró, y con 50% off
+
+Mandó foto (`incoming/file_166.jpg`) desde la tienda misma, caption *«Esta»*: display **AUTUMN
+SALE 50% OFF** con el mismo maletón rojo gigante de la primera foto al fondo. Etiquetas
+visibles: morada grande **¥1.499 → ¥750** (~107.000 CLP) y morada chica **¥1.099 → ¥550**
+(~78.000 CLP). Se le confirmó que es la **Picnic** de ALLOY: el ¥1.099 calza exacto con el
+precio de lista del 21" que se había averiguado, así que la chica es la de cabina y la grande
+el 24".
+
+Respuesta (msg 1289): **comprar**. Se le dio la frase para verificar en el local
+`这个多少寸？空箱多重？可以帮我称一下吗？` y el umbral: **más de 4,5 kg vacía = no es la
+Picnic**. Y el criterio de cuál llevar, que no es el precio sino el **cupo de equipaje**: van
+**3 pasajeros con 6 maletas de bodega** ([[vuelo-de-vuelta-latam-gerwlm]]), así que la grande
+solo conviene si les queda un cupo libre; si no, la de cabina y no se paga nada en el counter.
