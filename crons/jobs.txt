@@ -236,7 +236,3 @@
 # Van 22:30 y no 22:00 a proposito: a las 22:00 va el aviso de la inyeccion
 # antitrombosis, que es medico y tiene que llegarle limpio, sin otro mensaje encima.
 
-# --- UNICA VEZ: aviso de salida al aeropuerto el 17-sep-2026 ---
-# Su vuelo de vuelta sale 18-sep 01:45 de Pekin (PKX). 09:45 Chile = 20:45 Pekin.
-# Borrar esta linea despues de que se ejecute.
-45 9 17 9 * | [CRON] Recordatorio de salida al aeropuerto: mandale a Connie con `bash bin/tg.sh send` en HTML, UNA linea corta y sin drama: que son las 20:45 en Pekin y que a las 21:15 sale del hotel a Daxing (PKX), vuelo 01:45. Recuerdale pasaporte y que la direccion en chino se la mandaste en el msg 1283. Despues BORRA esta linea de crons/jobs.txt y commitea.
