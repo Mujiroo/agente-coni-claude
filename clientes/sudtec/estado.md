@@ -921,3 +921,19 @@ golpea URLs con `filter_`/`yith_wcan=`.
 
 Aislado probando parámetro por parámetro: **el disparador es la palabra `status`
 dentro de `_fields`**. Detalle en `memory/sudtec-403-status-en-fields.md`.
+
+## 17-sep-2026 · Ads: proyección 1% sobre el límite, avisado sin tocar nada
+
+`bin/vigilancia_ads.py` dio **HAY-QUE-AVISAR**: gasto del mes **175.654 CLP**, proyección de
+cierre **303.054** contra un límite de **300.000** — se pasa por **3.054 CLP (1%)**. Gasto de
+ayer **11.055**. Cotizaciones: **4** en 3 días, **24** en 14.
+
+Avisado a Connie (msg 1294) con la recomendación explícita de **no tocar nada**: un 1% no
+justifica frenar una campaña que está trayendo cotizaciones. La alternativa, si ella quiere
+cerrar clavado en el límite, es **bajar el diario ~7%** por los 13 días que quedan del mes.
+
+**No se modificó ningún presupuesto** — eso espera su OK (regla dura: presupuestos solo con
+confirmación y verificando la moneda; en CLP el factor es ×1).
+
+**Pendiente:** su respuesta. Ella vuela a Chile esa madrugada, así que probablemente conteste
+ya aterrizada.
