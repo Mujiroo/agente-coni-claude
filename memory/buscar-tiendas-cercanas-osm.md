@@ -28,6 +28,23 @@ con la fórmula estándar WGS→GCJ y armar el link
 `https://uri.amap.com/marker?position=LON,LAT&name=...&coordinate=gaode`. (Usado el 13-sep
 con el FamilyMart de `大纱帽胡同`, msg 1134.)
 
+**En China la tienda suele estar DENTRO de un mall, y eso hay que decirlo.** El
+17-sep-2026 le pasé un `小米之家` como si estuviera en `帅府园胡同` y ella preguntó si
+no era un mall (msg 1278): **sí lo era**. Quedarse con el nombre de la calle la deja
+buscando una puerta que no existe.
+
+**Se resuelve con `is_in`, que es exacto y barato:**
+
+    [out:json];is_in(LAT,LON);out tags;
+
+Devuelve todas las áreas que contienen el punto. Si aparece una con `shop=mall`, la
+tienda está adentro: hay que dar **el nombre del mall**, no el de la calle. En ese caso
+salió `北京apm`. Un `node(around:150,...)` sirve además para nombrar tiendas vecinas
+conocidas (Victoria's Secret, Miniso) y que ella ubique el edificio de lejos.
+
+**Ojo con Overpass:** responde **406 Not Acceptable** sin `User-Agent`, igual que
+Nominatim. Costó una llamada perdida.
+
 **Y el reverse geocoding antes de decir «en tu calle»:** dije que el FamilyMart estaba en
 `东单三条` y en realidad estaba en el hutong de al lado. Hubo que corregirlo en el mensaje siguiente.
 
