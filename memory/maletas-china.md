@@ -47,3 +47,33 @@ Frases que se le pasaron: <code>我要买行李箱</code> · <code>28寸的多�
 barrio sí).
 
 Relacionado: [[frutas-china-connie]], [[recordatorios-viaje-connie]]
+
+## ALLOY (乐几) — la marca de la foto del 17-sep
+
+**17-sep-2026, msgs 1284-1287.** Mandó foto (`incoming/file_160.jpg`) de una maleta roja
+gigante de display con el logo **alloy**, y después: *«las primeras maletas que te envié,
+investígalas a profundidad, no puede ser que no exista ningún tipo de información»* — o sea
+una sesión anterior le había dicho que no encontraba nada. **Sí existe, y bastante.**
+
+- **ALLOY / ALLOY+**, de **乐几科技（北京）有限公司**, fundada el **12-jun-2015 en Pekín**.
+  Web `alloytrip.com` (devuelve 402 desde acá). Teléfono **010-80698822**.
+- **Serie Picnic** (2017): **金点奖** (Golden Pin, Taiwán) + **红星奖**, el premio de diseño
+  industrial más alto de China. **42 patentes**, empresa de alta tecnología de Zhongguancun.
+- **Picnic 2.0:** PC **Bayer alemán** (1,5× la resistencia al golpe del PC común), ruedas
+  silenciosas a 3.000 ciclos. **21" = 3,16 kg / 41 L · 24" = 3,63 kg / 49 L.**
+- **Precio desde ¥1.090** (~155.000 CLP a ¥1 = **142 CLP**, er-api 17-sep).
+- Colores caramelo saturado: `梨火紫` morado, `银杏黄` amarillo, y el rojo de su foto.
+
+**Por qué esta marca sí le calza:** 3,16 kg vacía contra los **4,5-5 kg** de una normal del
+mismo tamaño. El peso vacío es su criterio ([[embarazo-connie]]), y acá gana más de 1 kg.
+
+**Lo que NO se encontró, y se le dijo así:** ALLOY **no publica listado de tiendas físicas**
+— vende por Tmall y JD. Buscar la dirección por web no da nada, y **eso explica el "no hay
+información" de la sesión anterior: no es que la marca no exista, es que su retail no está
+indexado.** Se le dio la ruta práctica: volver a donde tomó la foto (el display gigante es de
+la marca), buscar `ALLOY` o `乐几` en **Amap**, y preguntar en el `服务台` con
+`请问ALLOY（乐几）行李箱专柜在几层？`.
+
+**Regla:** «no encontré información» sobre una marca china casi nunca es cierto — es que se
+buscó en inglés. Con el nombre en chino (`乐几`) y fuentes chinas (sohu, chinapp, baike)
+aparece todo: empresa, premios, gramos y precio.
