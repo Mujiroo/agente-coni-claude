@@ -300,3 +300,12 @@ va de 24 semanas.
 **ese día iba a la Ciudad Prohibida**. Cambió el formato entero — de relato a guía en orden de
 recorrido, con cosas que puede **mirar** ahí mismo. Una petición de contenido también se
 consulta contra lo que ella está haciendo ese día.
+
+Msg 1282 (jue 17, 17:02 Pekín, audio confuso por whisper local): pidió «en un texto dónde está
+mi hotel, para mostrarle». Leído contra el día que tenía (último día, vuela 01:45) → msg 1283
+con **las dos** direcciones en chino: hotel `北京市东城区东单三条33号甲` (East Sacred) y
+aeropuerto `北京大兴国际机场`. Se le advirtió confirmar **PKX / 大兴** vs **PEK / 首都** en la
+tarjeta de embarque (están a 1 h 30 uno del otro; el nº de vuelo de vuelta nunca apareció en su
+correo) y los tiempos: salir del hotel **21:15** para llegar 3 h antes.
+**Regla que funcionó otra vez:** con un audio ambiguo, mandar las dos respuestas plausibles y
+preguntar en una línea, en vez de bloquearse preguntando.
