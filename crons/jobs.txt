@@ -236,3 +236,10 @@
 # Van 22:30 y no 22:00 a proposito: a las 22:00 va el aviso de la inyeccion
 # antitrombosis, que es medico y tiene que llegarle limpio, sin otro mensaje encima.
 
+
+# --- UNICA VEZ: recordatorio de pago del domingo 20-sep-2026 (pedido msg 1296) ---
+# Lo pidio por audio el jue 17-sep desde Pekin, justo antes de salir al aeropuerto.
+# El whisper local no dejo claro QUE pago era; se le pregunto (msg 1297). Si ella
+# contesta, ACTUALIZAR el texto de abajo con el dato concreto antes del domingo.
+# 10:00 de Chile, ya de vuelta en el pais. Borrar esta linea despues de avisar.
+0 10 20 9 * | [CRON] Recordatorio de pago: mandale a Connie con `bash bin/tg.sh send` en HTML, corto: que el jueves desde Pekin te pidio que le recordaras hacer un pago hoy domingo. Si en memory/ o en el chat quedo registrado QUE pago era, nombralo; si no, dilo derecho: que el audio no se entendio y no quisiste inventar cual. Despues BORRA esta linea de crons/jobs.txt y commitea.
