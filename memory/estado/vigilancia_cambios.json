@@ -1,9 +1,9 @@
 {
- "malos_seguidos": 25,
- "dias_botas_sin_nada": 7,
- "revisado": "2026-09-16",
- "conv_dia": 1.43,
- "cpa": 7209,
+ "malos_seguidos": 26,
+ "dias_botas_sin_nada": 8,
+ "revisado": "2026-09-17",
+ "conv_dia": 1.71,
+ "cpa": 6036,
  "botas_imp_7d": 0.0,
  "ultimo_aviso": {
   "fecha": "2026-09-15",
@@ -11,7 +11,7 @@
   "cpa": null
  },
  "silenciado_hoy": {
-  "fecha": "2026-09-16",
-  "por": "mismo cuadro ya avisado el 2026-09-15 (hace 1 dia/s)"
+  "fecha": "2026-09-17",
+  "por": "mismo cuadro ya avisado el 2026-09-15 (hace 2 dia/s)"
  }
 }
