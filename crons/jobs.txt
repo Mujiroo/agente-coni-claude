@@ -231,4 +231,3 @@
 # HORA: 22:30 de Chile = 09:30 del jueves 17 en Pekin. Verificado con zoneinfo, no a ojo.
 # Van 22:30 y no 22:00 a proposito: a las 22:00 va el aviso de la inyeccion
 # antitrombosis, que es medico y tiene que llegarle limpio, sin otro mensaje encima.
-30 22 16 9 * | [CRON] Aviso diferido: en la pasada de las 15:00 de Chile se reenvio 1 cotizacion a bd@sudtec.cl, asunto "[Solicitud de presupuesto]" (entro 14:41 de Chile). Avisale a Connie con `bash bin/tg.sh send` en HTML, MUY corto, y aclarale que se reenvio en el momento y que el aviso se guardo para no despertarla de madrugada. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "30 22 16 9"), commitea y pushea.
