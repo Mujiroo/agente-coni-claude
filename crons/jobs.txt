@@ -196,7 +196,6 @@
 #   A) miercoles 16, 23:00 de Pekin = 12:00 de Chile  -> el principal, hora pedida por ella
 #   B) jueves 17, 09:00 de Pekin    = 22:00 del 16 en Chile -> red de seguridad
 # Cada uno se borra a si mismo despues de avisar. Todo con zoneinfo, no a ojo.
-0 22 16 9 * | [CRON] INYECCION ANTITROMBOSIS, red de seguridad (09:00 en Pekin, jueves; el vuelo sale esa madrugada 01:45 del viernes). Avisale a Connie con `bash bin/tg.sh send` en HTML, MUY corto: preguntale si anoche alcanzo a ponerse la inyeccion de la trombosis, y si no, que se la ponga hoy -- todavia alcanza, aunque queden menos de 24 h. No la retes ni le repitas la explicacion entera. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 22 16 9"), commitea y pushea.
 
 # --- Sudtec: vigía de salud del sitio (15-sep-2026) ---
 # Los bots de filtros YITH saturaron PHP dos veces; el .htaccess nuevo lo arregló el 15-sep 10:27.
