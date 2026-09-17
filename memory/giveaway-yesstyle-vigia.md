@@ -17,6 +17,29 @@ de 08:00 a 22:00** de Chile.
 **cero** que digan giveaway, patrocinado, sponsored o sorteo. Los 3 que salen por
 «glow up» son el newsletter semanal genérico. No montar nada sobre Gmail para esto.
 
+## PRIMER DISPARO REAL — 16-sep-2026, 21:45 de Chile (avisado en msg 1248)
+
+**El giveaway se abrió** y el vigía lo pilló en su primer día. Producto:
+**I'm From — Propolis Glazed Serum**, del **17 al 21 de septiembre**, tope de
+**800 unidades**. Cuando avisé iba en **10% reclamado**; **diez minutos después ya
+iba en 21%**. Se agota rápido: el aviso vale por la hora a la que llega.
+
+**Lo que enseñó el disparo, y obligó a corregir el script:** al abrirse, la
+`<section __cardView>` con el «Coming Soon» **desaparece entera** y en su lugar
+aparecen `__freeClaimsContent`, `__productInfo`, `__itemsClaimed` y
+`__claimBarMessage` con el producto, las fechas, el % y el tope.
+
+La versión original daba «abierto» por la **simple ausencia** del «Coming Soon».
+Acertó, **pero por el motivo equivocado**: con un render parcial habría gritado
+igual. Ahora exige **evidencia positiva** —el bloque de producto— y sin él cae a
+`SIN-DATO` y se calla. Probado con los dos HTML reales, el cerrado y el abierto,
+más un render parcial simulado.
+
+**Trampa de shell que costó dos intentos:** `mawk` **no soporta intervalos
+`{n,m}`** en las regex sin `--re-interval`, así que el filtro `^[A-Z]{3,5}\.` no
+descartaba nada y el nombre del producto salía con la fecha pegada. Se escribe
+`^[A-Z][A-Z][A-Z]+\.` y funciona.
+
 **Cómo lee el estado el vigía:** la `<section ...__cardView>` dice hoy
 `<h3>Coming Soon</h3>`. Cuando abra, ahí van los productos con su botón
 **«Claim Now»** (la cadena ya está en el diccionario de la página). El script
