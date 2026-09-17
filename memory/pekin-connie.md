@@ -277,3 +277,26 @@ Msg 1215 (dentro de la exposición): foto de un panel solo en chino, pidió ayud
 Msg 1217: mapa del `斋宫` (Palacio del Ayuno) → msg 1218: los 3 días de ayuno antes del rito, doble muralla y foso; 无梁殿 (bóveda de ladrillo, sin madera, para no incendiarse), 寝殿, 铜人石亭 (el hombrecito de bronce con la tablilla 斋戒), 时辰亭, 钟楼, 值守房. Datos prácticos que se le dieron: entrada **gratis** y **baños** marcados en el mapa.
 Msg 1219: foto del `皇穹宇` → msg 1220: identificado, con instrucciones para probar el 回音壁 (pegado al muro, bajito, mejor sin gente) y las `三音石` (1, 2 y 3 ecos). Los postes rojos de la foto = faroles ceremoniales. Se le dijo que le quedaba el 圜丘 a 5 min al sur.
 Msg 1225 (mié 16, 13:07 Pekín): a qué hora bajan la bandera en Tiananmen → msg 1226: **es al atardecer exacto, cambia cada día**. Calculado con la API de sunrise-sunset para Pekín: **16-sep 18:23**, **17-sep 18:22** (izada al amanecer, 05:54). Se le dijo llegar 1 h antes, control 20-30 min, pasaporte físico, y **se le volvió a preguntar si alcanzó a hacer la reserva de la plaza** (sigue sin respuesta desde el msg 1169).
+
+Msg 1252 (jue 17, 09:42 Pekín — su último día, vuela esa madrugada): pidió «la historia de
+la Ciudad Prohibida, tipo guía turístico». Se le mandó en **dos mensajes** (1253 y 1254), y
+**no como relato suelto sino en el orden del recorrido**, porque ese jueves la tenía en el
+itinerario y salía por `神武门`.
+
+· **1253, la historia:** Yongle traslada la capital, obra 1406-1420 con 1 millón de obreros ·
+`紫` = **Estrella Polar**, no el color · 980 edificios y ~8.700 piezas (el mito de las
+**9.999 y media**, porque 10.000 era del Cielo) · 24 emperadores · Puyi abdica en **1912**,
+lo echan en **1924** · museo desde 1925, 1,8 millones de piezas, parte del tesoro en Taiwán.
+
+· **1254, caminando:** `午门` y el arco central que la emperatriz cruza **una sola vez en la
+vida**, el día de su boda · los 5 puentes = 5 virtudes · `太和殿` con **10 animalitos**, el
+único de China · sin árboles y 15 capas de ladrillo contra túneles · los **calderos con las
+marcas de raspado de 1900**, nunca reparadas · la **rampa de 250 t** arrastrada sobre hielo en
+28 días · la corte interior y los ~70.000 eunucos Ming · el **pozo de la concubina Zhen**
+`珍妃井` cerca de la salida · y Jingshan enfrente, advirtiéndole los **108 escalones** porque
+va de 24 semanas.
+
+**Lo que funcionó y conviene repetir:** antes de escribir se revisó el itinerario y se vio que
+**ese día iba a la Ciudad Prohibida**. Cambió el formato entero — de relato a guía en orden de
+recorrido, con cosas que puede **mirar** ahí mismo. Una petición de contenido también se
+consulta contra lo que ella está haciendo ese día.
