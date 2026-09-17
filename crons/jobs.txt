@@ -56,7 +56,6 @@
 # recordatorios del viaje: le llega de noche a ella, cuando la jornada chilena abre.
 # Ella vuelve a Chile el 18-sep, asi que el 17 todavia esta afuera.
 # QUEDO PREGUNTADO si quiere que se repita todos los meses; hoy es de una sola vez.
-0 11 17 9 * | [CRON] Recordatorio (11:00 Chile = 22:00 en China): hoy tiene que DEPOSITAR en RACIONAL y en el APV. Avisale a Connie con `bash bin/tg.sh send` en HTML, corto, con las dos como lista. Despues borra ESTA linea de crons/jobs.txt (la que empieza con "0 11 17 9"), commitea y pushea.
 
 
 # --- VIGILANCIA DE LOS CAMBIOS DEL 19-AGO (autorizado por Connie, msg 187) ---
